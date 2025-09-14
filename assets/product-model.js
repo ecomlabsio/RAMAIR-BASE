@@ -18,7 +18,10 @@ class ProductModel extends DeferredMedia {
     setupModelViewerUI(errors) {
         if (errors) return;
 
-        this.modelViewerUI = new Shopify.ModelViewerUI(this.querySelector('model-viewer'));
+        const modelViewer = this.querySelector('model-viewer');
+        if (modelViewer) {
+            this.modelViewerUI = new Shopify.ModelViewerUI(modelViewer);
+        }
     }
 }
 
