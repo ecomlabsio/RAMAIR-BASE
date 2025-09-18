@@ -19,7 +19,7 @@
           "settings": {
             "custom_width": "20",
             "heading": "Shop",
-            "menu": "shop",
+            "menu": "",
             "mg_bottom": 11
           }
         },
@@ -28,7 +28,7 @@
           "settings": {
             "custom_width": "20",
             "heading": "Information",
-            "menu": "information",
+            "menu": "",
             "mg_bottom": 10
           }
         },
@@ -37,7 +37,7 @@
           "settings": {
             "custom_width": "20",
             "heading": "Customer Service",
-            "menu": "customer-service",
+            "menu": "",
             "mg_bottom": 10
           }
         },
@@ -46,6 +46,7 @@
           "settings": {
             "custom_width": "40",
             "show_newsletter": true,
+            "hidden_input_field": false,
             "heading": "Newsletter Sign Up",
             "subtext": "<p>Sign up for exclusive updates, new arrivals & insider only discounts</p>",
             "mg_top_des": 0,
@@ -89,9 +90,21 @@
             "social_background_color_gradient_hover": "",
             "social_box_hover_color": "#ffffff",
             "show_app_store": false,
+            "top_spacing": 16,
             "app_store_heading": "",
+            "heading_bottom_margin": 20,
             "app_store_link_1": "",
             "app_store_link_2": "",
+            "logo_margin_bottom": 28,
+            "content_subtext": "",
+            "phone_icon": "message_icon",
+            "show_phone_icon": false,
+            "phone_text": "",
+            "email_icon": "envelope_icon",
+            "show_email_icon": false,
+            "email_text": "",
+            "icon_size": 16,
+            "icon_color": "",
             "newsletter_margin_bottom": 20
           }
         },
@@ -108,7 +121,8 @@
             "show_copyright": true,
             "show_shop_name": true,
             "enable_layout_grid": true,
-            "copyright_content": "<p>Ramair Demo. All Rights Reserved. Powered by Shopify.<br/>Theme by <a href=\"https://ecomlabs.io/\" target=\"_blank\" title=\"ecomlabs.io\">ecomlabs.io</a></p>",
+            "text_fontsize": 14,
+            "copyright_content": "<p>Ramair Demo. All Rights Reserved. <br/>Built by <a href=\"https://ecomlabs.io/\" target=\"_blank\" title=\"ecomlabs.io\">ecomlabs.io</a></p>",
             "copyright_content_color": "#cfcfcf",
             "shop_name": "",
             "show_payment": true,
@@ -154,6 +168,7 @@
         "type_footer_heading_line_height": 22,
         "type_footer_heading_font_weight": "600",
         "type_footer_heading_text_transform": "uppercase",
+        "type_footer_heading_margin_bottom": 12,
         "type_footer_heading_letter_spacing": ".05em",
         "type_footer_link": "font_1",
         "type_footer_link_font_size": 12,
@@ -178,6 +193,7 @@
         "footer_top_color_link": "#cfcfcf",
         "footer_top_color_link_hover": "#ffffff",
         "show_border_item": false,
+        "space_border_item": 65,
         "footer_border_item": "#808080"
       }
     }
