@@ -335,7 +335,7 @@
         "meta_r7D8Kn": {
           "type": "meta",
           "settings": {
-            "show_sold_in": true,
+            "show_sold_in": false,
             "sold_in_number": "3,5,6,7,8,10,12,15",
             "sold_in_hours": "10,15,16,17,18,20,25,35",
             "color_text_sold_in": "#b60b32",
@@ -430,6 +430,16 @@
             "spacing_top": 0,
             "spacing_bottom": 15
           }
+        },
+        "view_detail_jetJDF": {
+          "type": "view_detail",
+          "settings": {
+            "text": "View Detail",
+            "fontsize_text": 16,
+            "tect_color": "#ffffff",
+            "spacing_top": 0,
+            "spacing_bottom": 18
+          }
         }
       },
       "block_order": [
@@ -439,7 +449,8 @@
         "price_FyyqEq",
         "variant_picker_WTYyy3",
         "quantity_selector_URWQCp",
-        "buy_buttons_3VWcyn"
+        "buy_buttons_3VWcyn",
+        "view_detail_jetJDF"
       ],
       "name": "t:sections.product_block.settings.header__2.feature_product",
       "settings": {
