@@ -86,7 +86,7 @@
           "label__3": "لون أيقونة التحميل للجوال"
         },
         "colors_breadcrumb": {
-          "label__4": "خلفية\/تدرج مسار التنقل للتخطيطات 2 و 3 فقط"
+          "label__4": "خلفية/تدرج مسار التنقل للتخطيطات 2 و 3 فقط"
         },
         "spinner_colors": {
           "content": "دوران التحميل",
@@ -134,7 +134,7 @@
           "product_page_gallery": "معرض",
           "product_page_left_thumbs": "صور مصغرة عمودية يسار",
           "product_page_right_thumbs": "صور مصغرة عمودية يمين",
-          "product_page_left_right_sidebar": "شريط جانبي يسار\/يمين",
+          "product_page_left_right_sidebar": "شريط جانبي يسار/يمين",
           "product_page_horizontal_tabs_no_sidebar": "تبويبات أفقية بدون شريط جانبي",
           "product_page_step_by_step": "خطوة بخطوة",
           "header_layout_rtl": "تخطيط من اليمين لليسار",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "قائمة رموز ISO للغات من اليمين لليسار",
           "list_iso_rtl_info": "افصل بين رموز ISO للغات بفاصلة '،'. مثال: ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "قائمة رموز ISO للغات للتبديل التلقائي إلى تخطيط RTL: ar:(العربية); dv:(الديفهي،المالديفية); ha:(الهوسا); he:(العبرية); ku:(الكردية\/السورانية); fa:(الفارسية); ur:(الأردية); ps:(البشتو); yi:(اليديشية)"
+          "list_iso_rtl_note": "قائمة رموز ISO للغات للتبديل التلقائي إلى تخطيط RTL: ar:(العربية); dv:(الديفهي،المالديفية); ha:(الهوسا); he:(العبرية); ku:(الكردية/السورانية); fa:(الفارسية); ur:(الأردية); ps:(البشتو); yi:(اليديشية)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "مصدر الخط",
           "options__1": "خطوط جوجل",
           "options__2": "خطوط شوبيفاي",
-          "info": "لاستخدام خطوط جوجل، أضف اسم الخط. [اعرف المزيد](https:\/\/fonts.google.com\/)",
+          "info": "لاستخدام خطوط جوجل، أضف اسم الخط. [اعرف المزيد](https://fonts.google.com/)",
           "info_shopify_font": "حسّن أداء موقعك باستخدام خطوط شوبيفاي!",
           "info_language": "عند تكوين لغة في إعدادات التخصيص، من المهم أيضًا تعيين تفضيل اللغة نفسه في الإعدادات الإدارية."
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "خط المحتوى",
           "label": "خط شوبيفاي",
-          "info": "اختيار خط مختلف قد يؤثر على سرعة متجرك. [اعرف المزيد عن خطوط النظام.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "اختيار خط مختلف قد يؤثر على سرعة متجرك. [اعرف المزيد عن خطوط النظام.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "خط العناوين",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "القائمة الكبيرة المستوى 2",
           "title_mega_menu_lv3": "القائمة الكبيرة المستوى 3",
           "label": "عائلة خط التنقل",
-          "info": "اختيار خط مختلف قد يؤثر على سرعة متجرك. [اعرف المزيد عن خطوط النظام.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "اختيار خط مختلف قد يؤثر على سرعة متجرك. [اعرف المزيد عن خطوط النظام.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "خط عنصر المنتج",
@@ -237,7 +237,7 @@
           "yes": "نعم",
           "no": "لا",
           "label": "عائلة خط الزر 1",
-          "info": "اختيار خط مختلف قد يؤثر على سرعة متجرك. [اعرف المزيد عن خطوط النظام.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "اختيار خط مختلف قد يؤثر على سرعة متجرك. [اعرف المزيد عن خطوط النظام.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "إظهار الإطار الخارجي",
           "cta_button": "زر الدعوة للإجراء"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "موضع أيقونة 'عرض الكل'",
           "view_all_font_size": "حجم خط 'عرض الكل'",
           "view_all_width": "عرض 'عرض الكل'",
-          "view_all_info": "اذهب إلى هذا الرابط [ابحث عن أيقونتك](https:\/\/fontawesome.com\/v5\/search). ابحث عن الأيقونة التي تريدها، ثم انسخ كود SVG والصقه هنا.",
-          "logo_icon_info": "يطبق فقط عندما تكون صورة الشعار فارغة. اذهب إلى هذا الرابط [ابحث عن أيقونتك](https:\/\/fontawesome.com\/v5\/search). ابحث عن الأيقونة التي تريدها، ثم انسخ كود SVG والصقه هنا.",
+          "view_all_info": "اذهب إلى هذا الرابط [ابحث عن أيقونتك](https://fontawesome.com/v5/search). ابحث عن الأيقونة التي تريدها، ثم انسخ كود SVG والصقه هنا.",
+          "logo_icon_info": "يطبق فقط عندما تكون صورة الشعار فارغة. اذهب إلى هذا الرابط [ابحث عن أيقونتك](https://fontawesome.com/v5/search). ابحث عن الأيقونة التي تريدها، ثم انسخ كود SVG والصقه هنا.",
           "item": "العناصر",
-          "item_padding_top_bottom": "الحشو العلوي\/السفلي",
-          "item_padding_left_right": "الحشو الأيسر\/الأيمن",
+          "item_padding_top_bottom": "الحشو العلوي/السفلي",
+          "item_padding_left_right": "الحشو الأيسر/الأيمن",
           "item_padding_top": "الحشو العلوي للعنصر",
           "item_padding_bottom": "الحشو السفلي للعنصر",
           "item_width": "عرض العنصر",
@@ -429,19 +429,19 @@
           "icon_color_hover": "لون الأيقونة عند التحويم",
           "icon_color_mb": "لون الأيقونة على الجوال",
           "icon_width": "عرض الأيقونات",
-          "icon_width_info": "يطبق عندما يتم ضبط إعداد عرض النص\/الأيقونة على أيقونة",
+          "icon_width_info": "يطبق عندما يتم ضبط إعداد عرض النص/الأيقونة على أيقونة",
           "icon_height": "ارتفاع الأيقونات",
           "icon_width_1": "عرض الأيقونة",
           "icon_height_1": "ارتفاع الأيقونة",
           "icon_width_mb": "عرض الأيقونة على الجوال",
           "icon_height_mb": "ارتفاع الأيقونة على الجوال",
-          "icon_mg_right": "الهامش الأيمن للنص\/أيقونة SVG",
+          "icon_mg_right": "الهامش الأيمن للنص/أيقونة SVG",
           "icon_mg_bottom": "المسافة السفلية للأيقونة",
           "icon_spacing_mobile": "مسافة الأيقونة على الجوال",
-          "icon_type": "استخدام صورة أو نص\/أيقونة SVG",
+          "icon_type": "استخدام صورة أو نص/أيقونة SVG",
           "icons_type": "نوع الأيقونات",
           "icons_type_info": "يطبق فقط عندما يتم ضبط إعداد 'نوع الأيقونات' على أيقونة.",
-          "text_svg_icon": "نص\/أيقونة SVG",
+          "text_svg_icon": "نص/أيقونة SVG",
           "layout_mobile": "تخطيط الجوال",
           "layout_mobile_info": "يطبق فقط على تخطيط الشبكة",
           "list": "قائمة",
@@ -518,7 +518,7 @@
           "beside_the_title": "بجانب العنوان",
           "width_on_desktop": "العرض على سطح المكتب",
           "section_footer": "تذييل القسم",
-          "prev_next_button": "زر السابق\/التالي",
+          "prev_next_button": "زر السابق/التالي",
           "info_mobile_layout": "يطبق فقط عندما يتم ضبط إعداد 'تخطيط الجوال' على شريط التمرير.",
           "header_block": {
             "option_1": "العنوان يسار مع 'عرض الكل' يسار",
@@ -526,7 +526,8 @@
             "option_3": "العنوان وسط مع 'عرض الكل' يسار",
             "option_4": "العنوان وسط مع 'عرض الكل' يمين",
             "option_5": "العنوان وسط مع 'عرض الكل' أسفل"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "خط التذييل"
@@ -577,23 +578,23 @@
         "whatsapp_label": "شارك على Whatsapp",
         "header__2": "حسابات التواصل الاجتماعي",
         "social_twitter_link_label": "رابط Twitter",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "رابط Facebook",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "رابط Pinterest",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "رابط Instagram",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "رابط TikTok",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "رابط Tumblr",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "رابط Snapchat",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "رابط YouTube",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "رابط Vimeo",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "خاصية التخصيص",
-          "info": "خاصية التخصيص مستخدمة لجمع معلومات التخصيص لعنصر مضاف إلى السلة. يمكن جمع هذه المعلومات من المشتري على صفحة المنتج والرؤية السريعة. [تعلم المزيد](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "خاصية التخصيص مستخدمة لجمع معلومات التخصيص لعنصر مضاف إلى السلة. يمكن جمع هذه المعلومات من المشتري على صفحة المنتج والرؤية السريعة. [تعلم المزيد](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "صورة المفضلة",
@@ -651,8 +652,8 @@
           "label__7": "رابط سياسة الخصوصية",
           "label__8": "تسمية الزر لقبول الكوكيز",
           "color_privacy_policy": "لون زر سياسة الخصوصية",
-          "info__1": "[تعلم المزيد](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies)",
-          "info__2": "مثال: https:\/\/policies.google.com"
+          "info__1": "[تعلم المزيد](https://help.shopify.com/en/manual/your-account/privacy/cookies)",
+          "info__2": "مثال: https://policies.google.com"
         },
         "wishlist": {
           "label": "تمكين قائمة المفضلة",
@@ -735,7 +736,7 @@
           "style_10": "النمط 10"
         },
         "trust_image": {
-          "info__1": "صفحة المنتج\/عرض سريع",
+          "info__1": "صفحة المنتج/عرض سريع",
           "info__2": "صفحة السلة"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "عرض علامة حزمة",
           "label__23": "حجم الخط",
           "label__24": "طول الزاوية",
-          "label__26": "البادئة اليسرى\/اليمنى",
+          "label__26": "البادئة اليسرى/اليمنى",
           "label__28": "الموضع العمودي",
           "label__29": "الموضع الأفقي",
           "options__3": "ديناميكي",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "عرض قائمة المفضلة",
-          "label__4": "النشط \/ النص\/الأيقونة",
+          "label__4": "النشط / النص/الأيقونة",
           "label__5": "الخلفية النشطة",
           "label__9": "حدود النشطة",
           "label__10": "عرض قائمة المفضلة على الجوال",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "عرض عرض سريع",
           "label__2": "طريقة عرض سريع",
-          "label__3": "النص\/الأيقونة",
-          "label__5": "النص\/الأيقونة عند التحويم",
+          "label__3": "النص/الأيقونة",
+          "label__5": "النص/الأيقونة عند التحويم",
           "label__6": "الخلفية النشطة",
           "label__7": "موقع عرض سريع وقائمة المفضلة",
           "label__8": "عرض عرض سريع على الجوال",
@@ -955,10 +956,10 @@
         "currency_format_enable": "تمكين تنسيق العملة",
         "info_currency_format": "تظهر أسعار السلة وأسعار الدفع دائمًا برموز العملة. مثال: 1.00 USD.",
         "enable_shopify_payments_currencies": "تمكين العملات المدفوعة بواسطة Shopify؟",
-        "info_1": "متاح فقط للمتاجر التي تستخدم عملات مدفوعة بواسطة Shopify. رابط [هنا](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_1": "متاح فقط للمتاجر التي تستخدم عملات مدفوعة بواسطة Shopify. رابط [هنا](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "enable_multiple_currencies": "تمكين العملات المتعددة؟",
         "enable_auto_currency": "تمكين العملة التلقائية؟",
-        "info_2": "لا تختار جميع الخيارات الثلاثة في نفس الوقت أو اجمع عملات مدفوعة بواسطة Shopify مع الآخرين. رابط [هنا](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_2": "لا تختار جميع الخيارات الثلاثة في نفس الوقت أو اجمع عملات مدفوعة بواسطة Shopify مع الآخرين. رابط [هنا](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "i-currency-1": "الأيقونة لرمز العملة 1",
         "currency_1_unit": "رمز العملة 1",
         "usd": "USD",
@@ -982,8 +983,8 @@
         "currency_9_unit": "رمز العملة 9",
         "i-currency-10": "الأيقونة لرمز العملة 10",
         "currency_10_unit": "رمز العملة 10",
-        "paragraph_1": "قم بفصل رموز العملات بمسافة. استخدم رمز العملة 3 أحرف الموحد للعملات الموحدة. انقر [هنا](http:\/\/www.xe.com\/iso4217.php) للحصول على قائمة كاملة من رموز العملات. مثال: CAD USD.",
-        "paragraph_2": "لكي يعمل هذا الوظيفة في متجرك، يجب تعديل تنسيقات الأموال وفقًا ل[هذه الإرشادات](http:\/\/help.shopify.com\/en\/themes\/customization\/currencies). (يرجى تحديد مكان تنسيق الأموال.)",
+        "paragraph_1": "قم بفصل رموز العملات بمسافة. استخدم رمز العملة 3 أحرف الموحد للعملات الموحدة. انقر [هنا](http://www.xe.com/iso4217.php) للحصول على قائمة كاملة من رموز العملات. مثال: CAD USD.",
+        "paragraph_2": "لكي يعمل هذا الوظيفة في متجرك، يجب تعديل تنسيقات الأموال وفقًا ل[هذه الإرشادات](http://help.shopify.com/en/themes/customization/currencies). (يرجى تحديد مكان تنسيق الأموال.)",
         "select_a_currency": "تحديد دالة العملة",
         "option_1": "عملة Shopify",
         "option_2": "عملات متعددة",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "عرض تعديل سريع لسلة السريعة",
-          "options__5": "زر\/المنسوجات"
+          "options__5": "زر/المنسوجات"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "العداد",
-      "info": "يعرض العداد الفترة الزمنية عندما يكون المنتج في الترقية. [تعلم المزيد](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "يعرض العداد الفترة الزمنية عندما يكون المنتج في الترقية. [تعلم المزيد](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "عرض العداد",
@@ -1316,7 +1317,7 @@
           "options__2": "لكل منتج",
           "options__3": "للمجموعة",
           "info": "Example: Dec 31, 2024 18:00:00",
-          "info__1": "يرجى استخدام هذا الشكل الدقيق بالضبط: yyyy\/mm\/dd hour\/minute\/second. Example: 2024\/12\/4 0:0:00."
+          "info__1": "يرجى استخدام هذا الشكل الدقيق بالضبط: yyyy/mm/dd hour/minute/second. Example: 2024/12/4 0:0:00."
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "المحاذاة",
-          "label__2": "المحاذاة (العلوي\/المركزي\/السفلي)",
-          "label__3": "المحاذاة (اليساري\/المركزي\/اليميني\/المطابق)",
+          "label__2": "المحاذاة (العلوي/المركزي/السفلي)",
+          "label__3": "المحاذاة (اليساري/المركزي/اليميني/المطابق)",
           "label__4": "المحاذاة على الهاتف المحمول",
           "label__5": "الموقع اليساري للمحتوى",
           "options__4": "المطابق",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "نمط العنوان\/الرأس"
+            "content": "نمط العنوان/الرأس"
           },
           "paragraph__2": {
             "content": "نمط النص"
           },
           "paragraph__3": {
-            "content": "نمط تاريخ\/مؤلف\/تعليق"
+            "content": "نمط تاريخ/مؤلف/تعليق"
           },
           "font_style": "نمط الخط"
         }
@@ -1854,7 +1855,7 @@
           "select_menu": "قائمة الفئات",
           "recommen_image": "صورة موصى بها: 250 x 250px",
           "banner_link": "رابط البنر",
-          "info__1": "قم بتحميل الصور بنفس اسم المعالج للفئات لعرض الصور لكل فئة. [تعلم المزيد](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
+          "info__1": "قم بتحميل الصور بنفس اسم المعالج للفئات لعرض الصور لكل فئة. [تعلم المزيد](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
         }
       },
       "presets": {
@@ -2083,9 +2084,9 @@
         "content_spacing": "الهامش الداخلي للمحتوى",
         "align_items_spacing_top": "الهامش العلوي للمحتوى",
         "align_items_spacing_bottom": "الهامش السفلي للمحتوى",
-        "align_items_spacing_lr": "الهامش الأيسر\/الأيمن للمحتوى",
-        "align_items_spacing_top_bottom_position": "الهامش العلوي\/السفلي للمحتوى",
-        "align_items_spacing_top_bottom_position_mb": "الهامش العلوي\/السفلي للمحتوى على الجهاز المحمول",
+        "align_items_spacing_lr": "الهامش الأيسر/الأيمن للمحتوى",
+        "align_items_spacing_top_bottom_position": "الهامش العلوي/السفلي للمحتوى",
+        "align_items_spacing_top_bottom_position_mb": "الهامش العلوي/السفلي للمحتوى على الجهاز المحمول",
         "content_1": "العناصر المكتوبة",
         "enable_shadow": "عرض ظل الصندوق",
         "use_special_header_layout": "استخدام تخطيط خاص",
@@ -2134,8 +2135,8 @@
           "blog_style_1": "تحت الصورة",
           "blog_style_2": "تطويق الصورة",
           "show_link_as": "عرض الرابط 'عرض التفاصيل' كزر",
-          "link_button_color": "لون الرابط\/الزر",
-          "link_button_hover_color": "لون الرابط\/الزر عند التمرير"
+          "link_button_color": "لون الرابط/الزر",
+          "link_button_hover_color": "لون الرابط/الزر عند التمرير"
         }
       },
       "presets": {
@@ -2221,7 +2222,7 @@
         "tab": {
           "name": "عنصر القسم",
           "show_image": "عرض صورة القسم",
-          "info": "حدد عنصر التنقل لعرض عناصر القسم. [تعلم المزيد عن كيفية تحميل الصور لقسم صورة متعددة الأذرع.](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show-images-for-brand-tab-section)"
+          "info": "حدد عنصر التنقل لعرض عناصر القسم. [تعلم المزيد عن كيفية تحميل الصور لقسم صورة متعددة الأذرع.](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show-images-for-brand-tab-section)"
         }
       },
       "settings": {
@@ -2264,7 +2265,7 @@
         "info": "ينطبق فقط عندما يكون إعداد توزيع المحتوى محدد إلى المحتوى المركز.",
         "enable_map": "عرض الخريطة Google",
         "map_iframe": "إدراج خريطة",
-        "info__1": "يجب أن تذهب إلى [خريطة Google](https:\/\/www.google.com\/maps) للحصول على رمز HTML للإدراج.",
+        "info__1": "يجب أن تذهب إلى [خريطة Google](https://www.google.com/maps) للحصول على رمز HTML للإدراج.",
         "button": {
           "label__8": "عرض الزر الأقصى"
         }
@@ -2594,7 +2595,7 @@
           "product_block_02": "كتلة المنتج الزوجية",
           "feature_product": "منتج مميز",
           "feature_product_unsymmetrical": "منتج مركز",
-          "info_tablet_mobile": "استخدم للجوال\/الجهاز اللوحي"
+          "info_tablet_mobile": "استخدم للجوال/الجهاز اللوحي"
         },
         "product_block_layout": {
           "option": "تخطيط",
@@ -2650,11 +2651,11 @@
           "content": "تخطيط الشريحة",
           "product_block_dots": "عرض النقاط التنقل",
           "product_block_dots_desk": "عرض النقاط التنقل على الجهاز اللوحي",
-          "product_block_dots_mb": "عرض النقاط التنقل على الجوال\/الجهاز اللوحي",
+          "product_block_dots_mb": "عرض النقاط التنقل على الجوال/الجهاز اللوحي",
           "product_block_dots_spacing_top": "هامش سفلي للنقاط التنقل",
           "product_block_arrows": "عرض الأسهم التنقل",
           "product_block_arrows_desk": "عرض الأسهم التنقل على الجهاز اللوحي",
-          "product_block_arrows_mb": "عرض الأسهم التنقل على الجوال\/الجهاز اللوحي",
+          "product_block_arrows_mb": "عرض الأسهم التنقل على الجوال/الجهاز اللوحي",
           "product_block_arrows_position": "تمكين تحديد موضع الأسهم التنقل على الجهاز اللوحي",
           "use_special_arrow_position": "استخدم موضع السهم الخاص",
           "enable_progress_bar": "عرض شريط التمرير",
@@ -2692,8 +2693,8 @@
             "info__1": "يتم تحسين الموضع تلقائيًا للجوال."
           },
           "name": "البنر",
-          "align_items_spacing_tb": "هامش سفلي\/علوي للمحتوى",
-          "align_items_spacing_lr": "هامش أيسر\/أيمن للمحتوى",
+          "align_items_spacing_tb": "هامش سفلي/علوي للمحتوى",
+          "align_items_spacing_lr": "هامش أيسر/أيمن للمحتوى",
           "position_vertical_arrow": "موضع عمودي (وحدة % أو px)",
           "info__1": "ينطبق فقط عندما يكون 'موضع المحتوى' معرف إلى الأعلى أو الأسفل.",
           "info__2": "ينطبق فقط عندما يكون 'موضع المحتوى' معرف إلى اليسار أو اليمين."
@@ -2892,7 +2893,7 @@
         "box_shadow_hover_color": "لون الظل عند التمرير",
         "social_media_link": {
           "content": "رموز الوسائل الاجتماعية",
-          "info": "لعرض حسابات الوسائل الاجتماعية الخاصة بك، قم بربطها في [إعدادات النظام](\/editor?context=theme&category=social%20media).",
+          "info": "لعرض حسابات الوسائل الاجتماعية الخاصة بك، قم بربطها في [إعدادات النظام](/editor?context=theme&category=social%20media).",
           "show_social": "عرض رموز الوسائل الاجتماعية",
           "enable_background_social": "عرض الخلفيات على رموز الوسائل الاجتماعية",
           "social_position": {
@@ -2978,7 +2979,7 @@
             "option": "أيقونات الدفع",
             "option1": "Default",
             "option2": "مخصص",
-            "info": "عند اختيار \"الافتراضي\"، لإضافة أيقونات الدفع، قم بالذهاب إلى [إعدادات الدفع.](\/admin\/settings\/payments)"
+            "info": "عند اختيار \"الافتراضي\"، لإضافة أيقونات الدفع، قم بالذهاب إلى [إعدادات الدفع.](/admin/settings/payments)"
           },
           "payment_position": {
             "option": "موضع الدفع",
@@ -3091,12 +3092,12 @@
           "background_color_items_cart_mb": "لون العنصر على الجهاز اللوحي",
           "color_items_cart_mb": "لون العنصر على الجهاز اللوحي",
           "font_size_cart_item": "حجم النص في العنصر",
-          "language_currency": "اللغة\/العملة",
-          "label__2": "لون النص\/الرمز 1",
-          "label__3": "لون النص\/الرمز 2",
-          "label__3_1": "لون النص\/الرمز 3",
-          "label__4": "لون النص\/الرمز",
-          "label__5": "لون النص\/الرمز عند التمرير",
+          "language_currency": "اللغة/العملة",
+          "label__2": "لون النص/الرمز 1",
+          "label__3": "لون النص/الرمز 2",
+          "label__3_1": "لون النص/الرمز 3",
+          "label__4": "لون النص/الرمز",
+          "label__5": "لون النص/الرمز عند التمرير",
           "label__6": "لون حدود الرمز",
           "label__7": "استخدم الآلة الكاتبة",
           "label__8": "عرض المحتوى الأول على الهاتف المحمول",
@@ -3120,7 +3121,7 @@
           "bg_bottom": "الخلفية السفلية",
           "mg_top": "هامش علوي للقائمة",
           "mg_bottom": "هامش سفلي للقائمة",
-          "spacing_left_right": "هامش العناصر على اليسار\/اليمين",
+          "spacing_left_right": "هامش العناصر على اليسار/اليمين",
           "spacing_left_menu": "هامش القائمة على اليسار",
           "spacing_right_menu": "هامش القائمة على اليمين"
         },
@@ -3137,8 +3138,8 @@
         },
         "header_tab": {
           "content": "قائمة القسم",
-          "padding_vertical": "هامش علوي\/سفلي",
-          "padding_vertical_mb": "هامش علوي\/سفلي على الجهاز اللوحي",
+          "padding_vertical": "هامش علوي/سفلي",
+          "padding_vertical_mb": "هامش علوي/سفلي على الجهاز اللوحي",
           "padding_hozi": "هامش أفقي",
           "padding_hozi_mb": "هامش أفقي على الجهاز اللوحي",
           "enable_separation_tab": "تمكين الفصل"
@@ -3199,7 +3200,7 @@
           "label__1": "صورة الشعار",
           "label__2": "صورة الشعار على الجهاز اللوحي",
           "label__3": "موضع الشعار على الكمبيوتر",
-          "label__fixed": "صورة الشعار للرأس المتصل\/الرأس المتصل",
+          "label__fixed": "صورة الشعار للرأس المتصل/الرأس المتصل",
           "label__7": "نص الشعار أو رمز SVG",
           "label__8": "لون نص الشعار أو رمز SVG",
           "logo_info": "سيتم عرض هذا الشعار عند عدم إضافة قائمة القسم",
@@ -3367,7 +3368,8 @@
           "color_link_text": "لون نص الزر",
           "url": "رابط الزر",
           "info": "الوحدة: % أو px",
-          "info__2": "أدخل اسم العنصر المراد تطبيقه على هذه القائمة الميجا."
+          "info__2": "أدخل اسم العنصر المراد تطبيقه على هذه القائمة الميجا.",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "رأس القائمة - بسيط",
@@ -3379,8 +3381,8 @@
           "name_7": "رأس القائمة - منسقة إلى اليسار",
           "name_8": "رأس القائمة - بسيط",
           "name_9": "رأس القائمة - متعدد المواقع",
-          "label_2": "القائمة الميجا\/القائمة المنسدلة",
-          "label_3": "عرض اللغة\/العملة",
+          "label_2": "القائمة الميجا/القائمة المنسدلة",
+          "label_3": "عرض اللغة/العملة",
           "label_5": "عرض على القائمة الرئيسية",
           "label_6": "عرض على القائمة المتصلة",
           "label_7": "عرض الكل",
@@ -3390,7 +3392,7 @@
           "option_3": "التهديم الأيمن",
           "cart_count_bubble": "عدد أمر التسوق",
           "search_input": "نمط إدخال البحث 2",
-          "cart_wishlist_count_bubble": "عدد أمر التسوق\/قائمة الرغبات",
+          "cart_wishlist_count_bubble": "عدد أمر التسوق/قائمة الرغبات",
           "wishlist_count_bubble": "عدد قائمة الرغبات",
           "search_dropdown": "البحث المنسدل",
           "search_dropdown_style": "أنماط البحث المنسدل",
@@ -3521,7 +3523,7 @@
           "label__1": "عرض المؤلف",
           "label__2": "عرض التاريخ",
           "label__3": "عرض المشاركة",
-          "label__4": "عرض المقال التالي\/السابق",
+          "label__4": "عرض المقال التالي/السابق",
           "label__5": "عرض الصورة الرئيسية",
           "label__6": "عرض العلامات"
         }
@@ -3589,7 +3591,7 @@
           "options__1": "اللون الأساسي (استخدم اسم اللون)",
           "options__2": "اللون المتقدم (استخدم صورة مع الصيغة PNG)",
           "options__3": "التمرير",
-          "info__1": "[Customize filters](\/admin\/apps\/search-and-discovery)",
+          "info__1": "[Customize filters](/admin/apps/search-and-discovery)",
           "info__2": "أدخل اسم التصفية لعرض نمط المنسوجة",
           "info__3": "أدخل اسم التصفية لعرض نمط المستطيل",
           "info__4": "مستخدم لعرض التصفية: زر عرض المزيد",
@@ -3689,7 +3691,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "لإضافة الصور، [قم بتعديل مجموعاتك](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "لإضافة الصور، [قم بتعديل مجموعاتك](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3925,7 +3927,7 @@
         },
         "social-media": {
           "label__1": "عرض وسائل التواصل الاجتماعي",
-          "label__2": "لون النص\/الأيقونة"
+          "label__2": "لون النص/الأيقونة"
         },
         "countdown": {
           "label__1": "الوقت",
@@ -3966,7 +3968,7 @@
           "label__1": "عرض",
           "option__1": "واسطة",
           "option__2": "كبير",
-          "info": "تعلم المزيد عن [أنواع الوسائط](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "تعلم المزيد عن [أنواع الوسائط](https://help.shopify.com/manual/products/product-media)"
         },
         "header__3": {
           "content": "العلامات"
@@ -3994,20 +3996,20 @@
         },
         "header__12": {
           "content": "الصور الموثوقة",
-          "paragraph": "تعرض الصور الموثوقة فقط الصور المعتمدة ذات الجودة العالية على صفحات المنتجات، مما يعزز الثقة في العملاء ويدعم الإشراف على الإقتراحات المستنيرة. [تعلم المزيد](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "تعرض الصور الموثوقة فقط الصور المعتمدة ذات الجودة العالية على صفحات المنتجات، مما يعزز الثقة في العملاء ويدعم الإشراف على الإقتراحات المستنيرة. [تعلم المزيد](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "زرات الديناميكية"
         },
         "header__15": {
-          "content": "المنتج التالي\/السابق"
+          "content": "المنتج التالي/السابق"
         },
         "header__16": {
           "content": "مخطط الحجم"
         },
         "header__17": {
           "content": "إمكانية الاستلام من المتجر",
-          "paragraph": "يعرض المتاجر المتاحة للاستلام خارجيًا للإصدار المختار. [تعلم المزيد](https:\/\/help.shopify.com\/en\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "يعرض المتاجر المتاحة للاستلام خارجيًا للإصدار المختار. [تعلم المزيد](https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "مقارنة الألوان"
@@ -4020,14 +4022,14 @@
         },
         "header__21": {
           "content": "معلومات الإصدار",
-          "paragraph": "عرض المحتوى المخصص للإصدار في علامة التبويب الوصف، من خلال تقديم محتوى مخصص بناءً على الإصدار المختار. [تعلم المزيد](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant)"
+          "paragraph": "عرض المحتوى المخصص للإصدار في علامة التبويب الوصف، من خلال تقديم محتوى مخصص بناءً على الإصدار المختار. [تعلم المزيد](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant)"
         },
         "header__22": {
           "content": "المنتجات المتكاملة"
         },
         "header__23": {
           "content": "حزمة الإيجابيات",
-          "paragraph": "تم تصميم حزمة الإيجابيات لتشجيع المشتريات بإظهار رسائل تحفيزية مثل '60 شخص مشترك 2+ مرات' أو '37 مبيعات في الساعة الماضية' بتنسيق متدفق باستمرار، مما يؤدي إلى ضغوط وتشجيع الطلب على المنتج. [تعلم المزيد](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "تم تصميم حزمة الإيجابيات لتشجيع المشتريات بإظهار رسائل تحفيزية مثل '60 شخص مشترك 2+ مرات' أو '37 مبيعات في الساعة الماضية' بتنسيق متدفق باستمرار، مما يؤدي إلى ضغوط وتشجيع الطلب على المنتج. [تعلم المزيد](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "وقت التوصيل",
@@ -4052,7 +4054,7 @@
           "text": "نص"
         },
         "general": {
-          "label__1": "تمكين المعلومات المتصلة بالمنتج على الكمبيوتر\/الجهاز اللوحي",
+          "label__1": "تمكين المعلومات المتصلة بالمنتج على الكمبيوتر/الجهاز اللوحي",
           "label__2": "تخطيط الكمبيوتر",
           "label__3": "موضع الصورة الرئيسية",
           "options__1": "عرض الصور المصغرة على اليسار",
@@ -4066,7 +4068,7 @@
           "buy_buttons": "زروات الشراء",
           "show_gift_card_recipient": {
             "label": "عرض حقل المستلم لمنتجات الهدية",
-            "info": "يسمح للمشترين بإرسال هدايا على تاريخ محدد مع رسالة خاصة. [تعلم المزيد](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "يسمح للمشترين بإرسال هدايا على تاريخ محدد مع رسالة خاصة. [تعلم المزيد](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "المشاركة",
           "vendor": "المورد",
@@ -4097,7 +4099,7 @@
           "visible_content_height_info": "عندما يتجاوز ارتفاع المحتوى الكلي هذا الحد، سيظهر زر 'اقرأ المزيد'.",
           "info_enable_des_show_more": "ينطبق فقط على 'تبويب الوصف'",
           "animation": "الرسوم المتحركة",
-          "image_behavior": { 
+          "image_behavior": {
             "label": "سلوك الصورة",
             "info": "'تكبير على التمرير' مع تمكين 'رسوم متحركة تحميل'.",
             "option__1": "حركة محيطية",
@@ -4117,7 +4119,7 @@
           "product_tab_source_info": "ينطبق فقط عندما يتم تعيين 'عرض المحتوى ل' إلى 'منتجات معينة باستخدام الحقل المعرف بالحقول'.",
           "dynamic_source": "مصدر ديناميكي",
           "key_text_source": "مفتاح الحقل المعرف بالحقول للمنتج",
-          "product_tab_key_info": "ينطبق فقط عندما يتم تعيين 'عرض المحتوى ل' إلى 'منتجات معينة باستخدام الحقل المعرف بالحقول' و'مصدر المحتوى' إلى 'مفتاح الحقل المعرف بالحقول للمنتج'. [تعلم المزيد](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "ينطبق فقط عندما يتم تعيين 'عرض المحتوى ل' إلى 'منتجات معينة باستخدام الحقل المعرف بالحقول' و'مصدر المحتوى' إلى 'مفتاح الحقل المعرف بالحقول للمنتج'. [تعلم المزيد](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "لون الصورة المصغرة المفعلة",
           "navigation_arrows_color_mobile": "لون الأسهم التنقل على الجهاز اللوحي",
           "read_more": "اقرأ المزيد",
@@ -4137,7 +4139,7 @@
           "options__9": "عند التمرير على الصور الرئيسية",
           "unit": "%",
           "layout_video": "تخطيط الفيديو",
-          "info__1": "تعلم المزيد عن [تكييف الوسائط](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)",
+          "info__1": "تعلم المزيد عن [تكييف الوسائط](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)",
           "info__2": "لا ينطبق عند تعيين إعداد 'تكييف الوسائط' إلى 'أصلي'.",
           "info__3": "ينطبق فقط على خيار الصورة المنتج المناسب."
         },
@@ -4178,7 +4180,7 @@
         "variant": {
           "label__2": "تمكين صور الإصدار المجمعة",
           "options__1": "القائمة",
-          "options__2": "مربع\/مستطيل\/مخطط",
+          "options__2": "مربع/مستطيل/مخطط",
           "variant_picker": "منتج الإصدار"
         },
         "quantity": {
@@ -4203,11 +4205,11 @@
         },
         "dynamic_checkout": {
           "label": "عرض زروات الدفع الديناميكية",
-          "info": "باستخدام طرق الدفع المتاحة على متجرك، سيرى العملاء خيارهم المفضل، مثل باي بال أو أبل باي. [تعلم المزيد](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "باستخدام طرق الدفع المتاحة على متجرك، سيرى العملاء خيارهم المفضل، مثل باي بال أو أبل باي. [تعلم المزيد](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "عرض المنتج التالي\/السابق",
-          "info": "عرض المنتج التالي\/السابق في المجموعة"
+          "label": "عرض المنتج التالي/السابق",
+          "info": "عرض المنتج التالي/السابق في المجموعة"
         },
         "size_chart": {
           "label__1": "تمكين جدول الأحجام",
@@ -4278,7 +4280,7 @@
           "label__1": "عرض المنتج المكمل",
           "label__2": "نمط المنتج المكمل 1",
           "label__3": "نمط المنتج المكمل 2",
-          "info__1": "لتحديد المنتجات المكملة، قم بإضافة تطبيق البحث والاكتشاف. [تعلم المزيد](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "لتحديد المنتجات المكملة، قم بإضافة تطبيق البحث والاكتشاف. [تعلم المزيد](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4303,7 +4305,7 @@
             "options__1": "جميع المنتجات",
             "options__2": "منتجات معينة باستخدام الحقل المعرف بالحقول",
             "info_1": "ينطبق فقط عندما يتم تعيين إعداد 'عرض المحتوى ل' إلى 'جميع المنتجات'.",
-            "info_2": "[تعلم المزيد عن كيفية إعداد أنابيب مخصصة باستخدام الحقل المعرف بالحقول](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)"
+            "info_2": "[تعلم المزيد عن كيفية إعداد أنابيب مخصصة باستخدام الحقل المعرف بالحقول](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)"
           }
         },
         "grouped_product": {
@@ -4438,8 +4440,8 @@
         "info": "ينطبق على 'موضع المحتوى' الذي يكون 'نسبي'",
         "info_2": "يتم حساب الكتلة اليمنى تلقائيًا",
         "title_align": "محاذاة المحتوى",
-        "align_items_spacing_tb": "المحتوى: مسافة أعلى\/مسافة أسفل",
-        "align_items_spacing_lr": "المحتوى: مسافة أيسر\/مسافة أيمن",
+        "align_items_spacing_tb": "المحتوى: مسافة أعلى/مسافة أسفل",
+        "align_items_spacing_lr": "المحتوى: مسافة أيسر/مسافة أيمن",
         "enable_item_1": "تمكين العنصر 1",
         "enable_item_2": "تمكين العنصر 2",
         "enable_item_3": "تمكين العنصر 3",
@@ -4634,7 +4636,7 @@
           "name": "صورة المجموعة",
           "settings": {
             "paragraph": {
-              "content": "لتغيير وصف المجموعة أو صورة المجموعة، [قم بتعديل مجموعاتك.](\/admin\/collections)"
+              "content": "لتغيير وصف المجموعة أو صورة المجموعة، [قم بتعديل مجموعاتك.](/admin/collections)"
             },
             "general": {
               "label__1": "عرض بنر التصوير المترابط",
@@ -4655,7 +4657,7 @@
             },
             "description": {
               "label__1": "عرض وصف المجموعة",
-              "label__2": "عرض 'اقرأ المزيد\/اقرأ أقل'",
+              "label__2": "عرض 'اقرأ المزيد/اقرأ أقل'",
               "label__3": "الموضع",
               "label__4": "عرض عنوان المجموعة",
               "label__5": "محاذاة وصف المجموعة",
@@ -4716,7 +4718,7 @@
         },
         "general": {
           "label": "تمكين مجموعة المنتجات",
-          "info": "تعلم المزيد [مجموعة المنتجات](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "تعلم المزيد [مجموعة المنتجات](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "تمكين خصم المجموعة",
@@ -4814,10 +4816,10 @@
     "app_partner": {
       "name": "شريك التطبيق",
       "enable_promotion": "تمكين عرض PageFly الترويجي",
-      "label_1": "1. لوظيفة المراجعة: استخدم [تطبيق Loox](https:\/\/shopify.pxf.io\/y2D52b) واحصل على تجربة مجانية لمدة 30 يومًا. [كيفية إعداد Loox؟](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. عرض حصري: 3 أشهر باستخدام 20 صفحة من PageFly مقابل 1 دولار فقط شهريًا. [اطلب العرض الآن](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. استخدم [UpPromote للشركاء والإحالات](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs) واحصل على خصم 20٪.",
-      "label_4": "4. عزز أداء موقعك باستخدام [Avada SEO suite](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
+      "label_1": "1. لوظيفة المراجعة: استخدم [تطبيق Loox](https://shopify.pxf.io/y2D52b) واحصل على تجربة مجانية لمدة 30 يومًا. [كيفية إعداد Loox؟](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. عرض حصري: 3 أشهر باستخدام 20 صفحة من PageFly مقابل 1 دولار فقط شهريًا. [اطلب العرض الآن](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. استخدم [UpPromote للشركاء والإحالات](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs) واحصل على خصم 20٪.",
+      "label_4": "4. عزز أداء موقعك باستخدام [Avada SEO suite](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
     },
     "slidable_spotlight": {
       "name": "المنقل المتحرك",
@@ -4907,7 +4909,7 @@
           "country": "البلد",
           "cross_street": "المنصة",
           "postal_code": "الرمز البريدي",
-          "state": "المنطقة\/المنصة",
+          "state": "المنطقة/المنصة",
           "info": "مثل: (202) 387-9338",
           "map_iframe": "إدراج إطار Google map"
         }
@@ -4925,12 +4927,12 @@
         "tiktok_video": {
           "name": "فيديو TikTok",
           "embed_code": "معرف الفيديو",
-          "info__1": "[إرشادات للحصول على معرف الفيديو TikTok](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[إرشادات للحصول على معرف الفيديو TikTok](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "الصورة المقارنة قبل\/بعد",
+      "name": "الصورة المقارنة قبل/بعد",
       "settings": {
         "content_position": "موضع المحتوى",
         "above": "فوق الصور المقارنة",

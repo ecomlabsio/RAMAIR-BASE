@@ -15,12 +15,12 @@
     }
 {% endstylesheet %}
 
-{% assign button_link = button_link | default: block.settings.button_link %}
+{%- assign button_link_resolved = block.settings.button_link -%}
 <a
-    {% if button_link == blank %}
+    {% if button_link_resolved == blank %}
     role="link" aria-disabled="true"
     {% else %}
-    href="{{ button_link }}"
+    href="{{ button_link_resolved }}"
     {% endif %}
     class="button button--style m-zero{% if settings.banner_animation == 'effect_fade_up' %} scroll-trigger animate--slide-in{% endif %}"
     style="

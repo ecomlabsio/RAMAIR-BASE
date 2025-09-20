@@ -86,7 +86,7 @@
           "label__3": "Farve på mobil indlæsningsikon"
         },
         "colors_breadcrumb": {
-          "label__4": "Brødkrummebaggrund\/gradient kun for brødkrummelayout 2 og 3"
+          "label__4": "Brødkrummebaggrund/gradient kun for brødkrummelayout 2 og 3"
         },
         "spinner_colors": {
           "content": "Lader spinner",
@@ -134,7 +134,7 @@
           "product_page_gallery": "Galleri",
           "product_page_left_thumbs": "Venstre lodrette miniaturebilleder",
           "product_page_right_thumbs": "Højre lodrette miniaturebilleder",
-          "product_page_left_right_sidebar": "Venstre\/højre sidebjælke",
+          "product_page_left_right_sidebar": "Venstre/højre sidebjælke",
           "product_page_horizontal_tabs_no_sidebar": "Vandrette faner uden sidebjælke",
           "product_page_step_by_step": "Trin for Trin",
           "header_layout_rtl": "Højre til venstre layout",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "ISO-kodeliste for RTL-sprog",
           "list_iso_rtl_info": "Adskil hver sprog ISO-kode med et ','. Fx: ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "Liste over sprog ISO-koder for automatisk at skifte til RTL-layout: ar:(arabisk); dv:(Dhivehi,maldivisk); ha:(Hausa); han:(hebraisk); ku:(Kurdisk\/Sorani); fa:(persisk\/farsi); ur:(urdu); ps:(Pashto); yi:(jiddisch)"
+          "list_iso_rtl_note": "Liste over sprog ISO-koder for automatisk at skifte til RTL-layout: ar:(arabisk); dv:(Dhivehi,maldivisk); ha:(Hausa); han:(hebraisk); ku:(Kurdisk/Sorani); fa:(persisk/farsi); ur:(urdu); ps:(Pashto); yi:(jiddisch)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "Fontkilde",
           "options__1": "Google skrifttyper",
           "options__2": "Shopify skrifttyper",
-          "info": "Tilføj skrifttypenavnet for at bruge Google-skrifttyper. [Få flere oplysninger](https:\/\/fonts.google.com\/)",
+          "info": "Tilføj skrifttypenavnet for at bruge Google-skrifttyper. [Få flere oplysninger](https://fonts.google.com/)",
           "info_shopify_font": "Optimer dit websteds ydeevne ved at bruge shopify-skrifttyper!",
           "info_language": "Når du konfigurerer et sprog i tilpasningsindstillingerne, er det vigtigt også at etablere den samme sprogpræference i de administrative indstillinger."
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "Brødskrift",
           "label": "Shopify skrifttype",
-          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https:\/\/help.shopify.com\/da\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https://help.shopify.com/da/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "Overskrift skrifttype",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "Mega menu niveau 2",
           "title_mega_menu_lv3": "Mega menu niveau 3",
           "label": "Navigationsskrifttypefamilie",
-          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https:\/\/help.shopify.com\/da\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https://help.shopify.com/da/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "Produktets skrifttype",
@@ -237,7 +237,7 @@
           "yes": "Ja",
           "no": "Ingen",
           "label": "Knap 1 skrifttypefamilie",
-          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https:\/\/help.shopify.com\/da\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "At vælge en anden skrifttype kan påvirke hastigheden i din butik. [Få flere oplysninger om systemskrifttyper.](https://help.shopify.com/da/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "Vis disposition",
           "cta_button": "CTA knap"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "'Se alle' ikonposition",
           "view_all_font_size": "'Se alle' skriftstørrelse",
           "view_all_width": "'Vis alle' bredde",
-          "view_all_info": "Gå til dette link [find dit ikon](https:\/\/fontawesome.com\/v5\/search). Find det ønskede ikon, kopier derefter SVG-koden og indsæt den her.",
-          "logo_icon_info": "Gælder kun, når logobilledet er tomt. Gå til dette link [find dit ikon](https:\/\/fontawesome.com\/v5\/search). Find det ønskede ikon, og kopier derefter SVG-koden og indsæt den her.",
+          "view_all_info": "Gå til dette link [find dit ikon](https://fontawesome.com/v5/search). Find det ønskede ikon, kopier derefter SVG-koden og indsæt den her.",
+          "logo_icon_info": "Gælder kun, når logobilledet er tomt. Gå til dette link [find dit ikon](https://fontawesome.com/v5/search). Find det ønskede ikon, og kopier derefter SVG-koden og indsæt den her.",
           "item": "genstande",
-          "item_padding_top_bottom": "Top\/bund polstring",
-          "item_padding_left_right": "Venstre\/højre polstring",
+          "item_padding_top_bottom": "Top/bund polstring",
+          "item_padding_left_right": "Venstre/højre polstring",
           "item_padding_top": "Emne top polstring",
           "item_padding_bottom": "Emne bundpolstring",
           "item_width": "Genstands bredde",
@@ -429,19 +429,19 @@
           "icon_color_hover": "Ikonet hover farve",
           "icon_color_mb": "Ikon farve på mobil",
           "icon_width": "Ikonernes bredde",
-          "icon_width_info": "Gælder, når tekst-\/ikonvisningsindstillingen er sat til ikon",
+          "icon_width_info": "Gælder, når tekst-/ikonvisningsindstillingen er sat til ikon",
           "icon_height": "Ikonernes højde",
           "icon_width_1": "Ikonbredde",
           "icon_height_1": "Ikonhøjde",
           "icon_width_mb": "Ikonbredde på mobil",
           "icon_height_mb": "Ikonhøjde på mobil",
-          "icon_mg_right": "Tekst\/SVG-ikon højre margen",
+          "icon_mg_right": "Tekst/SVG-ikon højre margen",
           "icon_mg_bottom": "Ikonmellemrum nederst",
           "icon_spacing_mobile": "Ikonafstand på mobil",
-          "icon_type": "Brug billede eller tekst\/SVG-ikon",
+          "icon_type": "Brug billede eller tekst/SVG-ikon",
           "icons_type": "Ikoner type",
           "icons_type_info": "Kun gældende, når indstillingen 'ikontype' er indstillet til Ikon.",
-          "text_svg_icon": "Tekst\/SVG-ikon",
+          "text_svg_icon": "Tekst/SVG-ikon",
           "layout_mobile": "Mobilt layout",
           "layout_mobile_info": "Gælder kun for gitterlayout",
           "list": "Liste",
@@ -518,7 +518,7 @@
           "beside_the_title": "Ved siden af ​​titlen",
           "width_on_desktop": "Bredde på skrivebordet",
           "section_footer": "Sektionsfod",
-          "prev_next_button": "Forrige\/Næste knap",
+          "prev_next_button": "Forrige/Næste knap",
           "info_mobile_layout": "Kun gældende, når indstillingen 'mobillayout' er sat til skyderen.",
           "header_block": {
             "option_1": "Titel tilbage med visning alle venstre",
@@ -526,7 +526,8 @@
             "option_3": "Titelcenter med visning til venstre",
             "option_4": "Titelcenter med udsigt til højre",
             "option_5": "Titelcenter med se alle nedenfor"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "Sidefod skrifttype"
@@ -577,23 +578,23 @@
         "whatsapp_label": "Del på Whatsapp",
         "header__2": "Sociale konti",
         "social_twitter_link_label": "Twitter link",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "Facebook link",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "Pinterest link",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "Instagram link",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "TikTok link",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "Tumblr link",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "Snapchat link",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "YouTube link",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "Vimeo link",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "Tilpasningsmulighed",
-          "info": "Tilpasningsmuligheder bruges til at indsamle tilpasningsoplysninger for en vare, der føjes til indkøbskurven. Disse oplysninger kan indsamles fra køberen på produktsiden og hurtigvisningen. [Få flere oplysninger](https:\/\/halosoft. gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "Tilpasningsmuligheder bruges til at indsamle tilpasningsoplysninger for en vare, der føjes til indkøbskurven. Disse oplysninger kan indsamles fra køberen på produktsiden og hurtigvisningen. [Få flere oplysninger](https://halosoft. gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "Favicon billede",
@@ -651,8 +652,8 @@
           "label__7": "Fortrolighedspolitik knap link",
           "label__8": "Accepter cookies knap etiket",
           "color_privacy_policy": "Fortrolighedspolitik knap farve",
-          "info__1": "[Få flere oplysninger](https:\/\/help.shopify.com\/da\/manual\/your-account\/privacy\/cookies)",
-          "info__2": "Eksempel: https:\/\/policies.google.com"
+          "info__1": "[Få flere oplysninger](https://help.shopify.com/da/manual/your-account/privacy/cookies)",
+          "info__2": "Eksempel: https://policies.google.com"
         },
         "wishlist": {
           "label": "Aktiver ønskeliste",
@@ -735,7 +736,7 @@
           "style_10": "Stil 10"
         },
         "trust_image": {
-          "info__1": "Produktside\/Hurtig visning",
+          "info__1": "Produktside/Hurtig visning",
           "info__2": "Indkøbskurv side"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "Vis bundt-emblem",
           "label__23": "Skriftstørrelse",
           "label__24": "Hjørneradius",
-          "label__26": "Venstre\/højre polstring",
+          "label__26": "Venstre/højre polstring",
           "label__28": "Lodret position",
           "label__29": "Vandret position",
           "options__3": "Dynamisk",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "Vis ønskeliste",
-          "label__4": "Tekst\/ikon aktiv",
+          "label__4": "Tekst/ikon aktiv",
           "label__5": "Baggrunden aktiv",
           "label__9": "Grænse aktiv",
           "label__10": "Vis ønskeliste på mobil",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "Vis hurtig visning",
           "label__2": "Hurtig visning stil",
-          "label__3": "Tekst\/ikon",
-          "label__5": "Tekst\/ikon svæver",
+          "label__3": "Tekst/ikon",
+          "label__5": "Tekst/ikon svæver",
           "label__6": "Hover i baggrunden",
           "label__7": "Hurtig visning og ønskeseddelposition",
           "label__8": "Vis hurtig visning på mobil",
@@ -955,10 +956,10 @@
         "currency_format_enable": "Aktiver valutaformat",
         "info_currency_format": "Indkøbs- og betalingspriser viser altid valutakoder. Eksempel: $1,00 USD.",
         "enable_shopify_payments_currencies": "Aktiver shopify-betalinger?",
-        "info_1": "Kun tilgængelig for butikker med shopify-betalinger. Link [her](https:\/\/help.shopify.com\/da\/manual\/payments\/shopify-payments\/multi-currency\/ opsætning)",
+        "info_1": "Kun tilgængelig for butikker med shopify-betalinger. Link [her](https://help.shopify.com/da/manual/payments/shopify-payments/multi-currency/ opsætning)",
         "enable_multiple_currencies": "Aktiver flere valutaer?",
         "enable_auto_currency": "Aktiver automatisk valuta?",
-        "info_2": "Vælg ikke alle 3 muligheder på samme tid eller kombiner shopify-betaling med andre. Link [her](https:\/\/help.shopify.com\/da\/manual\/payments\/ shopify-betalinger\/multi-valuta\/setup)",
+        "info_2": "Vælg ikke alle 3 muligheder på samme tid eller kombiner shopify-betaling med andre. Link [her](https://help.shopify.com/da/manual/payments/ shopify-betalinger/multi-valuta/setup)",
         "i-currency-1": "SVG-ikon for valutakode 1",
         "currency_1_unit": "Valutakode 1",
         "usd": "USD",
@@ -982,8 +983,8 @@
         "currency_9_unit": "Valutakode 9",
         "i-currency-10": "SVG-ikon for valutakode 10",
         "currency_10_unit": "Valutakode 10",
-        "paragraph_1": "Adskil dine valutakoder med et mellemrum. Brug ISO 4217 3-bogstavs valutakoden. Klik [her](http:\/\/www.xe.com\/iso4217.php) for en komplet liste over valutakoder. Eksempel: CAD USD.",
-        "paragraph_2": "For at denne funktionalitet skal fungere i din butik, skal du redigere dine pengeformater i henhold til [disse instruktioner](http:\/\/help.shopify.com\/da\/themes\/customization\/ valutaer). (Angiv venligst, hvor pengeformatet er placeret.)",
+        "paragraph_1": "Adskil dine valutakoder med et mellemrum. Brug ISO 4217 3-bogstavs valutakoden. Klik [her](http://www.xe.com/iso4217.php) for en komplet liste over valutakoder. Eksempel: CAD USD.",
+        "paragraph_2": "For at denne funktionalitet skal fungere i din butik, skal du redigere dine pengeformater i henhold til [disse instruktioner](http://help.shopify.com/da/themes/customization/ valutaer). (Angiv venligst, hvor pengeformatet er placeret.)",
         "select_a_currency": "Vælg en valutafunktion",
         "option_1": "Shopify betaling",
         "option_2": "Flere valutaer",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "Vis kurv til hurtig redigering",
-          "options__5": "Knap\/Swatch"
+          "options__5": "Knap/Swatch"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "Nedtælling",
-      "info": "Nedtælling viser kunderne den periode, hvor produktet er på kampagnen. [Få flere oplysninger](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown) ",
+      "info": "Nedtælling viser kunderne den periode, hvor produktet er på kampagnen. [Få flere oplysninger](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown) ",
       "settings": {
         "general": {
           "label__1": "Vis nedtælling",
@@ -1316,7 +1317,7 @@
           "options__2": "For hvert produkt",
           "options__3": "Til samlingen",
           "info": "Eksempel: 31. december 2024 18:00:00",
-          "info__1": "Brug venligst dette nøjagtige format: åååå\/mm\/dd time\/minut\/sekund. Eksempel: 2024\/12\/4 0:0:00."
+          "info__1": "Brug venligst dette nøjagtige format: åååå/mm/dd time/minut/sekund. Eksempel: 2024/12/4 0:0:00."
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "Justering",
-          "label__2": "Justering (top\/center\/bund)",
-          "label__3": "Justering (venstre\/center\/højre\/juster)",
+          "label__2": "Justering (top/center/bund)",
+          "label__3": "Justering (venstre/center/højre/juster)",
           "label__4": "Justering på mobil",
           "label__5": "Venstre position for indhold",
           "options__4": "retfærdiggøre",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "Titel\/overskrift typografi"
+            "content": "Titel/overskrift typografi"
           },
           "paragraph__2": {
             "content": "Tekst typografi"
           },
           "paragraph__3": {
-            "content": "Dato\/forfatter\/kommentar typografi"
+            "content": "Dato/forfatter/kommentar typografi"
           },
           "font_style": "Skrifttypestil"
         }
@@ -1599,7 +1600,8 @@
           "unit": "px"
         }
       }
-    },"multilayer-image": {
+    },
+    "multilayer-image": {
       "name": "Multilag-billede",
       "blocks": {
         "name": "Billedelement",
@@ -1853,7 +1855,7 @@
           "select_menu": "Kategori menu",
           "recommen_image": "Anbefalet billede: 250 x 250 px",
           "banner_link": "Banner link",
-          "info__1": "Upload billeder med samme navn som menuhåndtaget for at vise billeder for hver kategori. [Få flere oplysninger](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all- sektioner-i-tema\/diasshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
+          "info__1": "Upload billeder med samme navn som menuhåndtaget for at vise billeder for hver kategori. [Få flere oplysninger](https://halosoft.gitbook.io/ella-documentation/sections/all- sektioner-i-tema/diasshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
         }
       },
       "presets": {
@@ -2082,9 +2084,9 @@
         "content_spacing": "Indholdspolstring",
         "align_items_spacing_top": "Indholds topmargen",
         "align_items_spacing_bottom": "Indholds bundmargen",
-        "align_items_spacing_lr": "Indhold venstre\/højre afstand",
-        "align_items_spacing_top_bottom_position": "Indhold top\/bund afstand",
-        "align_items_spacing_top_bottom_position_mb": "Indhold top\/bund afstand på mobil",
+        "align_items_spacing_lr": "Indhold venstre/højre afstand",
+        "align_items_spacing_top_bottom_position": "Indhold top/bund afstand",
+        "align_items_spacing_top_bottom_position_mb": "Indhold top/bund afstand på mobil",
         "content_1": "Bloker genstande",
         "enable_shadow": "Vis boksskygge",
         "use_special_header_layout": "Brug speciel layout",
@@ -2133,8 +2135,8 @@
           "blog_style_1": "Under billedet",
           "blog_style_2": "Overlap billedet",
           "show_link_as": "Vis linket 'se detaljer' som knap",
-          "link_button_color": "Link\/Knap etiket farve",
-          "link_button_hover_color": "Link\/Knap etiket svævefarve"
+          "link_button_color": "Link/Knap etiket farve",
+          "link_button_hover_color": "Link/Knap etiket svævefarve"
         }
       },
       "presets": {
@@ -2220,7 +2222,7 @@
         "tab": {
           "name": "Faneelement",
           "show_image": "Vis fanebillede",
-          "info": "Vælg en navigation for at vise blokelementerne. [Lær mere om, hvordan du uploader billeder.](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections- in-theme\/brand-tab#how-to-show-images-for-brand-tab-section)"
+          "info": "Vælg en navigation for at vise blokelementerne. [Lær mere om, hvordan du uploader billeder.](https://halosoft.gitbook.io/ella-documentation/sections/all-sections- in-theme/brand-tab#how-to-show-images-for-brand-tab-section)"
         }
       },
       "settings": {
@@ -2263,7 +2265,7 @@
         "info": "Kun anvendelig, når indstillingen for indholdsjustering er sat til centreret.",
         "enable_map": "Vis google map",
         "map_iframe": "Integrer et kort",
-        "info__1": "Du skal gå til [Google maps](https:\/\/www.google.com\/maps) for at hente HTML-indlejringskoden.",
+        "info__1": "Du skal gå til [Google maps](https://www.google.com/maps) for at hente HTML-indlejringskoden.",
         "button": {
           "label__8": "Maksimal knapbredde"
         }
@@ -2593,7 +2595,7 @@
           "product_block_02": "Produktblok duo",
           "feature_product": "Udvalgt produkt",
           "feature_product_unsymmetrical": "Produkt highlight",
-          "info_tablet_mobile": "Bruges til mobil\/tablet"
+          "info_tablet_mobile": "Bruges til mobil/tablet"
         },
         "product_block_layout": {
           "option": "Layout",
@@ -2649,11 +2651,11 @@
           "content": "Slider layout",
           "product_block_dots": "Vis navigationspunkter",
           "product_block_dots_desk": "Vis navigationspunkter på skrivebordet",
-          "product_block_dots_mb": "Vis navigationspunkter på mobil\/tablet",
+          "product_block_dots_mb": "Vis navigationspunkter på mobil/tablet",
           "product_block_dots_spacing_top": "Øverste margen af ​​navigationspunkterne",
           "product_block_arrows": "Vis navigationspile",
           "product_block_arrows_desk": "Vis navigationspile på skrivebordet",
-          "product_block_arrows_mb": "Vis navigationspile på mobil\/tablet",
+          "product_block_arrows_mb": "Vis navigationspile på mobil/tablet",
           "product_block_arrows_position": "Aktiver tilpasset placering af navigationspile på skrivebordet",
           "use_special_arrow_position": "Brug speciel pileposition",
           "enable_progress_bar": "Vis rullepanel",
@@ -2691,8 +2693,8 @@
             "info__1": "Position er automatisk optimeret til mobil."
           },
           "name": "Banner",
-          "align_items_spacing_tb": "Indhold top\/bund polstring",
-          "align_items_spacing_lr": "Indhold venstre\/højre polstring",
+          "align_items_spacing_tb": "Indhold top/bund polstring",
+          "align_items_spacing_lr": "Indhold venstre/højre polstring",
           "position_vertical_arrow": "Lodret position (enhed % eller px)",
           "info__1": "Gælder kun, når indstillingen 'indholdsposition' er sat til top eller bund.",
           "info__2": "Gælder kun, når indstillingen 'indholdsjustering' er sat til venstre eller højre."
@@ -2891,7 +2893,7 @@
         "box_shadow_hover_color": "Box skygge svæve farve",
         "social_media_link": {
           "content": "Ikoner på sociale medier",
-          "info": "For at vise dine sociale mediekonti skal du linke dem i dine [temaindstillinger](\/editor?context=theme&category=social%20media).",
+          "info": "For at vise dine sociale mediekonti skal du linke dem i dine [temaindstillinger](/editor?context=theme&category=social%20media).",
           "show_social": "Vis sociale medier ikoner",
           "enable_background_social": "Vis baggrunde på sociale ikoner",
           "social_position": {
@@ -2977,7 +2979,7 @@
             "option": "Betalingsikoner type",
             "option1": "Misligholdelse",
             "option2": "Skik",
-            "info": "Når du vælger \"standard\", for at tilføje betalingsikoner, skal du gå til dine [betalingsindstillinger.](\/admin\/settings\/payments)"
+            "info": "Når du vælger \"standard\", for at tilføje betalingsikoner, skal du gå til dine [betalingsindstillinger.](/admin/settings/payments)"
           },
           "payment_position": {
             "option": "Betalingsposition",
@@ -3090,12 +3092,12 @@
           "background_color_items_cart_mb": "Elementer baggrundsfarve på mobil",
           "color_items_cart_mb": "Varer farve på mobil",
           "font_size_cart_item": "Elementets skriftstørrelse",
-          "language_currency": "Sprog\/valuta",
-          "label__2": "Tekst\/ikon farve 1",
-          "label__3": "Tekst\/ikon farve 2",
-          "label__3_1": "Tekst\/ikon farve 3",
-          "label__4": "Tekst\/ikon farve",
-          "label__5": "Tekst\/ikon svævefarve",
+          "language_currency": "Sprog/valuta",
+          "label__2": "Tekst/ikon farve 1",
+          "label__3": "Tekst/ikon farve 2",
+          "label__3_1": "Tekst/ikon farve 3",
+          "label__4": "Tekst/ikon farve",
+          "label__5": "Tekst/ikon svævefarve",
           "label__6": "Ikon kantfarve",
           "label__7": "Brug skrivemaskine",
           "label__8": "Vis det første indhold på mobilen",
@@ -3119,7 +3121,7 @@
           "bg_bottom": "Nederste baggrund",
           "mg_top": "Menu top polstring",
           "mg_bottom": "Menu bundpolstring",
-          "spacing_left_right": "Varer venstre\/højre polstring",
+          "spacing_left_right": "Varer venstre/højre polstring",
           "spacing_left_menu": "Venstre udfyldning af menuen",
           "spacing_right_menu": "Højre udfyldning af menuen"
         },
@@ -3198,7 +3200,7 @@
           "label__1": "Logo billede",
           "label__2": "Mobillogobillede",
           "label__3": "Desktop logo position",
-          "label__fixed": "Logobillede til sticky header\/fast header",
+          "label__fixed": "Logobillede til sticky header/fast header",
           "label__7": "Logotekst eller SVG-ikon",
           "label__8": "Logotekst eller SVG-ikonfarve",
           "logo_info": "Dette logo vises, når ingen fanemenu er tilføjet",
@@ -3365,7 +3367,8 @@
           "color_link_text": "Knap etiket farve",
           "url": "Knap link",
           "info": "Enhed: % eller px",
-          "info__2": "Indtast navnet på det menupunkt, du gerne vil anvende på denne megamenu."
+          "info__2": "Indtast navnet på det menupunkt, du gerne vil anvende på denne megamenu.",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "Header nav - almindelig",
@@ -3377,8 +3380,8 @@
           "name_7": "Header nav - venstrejusteret",
           "name_8": "Header nav - grundlæggende",
           "name_9": "Header nav - multi-site",
-          "label_2": "Mega menu\/Dropdown menu",
-          "label_3": "Vis sprog\/valuta",
+          "label_2": "Mega menu/Dropdown menu",
+          "label_3": "Vis sprog/valuta",
           "label_5": "Vis i hovedmenuen",
           "label_6": "Vis på klæbrig menu",
           "label_7": "Vis alle",
@@ -3388,7 +3391,7 @@
           "option_3": "Højre polstring",
           "cart_count_bubble": "Boble med tællevogn",
           "search_input": "Søgeinputstil 2",
-          "cart_wishlist_count_bubble": "Optællingsboble for kurv\/ønskeseddel",
+          "cart_wishlist_count_bubble": "Optællingsboble for kurv/ønskeseddel",
           "wishlist_count_bubble": "Ønskeliste tæller boble",
           "search_dropdown": "Søg dropdown",
           "search_dropdown_style": "Søg dropdown stil",
@@ -3519,7 +3522,7 @@
           "label__1": "Vis forfatter",
           "label__2": "Vis dato",
           "label__3": "Vis del",
-          "label__4": "Vis næste\/forrige artikel",
+          "label__4": "Vis næste/forrige artikel",
           "label__5": "Vis hovedbillede",
           "label__6": "Vis tags"
         }
@@ -3587,7 +3590,7 @@
           "options__1": "Grundfarve (brug farvenavn)",
           "options__2": "Avanceret farve (brug billede med PNG-format)",
           "options__3": "Rulning",
-          "info__1": "[Tilpas filtre](\/admin\/menuer)",
+          "info__1": "[Tilpas filtre](/admin/menuer)",
           "info__2": "Indtast filternavn for at vise farveprøvestil",
           "info__3": "Indtast filternavn for at vise rektangelstil",
           "info__4": "Bruges til filtervisning: knappen Vis mere",
@@ -3687,7 +3690,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "For at tilføje billeder, [rediger dine samlinger](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "For at tilføje billeder, [rediger dine samlinger](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3923,7 +3926,7 @@
         },
         "social-media": {
           "label__1": "Vis sociale medier",
-          "label__2": "Tekst\/ikon farve"
+          "label__2": "Tekst/ikon farve"
         },
         "countdown": {
           "label__1": "Tid",
@@ -3964,7 +3967,7 @@
           "label__1": "Bredde",
           "option__1": "Medium",
           "option__2": "Stor",
-          "info": "Få flere oplysninger om [medietyper](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Få flere oplysninger om [medietyper](https://help.shopify.com/manual/products/product-media)"
         },
         "header__3": {
           "content": "Badge"
@@ -3992,20 +3995,20 @@
         },
         "header__12": {
           "content": "Pålidelige billeder",
-          "paragraph": "Betroede billeder viser kun bekræftede billeder af høj kvalitet på produktsider, hvilket øger kundernes tillid og understøtter informerede købsbeslutninger. [Få flere oplysninger](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "Betroede billeder viser kun bekræftede billeder af høj kvalitet på produktsider, hvilket øger kundernes tillid og understøtter informerede købsbeslutninger. [Få flere oplysninger](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "Dynamiske kasseknapper"
         },
         "header__15": {
-          "content": "Næste\/Forrige produkt"
+          "content": "Næste/Forrige produkt"
         },
         "header__16": {
           "content": "Størrelsesskema"
         },
         "header__17": {
           "content": "Mulighed for afhentning",
-          "paragraph": "Viser tilgængelige offline butikker for den valgte variant. [Få flere oplysninger](https:\/\/help.shopify.com\/da\/manual\/fulfillment\/setup\/delivery-methods\/pickup -i butikken)"
+          "paragraph": "Viser tilgængelige offline butikker for den valgte variant. [Få flere oplysninger](https://help.shopify.com/da/manual/fulfillment/setup/delivery-methods/pickup -i butikken)"
         },
         "header__18": {
           "content": "Farvesammenligning"
@@ -4018,14 +4021,14 @@
         },
         "header__21": {
           "content": "Variant metafelt",
-          "paragraph": "Vis variantspecifikt indhold på beskrivelsesfanen, og leverer skræddersyet indhold baseret på den valgte variant. [Få flere oplysninger](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page \/product-information\/how-to-set-up-product-description-for-each-variant)"
+          "paragraph": "Vis variantspecifikt indhold på beskrivelsesfanen, og leverer skræddersyet indhold baseret på den valgte variant. [Få flere oplysninger](https://halosoft.gitbook.io/ella-documentation/product-page /product-information/how-to-set-up-product-description-for-each-variant)"
         },
         "header__22": {
           "content": "Supplerende produkter"
         },
         "header__23": {
           "content": "Positive vibes bundt",
-          "paragraph": "Positive vibes-pakken er en dynamisk funktion designet til at opmuntre til køb ved at vise motiverende beskeder som '60 personer købt 2+ gange' eller '37 solgt inden for de sidste 24 timer' i et kontinuerligt glidende format, hvilket skaber hastende og boostning efterspørgsel efter produkter mere](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "Positive vibes-pakken er en dynamisk funktion designet til at opmuntre til køb ved at vise motiverende beskeder som '60 personer købt 2+ gange' eller '37 solgt inden for de sidste 24 timer' i et kontinuerligt glidende format, hvilket skaber hastende og boostning efterspørgsel efter produkter mere](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "Leveringstid",
@@ -4050,7 +4053,7 @@
           "text": "Tekst"
         },
         "general": {
-          "label__1": "Aktiver klæbrig produktinformation på desktop\/tablet",
+          "label__1": "Aktiver klæbrig produktinformation på desktop/tablet",
           "label__2": "Desktop layout",
           "label__3": "Hovedbilledets position",
           "options__1": "Vis thumbnails til venstre",
@@ -4064,7 +4067,7 @@
           "buy_buttons": "Køb knapper",
           "show_gift_card_recipient": {
             "label": "Vis modtagerformular for gavekortprodukter",
-            "info": "Tillader købere at sende gavekort på en planlagt dato sammen med en personlig besked. [Få flere oplysninger](https:\/\/help.shopify.com\/da\/manual\/online-store\/ themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "Tillader købere at sende gavekort på en planlagt dato sammen med en personlig besked. [Få flere oplysninger](https://help.shopify.com/da/manual/online-store/ themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "Dele",
           "vendor": "Sælger",
@@ -4115,7 +4118,7 @@
           "product_tab_source_info": "Kun gældende, når indstillingen 'Vis indhold for' er indstillet til 'Specifikke produkter, der bruger metafelt'.",
           "dynamic_source": "Dynamisk kilde",
           "key_text_source": "Produktmetafeltnøgle",
-          "product_tab_key_info": "Kun gældende, når indstillingen 'Vis indhold for' er indstillet til 'Specifikke produkter ved hjælp af metafield' og 'Indholdskilde'-indstillingen er indstillet til 'Product metafield key'. [Få flere oplysninger](https:\/\/halosoft .gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "Kun gældende, når indstillingen 'Vis indhold for' er indstillet til 'Specifikke produkter ved hjælp af metafield' og 'Indholdskilde'-indstillingen er indstillet til 'Product metafield key'. [Få flere oplysninger](https://halosoft .gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "Aktiv thumbnail farve",
           "navigation_arrows_color_mobile": "Navigationspile farve på mobil",
           "read_more": "Læs mere",
@@ -4135,7 +4138,7 @@
           "options__9": "Hold musen over hovedbillederne",
           "unit": "%",
           "layout_video": "Video layout",
-          "info__1": "Få mere at vide om [media fit](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)" ,
+          "info__1": "Få mere at vide om [media fit](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)",
           "info__2": "Ikke relevant, når medietilpasningsindstillingen er sat til original.",
           "info__3": "Gælder kun for portrætindstillingen for produktbilledforholdsindstillingen."
         },
@@ -4176,7 +4179,7 @@
         "variant": {
           "label__2": "Aktiver variantbillede grupperet",
           "options__1": "Dropdown",
-          "options__2": "Firkantet\/Rektangel\/Swatch",
+          "options__2": "Firkantet/Rektangel/Swatch",
           "variant_picker": "Variantvælger"
         },
         "quantity": {
@@ -4201,11 +4204,11 @@
         },
         "dynamic_checkout": {
           "label": "Vis dynamiske betalingsknapper",
-          "info": "Ved at bruge de tilgængelige betalingsmetoder i din butik, vil kunderne se deres foretrukne valgmulighed, såsom paypal eller apple pay. [Få flere oplysninger](https:\/\/help.shopify.com\/manual\/using- temaer\/ændre-layout\/dynamic-checkout)"
+          "info": "Ved at bruge de tilgængelige betalingsmetoder i din butik, vil kunderne se deres foretrukne valgmulighed, såsom paypal eller apple pay. [Få flere oplysninger](https://help.shopify.com/manual/using- temaer/ændre-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "Vis næste\/forrige produkt",
-          "info": "Vis produktet af det næste\/forrige produkt i kollektionen"
+          "label": "Vis næste/forrige produkt",
+          "info": "Vis produktet af det næste/forrige produkt i kollektionen"
         },
         "size_chart": {
           "label__1": "Aktiver størrelsesdiagram",
@@ -4276,7 +4279,7 @@
           "label__1": "Vis supplerende produkt",
           "label__2": "Komplementær produktstil 1",
           "label__3": "Komplementær produktstil 2",
-          "info__1": "For at vælge supplerende produkter skal du tilføje søge- og opdagelsesappen. [Få flere oplysninger](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "For at vælge supplerende produkter skal du tilføje søge- og opdagelsesappen. [Få flere oplysninger](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4301,7 +4304,7 @@
             "options__1": "Alle produkter",
             "options__2": "Specifikke produkter, der bruger metafield",
             "info_1": "Kun gældende, når indstillingen 'Vis indhold for' er indstillet til 'Alle produkter'.",
-            "info_2": "[Få mere at vide om, hvordan du opsætter en tilpasset fane ved hjælp af metafield](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields "
+            "info_2": "[Få mere at vide om, hvordan du opsætter en tilpasset fane ved hjælp af metafield](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields "
           }
         },
         "grouped_product": {
@@ -4436,8 +4439,8 @@
         "info": "Gælder for 'indholdsposition', som er 'Relativ'",
         "info_2": "Højre blok beregnes automatisk",
         "title_align": "Indholdsjustering",
-        "align_items_spacing_tb": "Indhold: mellemrum top\/afstand bund",
-        "align_items_spacing_lr": "Indhold: mellemrum venstre\/højre",
+        "align_items_spacing_tb": "Indhold: mellemrum top/afstand bund",
+        "align_items_spacing_lr": "Indhold: mellemrum venstre/højre",
         "enable_item_1": "Aktiver element 1",
         "enable_item_2": "Aktiver element 2",
         "enable_item_3": "Aktiver punkt 3",
@@ -4632,7 +4635,7 @@
           "name": "Samlingsbillede",
           "settings": {
             "paragraph": {
-              "content": "For at ændre samlingsbeskrivelser eller samlingsbilleder, [rediger dine samlinger.](\/admin\/collections)"
+              "content": "For at ændre samlingsbeskrivelser eller samlingsbilleder, [rediger dine samlinger.](/admin/collections)"
             },
             "general": {
               "label__1": "Vis parallakse banner",
@@ -4653,7 +4656,7 @@
             },
             "description": {
               "label__1": "Vis samlingsbeskrivelse",
-              "label__2": "Vis 'læs mere'\/'læs mindre'",
+              "label__2": "Vis 'læs mere'/'læs mindre'",
               "label__3": "Position",
               "label__4": "Vis samlingens titel",
               "label__5": "Samling beskrivelse tilpasning",
@@ -4714,7 +4717,7 @@
         },
         "general": {
           "label": "Aktiver produktpakke",
-          "info": "Få flere oplysninger [produktpakke](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "Få flere oplysninger [produktpakke](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "Aktiver bundterabat",
@@ -4812,10 +4815,10 @@
     "app_partner": {
       "name": "App partner",
       "enable_promotion": "Aktiver PageFly-tilbud",
-      "label_1": "1. Til anmeldelsesfunktionen: Brug [Loox-appen](https:\/\/shopify.pxf.io\/y2D52b) og få en 30-dages prøveperiode. [Hvordan sætter man Loox op?](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. Eksklusivt tilbud: 3 måneders brug af 20 PageFly-sider for kun $1\/måned. [Grib tilbuddet nu](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. Brug [UpPromote affiliate & Referral](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs) og få 20% rabat.",
-      "label_4": "4. Forbedr webstedets ydeevne med [Avada SEO suite](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
+      "label_1": "1. Til anmeldelsesfunktionen: Brug [Loox-appen](https://shopify.pxf.io/y2D52b) og få en 30-dages prøveperiode. [Hvordan sætter man Loox op?](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. Eksklusivt tilbud: 3 måneders brug af 20 PageFly-sider for kun $1/måned. [Grib tilbuddet nu](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. Brug [UpPromote affiliate & Referral](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs) og få 20% rabat.",
+      "label_4": "4. Forbedr webstedets ydeevne med [Avada SEO suite](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
     },
     "slidable_spotlight": {
       "name": "Skydbar spotlight",
@@ -4905,7 +4908,7 @@
           "country": "Land",
           "cross_street": "Tværgade",
           "postal_code": "postnummer",
-          "state": "stat\/provins",
+          "state": "stat/provins",
           "info": "f.eks.: (202) 387-9338",
           "map_iframe": "Indsæt Google map iframe"
         }
@@ -4923,12 +4926,12 @@
         "tiktok_video": {
           "name": "Tiktok video",
           "embed_code": "Video-id",
-          "info__1": "[Instruktioner til at få tiktok-video-id](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[Instruktioner til at få tiktok-video-id](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "Før\/Efter billedskyder",
+      "name": "Før/Efter billedskyder",
       "settings": {
         "content_position": "Indholdsposition",
         "above": "Sammenlign billeder ovenfor",

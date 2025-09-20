@@ -4953,7 +4953,7 @@
       "name": "Marquee",
       "settings": {
         "gap_blocks": "Spacing between blocks",
-        "cenner_banner": "Center banner"
+        "center_banner": "Center banner"
       },
       "blocks": {
         "name": "Content"

@@ -86,7 +86,7 @@
           "label__3": "Mobil laddning ikon färg"
         },
         "colors_breadcrumb": {
-          "label__4": "Brödsmulbakgrund\/gradient endast för brödsmullayout 2 och 3"
+          "label__4": "Brödsmulbakgrund/gradient endast för brödsmullayout 2 och 3"
         },
         "spinner_colors": {
           "content": "Laddar spinner",
@@ -134,7 +134,7 @@
           "product_page_gallery": "Galleri",
           "product_page_left_thumbs": "Vänster vertikala miniatyrer",
           "product_page_right_thumbs": "Höger vertikala miniatyrer",
-          "product_page_left_right_sidebar": "Vänster\/Höger sidofält",
+          "product_page_left_right_sidebar": "Vänster/Höger sidofält",
           "product_page_horizontal_tabs_no_sidebar": "Horisontella flikar utan sidofält",
           "product_page_step_by_step": "Steg för Steg",
           "header_layout_rtl": "Höger till vänster layout",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "ISO-kodlista för RTL-språk",
           "list_iso_rtl_info": "Separera varje språk ISO-kod med ett ','. T.ex.: ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "Lista ut språk ISO-koder för att automatiskt växla till RTL-layout: ar:(arabiska); dv:(Dhivehi,maldiviska); ha:(Hausa); han:(hebreiska); ku:(kurdiska\/sorani); fa:(persiska\/farsi); ur:(urdu); ps:(Pashto); yi:(jiddisch)"
+          "list_iso_rtl_note": "Lista ut språk ISO-koder för att automatiskt växla till RTL-layout: ar:(arabiska); dv:(Dhivehi,maldiviska); ha:(Hausa); han:(hebreiska); ku:(kurdiska/sorani); fa:(persiska/farsi); ur:(urdu); ps:(Pashto); yi:(jiddisch)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "Fontkälla",
           "options__1": "Google typsnitt",
           "options__2": "Shopify-teckensnitt",
-          "info": "För att använda google fonts, lägg till fontnamnet. [Läs mer](https:\/\/fonts.google.com\/)",
+          "info": "För att använda google fonts, lägg till fontnamnet. [Läs mer](https://fonts.google.com/)",
           "info_shopify_font": "Optimera din webbplats prestanda genom att använda shopify-teckensnitt!",
           "info_language": "När du konfigurerar ett språk i anpassningsinställningarna är det viktigt att även skapa samma språkpreferens inom de administrativa inställningarna."
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "Kroppstypsnitt",
           "label": "Shopify-teckensnitt",
-          "info": "Att välja ett annat teckensnitt kan påverka hastigheten i din butik. [Läs mer om systemteckensnitt.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Att välja ett annat teckensnitt kan påverka hastigheten i din butik. [Läs mer om systemteckensnitt.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "Rubrik teckensnitt",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "Mega meny nivå 2",
           "title_mega_menu_lv3": "Mega meny nivå 3",
           "label": "Teckensnittsfamilj för navigation",
-          "info": "Att välja ett annat teckensnitt kan påverka hastigheten i din butik. [Läs mer om systemteckensnitt.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Att välja ett annat teckensnitt kan påverka hastigheten i din butik. [Läs mer om systemteckensnitt.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "Teckensnitt för produktobjekt",
@@ -237,7 +237,7 @@
           "yes": "Ja",
           "no": "Inga",
           "label": "Knapp 1 teckensnittsfamilj",
-          "info": "Att välja ett annat teckensnitt kan påverka hastigheten i din butik. [Läs mer om systemteckensnitt.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "Att välja ett annat teckensnitt kan påverka hastigheten i din butik. [Läs mer om systemteckensnitt.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "Visa disposition",
           "cta_button": "CTA-knapp"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "\"Visa alla\" ikonposition",
           "view_all_font_size": "\"Visa alla\" teckenstorlek",
           "view_all_width": "\"Visa alla\" bredd",
-          "view_all_info": "Gå till den här länken [hitta din ikon](https:\/\/fontawesome.com\/v5\/search). Hitta ikonen du vill ha, kopiera sedan SVG-koden och klistra in den här.",
-          "logo_icon_info": "Gäller endast när logotypen lämnas tom. Gå till den här länken [hitta din ikon](https:\/\/fontawesome.com\/v5\/search). Hitta ikonen du vill ha, kopiera sedan SVG-koden och klistra in den här.",
+          "view_all_info": "Gå till den här länken [hitta din ikon](https://fontawesome.com/v5/search). Hitta ikonen du vill ha, kopiera sedan SVG-koden och klistra in den här.",
+          "logo_icon_info": "Gäller endast när logotypen lämnas tom. Gå till den här länken [hitta din ikon](https://fontawesome.com/v5/search). Hitta ikonen du vill ha, kopiera sedan SVG-koden och klistra in den här.",
           "item": "Föremål",
-          "item_padding_top_bottom": "Topp\/botten stoppning",
-          "item_padding_left_right": "Vänster\/Höger stoppning",
+          "item_padding_top_bottom": "Topp/botten stoppning",
+          "item_padding_left_right": "Vänster/Höger stoppning",
           "item_padding_top": "Artikel topp stoppning",
           "item_padding_bottom": "Objekt bottenstoppning",
           "item_width": "Objektets bredd",
@@ -429,19 +429,19 @@
           "icon_color_hover": "Ikon svävar färg",
           "icon_color_mb": "Ikonfärg på mobilen",
           "icon_width": "Ikoner bredd",
-          "icon_width_info": "Tillämpligt när text-\/ikonvisningsinställningen är inställd på ikon",
+          "icon_width_info": "Tillämpligt när text-/ikonvisningsinställningen är inställd på ikon",
           "icon_height": "Ikoner höjd",
           "icon_width_1": "Ikonbredd",
           "icon_height_1": "Ikonhöjd",
           "icon_width_mb": "Ikonbredd på mobil",
           "icon_height_mb": "Ikonhöjd på mobil",
-          "icon_mg_right": "Text\/SVG-ikon högermarginal",
+          "icon_mg_right": "Text/SVG-ikon högermarginal",
           "icon_mg_bottom": "Ikonavstånd botten",
           "icon_spacing_mobile": "Ikonavstånd på mobil",
-          "icon_type": "Använd bild eller text\/SVG-ikon",
+          "icon_type": "Använd bild eller text/SVG-ikon",
           "icons_type": "Typ av ikoner",
           "icons_type_info": "Endast tillämpligt när inställningen 'ikontyp' är inställd på Ikon.",
-          "text_svg_icon": "Text\/SVG-ikon",
+          "text_svg_icon": "Text/SVG-ikon",
           "layout_mobile": "Mobil layout",
           "layout_mobile_info": "Endast tillämpligt för rutnätslayout",
           "list": "Lista",
@@ -518,7 +518,7 @@
           "beside_the_title": "Bredvid titeln",
           "width_on_desktop": "Bredd på skrivbordet",
           "section_footer": "Sektionssidfot",
-          "prev_next_button": "Föregående\/Nästa-knapp",
+          "prev_next_button": "Föregående/Nästa-knapp",
           "info_mobile_layout": "Endast tillämpligt när inställningen 'mobil layout' är inställd på skjutreglaget.",
           "header_block": {
             "option_1": "Titel kvar med vy alla vänster",
@@ -526,7 +526,8 @@
             "option_3": "Titel mitt med vy alla vänster",
             "option_4": "Titel mitt med vy okej",
             "option_5": "Titel mitt med se alla nedan"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "Teckensnitt för sidfot"
@@ -577,23 +578,23 @@
         "whatsapp_label": "Dela på Whatsapp",
         "header__2": "Sociala konton",
         "social_twitter_link_label": "Twitter länk",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "Facebook länk",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "Pinterest länk",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "Instagram länk",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "TikTok-länk",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "Tumblr länk",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "Snapchat länk",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "YouTube-länk",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "Vimeo länk",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "Anpassningsalternativ",
-          "info": "Anpassningsalternativ används för att samla in anpassningsinformation för en vara som lagts till i kundvagnen. Denna information kan samlas in från köparen på produktsidan och snabbvyn. [Läs mer](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "Anpassningsalternativ används för att samla in anpassningsinformation för en vara som lagts till i kundvagnen. Denna information kan samlas in från köparen på produktsidan och snabbvyn. [Läs mer](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "Favoritbild",
@@ -651,8 +652,8 @@
           "label__7": "Sekretesspolicy knapp länk",
           "label__8": "Acceptera cookies knappetikett",
           "color_privacy_policy": "Sekretesspolicy knapp färg",
-          "info__1": "[Läs mer](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies)",
-          "info__2": "Exempel: https:\/\/policies.google.com"
+          "info__1": "[Läs mer](https://help.shopify.com/en/manual/your-account/privacy/cookies)",
+          "info__2": "Exempel: https://policies.google.com"
         },
         "wishlist": {
           "label": "Aktivera önskelista",
@@ -735,7 +736,7 @@
           "style_10": "Stil 10"
         },
         "trust_image": {
-          "info__1": "Produktsida\/Snabbvy",
+          "info__1": "Produktsida/Snabbvy",
           "info__2": "Varukorgssida"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "Visa paketmärke",
           "label__23": "Fontstorlek",
           "label__24": "Hörnradie",
-          "label__26": "Vänster\/Höger stoppning",
+          "label__26": "Vänster/Höger stoppning",
           "label__28": "Vertikal position",
           "label__29": "Horisontellt läge",
           "options__3": "Dynamisk",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "Visa önskelista",
-          "label__4": "Text\/ikon aktiv",
+          "label__4": "Text/ikon aktiv",
           "label__5": "Bakgrunden aktiv",
           "label__9": "Gräns ​​aktiv",
           "label__10": "Visa önskelista på mobilen",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "Visa snabbvy",
           "label__2": "Snabbvy stil",
-          "label__3": "Text\/ikon",
-          "label__5": "Sväva text\/ikon",
+          "label__3": "Text/ikon",
+          "label__5": "Sväva text/ikon",
           "label__6": "Bakgrundssvävare",
           "label__7": "Snabbvy & önskelista position",
           "label__8": "Visa snabbvy på mobilen",
@@ -955,10 +956,10 @@
         "currency_format_enable": "Aktivera valutaformat",
         "info_currency_format": "Varukorgs- och kassapriser visar alltid valutakoder. Exempel: 1,00 USD.",
         "enable_shopify_payments_currencies": "Vill du aktivera shopify-betalningar?",
-        "info_1": "Endast tillgängligt för butiker med shopify-betalningar. Länk [här](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_1": "Endast tillgängligt för butiker med shopify-betalningar. Länk [här](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "enable_multiple_currencies": "Vill du aktivera flera valutor?",
         "enable_auto_currency": "Aktivera automatisk valuta?",
-        "info_2": "Välj inte alla tre alternativen samtidigt eller kombinera shopify-betalning med andra. Länk [här](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_2": "Välj inte alla tre alternativen samtidigt eller kombinera shopify-betalning med andra. Länk [här](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "i-currency-1": "SVG-ikon för valutakod 1",
         "currency_1_unit": "Valutakod 1",
         "usd": "USD",
@@ -982,8 +983,8 @@
         "currency_9_unit": "Valutakod 9",
         "i-currency-10": "SVG-ikon för valutakod 10",
         "currency_10_unit": "Valutakod 10",
-        "paragraph_1": "Separera dina valutakoder med ett mellanslag. Använd ISO 4217 3-bokstavsvalutakoden. Klicka [här](http:\/\/www.xe.com\/iso4217.php) för en komplett lista över valutakoder. Exempel: CAD USD.",
-        "paragraph_2": "För att den här funktionen ska fungera i din butik måste du redigera dina pengaformat enligt [dessa instruktioner](http:\/\/help.shopify.com\/en\/themes\/customization\/ valutor). (Ange var pengaformatet finns.)",
+        "paragraph_1": "Separera dina valutakoder med ett mellanslag. Använd ISO 4217 3-bokstavsvalutakoden. Klicka [här](http://www.xe.com/iso4217.php) för en komplett lista över valutakoder. Exempel: CAD USD.",
+        "paragraph_2": "För att den här funktionen ska fungera i din butik måste du redigera dina pengaformat enligt [dessa instruktioner](http://help.shopify.com/en/themes/customization/ valutor). (Ange var pengaformatet finns.)",
         "select_a_currency": "Välj en valutafunktion",
         "option_1": "Shopify-betalning",
         "option_2": "Flera valutor",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "Visa snabbredigeringsvagn",
-          "options__5": "Knapp\/Swatch"
+          "options__5": "Knapp/Swatch"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "Nedräkning",
-      "info": "Nedräkning visar kunderna under vilken tidsperiod produkten är med i kampanjen. [Läs mer](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "Nedräkning visar kunderna under vilken tidsperiod produkten är med i kampanjen. [Läs mer](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "Visa nedräkning",
@@ -1316,7 +1317,7 @@
           "options__2": "För varje produkt",
           "options__3": "För samlingen",
           "info": "Exempel: Dec 31, 2024 18:00:00",
-          "info__1": "Använd detta exakta format: åååå\/mm\/dd timme\/minut\/sekund. Exempel: 2024\/12\/4 0:0:00."
+          "info__1": "Använd detta exakta format: åååå/mm/dd timme/minut/sekund. Exempel: 2024/12/4 0:0:00."
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "Inriktning",
-          "label__2": "Justering (överst\/mitten\/botten)",
-          "label__3": "Justering (vänster\/mitten\/höger\/justera)",
+          "label__2": "Justering (överst/mitten/botten)",
+          "label__3": "Justering (vänster/mitten/höger/justera)",
           "label__4": "Justering på mobil",
           "label__5": "Vänsterposition för innehåll",
           "options__4": "Rättfärdiga",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "Titel\/Rubrik typografi"
+            "content": "Titel/Rubrik typografi"
           },
           "paragraph__2": {
             "content": "Texttypografi"
           },
           "paragraph__3": {
-            "content": "Typografi av datum\/författare\/kommentar"
+            "content": "Typografi av datum/författare/kommentar"
           },
           "font_style": "Typsnittsstil"
         }
@@ -1854,7 +1855,7 @@
           "select_menu": "Kategorimeny",
           "recommen_image": "Rekommenderad bild: 250 x 250 px",
           "banner_link": "Bannerlänk",
-          "info__1": "Ladda upp bilder med samma namn som menyhandtaget för att visa bilder för varje kategori. [Läs mer](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow -gilla-på-supermarket-hemsidan)"
+          "info__1": "Ladda upp bilder med samma namn som menyhandtaget för att visa bilder för varje kategori. [Läs mer](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow -gilla-på-supermarket-hemsidan)"
         }
       },
       "presets": {
@@ -2083,9 +2084,9 @@
         "content_spacing": "Innehållsutfyllnad",
         "align_items_spacing_top": "Innehållets övre marginal",
         "align_items_spacing_bottom": "Innehållets nedre marginal",
-        "align_items_spacing_lr": "Innehåll vänster\/höger avstånd",
-        "align_items_spacing_top_bottom_position": "Innehållsavstånd upptill\/botten",
-        "align_items_spacing_top_bottom_position_mb": "Innehållsavstånd upptill\/botten på mobilen",
+        "align_items_spacing_lr": "Innehåll vänster/höger avstånd",
+        "align_items_spacing_top_bottom_position": "Innehållsavstånd upptill/botten",
+        "align_items_spacing_top_bottom_position_mb": "Innehållsavstånd upptill/botten på mobilen",
         "content_1": "Blockera föremål",
         "enable_shadow": "Visa boxskugga",
         "use_special_header_layout": "Använd speciell layout",
@@ -2134,8 +2135,8 @@
           "blog_style_1": "Nedanför bilden",
           "blog_style_2": "Överlappa bilden",
           "show_link_as": "Visa länken \"visa detaljer\" som knapp",
-          "link_button_color": "Länk\/knapp etikett färg",
-          "link_button_hover_color": "Länk\/knappetikett svävarfärg"
+          "link_button_color": "Länk/knapp etikett färg",
+          "link_button_hover_color": "Länk/knappetikett svävarfärg"
         }
       },
       "presets": {
@@ -2221,7 +2222,7 @@
         "tab": {
           "name": "Flikobjekt",
           "show_image": "Visa flikbild",
-          "info": "Välj en navigering för att visa blockobjekten. [Läs mer om hur du laddar upp bilder.](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show -images-for-brand-tab-section)"
+          "info": "Välj en navigering för att visa blockobjekten. [Läs mer om hur du laddar upp bilder.](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show -images-for-brand-tab-section)"
         }
       },
       "settings": {
@@ -2264,7 +2265,7 @@
         "info": "Endast tillämpligt när inställningen för innehållsjustering är inställd på mitten.",
         "enable_map": "Visa google map",
         "map_iframe": "Bädda in en karta",
-        "info__1": "Du måste gå till [Google maps](https:\/\/www.google.com\/maps) för att få HTML-inbäddningskoden.",
+        "info__1": "Du måste gå till [Google maps](https://www.google.com/maps) för att få HTML-inbäddningskoden.",
         "button": {
           "label__8": "Maximal knappbredd"
         }
@@ -2594,7 +2595,7 @@
           "product_block_02": "Produktblockduo",
           "feature_product": "Utvald produkt",
           "feature_product_unsymmetrical": "Produktens höjdpunkt",
-          "info_tablet_mobile": "Använd för mobil\/surfplatta"
+          "info_tablet_mobile": "Använd för mobil/surfplatta"
         },
         "product_block_layout": {
           "option": "Layout",
@@ -2650,11 +2651,11 @@
           "content": "Skjutreglage layout",
           "product_block_dots": "Visa navigeringspunkter",
           "product_block_dots_desk": "Visa navigeringspunkter på skrivbordet",
-          "product_block_dots_mb": "Visa navigeringspunkter på mobil\/surfplatta",
+          "product_block_dots_mb": "Visa navigeringspunkter på mobil/surfplatta",
           "product_block_dots_spacing_top": "Den övre marginalen på navigeringspunkterna",
           "product_block_arrows": "Visa navigeringspilar",
           "product_block_arrows_desk": "Visa navigeringspilar på skrivbordet",
-          "product_block_arrows_mb": "Visa navigeringspilar på mobil\/surfplatta",
+          "product_block_arrows_mb": "Visa navigeringspilar på mobil/surfplatta",
           "product_block_arrows_position": "Aktivera anpassad positionering av navigeringspilar på skrivbordet",
           "use_special_arrow_position": "Använd speciell pilposition",
           "enable_progress_bar": "Visa rullningslist",
@@ -2692,8 +2693,8 @@
             "info__1": "Positionen optimeras automatiskt för mobilen."
           },
           "name": "Baner",
-          "align_items_spacing_tb": "Innehåll topp\/botten stoppning",
-          "align_items_spacing_lr": "Innehåll vänster\/höger stoppning",
+          "align_items_spacing_tb": "Innehåll topp/botten stoppning",
+          "align_items_spacing_lr": "Innehåll vänster/höger stoppning",
           "position_vertical_arrow": "Vertikal position (enhet % eller px)",
           "info__1": "Gäller endast när inställningen 'innehållsposition' är inställd på topp eller botten.",
           "info__2": "Gäller endast när inställningen \"innehållsjustering\" är inställd på vänster eller höger."
@@ -2892,7 +2893,7 @@
         "box_shadow_hover_color": "Box skugga svävar färg",
         "social_media_link": {
           "content": "Ikoner för sociala medier",
-          "info": "För att visa dina sociala mediekonton, länka dem i dina [temainställningar](\/editor?context=theme&category=social%20media).",
+          "info": "För att visa dina sociala mediekonton, länka dem i dina [temainställningar](/editor?context=theme&category=social%20media).",
           "show_social": "Visa ikoner för sociala medier",
           "enable_background_social": "Visa bakgrunder på sociala ikoner",
           "social_position": {
@@ -2978,7 +2979,7 @@
             "option": "Betalningsikoner typ",
             "option1": "Standard",
             "option2": "Beställnings",
-            "info": "När du väljer \"standard\" för att lägga till betalningsikoner, gå till dina [betalningsinställningar.](\/admin\/settings\/payments)"
+            "info": "När du väljer \"standard\" för att lägga till betalningsikoner, gå till dina [betalningsinställningar.](/admin/settings/payments)"
           },
           "payment_position": {
             "option": "Betalningsposition",
@@ -3091,12 +3092,12 @@
           "background_color_items_cart_mb": "Objekt bakgrundsfärg på mobil",
           "color_items_cart_mb": "Objekts färg på mobilen",
           "font_size_cart_item": "Objektets teckenstorlek",
-          "language_currency": "Språk\/valuta",
-          "label__2": "Text\/ikon färg 1",
-          "label__3": "Text\/ikon färg 2",
-          "label__3_1": "Text\/ikon färg 3",
-          "label__4": "Text\/ikon färg",
-          "label__5": "Färg på text\/ikon",
+          "language_currency": "Språk/valuta",
+          "label__2": "Text/ikon färg 1",
+          "label__3": "Text/ikon färg 2",
+          "label__3_1": "Text/ikon färg 3",
+          "label__4": "Text/ikon färg",
+          "label__5": "Färg på text/ikon",
           "label__6": "Ikon kantfärg",
           "label__7": "Använd skrivmaskin",
           "label__8": "Visa första innehållet på mobilen",
@@ -3120,7 +3121,7 @@
           "bg_bottom": "Nedre bakgrund",
           "mg_top": "Meny toppstoppning",
           "mg_bottom": "Meny bottenstoppning",
-          "spacing_left_right": "Objekt vänster\/höger stoppning",
+          "spacing_left_right": "Objekt vänster/höger stoppning",
           "spacing_left_menu": "Vänster utfyllnad av menyn",
           "spacing_right_menu": "Höger utfyllnad av menyn"
         },
@@ -3199,7 +3200,7 @@
           "label__1": "Logotypbild",
           "label__2": "Mobil logotypbild",
           "label__3": "Position för skrivbordets logotyp",
-          "label__fixed": "Logotypbild för sticky header\/fast header",
+          "label__fixed": "Logotypbild för sticky header/fast header",
           "label__7": "Logotyptext eller SVG-ikon",
           "label__8": "Logotyptext eller SVG-ikonfärg",
           "logo_info": "Den här logotypen visas när ingen flikmeny läggs till",
@@ -3366,7 +3367,8 @@
           "color_link_text": "Knapp etikett färg",
           "url": "Knapplänk",
           "info": "Enhet: % eller px",
-          "info__2": "Ange namnet på menyalternativet du vill använda på denna megameny."
+          "info__2": "Ange namnet på menyalternativet du vill använda på denna megameny.",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "Header nav - vanlig",
@@ -3378,8 +3380,8 @@
           "name_7": "Rubriknavigering - vänsterjusterad",
           "name_8": "Header nav - grundläggande",
           "name_9": "Header nav - multi-site",
-          "label_2": "Megameny\/rullgardinsmeny",
-          "label_3": "Visa språk\/valuta",
+          "label_2": "Megameny/rullgardinsmeny",
+          "label_3": "Visa språk/valuta",
           "label_5": "Visa på huvudmenyn",
           "label_6": "Visa på klibbig meny",
           "label_7": "Visa alla",
@@ -3389,7 +3391,7 @@
           "option_3": "Rätt stoppning",
           "cart_count_bubble": "Varukorgsräkningsbubbla",
           "search_input": "Sökinmatningsstil 2",
-          "cart_wishlist_count_bubble": "Varukorg\/önskelista räkna bubbla",
+          "cart_wishlist_count_bubble": "Varukorg/önskelista räkna bubbla",
           "wishlist_count_bubble": "Bubbla för antal önskelista",
           "search_dropdown": "Sök rullgardinsmeny",
           "search_dropdown_style": "Sök rullgardinsstil",
@@ -3520,7 +3522,7 @@
           "label__1": "Visa författare",
           "label__2": "Visa datum",
           "label__3": "Visa andel",
-          "label__4": "Visa nästa\/föregående artikel",
+          "label__4": "Visa nästa/föregående artikel",
           "label__5": "Visa huvudbild",
           "label__6": "Visa taggar"
         }
@@ -3588,7 +3590,7 @@
           "options__1": "Grundfärg (använd färgnamn)",
           "options__2": "Avancerad färg (använd bild med PNG-format)",
           "options__3": "Scrollar",
-          "info__1": "[Anpassa filter](\/admin\/menyer)",
+          "info__1": "[Anpassa filter](/admin/menyer)",
           "info__2": "Mata in filternamn för att visa färgrutestil",
           "info__3": "Ange filternamn för att visa rektangelstil",
           "info__4": "Används för filtervisning: visa mer-knapp",
@@ -3688,7 +3690,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "För att lägga till bilder, [redigera dina samlingar](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "För att lägga till bilder, [redigera dina samlingar](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3924,7 +3926,7 @@
         },
         "social-media": {
           "label__1": "Visa sociala medier",
-          "label__2": "Text\/ikon färg"
+          "label__2": "Text/ikon färg"
         },
         "countdown": {
           "label__1": "Tid",
@@ -3965,7 +3967,7 @@
           "label__1": "Bredd",
           "option__1": "Medium",
           "option__2": "Stor",
-          "info": "Läs mer om [medietyper](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Läs mer om [medietyper](https://help.shopify.com/manual/products/product-media)"
         },
         "header__3": {
           "content": "Emblem"
@@ -3993,20 +3995,20 @@
         },
         "header__12": {
           "content": "Pålitliga bilder",
-          "paragraph": "Pålitliga bilder visar endast verifierade bilder av hög kvalitet på produktsidor, vilket ökar kundernas förtroende och stödjer informerade köpbeslut. [Läs mer](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "Pålitliga bilder visar endast verifierade bilder av hög kvalitet på produktsidor, vilket ökar kundernas förtroende och stödjer informerade köpbeslut. [Läs mer](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "Dynamiska kassaknappar"
         },
         "header__15": {
-          "content": "Nästa\/Föregående produkt"
+          "content": "Nästa/Föregående produkt"
         },
         "header__16": {
           "content": "Storlekstabell"
         },
         "header__17": {
           "content": "Tillgänglighet för upphämtning",
-          "paragraph": "Visar tillgängliga offlinebutiker för den valda varianten. [Läs mer](https:\/\/help.shopify.com\/en\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "Visar tillgängliga offlinebutiker för den valda varianten. [Läs mer](https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "Färgjämförelse"
@@ -4019,14 +4021,14 @@
         },
         "header__21": {
           "content": "Variant metafält",
-          "paragraph": "Visa variantspecifikt innehåll på beskrivningsfliken och tillhandahåll skräddarsytt innehåll baserat på den valda varianten. [Läs mer](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant )"
+          "paragraph": "Visa variantspecifikt innehåll på beskrivningsfliken och tillhandahåll skräddarsytt innehåll baserat på den valda varianten. [Läs mer](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant )"
         },
         "header__22": {
           "content": "Kompletterande produkter"
         },
         "header__23": {
           "content": "Positiva vibbar",
-          "paragraph": "Positiva vibes-paketet är en dynamisk funktion utformad för att uppmuntra köp genom att visa motiverande meddelanden som \"60 personer köpt 2+ gånger\" eller \"37 sålda under de senaste 24 timmarna\" i ett kontinuerligt glidande format, vilket skapar brådskande och ökad efterfrågan på produkter. [Läs mer](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "Positiva vibes-paketet är en dynamisk funktion utformad för att uppmuntra köp genom att visa motiverande meddelanden som \"60 personer köpt 2+ gånger\" eller \"37 sålda under de senaste 24 timmarna\" i ett kontinuerligt glidande format, vilket skapar brådskande och ökad efterfrågan på produkter. [Läs mer](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "Leveranstid",
@@ -4051,7 +4053,7 @@
           "text": "Text"
         },
         "general": {
-          "label__1": "Aktivera klibbig produktinformation på skrivbordet\/surfplattan",
+          "label__1": "Aktivera klibbig produktinformation på skrivbordet/surfplattan",
           "label__2": "Skrivbordslayout",
           "label__3": "Huvudbildens position",
           "options__1": "Visa miniatyrer till vänster",
@@ -4065,7 +4067,7 @@
           "buy_buttons": "Köp knappar",
           "show_gift_card_recipient": {
             "label": "Visa mottagarformulär för presentkortsprodukter",
-            "info": "Tillåter köpare att skicka presentkort på ett schemalagt datum tillsammans med ett personligt meddelande. [Läs mer](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "Tillåter köpare att skicka presentkort på ett schemalagt datum tillsammans med ett personligt meddelande. [Läs mer](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "Dela",
           "vendor": "Försäljare",
@@ -4116,7 +4118,7 @@
           "product_tab_source_info": "Endast tillämpligt när inställningen 'Visa innehåll för' är inställd på 'Specifika produkter som använder metafält'.",
           "dynamic_source": "Dynamisk källa",
           "key_text_source": "Produktens metafältnyckel",
-          "product_tab_key_info": "Endast tillämpligt när inställningen 'Visa innehåll för' är inställd på 'Specifika produkter som använder metafält' och inställningen 'Innehållskälla' är inställd på 'Produktmetafältnyckel'. [Läs mer](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "Endast tillämpligt när inställningen 'Visa innehåll för' är inställd på 'Specifika produkter som använder metafält' och inställningen 'Innehållskälla' är inställd på 'Produktmetafältnyckel'. [Läs mer](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "Aktiv tumnagelfärg",
           "navigation_arrows_color_mobile": "Navigeringspilar färg på mobilen",
           "read_more": "Läs mer",
@@ -4136,7 +4138,7 @@
           "options__9": "Håll muspekaren över huvudbilderna",
           "unit": "%",
           "layout_video": "Video layout",
-          "info__1": "Läs mer om [media fit](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)",
+          "info__1": "Läs mer om [media fit](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)",
           "info__2": "Ej tillämpligt när mediapassningsinställningen är inställd på original.",
           "info__3": "Endast tillämpligt för porträttalternativet för produktbildförhållandet."
         },
@@ -4177,7 +4179,7 @@
         "variant": {
           "label__2": "Aktivera variantbild grupperad",
           "options__1": "Dropdown",
-          "options__2": "Fyrkant\/Rektangel\/Swatch",
+          "options__2": "Fyrkant/Rektangel/Swatch",
           "variant_picker": "Variantväljare"
         },
         "quantity": {
@@ -4202,11 +4204,11 @@
         },
         "dynamic_checkout": {
           "label": "Visa dynamiska kassaknappar",
-          "info": "Med hjälp av de betalningsmetoder som finns tillgängliga i din butik kommer kunderna att se deras föredragna alternativ, som PayPal eller Apple Pay. [Läs mer](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "Med hjälp av de betalningsmetoder som finns tillgängliga i din butik kommer kunderna att se deras föredragna alternativ, som PayPal eller Apple Pay. [Läs mer](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "Visa nästa\/föregående produkt",
-          "info": "Visa produkten av nästa\/föregående produkt i kollektionen"
+          "label": "Visa nästa/föregående produkt",
+          "info": "Visa produkten av nästa/föregående produkt i kollektionen"
         },
         "size_chart": {
           "label__1": "Aktivera storlekstabell",
@@ -4277,7 +4279,7 @@
           "label__1": "Visa kompletterande produkt",
           "label__2": "Kompletterande produktstil 1",
           "label__3": "Kompletterande produktstil 2",
-          "info__1": "För att välja kompletterande produkter, lägg till sök- och upptäcktsappen. [Läs mer](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "För att välja kompletterande produkter, lägg till sök- och upptäcktsappen. [Läs mer](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4302,7 +4304,7 @@
             "options__1": "Alla produkter",
             "options__2": "Specifika produkter som använder metafält",
             "info_1": "Endast tillämpligt när inställningen \"Visa innehåll för\" är inställd på \"Alla produkter\".",
-            "info_2": "[Läs mer om hur du ställer in en anpassad flik med metafält](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom -tabs-by-metafields)"
+            "info_2": "[Läs mer om hur du ställer in en anpassad flik med metafält](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom -tabs-by-metafields)"
           }
         },
         "grouped_product": {
@@ -4437,8 +4439,8 @@
         "info": "Gäller för 'innehållsposition' som är 'Relativ'",
         "info_2": "Höger block beräknas automatiskt",
         "title_align": "Innehållsjustering",
-        "align_items_spacing_tb": "Innehåll: mellanrum topp\/mellanrum botten",
-        "align_items_spacing_lr": "Innehåll: avstånd vänster\/avstånd höger",
+        "align_items_spacing_tb": "Innehåll: mellanrum topp/mellanrum botten",
+        "align_items_spacing_lr": "Innehåll: avstånd vänster/avstånd höger",
         "enable_item_1": "Aktivera objekt 1",
         "enable_item_2": "Aktivera objekt 2",
         "enable_item_3": "Aktivera objekt 3",
@@ -4633,7 +4635,7 @@
           "name": "Samlingsbild",
           "settings": {
             "paragraph": {
-              "content": "För att ändra samlingsbeskrivningar eller samlingsbilder, [redigera dina samlingar.](\/admin\/collections)"
+              "content": "För att ändra samlingsbeskrivningar eller samlingsbilder, [redigera dina samlingar.](/admin/collections)"
             },
             "general": {
               "label__1": "Visa parallax banner",
@@ -4654,7 +4656,7 @@
             },
             "description": {
               "label__1": "Visa samlingsbeskrivning",
-              "label__2": "Visa \"läs mer\"\/\"läs mindre\"",
+              "label__2": "Visa \"läs mer\"/\"läs mindre\"",
               "label__3": "Placera",
               "label__4": "Visa samlingens titel",
               "label__5": "Samlingsbeskrivningsjustering",
@@ -4715,7 +4717,7 @@
         },
         "general": {
           "label": "Aktivera produktpaket",
-          "info": "Läs mer [produktpaket](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "Läs mer [produktpaket](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "Aktivera paketrabatt",
@@ -4813,10 +4815,10 @@
     "app_partner": {
       "name": "Apppartner",
       "enable_promotion": "Aktivera PageFly-erbjudande",
-      "label_1": "1. För granskningsfunktion: använd [Loox-appen](https:\/\/shopify.pxf.io\/y2D52b) och få en 30-dagars provperiod. [Hur man konfigurerar loox?](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. Exklusivt erbjudande: 3 månader med 20 PageFly-sidor för endast $1\/månad. [Hämta erbjudande nu](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source =ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. Använd [UpPromote affiliate & Referral](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs) och få 20 % rabatt.",
-      "label_4": "4. Skyrocket webbplatsprestanda med [Avada SEO-svit](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
+      "label_1": "1. För granskningsfunktion: använd [Loox-appen](https://shopify.pxf.io/y2D52b) och få en 30-dagars provperiod. [Hur man konfigurerar loox?](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. Exklusivt erbjudande: 3 månader med 20 PageFly-sidor för endast $1/månad. [Hämta erbjudande nu](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source =ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. Använd [UpPromote affiliate & Referral](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs) och få 20 % rabatt.",
+      "label_4": "4. Skyrocket webbplatsprestanda med [Avada SEO-svit](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
     },
     "slidable_spotlight": {
       "name": "Skjutbar spotlight",
@@ -4906,7 +4908,7 @@
           "country": "Land",
           "cross_street": "Tvärgatan",
           "postal_code": "Postnummer",
-          "state": "stat\/provins",
+          "state": "stat/provins",
           "info": "t.ex.: (202) 387-9338",
           "map_iframe": "Infoga Google map iframe"
         }
@@ -4924,12 +4926,12 @@
         "tiktok_video": {
           "name": "Tiktok video",
           "embed_code": "Video-ID",
-          "info__1": "[Instruktioner för att få tiktok-video-ID](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[Instruktioner för att få tiktok-video-ID](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "Före\/Efter bildreglage",
+      "name": "Före/Efter bildreglage",
       "settings": {
         "content_position": "Innehållsposition",
         "above": "Jämför bilder ovan",

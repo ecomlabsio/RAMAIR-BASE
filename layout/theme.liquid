@@ -20,7 +20,7 @@
         <meta name="theme-color" content="">
         <link rel="canonical" href="{{ canonical_url }}" canonical-shop-url="{{ shop.url }}/">
         {%- if settings.favicon != blank -%}
-            <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
+            <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 32 }}" type="image/png">
         {%- endif -%}
         <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
         <title>{{ page_title }} {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%} {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%} {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}</title>
@@ -138,7 +138,7 @@
         {%- endif -%}
 
         {%- if settings.use_custom_js -%}
-            {{ 'custom.js' | asset_url | script_tag }}
+            <script src="{{ 'custom.js' | asset_url }}" defer></script>
         {%- endif -%}
 
         <div class="background-overlay">

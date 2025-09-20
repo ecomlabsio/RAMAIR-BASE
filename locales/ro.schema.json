@@ -86,7 +86,7 @@
           "label__3": "Culoarea pictogramei de încărcare mobilă"
         },
         "colors_breadcrumb": {
-          "label__4": "Fundal\/gradient de pesmet numai pentru aspectele de pesmet 2 și 3"
+          "label__4": "Fundal/gradient de pesmet numai pentru aspectele de pesmet 2 și 3"
         },
         "spinner_colors": {
           "content": "Încărcare spinner",
@@ -134,7 +134,7 @@
           "product_page_gallery": "Galerie",
           "product_page_left_thumbs": "Miniaturi verticale stânga",
           "product_page_right_thumbs": "Miniaturile verticale la dreapta",
-          "product_page_left_right_sidebar": "Bara laterală stânga\/dreapta",
+          "product_page_left_right_sidebar": "Bara laterală stânga/dreapta",
           "product_page_horizontal_tabs_no_sidebar": "File orizontale fără bară laterală",
           "product_page_step_by_step": "Pas cu Pas",
           "header_layout_rtl": "Aspect de la dreapta la stânga",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "Lista de coduri ISO pentru limbile RTL",
           "list_iso_rtl_info": "Separați fiecare cod ISO de limbă cu un „,”. De exemplu: ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "Enumerați codurile ISO de limbă pentru a comuta automat la aspectul RTL: ar:(araba); dv:(Dhivehi,Maldivian); ha:(Hausa); el:(ebraică); ku:(kurd\/Sorani); fa:(persan\/farsi); ur:(urdu); ps:(Pashto); yi:(idiș)"
+          "list_iso_rtl_note": "Enumerați codurile ISO de limbă pentru a comuta automat la aspectul RTL: ar:(araba); dv:(Dhivehi,Maldivian); ha:(Hausa); el:(ebraică); ku:(kurd/Sorani); fa:(persan/farsi); ur:(urdu); ps:(Pashto); yi:(idiș)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "Sursa fontului",
           "options__1": "Fonturi Google",
           "options__2": "Fonturi Shopify",
-          "info": "Pentru a utiliza fonturile Google, adăugați numele fontului. [Aflați mai multe](https:\/\/fonts.google.com\/)",
+          "info": "Pentru a utiliza fonturile Google, adăugați numele fontului. [Aflați mai multe](https://fonts.google.com/)",
           "info_shopify_font": "Optimizați performanța site-ului dvs. utilizând fonturi Shopify!",
           "info_language": "Când configurați o limbă în setările de personalizare, este important să stabiliți și aceeași preferință de limbă în setările administrative."
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "Font pentru corp",
           "label": "Font Shopify",
-          "info": "Selectarea unui font diferit poate afecta viteza magazinului dvs. [Aflați mai multe despre fonturile de sistem.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Selectarea unui font diferit poate afecta viteza magazinului dvs. [Aflați mai multe despre fonturile de sistem.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "Font de titlu",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "Mega meniu nivelul 2",
           "title_mega_menu_lv3": "Mega meniu nivelul 3",
           "label": "Familia de fonturi de navigare",
-          "info": "Selectarea unui font diferit poate afecta viteza magazinului dvs. [Aflați mai multe despre fonturile de sistem.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Selectarea unui font diferit poate afecta viteza magazinului dvs. [Aflați mai multe despre fonturile de sistem.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "Fontul articolului de produs",
@@ -237,7 +237,7 @@
           "yes": "Da",
           "no": "Nu",
           "label": "Familie de fonturi Buton 1",
-          "info": "Selectarea unui font diferit poate afecta viteza magazinului dvs. [Aflați mai multe despre fonturile de sistem.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "Selectarea unui font diferit poate afecta viteza magazinului dvs. [Aflați mai multe despre fonturile de sistem.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "Afișează conturul",
           "cta_button": "butonul CTA"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "Poziția pictogramei „Afișați toate”.",
           "view_all_font_size": "Dimensiunea fontului „Afișați toate”.",
           "view_all_width": "Lățimea „Vedeți tot”.",
-          "view_all_info": "Accesați acest link [găsiți pictograma](https:\/\/fontawesome.com\/v5\/search). Găsiți pictograma dorită, apoi copiați codul SVG și inserați-l aici.",
-          "logo_icon_info": "Se aplică numai atunci când imaginea siglei este lăsată goală. Accesați acest link [găsiți pictograma](https:\/\/fontawesome.com\/v5\/search). Găsiți pictograma dorită, apoi copiați codul SVG și inserați-l aici.",
+          "view_all_info": "Accesați acest link [găsiți pictograma](https://fontawesome.com/v5/search). Găsiți pictograma dorită, apoi copiați codul SVG și inserați-l aici.",
+          "logo_icon_info": "Se aplică numai atunci când imaginea siglei este lăsată goală. Accesați acest link [găsiți pictograma](https://fontawesome.com/v5/search). Găsiți pictograma dorită, apoi copiați codul SVG și inserați-l aici.",
           "item": "Articole",
-          "item_padding_top_bottom": "Captuseala de sus\/de jos",
-          "item_padding_left_right": "Captuseala stânga\/dreapta",
+          "item_padding_top_bottom": "Captuseala de sus/de jos",
+          "item_padding_left_right": "Captuseala stânga/dreapta",
           "item_padding_top": "Umplutura de sus a articolului",
           "item_padding_bottom": "Umplutură inferioară a articolului",
           "item_width": "Lățimea articolului",
@@ -429,19 +429,19 @@
           "icon_color_hover": "Culoarea cursorului pictogramei",
           "icon_color_mb": "Culoarea pictogramei pe mobil",
           "icon_width": "Lățimea pictogramelor",
-          "icon_width_info": "Se aplică atunci când setarea de afișare text\/pictogramă este setată la pictogramă",
+          "icon_width_info": "Se aplică atunci când setarea de afișare text/pictogramă este setată la pictogramă",
           "icon_height": "Înălțimea pictogramelor",
           "icon_width_1": "Lățime iconiță",
           "icon_height_1": "Înălțime iconiță",
           "icon_width_mb": "Lățime iconiță pe mobil",
           "icon_height_mb": "Înălțime iconiță pe mobil",
-          "icon_mg_right": "Pictograma text\/SVG pe marginea dreaptă",
+          "icon_mg_right": "Pictograma text/SVG pe marginea dreaptă",
           "icon_mg_bottom": "Spațierea pictogramelor de jos",
           "icon_spacing_mobile": "Spațierea pictogramelor pe mobil",
-          "icon_type": "Utilizați pictograma imagine sau text\/SVG",
+          "icon_type": "Utilizați pictograma imagine sau text/SVG",
           "icons_type": "Tipul pictogramelor",
           "icons_type_info": "Se aplică numai atunci când setarea „tip de pictograme” este setată la Pictogramă.",
-          "text_svg_icon": "Pictograma text\/SVG",
+          "text_svg_icon": "Pictograma text/SVG",
           "layout_mobile": "Aspect mobil",
           "layout_mobile_info": "Aplicabil numai pentru aspectul grilei",
           "list": "Listă",
@@ -518,7 +518,7 @@
           "beside_the_title": "Pe langa titlu",
           "width_on_desktop": "Lățimea pe desktop",
           "section_footer": "Subsolul secțiunii",
-          "prev_next_button": "Butonul Prev\/Next",
+          "prev_next_button": "Butonul Prev/Next",
           "info_mobile_layout": "Se aplică numai atunci când setarea „aspect mobil” este setată la glisor.",
           "header_block": {
             "option_1": "Titlul din stânga cu vizualizarea tot din stânga",
@@ -526,7 +526,8 @@
             "option_3": "Centrul titlului cu vizualizarea tot la stânga",
             "option_4": "Centrul de titlu cu vizualizare în regulă",
             "option_5": "Centrul de titlu cu vizualizarea mai jos"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "Font de subsol"
@@ -577,23 +578,23 @@
         "whatsapp_label": "Distribuie pe Whatsapp",
         "header__2": "Conturi sociale",
         "social_twitter_link_label": "link Twitter",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "link Facebook",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "Link Pinterest",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "link Instagram",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "Link TikTok",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "Link Tumblr",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "Link Snapchat",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "link YouTube",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "Link Vimeo",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "Opțiune de personalizare",
-          "info": "Opțiunile de personalizare sunt folosite pentru a colecta informații de personalizare pentru un articol adăugat în coș. Aceste informații pot fi colectate de la cumpărător pe pagina produsului și vizualizare rapidă. [Aflați mai multe](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "Opțiunile de personalizare sunt folosite pentru a colecta informații de personalizare pentru un articol adăugat în coș. Aceste informații pot fi colectate de la cumpărător pe pagina produsului și vizualizare rapidă. [Aflați mai multe](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "Imagine de favicon",
@@ -651,8 +652,8 @@
           "label__7": "Link pentru butonul Politicii de confidențialitate",
           "label__8": "Acceptați eticheta butonului cookie",
           "color_privacy_policy": "Culoarea butonului pentru politica de confidențialitate",
-          "info__1": "[Aflați mai multe](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies)",
-          "info__2": "Exemplu: https:\/\/policies.google.com"
+          "info__1": "[Aflați mai multe](https://help.shopify.com/en/manual/your-account/privacy/cookies)",
+          "info__2": "Exemplu: https://policies.google.com"
         },
         "wishlist": {
           "label": "Activați lista de dorințe",
@@ -735,7 +736,7 @@
           "style_10": "Stil 10"
         },
         "trust_image": {
-          "info__1": "Pagina produsului\/Vizualizare rapidă",
+          "info__1": "Pagina produsului/Vizualizare rapidă",
           "info__2": "Pagina de coș"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "Afișați insigna pachetului",
           "label__23": "Dimensiunea fontului",
           "label__24": "Raza colțului",
-          "label__26": "Captuseala stânga\/dreapta",
+          "label__26": "Captuseala stânga/dreapta",
           "label__28": "Poziție verticală",
           "label__29": "Poziție orizontală",
           "options__3": "Dinamic",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "Afișează lista de dorințe",
-          "label__4": "Text\/pictogramă activ",
+          "label__4": "Text/pictogramă activ",
           "label__5": "Fundal activ",
           "label__9": "Frontieră activă",
           "label__10": "Afișează lista de dorințe pe mobil",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "Afișează vizualizarea rapidă",
           "label__2": "Stilul de vizualizare rapidă",
-          "label__3": "Text\/pictogramă",
-          "label__5": "Plasarea textului\/pictogramei",
+          "label__3": "Text/pictogramă",
+          "label__5": "Plasarea textului/pictogramei",
           "label__6": "Hover de fundal",
           "label__7": "Vizualizare rapidă și poziție în lista de dorințe",
           "label__8": "Afișează vizualizarea rapidă pe mobil",
@@ -955,10 +956,10 @@
         "currency_format_enable": "Activați formatul monedei",
         "info_currency_format": "Prețurile de la coș și de la casă indică întotdeauna codurile valutare. Exemplu: 1,00 USD.",
         "enable_shopify_payments_currencies": "Activați plățile Shopify?",
-        "info_1": "Disponibil doar pentru magazinele cu plăți Shopify. Link [aici](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_1": "Disponibil doar pentru magazinele cu plăți Shopify. Link [aici](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "enable_multiple_currencies": "Activați mai multe monede?",
         "enable_auto_currency": "Activați moneda automată?",
-        "info_2": "Nu alegeți toate cele 3 opțiuni în același timp și nu combinați plata Shopify cu altele. Link [aici](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_2": "Nu alegeți toate cele 3 opțiuni în același timp și nu combinați plata Shopify cu altele. Link [aici](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "i-currency-1": "Pictograma SVG pentru codul valutar 1",
         "currency_1_unit": "Cod valutar 1",
         "usd": "USD",
@@ -982,8 +983,8 @@
         "currency_9_unit": "Cod valutar 9",
         "i-currency-10": "Pictograma SVG pentru codul valutar 10",
         "currency_10_unit": "Cod valutar 10",
-        "paragraph_1": "Separați codurile valutare cu un spațiu. Utilizați codul valutar ISO 4217 din 3 litere. Faceți clic [aici](http:\/\/www.xe.com\/iso4217.php) pentru o listă completă a codurilor valutare. Exemplu: CAD USD.",
-        "paragraph_2": "Pentru ca această funcționalitate să funcționeze în magazinul dvs., trebuie să vă editați formatele de bani conform [aceste instrucțiuni](http:\/\/help.shopify.com\/en\/themes\/customization\/currencies). (Vă rugăm să specificați unde se află formatul de bani.)",
+        "paragraph_1": "Separați codurile valutare cu un spațiu. Utilizați codul valutar ISO 4217 din 3 litere. Faceți clic [aici](http://www.xe.com/iso4217.php) pentru o listă completă a codurilor valutare. Exemplu: CAD USD.",
+        "paragraph_2": "Pentru ca această funcționalitate să funcționeze în magazinul dvs., trebuie să vă editați formatele de bani conform [aceste instrucțiuni](http://help.shopify.com/en/themes/customization/currencies). (Vă rugăm să specificați unde se află formatul de bani.)",
         "select_a_currency": "Selectați o funcție valutară",
         "option_1": "Plată Shopify",
         "option_2": "Mai multe valute",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "Afișați coșul de editare rapidă",
-          "options__5": "Buton\/Swatch"
+          "options__5": "Buton/Swatch"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "Numărătoare inversă",
-      "info": "Numărătoarea inversă arată clienților perioada de timp în care produsul este în promoție. [Aflați mai multe](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "Numărătoarea inversă arată clienților perioada de timp în care produsul este în promoție. [Aflați mai multe](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "Arată numărătoarea inversă",
@@ -1316,7 +1317,7 @@
           "options__2": "Pentru fiecare produs",
           "options__3": "Pentru colectie",
           "info": "Exemplu: Dec 31, 2024 18:00:00",
-          "info__1": "Vă rugăm să utilizați acest format exact: aaaa\/mm\/zz oră\/minut\/secundă. Exemplu: 2024\/12\/4 0:0:00."
+          "info__1": "Vă rugăm să utilizați acest format exact: aaaa/mm/zz oră/minut/secundă. Exemplu: 2024/12/4 0:0:00."
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "Aliniere",
-          "label__2": "Aliniere (sus\/centru\/jos)",
-          "label__3": "Aliniere (stânga\/centru\/dreapta\/justificare)",
+          "label__2": "Aliniere (sus/centru/jos)",
+          "label__3": "Aliniere (stânga/centru/dreapta/justificare)",
           "label__4": "Aliniere pe mobil",
           "label__5": "Poziția din stânga pentru conținut",
           "options__4": "Justifica",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "Tipografie titlu\/titlu"
+            "content": "Tipografie titlu/titlu"
           },
           "paragraph__2": {
             "content": "Tipografia textului"
           },
           "paragraph__3": {
-            "content": "Data\/Autor\/Tipografia comentariului"
+            "content": "Data/Autor/Tipografia comentariului"
           },
           "font_style": "Stilul fontului"
         }
@@ -1854,7 +1855,7 @@
           "select_menu": "Meniul categoriei",
           "recommen_image": "Imagine recomandată: 250 x 250px",
           "banner_link": "Link pentru banner",
-          "info__1": "Încărcați imagini cu același nume ca și mânerul de meniu pentru a afișa imagini pentru fiecare categorie. [Aflați mai multe](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow -like-pe-homepage-supermarket)"
+          "info__1": "Încărcați imagini cu același nume ca și mânerul de meniu pentru a afișa imagini pentru fiecare categorie. [Aflați mai multe](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow -like-pe-homepage-supermarket)"
         }
       },
       "presets": {
@@ -2083,9 +2084,9 @@
         "content_spacing": "Umplutură de conținut",
         "align_items_spacing_top": "Marja superioară a conținutului",
         "align_items_spacing_bottom": "Marja de jos a conținutului",
-        "align_items_spacing_lr": "Conținut spațiere stânga\/dreapta",
-        "align_items_spacing_top_bottom_position": "Spațiere de sus\/de jos a conținutului",
-        "align_items_spacing_top_bottom_position_mb": "Spațierea de sus\/de jos a conținutului pe mobil",
+        "align_items_spacing_lr": "Conținut spațiere stânga/dreapta",
+        "align_items_spacing_top_bottom_position": "Spațiere de sus/de jos a conținutului",
+        "align_items_spacing_top_bottom_position_mb": "Spațierea de sus/de jos a conținutului pe mobil",
         "content_1": "Blocați articole",
         "enable_shadow": "Afișează umbra casetei",
         "use_special_header_layout": "Folosește aspect special",
@@ -2134,8 +2135,8 @@
           "blog_style_1": "Sub imagine",
           "blog_style_2": "Suprapuneți imaginea",
           "show_link_as": "Afișați linkul „vezi detalii” ca buton",
-          "link_button_color": "Culoarea etichetei link\/buton",
-          "link_button_hover_color": "Culoarea cursorului etichetei link\/buton"
+          "link_button_color": "Culoarea etichetei link/buton",
+          "link_button_hover_color": "Culoarea cursorului etichetei link/buton"
         }
       },
       "presets": {
@@ -2221,7 +2222,7 @@
         "tab": {
           "name": "Element de filă",
           "show_image": "Afișează imaginea filei",
-          "info": "Selectați o navigare pentru a afișa elementele blocate. [Aflați mai multe despre cum să încărcați imagini.](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show -imagini-pentru-secțiunea-fila-brand)"
+          "info": "Selectați o navigare pentru a afișa elementele blocate. [Aflați mai multe despre cum să încărcați imagini.](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show -imagini-pentru-secțiunea-fila-brand)"
         }
       },
       "settings": {
@@ -2264,7 +2265,7 @@
         "info": "Se aplică numai când setarea de aliniere a conținutului este setată la centru.",
         "enable_map": "Afișați harta Google",
         "map_iframe": "Încorporați o hartă",
-        "info__1": "Va trebui să accesați [Google Maps](https:\/\/www.google.com\/maps) pentru a obține codul de încorporare HTML.",
+        "info__1": "Va trebui să accesați [Google Maps](https://www.google.com/maps) pentru a obține codul de încorporare HTML.",
         "button": {
           "label__8": "Lățimea maximă a butonului"
         }
@@ -2594,7 +2595,7 @@
           "product_block_02": "Duo de blocuri de produse",
           "feature_product": "Produs recomandat",
           "feature_product_unsymmetrical": "Evidențierea produsului",
-          "info_tablet_mobile": "Utilizați pentru mobil\/tabletă"
+          "info_tablet_mobile": "Utilizați pentru mobil/tabletă"
         },
         "product_block_layout": {
           "option": "Aspect",
@@ -2650,11 +2651,11 @@
           "content": "Dispunerea glisorului",
           "product_block_dots": "Afișați punctele de navigare",
           "product_block_dots_desk": "Afișați punctele de navigare pe desktop",
-          "product_block_dots_mb": "Afișați punctele de navigare pe mobil\/tabletă",
+          "product_block_dots_mb": "Afișați punctele de navigare pe mobil/tabletă",
           "product_block_dots_spacing_top": "Marginea de sus a punctelor de navigare",
           "product_block_arrows": "Afișați săgețile de navigare",
           "product_block_arrows_desk": "Afișați săgețile de navigare pe desktop",
-          "product_block_arrows_mb": "Afișați săgețile de navigare pe mobil\/tabletă",
+          "product_block_arrows_mb": "Afișați săgețile de navigare pe mobil/tabletă",
           "product_block_arrows_position": "Activați poziționarea personalizată a săgeților de navigare pe desktop",
           "use_special_arrow_position": "Folosiți o poziție specială a săgeții",
           "enable_progress_bar": "Afișează bara de defilare",
@@ -2692,8 +2693,8 @@
             "info__1": "Poziția este optimizată automat pentru mobil."
           },
           "name": "Banner",
-          "align_items_spacing_tb": "Căptușeală de conținut de sus\/de jos",
-          "align_items_spacing_lr": "Umplutură de conținut stânga\/dreapta",
+          "align_items_spacing_tb": "Căptușeală de conținut de sus/de jos",
+          "align_items_spacing_lr": "Umplutură de conținut stânga/dreapta",
           "position_vertical_arrow": "Poziție verticală (unitate % sau px)",
           "info__1": "Se aplică numai când setarea „poziție conținut” este setată în sus sau în jos.",
           "info__2": "Se aplică numai când setarea „aliniere a conținutului” este setată la stânga sau la dreapta."
@@ -2892,7 +2893,7 @@
         "box_shadow_hover_color": "Culoarea de umbră a casetei",
         "social_media_link": {
           "content": "Pictogramele rețelelor sociale",
-          "info": "Pentru a vă afișa conturile de rețele sociale, conectați-le în [setările temei](\/editor?context=theme&category=social%20media).",
+          "info": "Pentru a vă afișa conturile de rețele sociale, conectați-le în [setările temei](/editor?context=theme&category=social%20media).",
           "show_social": "Afișați pictogramele rețelelor sociale",
           "enable_background_social": "Afișați fundaluri pe pictogramele sociale",
           "social_position": {
@@ -2978,7 +2979,7 @@
             "option": "Tip de pictograme de plată",
             "option1": "Implicit",
             "option2": "Personalizat",
-            "info": "Când alegeți „implicit”, pentru a adăuga pictograme de plată, accesați [setările de plată.](\/admin\/settings\/payments)"
+            "info": "Când alegeți „implicit”, pentru a adăuga pictograme de plată, accesați [setările de plată.](/admin/settings/payments)"
           },
           "payment_position": {
             "option": "Poziția de plată",
@@ -3091,12 +3092,12 @@
           "background_color_items_cart_mb": "Culoarea de fundal a articolelor pe mobil",
           "color_items_cart_mb": "Elementele colorează pe mobil",
           "font_size_cart_item": "Dimensiunea fontului articolului",
-          "language_currency": "Limba\/Moneda",
-          "label__2": "Culoarea textului\/pictogramei 1",
-          "label__3": "Culoare text\/pictogramă 2",
-          "label__3_1": "Culoarea textului\/pictogramei 3",
-          "label__4": "Culoare text\/pictogramă",
-          "label__5": "Culoarea cursorului text\/pictogramă",
+          "language_currency": "Limba/Moneda",
+          "label__2": "Culoarea textului/pictogramei 1",
+          "label__3": "Culoare text/pictogramă 2",
+          "label__3_1": "Culoarea textului/pictogramei 3",
+          "label__4": "Culoare text/pictogramă",
+          "label__5": "Culoarea cursorului text/pictogramă",
           "label__6": "Culoarea chenarului pictogramei",
           "label__7": "Folosește mașina de scris",
           "label__8": "Afișați primul conținut pe mobil",
@@ -3120,7 +3121,7 @@
           "bg_bottom": "Fundal de jos",
           "mg_top": "Umplutura de sus a meniului",
           "mg_bottom": "Umplutura de jos a meniului",
-          "spacing_left_right": "Elemente de umplutură stânga\/dreapta",
+          "spacing_left_right": "Elemente de umplutură stânga/dreapta",
           "spacing_left_menu": "Umplutură din stânga a meniului",
           "spacing_right_menu": "Umplutura din dreapta a meniului"
         },
@@ -3199,7 +3200,7 @@
           "label__1": "Imagine logo",
           "label__2": "Imagine logo-ul mobil",
           "label__3": "Poziția siglei de pe desktop",
-          "label__fixed": "Imagine de siglă pentru antetul lipicios\/antetul fix",
+          "label__fixed": "Imagine de siglă pentru antetul lipicios/antetul fix",
           "label__7": "Textul siglei sau pictograma SVG",
           "label__8": "Textul siglei sau culoarea pictogramei SVG",
           "logo_info": "Acest logo se va afișa atunci când nu este adăugat niciun meniu cu file",
@@ -3366,7 +3367,8 @@
           "color_link_text": "Culoarea etichetei butonului",
           "url": "Buton link",
           "info": "Unitate: % sau px",
-          "info__2": "Introduceți numele elementului de meniu pe care doriți să îl aplicați acestui mega meniu."
+          "info__2": "Introduceți numele elementului de meniu pe care doriți să îl aplicați acestui mega meniu.",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "Nav antet - simplu",
@@ -3378,8 +3380,8 @@
           "name_7": "Nav antet - aliniat la stânga",
           "name_8": "Nav antet - de bază",
           "name_9": "Header nav - multi-site",
-          "label_2": "Mega meniu\/Meniu derulant",
-          "label_3": "Afișați limba\/moneda",
+          "label_2": "Mega meniu/Meniu derulant",
+          "label_3": "Afișați limba/moneda",
           "label_5": "Afișați în meniul principal",
           "label_6": "Afișați în meniul lipicios",
           "label_7": "Arată tot",
@@ -3389,7 +3391,7 @@
           "option_3": "Captuseala dreapta",
           "cart_count_bubble": "Bulă de numărare a cărucioarelor",
           "search_input": "Stilul câmpului de căutare 2",
-          "cart_wishlist_count_bubble": "Bulă de numărare coș\/listă de dorințe",
+          "cart_wishlist_count_bubble": "Bulă de numărare coș/listă de dorințe",
           "wishlist_count_bubble": "Bubble de numărare a listei de dorințe",
           "search_dropdown": "Meniu derulant de căutare",
           "search_dropdown_style": "Stilul drop-down de căutare",
@@ -3520,7 +3522,7 @@
           "label__1": "Arată autorul",
           "label__2": "Afișează data",
           "label__3": "Afișează distribuirea",
-          "label__4": "Afișează articolul următor\/anterior",
+          "label__4": "Afișează articolul următor/anterior",
           "label__5": "Afișează imaginea principală",
           "label__6": "Afișați etichete"
         }
@@ -3588,7 +3590,7 @@
           "options__1": "Culoare de bază (utilizați numele culorii)",
           "options__2": "Culoare avansată (utilizați imaginea cu format PNG)",
           "options__3": "Derulare",
-          "info__1": "[Personalizați filtrele](\/admin\/apps\/search-and-discovery)",
+          "info__1": "[Personalizați filtrele](/admin/apps/search-and-discovery)",
           "info__2": "Introduceți numele filtrului pentru a afișa stilul mostrei",
           "info__3": "Introduceți numele filtrului pentru a afișa stilul dreptunghiului",
           "info__4": "Folosit pentru afișarea filtrului: butonul Afișați mai multe",
@@ -3688,7 +3690,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "Pentru a adăuga imagini, [editați-vă colecțiile](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "Pentru a adăuga imagini, [editați-vă colecțiile](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3924,7 +3926,7 @@
         },
         "social-media": {
           "label__1": "Afișați rețelele sociale",
-          "label__2": "Culoare text\/pictogramă"
+          "label__2": "Culoare text/pictogramă"
         },
         "countdown": {
           "label__1": "Timp",
@@ -3965,7 +3967,7 @@
           "label__1": "Lăţime",
           "option__1": "Mediu",
           "option__2": "Mare",
-          "info": "Aflați mai multe despre [tipurile media](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Aflați mai multe despre [tipurile media](https://help.shopify.com/manual/products/product-media)"
         },
         "header__3": {
           "content": "Insigna"
@@ -3993,20 +3995,20 @@
         },
         "header__12": {
           "content": "Imagini de încredere",
-          "paragraph": "Imaginile de încredere afișează numai imagini verificate, de înaltă calitate, pe paginile produselor, sporind încrederea clienților și susținând decizii informate de cumpărare. [Aflați mai multe](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "Imaginile de încredere afișează numai imagini verificate, de înaltă calitate, pe paginile produselor, sporind încrederea clienților și susținând decizii informate de cumpărare. [Aflați mai multe](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "Butoane dinamice de plată"
         },
         "header__15": {
-          "content": "Produsul următor\/anterior"
+          "content": "Produsul următor/anterior"
         },
         "header__16": {
           "content": "Tabel de mărimi"
         },
         "header__17": {
           "content": "Disponibilitate pentru ridicare",
-          "paragraph": "Afișează magazinele offline disponibile pentru varianta selectată. [Aflați mai multe](https:\/\/help.shopify.com\/en\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "Afișează magazinele offline disponibile pentru varianta selectată. [Aflați mai multe](https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "Comparație de culori"
@@ -4019,14 +4021,14 @@
         },
         "header__21": {
           "content": "Metacamp variantă",
-          "paragraph": "Afișați conținut specific variantei în fila de descriere, oferind conținut personalizat în funcție de varianta selectată. [Aflați mai multe](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant )"
+          "paragraph": "Afișați conținut specific variantei în fila de descriere, oferind conținut personalizat în funcție de varianta selectată. [Aflați mai multe](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant )"
         },
         "header__22": {
           "content": "Produse complementare"
         },
         "header__23": {
           "content": "Pachet de vibrații pozitive",
-          "paragraph": "Pachetul Positive Vibes este o caracteristică dinamică concepută pentru a încuraja achizițiile prin afișarea de mesaje motivaționale precum „60 de persoane achiziționate de 2 ori mai mult” sau „37 vândute în ultimele 24 de ore” într-un format care alunecă continuu, creând urgență și stimulând cererea de produse. [Aflați mai multe](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "Pachetul Positive Vibes este o caracteristică dinamică concepută pentru a încuraja achizițiile prin afișarea de mesaje motivaționale precum „60 de persoane achiziționate de 2 ori mai mult” sau „37 vândute în ultimele 24 de ore” într-un format care alunecă continuu, creând urgență și stimulând cererea de produse. [Aflați mai multe](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "Timpul de livrare",
@@ -4051,7 +4053,7 @@
           "text": "Text"
         },
         "general": {
-          "label__1": "Activați informațiile lipicioase despre produs pe desktop\/tabletă",
+          "label__1": "Activați informațiile lipicioase despre produs pe desktop/tabletă",
           "label__2": "Aspect desktop",
           "label__3": "Poziția imaginii principale",
           "options__1": "Afișează miniaturile din stânga",
@@ -4065,7 +4067,7 @@
           "buy_buttons": "Cumpărați butoane",
           "show_gift_card_recipient": {
             "label": "Afișați formularul destinatarului pentru produsele cu carduri cadou",
-            "info": "Permite cumpărătorilor să trimită carduri cadou la o dată programată împreună cu un mesaj personal. [Aflați mai multe](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "Permite cumpărătorilor să trimită carduri cadou la o dată programată împreună cu un mesaj personal. [Aflați mai multe](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "Distribuie",
           "vendor": "Furnizor",
@@ -4116,7 +4118,7 @@
           "product_tab_source_info": "Se aplică numai când setarea „Afișați conținut pentru” este setată la „Produse specifice care folosesc metacâmp”.",
           "dynamic_source": "Sursă dinamică",
           "key_text_source": "Cheie metacamp produs",
-          "product_tab_key_info": "Se aplică numai când setarea „Afișați conținut pentru” este setată la „Produse specifice care folosesc metacâmp” și setarea „Sursă conținut” este setată la „Cheie metacâmp produs”. [Aflați mai multe](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "Se aplică numai când setarea „Afișați conținut pentru” este setată la „Produse specifice care folosesc metacâmp” și setarea „Sursă conținut” este setată la „Cheie metacâmp produs”. [Aflați mai multe](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "Culoare activă pentru miniatură",
           "navigation_arrows_color_mobile": "Culoarea săgeților de navigare pe mobil",
           "read_more": "Citeşte mai mult",
@@ -4136,7 +4138,7 @@
           "options__9": "Plasați cursorul pe imaginile principale",
           "unit": "%",
           "layout_video": "Aspect video",
-          "info__1": "Aflați mai multe despre [media fit](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)",
+          "info__1": "Aflați mai multe despre [media fit](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)",
           "info__2": "Nu se aplică atunci când setarea de potrivire a suportului este setată la original.",
           "info__3": "Se aplică numai opțiunii portret a setării raportului de imagine a produsului."
         },
@@ -4177,7 +4179,7 @@
         "variant": {
           "label__2": "Activați imaginea variantă grupată",
           "options__1": "Scapă jos",
-          "options__2": "Pătrat\/Dreptunghi\/Swatch",
+          "options__2": "Pătrat/Dreptunghi/Swatch",
           "variant_picker": "Selector de variante"
         },
         "quantity": {
@@ -4202,11 +4204,11 @@
         },
         "dynamic_checkout": {
           "label": "Afișați butoanele dinamice de plată",
-          "info": "Folosind metodele de plată disponibile în magazinul dvs., clienții vor vedea opțiunea lor preferată, cum ar fi paypal sau Apple Pay. [Aflați mai multe](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "Folosind metodele de plată disponibile în magazinul dvs., clienții vor vedea opțiunea lor preferată, cum ar fi paypal sau Apple Pay. [Aflați mai multe](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "Afișați produsul următor\/anterior",
-          "info": "Afișați produsul următorului\/anterior din colecție"
+          "label": "Afișați produsul următor/anterior",
+          "info": "Afișați produsul următorului/anterior din colecție"
         },
         "size_chart": {
           "label__1": "Activați diagrama de mărimi",
@@ -4277,7 +4279,7 @@
           "label__1": "Afișați produsul complementar",
           "label__2": "Stil de produs complementar 1",
           "label__3": "Stilul de produs complementar 2",
-          "info__1": "Pentru a selecta produse complementare, adăugați aplicația de căutare și descoperire. [Aflați mai multe](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "Pentru a selecta produse complementare, adăugați aplicația de căutare și descoperire. [Aflați mai multe](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4302,7 +4304,7 @@
             "options__1": "Toate produsele",
             "options__2": "Produse specifice folosind metafield",
             "info_1": "Se aplică numai când setarea „Afișați conținut pentru” este setată la „Toate produsele”.",
-            "info_2": "[Aflați mai multe despre cum să configurați o filă personalizată folosind metacâmp](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom -file-după-metacâmpuri)"
+            "info_2": "[Aflați mai multe despre cum să configurați o filă personalizată folosind metacâmp](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom -file-după-metacâmpuri)"
           }
         },
         "grouped_product": {
@@ -4437,8 +4439,8 @@
         "info": "Se aplică la 'poziția conținutului' care este 'Relativă'",
         "info_2": "Blocul drept este calculat automat",
         "title_align": "Alinierea conținutului",
-        "align_items_spacing_tb": "Conținut: spațiere sus\/spațiere jos",
-        "align_items_spacing_lr": "Conținut: spațiere stânga\/spațiere dreapta",
+        "align_items_spacing_tb": "Conținut: spațiere sus/spațiere jos",
+        "align_items_spacing_lr": "Conținut: spațiere stânga/spațiere dreapta",
         "enable_item_1": "Activați elementul 1",
         "enable_item_2": "Activați elementul 2",
         "enable_item_3": "Activați elementul 3",
@@ -4633,7 +4635,7 @@
           "name": "Imagine de colecție",
           "settings": {
             "paragraph": {
-              "content": "Pentru a modifica descrierile colecțiilor sau imaginile colecțiilor, [editați-vă colecțiile.](\/admin\/collections)"
+              "content": "Pentru a modifica descrierile colecțiilor sau imaginile colecțiilor, [editați-vă colecțiile.](/admin/collections)"
             },
             "general": {
               "label__1": "Afișați bannerul paralax",
@@ -4654,7 +4656,7 @@
             },
             "description": {
               "label__1": "Afișează descrierea colecției",
-              "label__2": "Afișați „citește mai mult”\/„citește mai puțin”",
+              "label__2": "Afișați „citește mai mult”/„citește mai puțin”",
               "label__3": "Poziţie",
               "label__4": "Afișează titlul colecției",
               "label__5": "Alinierea descrierii colecției",
@@ -4715,7 +4717,7 @@
         },
         "general": {
           "label": "Activați pachetul de produse",
-          "info": "Aflați mai multe [pachet de produse](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "Aflați mai multe [pachet de produse](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "Activați reducerea pachetului",
@@ -4813,10 +4815,10 @@
     "app_partner": {
       "name": "Partener de aplicație",
       "enable_promotion": "Activați oferta PageFly",
-      "label_1": "1. Pentru funcția de examinare: utilizați [aplicația Loox](https:\/\/shopify.pxf.io\/y2D52b) și obțineți o perioadă de încercare de 30 de zile. [Cum să configurați loox?](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. Oferta exclusivă: 3 luni folosind 20 de pagini PageFly pentru doar 1 USD\/lună. [Revendicați oferta acum](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source =ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. Folosiți [UpPromote affiliate & Referral](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs) și obțineți o reducere de 20%.",
-      "label_4": "4. Performanța site-ului a crescut vertiginos cu [Avada SEO Suite](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
+      "label_1": "1. Pentru funcția de examinare: utilizați [aplicația Loox](https://shopify.pxf.io/y2D52b) și obțineți o perioadă de încercare de 30 de zile. [Cum să configurați loox?](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. Oferta exclusivă: 3 luni folosind 20 de pagini PageFly pentru doar 1 USD/lună. [Revendicați oferta acum](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source =ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. Folosiți [UpPromote affiliate & Referral](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs) și obțineți o reducere de 20%.",
+      "label_4": "4. Performanța site-ului a crescut vertiginos cu [Avada SEO Suite](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
     },
     "slidable_spotlight": {
       "name": "Spot glisant",
@@ -4906,7 +4908,7 @@
           "country": "Ţară",
           "cross_street": "Strada transversală",
           "postal_code": "Cod poștal",
-          "state": "Stat\/Provincie",
+          "state": "Stat/Provincie",
           "info": "de exemplu: (202) 387-9338",
           "map_iframe": "Introduceți iframe pentru hărți Google"
         }
@@ -4924,12 +4926,12 @@
         "tiktok_video": {
           "name": "Video Tiktok",
           "embed_code": "ID video",
-          "info__1": "[Instrucțiuni pentru a obține ID-ul video tiktok](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[Instrucțiuni pentru a obține ID-ul video tiktok](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "Slider imagine Înainte\/După",
+      "name": "Slider imagine Înainte/După",
       "settings": {
         "content_position": "Poziția conținutului",
         "above": "Mai sus comparați imaginile",

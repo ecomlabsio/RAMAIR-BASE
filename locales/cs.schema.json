@@ -86,7 +86,7 @@
           "label__3": "Barva ikony mobilního načítání"
         },
         "colors_breadcrumb": {
-          "label__4": "Pozadí\/přechod pouze pro strouhanková rozložení 2 a 3"
+          "label__4": "Pozadí/přechod pouze pro strouhanková rozložení 2 a 3"
         },
         "spinner_colors": {
           "content": "Nabíjecí spinner",
@@ -134,7 +134,7 @@
           "product_page_gallery": "Galerie",
           "product_page_left_thumbs": "Svislé miniatury vlevo",
           "product_page_right_thumbs": "Pravé svislé miniatury",
-          "product_page_left_right_sidebar": "Levý\/pravý boční panel",
+          "product_page_left_right_sidebar": "Levý/pravý boční panel",
           "product_page_horizontal_tabs_no_sidebar": "Vodorovné záložky bez postranního panelu",
           "product_page_step_by_step": "Krok za krokem",
           "header_layout_rtl": "Rozložení zprava doleva",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "Seznam kódů ISO pro jazyky RTL",
           "list_iso_rtl_info": "Každý kód ISO oddělte znakem ','. Např.: ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "Vypište kódy ISO jazyka pro automatické přepnutí na rozvržení RTL: ar:(Arabic); dv:(Dhivehi,Maldivian); ha:(Hausa); he:(Hebrew); ku:(Kurdish\/Sorani); fa:(Persian\/Farsi); ur:(Urdu); ps:(Pashto); yi:(Yiddish)"
+          "list_iso_rtl_note": "Vypište kódy ISO jazyka pro automatické přepnutí na rozvržení RTL: ar:(Arabic); dv:(Dhivehi,Maldivian); ha:(Hausa); he:(Hebrew); ku:(Kurdish/Sorani); fa:(Persian/Farsi); ur:(Urdu); ps:(Pashto); yi:(Yiddish)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "Zdroj písma",
           "options__1": "Písma Google",
           "options__2": "Písma Shopify",
-          "info": "Chcete-li použít písma Google, přidejte název písma. [Další informace](https:\/\/fonts.google.com\/)",
+          "info": "Chcete-li použít písma Google, přidejte název písma. [Další informace](https://fonts.google.com/)",
           "info_shopify_font": "Optimalizujte výkon svého webu pomocí shopify fontů!",
           "info_language": "Při konfiguraci jazyka v nastavení přizpůsobení je také důležité nastavit stejnou předvolbu jazyka v nastavení správy."
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "Tělové písmo",
           "label": "Písmo Shopify",
-          "info": "Výběr jiného písma může ovlivnit rychlost vašeho obchodu. [Další informace o systémových písmech.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Výběr jiného písma může ovlivnit rychlost vašeho obchodu. [Další informace o systémových písmech.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "Písmo nadpisu",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "Mega menu úroveň 2",
           "title_mega_menu_lv3": "Mega menu úroveň 3",
           "label": "Rodina navigačních písem",
-          "info": "Výběr jiného písma může ovlivnit rychlost vašeho obchodu. [Další informace o systémových písmech.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Výběr jiného písma může ovlivnit rychlost vašeho obchodu. [Další informace o systémových písmech.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "Písmo položky produktu",
@@ -237,7 +237,7 @@
           "yes": "Ano",
           "no": "Žádný",
           "label": "Tlačítko 1 rodina písem",
-          "info": "Výběr jiného písma může ovlivnit rychlost vašeho obchodu. [Další informace o systémových písmech.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "Výběr jiného písma může ovlivnit rychlost vašeho obchodu. [Další informace o systémových písmech.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "Zobrazit obrys",
           "cta_button": "tlačítko CTA"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "Umístění ikony „Zobrazit vše“.",
           "view_all_font_size": "Velikost písma 'Zobrazit vše'",
           "view_all_width": "Šířka 'Zobrazit vše'",
-          "view_all_info": "Přejděte na tento odkaz [najděte svou ikonu] (https:\/\/fontawesome.com\/v5\/search). Najděte požadovanou ikonu, zkopírujte kód SVG a vložte jej sem.",
-          "logo_icon_info": "Platí pouze v případě, že obrázek loga zůstane prázdný. Přejděte na tento odkaz [najděte svou ikonu](https:\/\/fontawesome.com\/v5\/search). Najděte požadovanou ikonu, zkopírujte kód SVG a vložte jej sem.",
+          "view_all_info": "Přejděte na tento odkaz [najděte svou ikonu] (https://fontawesome.com/v5/search). Najděte požadovanou ikonu, zkopírujte kód SVG a vložte jej sem.",
+          "logo_icon_info": "Platí pouze v případě, že obrázek loga zůstane prázdný. Přejděte na tento odkaz [najděte svou ikonu](https://fontawesome.com/v5/search). Najděte požadovanou ikonu, zkopírujte kód SVG a vložte jej sem.",
           "item": "Položky",
-          "item_padding_top_bottom": "Horní\/spodní polstrování",
-          "item_padding_left_right": "Polstrování vlevo\/vpravo",
+          "item_padding_top_bottom": "Horní/spodní polstrování",
+          "item_padding_left_right": "Polstrování vlevo/vpravo",
           "item_padding_top": "Vrchní polstrování předmětu",
           "item_padding_bottom": "Spodní polstrování položky",
           "item_width": "Šířka položky",
@@ -410,7 +410,7 @@
           "image_select_effects_hover": "Vyberte efekty při najetí na obrázek",
           "image_border_radius": "Poloměr rohu obrázku",
           "image_margin_bottom": "Spodní výplň obrázku",
-        "image_margin_bottom_mb": "Spodní odsazení obrázku na mobilu",
+          "image_margin_bottom_mb": "Spodní odsazení obrázku na mobilu",
           "image_enable_hover_zoom": "Povolit přiblížení obrázku při umístění kurzoru",
           "image_zoom": "Zoom obrazu",
           "image_fadeup": "Obraz se rozšíří",
@@ -429,19 +429,19 @@
           "icon_color_hover": "Barva při najetí na ikonu",
           "icon_color_mb": "Barva ikony na mobilu",
           "icon_width": "Šířka ikon",
-          "icon_width_info": "Použitelné, když je nastavení zobrazení textu\/ikon nastaveno na ikonu",
+          "icon_width_info": "Použitelné, když je nastavení zobrazení textu/ikon nastaveno na ikonu",
           "icon_height": "Výška ikon",
           "icon_width_1": "Šířka ikony",
           "icon_height_1": "Výška ikony",
           "icon_width_mb": "Šířka ikony na mobilu",
           "icon_height_mb": "Výška ikony na mobilu",
-          "icon_mg_right": "Pravý okraj ikony Text\/SVG",
+          "icon_mg_right": "Pravý okraj ikony Text/SVG",
           "icon_mg_bottom": "Mezery ikon dole",
           "icon_spacing_mobile": "Mezery ikon na mobilu",
-          "icon_type": "Použijte obrázek nebo ikonu textu\/SVG",
+          "icon_type": "Použijte obrázek nebo ikonu textu/SVG",
           "icons_type": "Typ ikon",
           "icons_type_info": "Použitelné pouze v případě, že je nastavení „typ ikon“ nastaveno na ikonu.",
-          "text_svg_icon": "Ikona textu\/SVG",
+          "text_svg_icon": "Ikona textu/SVG",
           "layout_mobile": "Mobilní rozložení",
           "layout_mobile_info": "Platí pouze pro uspořádání mřížky",
           "list": "Seznam",
@@ -518,7 +518,7 @@
           "beside_the_title": "Vedle názvu",
           "width_on_desktop": "Šířka na ploše",
           "section_footer": "Zápatí sekce",
-          "prev_next_button": "Tlačítko Předchozí\/Další",
+          "prev_next_button": "Tlačítko Předchozí/Další",
           "info_mobile_layout": "Použitelné pouze v případě, že je nastavení „rozvržení pro mobily“ nastaveno na posuvník.",
           "header_block": {
             "option_1": "Titul vlevo se zobrazením všech vlevo",
@@ -526,7 +526,8 @@
             "option_3": "Nadpis uprostřed se zobrazením vše vlevo",
             "option_4": "Střed nadpisu s pohledem v pořádku",
             "option_5": "Střed nadpisu s pohledem na vše níže"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "Písmo zápatí"
@@ -577,23 +578,23 @@
         "whatsapp_label": "Sdílejte na Whatsapp",
         "header__2": "Sociální účty",
         "social_twitter_link_label": "Odkaz na Twitter",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "odkaz na Facebook",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "Odkaz na Pinterest",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "Odkaz na Instagram",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "Odkaz na TikTok",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "Odkaz na tumblr",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "Odkaz na snapchat",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "Odkaz na YouTube",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "Odkaz na Vimeo",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "Možnost přizpůsobení",
-          "info": "Možnosti přizpůsobení se používají ke shromažďování informací o přizpůsobení pro položku přidanou do košíku. Tyto informace lze získat od kupujícího na stránce produktu a rychlém zobrazení. [Další informace](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "Možnosti přizpůsobení se používají ke shromažďování informací o přizpůsobení pro položku přidanou do košíku. Tyto informace lze získat od kupujícího na stránce produktu a rychlém zobrazení. [Další informace](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "Obrázek favicon",
@@ -651,8 +652,8 @@
           "label__7": "Odkaz na tlačítko Zásady ochrany osobních údajů",
           "label__8": "Štítek tlačítka přijmout soubory cookie",
           "color_privacy_policy": "Barva tlačítka zásad ochrany osobních údajů",
-          "info__1": "[Další informace](https:\/\/help.shopify.com\/cs\/manual\/vas-ucet\/privacy\/cookies)",
-          "info__2": "Příklad: https:\/\/policies.google.com"
+          "info__1": "[Další informace](https://help.shopify.com/cs/manual/vas-ucet/privacy/cookies)",
+          "info__2": "Příklad: https://policies.google.com"
         },
         "wishlist": {
           "label": "Povolit seznam přání",
@@ -735,7 +736,7 @@
           "style_10": "Styl 10"
         },
         "trust_image": {
-          "info__1": "Stránka produktu\/Rychlé zobrazení",
+          "info__1": "Stránka produktu/Rychlé zobrazení",
           "info__2": "Stránka košíku"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "Zobrazit odznak balíčku",
           "label__23": "Velikost písma",
           "label__24": "Poloměr rohu",
-          "label__26": "Polstrování vlevo\/vpravo",
+          "label__26": "Polstrování vlevo/vpravo",
           "label__28": "Vertikální poloha",
           "label__29": "Horizontální poloha",
           "options__3": "Dynamický",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "Zobrazit seznam přání",
-          "label__4": "Text\/ikona aktivní",
+          "label__4": "Text/ikona aktivní",
           "label__5": "Pozadí aktivní",
           "label__9": "Hranice aktivní",
           "label__10": "Zobrazit seznam přání na mobilu",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "Zobrazit rychlý náhled",
           "label__2": "Styl rychlého zobrazení",
-          "label__3": "Text\/Ikona",
-          "label__5": "Umístění textu\/ikony",
+          "label__3": "Text/Ikona",
+          "label__5": "Umístění textu/ikony",
           "label__6": "Umístění na pozadí",
           "label__7": "Rychlé zobrazení a pozice v seznamu přání",
           "label__8": "Zobrazit rychlý náhled na mobilu",
@@ -955,10 +956,10 @@
         "currency_format_enable": "Povolit formát měny",
         "info_currency_format": "Ceny košíku a pokladny vždy obsahují kódy měn. Příklad: $1.00 USD.",
         "enable_shopify_payments_currencies": "Povolit platby shopify?",
-        "info_1": "Dostupné pouze pro obchody s platbami shopify. Odkaz [zde](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_1": "Dostupné pouze pro obchody s platbami shopify. Odkaz [zde](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "enable_multiple_currencies": "Povolit více měn?",
         "enable_auto_currency": "Povolit automatickou měnu?",
-        "info_2": "Nevybírejte všechny 3 možnosti současně ani nekombinujte platbu shopify s ostatními. Odkaz [zde](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_2": "Nevybírejte všechny 3 možnosti současně ani nekombinujte platbu shopify s ostatními. Odkaz [zde](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "i-currency-1": "Ikona SVG pro kód měny 1",
         "currency_1_unit": "Kód měny 1",
         "usd": "USD",
@@ -982,8 +983,8 @@
         "currency_9_unit": "Kód měny 9",
         "i-currency-10": "Ikona SVG pro kód měny 10",
         "currency_10_unit": "Kód měny 10",
-        "paragraph_1": "Kódy měn oddělte mezerou. Použijte třípísmenný kód měny ISO 4217. Klikněte [zde](http:\/\/www.xe.com\/iso4217.php) pro úplný seznam kódů měn. Příklad: CAD USD.",
-        "paragraph_2": "Aby tato funkce ve vašem obchodě fungovala, musíte upravit formáty peněz podle [těchto pokynů] (http:\/\/help.shopify.com\/en\/themes\/customization\/currencies). (Uveďte prosím, kde se nachází formát peněz.)",
+        "paragraph_1": "Kódy měn oddělte mezerou. Použijte třípísmenný kód měny ISO 4217. Klikněte [zde](http://www.xe.com/iso4217.php) pro úplný seznam kódů měn. Příklad: CAD USD.",
+        "paragraph_2": "Aby tato funkce ve vašem obchodě fungovala, musíte upravit formáty peněz podle [těchto pokynů] (http://help.shopify.com/en/themes/customization/currencies). (Uveďte prosím, kde se nachází formát peněz.)",
         "select_a_currency": "Vyberte funkci měny",
         "option_1": "Shopify platba",
         "option_2": "Více měn",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "Zobrazit košík pro rychlou úpravu",
-          "options__5": "Tlačítko\/Vzorník"
+          "options__5": "Tlačítko/Vzorník"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "Odpočítávání",
-      "info": "Odpočítávání ukazuje zákazníkům dobu, kdy je produkt v akci. [Další informace](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "Odpočítávání ukazuje zákazníkům dobu, kdy je produkt v akci. [Další informace](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "Zobrazit odpočítávání",
@@ -1316,7 +1317,7 @@
           "options__2": "Pro každý produkt",
           "options__3": "Do sbírky",
           "info": "Příklad: Dec 31, 2024 18:00:00",
-          "info__1": "Použijte prosím přesně tento formát: rrrr\/mm\/dd hodina\/minuta\/sekunda. Příklad: 2024\/12\/4 0:0:00."
+          "info__1": "Použijte prosím přesně tento formát: rrrr/mm/dd hodina/minuta/sekunda. Příklad: 2024/12/4 0:0:00."
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "Zarovnání",
-          "label__2": "Zarovnání (nahoře\/na střed\/dole)",
-          "label__3": "Zarovnání (doleva\/na střed\/doprava\/zarovnání)",
+          "label__2": "Zarovnání (nahoře/na střed/dole)",
+          "label__3": "Zarovnání (doleva/na střed/doprava/zarovnání)",
           "label__4": "Zarovnání na mobilu",
           "label__5": "Levá pozice pro obsah",
           "options__4": "Zdůvodněte",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "Typografie nadpisu\/nadpisu"
+            "content": "Typografie nadpisu/nadpisu"
           },
           "paragraph__2": {
             "content": "Textová typografie"
           },
           "paragraph__3": {
-            "content": "Typografie data\/autora\/komentáře"
+            "content": "Typografie data/autora/komentáře"
           },
           "font_style": "Styl písma"
         }
@@ -1854,7 +1855,7 @@
           "select_menu": "Nabídka kategorií",
           "recommen_image": "Doporučený obrázek: 250 x 250 pixelů",
           "banner_link": "Odkaz na banner",
-          "info__1": "Nahrajte obrázky se stejným názvem jako úchyt nabídky, aby se zobrazily obrázky pro každou kategorii. [Další informace](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow -jako na domovské stránce-supermarketu)"
+          "info__1": "Nahrajte obrázky se stejným názvem jako úchyt nabídky, aby se zobrazily obrázky pro každou kategorii. [Další informace](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow -jako na domovské stránce-supermarketu)"
         }
       },
       "presets": {
@@ -2083,9 +2084,9 @@
         "content_spacing": "Výplň obsahu",
         "align_items_spacing_top": "Horní okraj obsahu",
         "align_items_spacing_bottom": "Spodní okraj obsahu",
-        "align_items_spacing_lr": "Mezery obsahu vlevo\/vpravo",
-        "align_items_spacing_top_bottom_position": "Rozteč obsahu nahoře\/dole",
-        "align_items_spacing_top_bottom_position_mb": "Rozložení obsahu nahoře\/dole na mobilu",
+        "align_items_spacing_lr": "Mezery obsahu vlevo/vpravo",
+        "align_items_spacing_top_bottom_position": "Rozteč obsahu nahoře/dole",
+        "align_items_spacing_top_bottom_position_mb": "Rozložení obsahu nahoře/dole na mobilu",
         "content_1": "Blokovat položky",
         "enable_shadow": "Zobrazit stín pole",
         "use_special_header_layout": "Použít speciální rozložení",
@@ -2134,8 +2135,8 @@
           "blog_style_1": "Pod obrázkem",
           "blog_style_2": "Překryjte obrázek",
           "show_link_as": "Zobrazit odkaz „zobrazit podrobnosti“ jako tlačítko",
-          "link_button_color": "Barva štítku odkazu\/tlačítka",
-          "link_button_hover_color": "Barva při najetí na štítek odkazu\/tlačítka"
+          "link_button_color": "Barva štítku odkazu/tlačítka",
+          "link_button_hover_color": "Barva při najetí na štítek odkazu/tlačítka"
         }
       },
       "presets": {
@@ -2221,7 +2222,7 @@
         "tab": {
           "name": "Položka karty",
           "show_image": "Zobrazit obrázek karty",
-          "info": "Chcete-li zobrazit položky bloku, vyberte navigaci. [Další informace o nahrávání obrázků.](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show -obrázky-pro-sekci-karty-značky)"
+          "info": "Chcete-li zobrazit položky bloku, vyberte navigaci. [Další informace o nahrávání obrázků.](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show -obrázky-pro-sekci-karty-značky)"
         }
       },
       "settings": {
@@ -2264,7 +2265,7 @@
         "info": "Použitelné pouze v případě, že je nastavení zarovnání obsahu nastaveno na střed.",
         "enable_map": "Zobrazit mapu google",
         "map_iframe": "Vložit mapu",
-        "info__1": "Budete muset přejít na [mapy Google](https:\/\/www.google.com\/maps), kde získáte kód pro vložení HTML.",
+        "info__1": "Budete muset přejít na [mapy Google](https://www.google.com/maps), kde získáte kód pro vložení HTML.",
         "button": {
           "label__8": "Maximální šířka tlačítka"
         }
@@ -2594,7 +2595,7 @@
           "product_block_02": "Produktové blokové duo",
           "feature_product": "Doporučený produkt",
           "feature_product_unsymmetrical": "Zvýraznění produktu",
-          "info_tablet_mobile": "Použití pro mobil\/tablet"
+          "info_tablet_mobile": "Použití pro mobil/tablet"
         },
         "product_block_layout": {
           "option": "Rozložení",
@@ -2650,11 +2651,11 @@
           "content": "Rozložení posuvníku",
           "product_block_dots": "Zobrazit navigační tečky",
           "product_block_dots_desk": "Zobrazit navigační tečky na ploše",
-          "product_block_dots_mb": "Zobrazit navigační tečky na mobilu\/tabletu",
+          "product_block_dots_mb": "Zobrazit navigační tečky na mobilu/tabletu",
           "product_block_dots_spacing_top": "Horní okraj navigačních bodů",
           "product_block_arrows": "Zobrazit navigační šipky",
           "product_block_arrows_desk": "Zobrazit navigační šipky na ploše",
-          "product_block_arrows_mb": "Zobrazit navigační šipky na mobilu\/tabletu",
+          "product_block_arrows_mb": "Zobrazit navigační šipky na mobilu/tabletu",
           "product_block_arrows_position": "Povolit vlastní umístění navigačních šipek na ploše",
           "use_special_arrow_position": "Použijte speciální pozici šipky",
           "enable_progress_bar": "Zobrazit posuvník",
@@ -2692,8 +2693,8 @@
             "info__1": "Pozice je automaticky optimalizována pro mobilní zařízení."
           },
           "name": "Prapor",
-          "align_items_spacing_tb": "Obsah horní\/spodní výplň",
-          "align_items_spacing_lr": "Obsah levé\/pravé polstrování",
+          "align_items_spacing_tb": "Obsah horní/spodní výplň",
+          "align_items_spacing_lr": "Obsah levé/pravé polstrování",
           "position_vertical_arrow": "Vertikální pozice (jednotka % nebo px)",
           "info__1": "Platí pouze v případě, že je nastavení „pozice obsahu“ nastaveno na horní nebo dolní.",
           "info__2": "Platí pouze v případě, že je nastavení „zarovnání obsahu“ nastaveno doleva nebo doprava."
@@ -2892,7 +2893,7 @@
         "box_shadow_hover_color": "Barva přechodu stínu pole",
         "social_media_link": {
           "content": "Ikony sociálních médií",
-          "info": "Chcete-li zobrazit své účty sociálních médií, propojte je v [nastavení motivu](\/editor?context=theme&category=social%20media).",
+          "info": "Chcete-li zobrazit své účty sociálních médií, propojte je v [nastavení motivu](/editor?context=theme&category=social%20media).",
           "show_social": "Zobrazit ikony sociálních médií",
           "enable_background_social": "Zobrazit pozadí na sociálních ikonách",
           "social_position": {
@@ -2978,7 +2979,7 @@
             "option": "Platební ikony typu",
             "option1": "Výchozí",
             "option2": "Zvyk",
-            "info": "Když zvolíte „výchozí“, chcete-li přidat ikony plateb, přejděte do [nastavení plateb] (\/admin\/settings\/payments)"
+            "info": "Když zvolíte „výchozí“, chcete-li přidat ikony plateb, přejděte do [nastavení plateb] (/admin/settings/payments)"
           },
           "payment_position": {
             "option": "Platební pozice",
@@ -3091,12 +3092,12 @@
           "background_color_items_cart_mb": "Barva pozadí položek na mobilu",
           "color_items_cart_mb": "Barva položek na mobilu",
           "font_size_cart_item": "Velikost písma položky",
-          "language_currency": "Jazyk\/měna",
-          "label__2": "Barva textu\/ikony 1",
-          "label__3": "Barva textu\/ikony 2",
-          "label__3_1": "Barva textu\/ikony 3",
-          "label__4": "Barva textu\/ikony",
-          "label__5": "Barva kurzoru textu\/ikony",
+          "language_currency": "Jazyk/měna",
+          "label__2": "Barva textu/ikony 1",
+          "label__3": "Barva textu/ikony 2",
+          "label__3_1": "Barva textu/ikony 3",
+          "label__4": "Barva textu/ikony",
+          "label__5": "Barva kurzoru textu/ikony",
           "label__6": "Barva ohraničení ikony",
           "label__7": "Používejte psací stroj",
           "label__8": "Zobrazit první obsah na mobilu",
@@ -3120,7 +3121,7 @@
           "bg_bottom": "Spodní pozadí",
           "mg_top": "Horní polstrování menu",
           "mg_bottom": "Spodní výplň menu",
-          "spacing_left_right": "Položky levé\/pravé polstrování",
+          "spacing_left_right": "Položky levé/pravé polstrování",
           "spacing_left_menu": "Levé polstrování menu",
           "spacing_right_menu": "Pravé polstrování menu"
         },
@@ -3199,7 +3200,7 @@
           "label__1": "Obrázek loga",
           "label__2": "Obrázek loga mobilu",
           "label__3": "Umístění loga na ploše",
-          "label__fixed": "Obrázek loga pro lepicí hlavičku\/pevnou hlavičku",
+          "label__fixed": "Obrázek loga pro lepicí hlavičku/pevnou hlavičku",
           "label__7": "Text loga nebo ikona SVG",
           "label__8": "Text loga nebo barva ikony SVG",
           "logo_info": "Toto logo se zobrazí, když není přidána žádná nabídka karet",
@@ -3366,7 +3367,8 @@
           "color_link_text": "Barva štítku tlačítka",
           "url": "Odkaz na tlačítko",
           "info": "Jednotka: % nebo px",
-          "info__2": "Zadejte název položky nabídky, kterou chcete použít v této mega nabídce."
+          "info__2": "Zadejte název položky nabídky, kterou chcete použít v této mega nabídce.",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "Záhlaví navigace - obyčejné",
@@ -3378,8 +3380,8 @@
           "name_7": "Navigace záhlaví – zarovnáno doleva",
           "name_8": "Navigace záhlaví - základní",
           "name_9": "Header nav – multi-site",
-          "label_2": "Mega menu\/rozbalovací nabídka",
-          "label_3": "Zobrazit jazyk\/měnu",
+          "label_2": "Mega menu/rozbalovací nabídka",
+          "label_3": "Zobrazit jazyk/měnu",
           "label_5": "Zobrazit v hlavní nabídce",
           "label_6": "Zobrazit na lepivém menu",
           "label_7": "Zobrazit vše",
@@ -3389,7 +3391,7 @@
           "option_3": "Pravé polstrování",
           "cart_count_bubble": "Košík počítat bublina",
           "search_input": "Styl vyhledávacího pole 2",
-          "cart_wishlist_count_bubble": "Bublina počtu košíků\/přání",
+          "cart_wishlist_count_bubble": "Bublina počtu košíků/přání",
           "wishlist_count_bubble": "Bublina počtu přání",
           "search_dropdown": "Rozbalovací nabídka Hledat",
           "search_dropdown_style": "Styl rozevíracího seznamu hledání",
@@ -3520,7 +3522,7 @@
           "label__1": "Zobrazit autora",
           "label__2": "Zobrazit datum",
           "label__3": "Zobrazit podíl",
-          "label__4": "Zobrazit další\/předchozí článek",
+          "label__4": "Zobrazit další/předchozí článek",
           "label__5": "Zobrazit hlavní obrázek",
           "label__6": "Zobrazit značky"
         }
@@ -3588,7 +3590,7 @@
           "options__1": "Základní barva (použijte název barvy)",
           "options__2": "Pokročilé barvy (použijte obrázek ve formátu PNG)",
           "options__3": "Posouvání",
-          "info__1": "[Přizpůsobit filtry](\/admin\/apps\/search-and-discovery)",
+          "info__1": "[Přizpůsobit filtry](/admin/apps/search-and-discovery)",
           "info__2": "Zadejte název filtru pro zobrazení stylu vzorníku",
           "info__3": "Zadejte název filtru pro zobrazení stylu obdélníku",
           "info__4": "Používá se pro zobrazení filtru: tlačítko zobrazit více",
@@ -3688,7 +3690,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "Chcete-li přidat obrázky, [upravte své sbírky](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "Chcete-li přidat obrázky, [upravte své sbírky](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3924,7 +3926,7 @@
         },
         "social-media": {
           "label__1": "Zobrazit sociální média",
-          "label__2": "Barva textu\/ikony"
+          "label__2": "Barva textu/ikony"
         },
         "countdown": {
           "label__1": "Čas",
@@ -3965,7 +3967,7 @@
           "label__1": "Šířka",
           "option__1": "Střední",
           "option__2": "Velký",
-          "info": "Další informace o [typech médií](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Další informace o [typech médií](https://help.shopify.com/manual/products/product-media)"
         },
         "header__3": {
           "content": "Odznak"
@@ -3993,20 +3995,20 @@
         },
         "header__12": {
           "content": "Důvěryhodné obrázky",
-          "paragraph": "Důvěryhodné obrázky zobrazují na produktových stránkách pouze ověřené, vysoce kvalitní vizuální prvky, což zvyšuje důvěru zákazníků a podporuje informovaná rozhodnutí o nákupu. [Další informace](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "Důvěryhodné obrázky zobrazují na produktových stránkách pouze ověřené, vysoce kvalitní vizuální prvky, což zvyšuje důvěru zákazníků a podporuje informovaná rozhodnutí o nákupu. [Další informace](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "Dynamická tlačítka pokladny"
         },
         "header__15": {
-          "content": "Další\/Předchozí produkt"
+          "content": "Další/Předchozí produkt"
         },
         "header__16": {
           "content": "Tabulka velikostí"
         },
         "header__17": {
           "content": "Možnost vyzvednutí",
-          "paragraph": "Zobrazuje dostupné offline obchody pro vybranou variantu. [Další informace](https:\/\/help.shopify.com\/cs\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "Zobrazuje dostupné offline obchody pro vybranou variantu. [Další informace](https://help.shopify.com/cs/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "Porovnání barev"
@@ -4019,14 +4021,14 @@
         },
         "header__21": {
           "content": "Variantní metapole",
-          "paragraph": "Zobrazte obsah specifický pro jednotlivé varianty na kartě popisu a poskytněte přizpůsobený obsah na základě vybrané varianty. [Další informace](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant )"
+          "paragraph": "Zobrazte obsah specifický pro jednotlivé varianty na kartě popisu a poskytněte přizpůsobený obsah na základě vybrané varianty. [Další informace](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant )"
         },
         "header__22": {
           "content": "Doplňkové produkty"
         },
         "header__23": {
           "content": "Balíček pozitivních vibrací",
-          "paragraph": "Balíček Positive Vibes je dynamická funkce navržená tak, aby povzbuzovala k nákupům zobrazováním motivačních zpráv jako „60 lidí nakoupilo 2+krát“ nebo „37 prodaných za posledních 24 hodin“ v neustále se pohybujícím formátu, což vytváří naléhavost a zvyšuje poptávku po produktech. [Další informace](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "Balíček Positive Vibes je dynamická funkce navržená tak, aby povzbuzovala k nákupům zobrazováním motivačních zpráv jako „60 lidí nakoupilo 2+krát“ nebo „37 prodaných za posledních 24 hodin“ v neustále se pohybujícím formátu, což vytváří naléhavost a zvyšuje poptávku po produktech. [Další informace](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "Dodací lhůta",
@@ -4051,7 +4053,7 @@
           "text": "Text"
         },
         "general": {
-          "label__1": "Povolit lepící informace o produktu na stolním počítači\/tabletu",
+          "label__1": "Povolit lepící informace o produktu na stolním počítači/tabletu",
           "label__2": "Rozvržení plochy",
           "label__3": "Hlavní pozice obrazu",
           "options__1": "Zobrazit miniatury vlevo",
@@ -4065,7 +4067,7 @@
           "buy_buttons": "Koupit tlačítka",
           "show_gift_card_recipient": {
             "label": "Zobrazit formulář příjemce pro produkty dárkových karet",
-            "info": "Umožňuje kupujícím odeslat dárkové karty v naplánovaný den spolu s osobní zprávou. [Další informace](https:\/\/help.shopify.com\/cs\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "Umožňuje kupujícím odeslat dárkové karty v naplánovaný den spolu s osobní zprávou. [Další informace](https://help.shopify.com/cs/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "Podíl",
           "vendor": "Prodejce",
@@ -4116,7 +4118,7 @@
           "product_tab_source_info": "Platí pouze v případě, že je nastavení „Zobrazit obsah pro“ nastaveno na „Specifické produkty využívající metapole“.",
           "dynamic_source": "Dynamický zdroj",
           "key_text_source": "Klíč metapole produktu",
-          "product_tab_key_info": "Platí pouze v případě, že je nastavení „Zobrazit obsah pro“ nastaveno na „Specifické produkty využívající metapole“ a „Zdroj obsahu“ je nastaveno na „Klíč metapole produktu“. [Další informace](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "Platí pouze v případě, že je nastavení „Zobrazit obsah pro“ nastaveno na „Specifické produkty využívající metapole“ a „Zdroj obsahu“ je nastaveno na „Klíč metapole produktu“. [Další informace](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "Barva aktivní miniatury",
           "navigation_arrows_color_mobile": "Barva navigačních šipek na mobilu",
           "read_more": "Přečtěte si více",
@@ -4136,7 +4138,7 @@
           "options__9": "Umístěte kurzor na hlavní obrázky",
           "unit": "%",
           "layout_video": "Rozložení videa",
-          "info__1": "Další informace o [media fit](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)",
+          "info__1": "Další informace o [media fit](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)",
           "info__2": "Nelze použít, pokud je nastavení přizpůsobení média nastaveno na originál.",
           "info__3": "Platí pouze pro možnost na výšku nastavení poměru obrazu produktu."
         },
@@ -4177,7 +4179,7 @@
         "variant": {
           "label__2": "Povolit seskupení obrázků variant",
           "options__1": "Rozbalovací nabídka",
-          "options__2": "Čtverec\/obdélník\/vzorník",
+          "options__2": "Čtverec/obdélník/vzorník",
           "variant_picker": "Výběr variant"
         },
         "quantity": {
@@ -4202,11 +4204,11 @@
         },
         "dynamic_checkout": {
           "label": "Zobrazit tlačítka dynamické pokladny",
-          "info": "Pomocí platebních metod dostupných ve vašem obchodě uvidí zákazníci preferovanou možnost, jako je paypal nebo apple pay. [Další informace](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "Pomocí platebních metod dostupných ve vašem obchodě uvidí zákazníci preferovanou možnost, jako je paypal nebo apple pay. [Další informace](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "Zobrazit další\/předchozí produkt",
-          "info": "Zobrazit produkt dalšího\/předchozího produktu v kolekci"
+          "label": "Zobrazit další/předchozí produkt",
+          "info": "Zobrazit produkt dalšího/předchozího produktu v kolekci"
         },
         "size_chart": {
           "label__1": "Povolit tabulku velikostí",
@@ -4277,7 +4279,7 @@
           "label__1": "Zobrazit doplňkový produkt",
           "label__2": "Doplňkový produktový styl 1",
           "label__3": "Doplňkový produktový styl 2",
-          "info__1": "Chcete-li vybrat doplňkové produkty, přidejte aplikaci vyhledávání a objevování. [Další informace](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "Chcete-li vybrat doplňkové produkty, přidejte aplikaci vyhledávání a objevování. [Další informace](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4302,7 +4304,7 @@
             "options__1": "Všechny produkty",
             "options__2": "Konkrétní produkty využívající metapole",
             "info_1": "Platí pouze v případě, že je nastavení „Zobrazit obsah pro“ nastaveno na „Všechny produkty“.",
-            "info_2": "[Další informace o tom, jak nastavit vlastní kartu pomocí metapole](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields "
+            "info_2": "[Další informace o tom, jak nastavit vlastní kartu pomocí metapole](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields "
           }
         },
         "grouped_product": {
@@ -4437,8 +4439,8 @@
         "info": "Platí pro 'pozici obsahu', která je 'Relativní'",
         "info_2": "Pravý blok se počítá automaticky",
         "title_align": "Zarovnání obsahu",
-        "align_items_spacing_tb": "Obsah: rozteč nahoře\/rozteč dole",
-        "align_items_spacing_lr": "Obsah: rozteč vlevo\/vpravo",
+        "align_items_spacing_tb": "Obsah: rozteč nahoře/rozteč dole",
+        "align_items_spacing_lr": "Obsah: rozteč vlevo/vpravo",
         "enable_item_1": "Povolit položku 1",
         "enable_item_2": "Povolit položku 2",
         "enable_item_3": "Povolit položku 3",
@@ -4633,7 +4635,7 @@
           "name": "Obrázek kolekce",
           "settings": {
             "paragraph": {
-              "content": "Chcete-li změnit popisy sbírek nebo obrázky sbírek, [upravte své sbírky.](\/admin\/collections)"
+              "content": "Chcete-li změnit popisy sbírek nebo obrázky sbírek, [upravte své sbírky.](/admin/collections)"
             },
             "general": {
               "label__1": "Zobrazit banner paralaxy",
@@ -4654,7 +4656,7 @@
             },
             "description": {
               "label__1": "Zobrazit popis kolekce",
-              "label__2": "Zobrazit 'číst více'\/'číst méně'",
+              "label__2": "Zobrazit 'číst více'/'číst méně'",
               "label__3": "Pozice",
               "label__4": "Zobrazit název sbírky",
               "label__5": "Zarovnání popisu kolekce",
@@ -4715,7 +4717,7 @@
         },
         "general": {
           "label": "Povolit balíček produktů",
-          "info": "Další informace [balíček produktů](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "Další informace [balíček produktů](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "Povolit slevu na balíček",
@@ -4813,10 +4815,10 @@
     "app_partner": {
       "name": "Partner aplikace",
       "enable_promotion": "Povolit nabídku PageFly",
-      "label_1": "1. Pro funkci recenzí: Použijte [aplikaci Loox](https:\/\/shopify.pxf.io\/y2D52b) a získejte 30denní zkušební verzi. [Jak nastavit Loox?](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. Exkluzivní nabídka: 3 měsíce používání 20 stránek PageFly za pouhých $1\/měsíc. [Získejte nabídku nyní](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. Použijte [UpPromote affiliate & Referral](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs) a získejte 20% slevu.",
-      "label_4": "4. Zlepšete výkon svého webu pomocí [Avada SEO suite](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
+      "label_1": "1. Pro funkci recenzí: Použijte [aplikaci Loox](https://shopify.pxf.io/y2D52b) a získejte 30denní zkušební verzi. [Jak nastavit Loox?](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. Exkluzivní nabídka: 3 měsíce používání 20 stránek PageFly za pouhých $1/měsíc. [Získejte nabídku nyní](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. Použijte [UpPromote affiliate & Referral](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs) a získejte 20% slevu.",
+      "label_4": "4. Zlepšete výkon svého webu pomocí [Avada SEO suite](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
     },
     "slidable_spotlight": {
       "name": "Posuvný reflektor",
@@ -4906,7 +4908,7 @@
           "country": "Země",
           "cross_street": "Příčná ulice",
           "postal_code": "PSČ",
-          "state": "Stát\/provincie",
+          "state": "Stát/provincie",
           "info": "např.: (202) 387-9338",
           "map_iframe": "Vložte prvek iframe mapy Google"
         }
@@ -4924,12 +4926,12 @@
         "tiktok_video": {
           "name": "Video Tiktok",
           "embed_code": "ID videa",
-          "info__1": "[Pokyny k získání ID videa tiktok](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[Pokyny k získání ID videa tiktok](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "Posuvník obrázku Před\/Po",
+      "name": "Posuvník obrázku Před/Po",
       "settings": {
         "content_position": "Pozice obsahu",
         "above": "Výše porovnejte obrázky",

@@ -86,7 +86,7 @@
           "label__3": "Mobil yükleme simge rengi"
         },
         "colors_breadcrumb": {
-          "label__4": "Yalnızca içerik haritası düzenleri 2 ve 3 için içerik haritası arka planı\/degradesi"
+          "label__4": "Yalnızca içerik haritası düzenleri 2 ve 3 için içerik haritası arka planı/degradesi"
         },
         "spinner_colors": {
           "content": "Döndürücü yükleniyor",
@@ -134,7 +134,7 @@
           "product_page_gallery": "Galeri",
           "product_page_left_thumbs": "Sol dikey küçük resimler",
           "product_page_right_thumbs": "Sağ dikey küçük resimler",
-          "product_page_left_right_sidebar": "Sol\/Sağ kenar çubuğu",
+          "product_page_left_right_sidebar": "Sol/Sağ kenar çubuğu",
           "product_page_horizontal_tabs_no_sidebar": "Kenar çubuğu olmayan yatay sekmeler",
           "product_page_step_by_step": "Adım Adım",
           "header_layout_rtl": "Sağdan sola düzen",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "RTL dilleri için ISO kodları listesi",
           "list_iso_rtl_info": "Her dil ISO kodunu ',' ile ayırın. Örn: ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "Otomatik olarak RTL düzenine geçmek için dil ISO kodlarını listeleyin: ar:(Arapça); dv:(Dhivehi,Maldiv); ha:(Hausa); he:(İbranice); ku:(Kürtçe\/Sorani); fa:(Farsça\/Farsça); ur:(Urduca); ps:(Peştuca); yi:(Yidiş)"
+          "list_iso_rtl_note": "Otomatik olarak RTL düzenine geçmek için dil ISO kodlarını listeleyin: ar:(Arapça); dv:(Dhivehi,Maldiv); ha:(Hausa); he:(İbranice); ku:(Kürtçe/Sorani); fa:(Farsça/Farsça); ur:(Urduca); ps:(Peştuca); yi:(Yidiş)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "Yazı tipi kaynağı",
           "options__1": "Google yazı tipleri",
           "options__2": "Shopify yazı tipleri",
-          "info": "Google fontlarını kullanmak için font adını ekleyin. [Daha fazla bilgi edinin](https:\/\/fonts.google.com\/)",
+          "info": "Google fontlarını kullanmak için font adını ekleyin. [Daha fazla bilgi edinin](https://fonts.google.com/)",
           "info_shopify_font": "Shopify yazı tiplerini kullanarak web sitenizin performansını optimize edin!",
           "info_language": "Özelleştirme ayarlarında bir dil yapılandırırken aynı dil tercihinin yönetim ayarlarında da oluşturulması önemlidir."
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "Gövde yazı tipi",
           "label": "Shopify yazı tipi",
-          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "Başlık yazı tipi",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "Mega menü seviyesi 2",
           "title_mega_menu_lv3": "Mega menü seviyesi 3",
           "label": "Gezinme yazı tipi ailesi",
-          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "Ürün öğesi yazı tipi",
@@ -237,7 +237,7 @@
           "yes": "Evet",
           "no": "HAYIR",
           "label": "Düğme 1 yazı tipi ailesi",
-          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "Farklı bir yazı tipi seçmek mağazanızın hızını etkileyebilir. [Sistem yazı tipleri hakkında daha fazla bilgi edinin.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "Taslağı Göster",
           "cta_button": "CTA düğmesi"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "'Tümünü görüntüle' simgesi konumu",
           "view_all_font_size": "'Tümünü görüntüle' yazı tipi boyutu",
           "view_all_width": "'Tümünü görüntüle' genişliği",
-          "view_all_info": "Bu bağlantıya gidin [simgenizi bulun](https:\/\/fontawesome.com\/v5\/search). İstediğiniz simgeyi bulun, ardından SVG kodunu kopyalayın ve buraya yapıştırın.",
-          "logo_icon_info": "Yalnızca logo resmi boş bırakıldığında geçerlidir. Bu bağlantıya gidin [simgenizi bulun](https:\/\/fontawesome.com\/v5\/search). İstediğiniz simgeyi bulun, ardından SVG kodunu kopyalayın ve buraya yapıştırın.",
+          "view_all_info": "Bu bağlantıya gidin [simgenizi bulun](https://fontawesome.com/v5/search). İstediğiniz simgeyi bulun, ardından SVG kodunu kopyalayın ve buraya yapıştırın.",
+          "logo_icon_info": "Yalnızca logo resmi boş bırakıldığında geçerlidir. Bu bağlantıya gidin [simgenizi bulun](https://fontawesome.com/v5/search). İstediğiniz simgeyi bulun, ardından SVG kodunu kopyalayın ve buraya yapıştırın.",
           "item": "Öğeler",
-          "item_padding_top_bottom": "Üst\/Alt dolgu",
-          "item_padding_left_right": "Sol\/Sağ dolgu",
+          "item_padding_top_bottom": "Üst/Alt dolgu",
+          "item_padding_left_right": "Sol/Sağ dolgu",
           "item_padding_top": "Öğe üst dolgusu",
           "item_padding_bottom": "Öğe alt dolgusu",
           "item_width": "Öğe genişliği",
@@ -429,19 +429,19 @@
           "icon_color_hover": "Simgenin vurgulu rengi",
           "icon_color_mb": "Mobil cihazdaki simge rengi",
           "icon_width": "Simge genişliği",
-          "icon_width_info": "Metin\/simge görüntüleme ayarı simge olarak ayarlandığında geçerlidir",
+          "icon_width_info": "Metin/simge görüntüleme ayarı simge olarak ayarlandığında geçerlidir",
           "icon_height": "Simgelerin yüksekliği",
           "icon_width_1": "Simge genişliği",
           "icon_height_1": "Simge yüksekliği",
           "icon_width_mb": "Mobilde simge genişliği",
           "icon_height_mb": "Mobilde simge yüksekliği",
-          "icon_mg_right": "Metin\/SVG simgesi sağ kenar boşluğu",
+          "icon_mg_right": "Metin/SVG simgesi sağ kenar boşluğu",
           "icon_mg_bottom": "Simge aralığı alt",
           "icon_spacing_mobile": "Mobil cihazlarda simge aralığı",
-          "icon_type": "Resim veya metin\/SVG simgesini kullan",
+          "icon_type": "Resim veya metin/SVG simgesini kullan",
           "icons_type": "Simge türü",
           "icons_type_info": "Yalnızca 'simge türü' ayarı Simge olarak ayarlandığında geçerlidir.",
-          "text_svg_icon": "Metin\/SVG simgesi",
+          "text_svg_icon": "Metin/SVG simgesi",
           "layout_mobile": "Mobil düzen",
           "layout_mobile_info": "Yalnızca ızgara düzeni için geçerlidir",
           "list": "Liste",
@@ -518,7 +518,7 @@
           "beside_the_title": "Başlığın yanında",
           "width_on_desktop": "Masaüstünde genişlik",
           "section_footer": "Bölüm altbilgisi",
-          "prev_next_button": "Önceki\/Sonraki düğmesi",
+          "prev_next_button": "Önceki/Sonraki düğmesi",
           "info_mobile_layout": "Yalnızca 'mobil düzen' ayarı kaydırıcı olarak ayarlandığında geçerlidir.",
           "header_block": {
             "option_1": "Başlık solda ve tüm görünüm solda",
@@ -526,7 +526,8 @@
             "option_3": "Soldaki tüm görünümü içeren başlık merkezi",
             "option_4": "Görünümü iyi olan başlık merkezi",
             "option_5": "Aşağıda tümünü gösteren başlık merkezi"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "Altbilgi yazı tipi"
@@ -577,23 +578,23 @@
         "whatsapp_label": "Whatsapp'ta paylaş",
         "header__2": "Sosyal hesaplar",
         "social_twitter_link_label": "Twitter bağlantısı",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "Facebook bağlantısı",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "Pinterest bağlantısı",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "Instagram bağlantısı",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "TikTok bağlantısı",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "Tumblr bağlantısı",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "Snapchat bağlantısı",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "YouTube bağlantısı",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "Vimeo bağlantısı",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "Özelleştirme seçeneği",
-          "info": "Özelleştirme seçenekleri, sepete eklenen bir öğe için özelleştirme bilgilerini toplamak için kullanılır. Bu bilgiler, alıcıdan ürün sayfasında ve hızlı görüntülemede toplanabilir. [Daha fazla bilgi edinin](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "Özelleştirme seçenekleri, sepete eklenen bir öğe için özelleştirme bilgilerini toplamak için kullanılır. Bu bilgiler, alıcıdan ürün sayfasında ve hızlı görüntülemede toplanabilir. [Daha fazla bilgi edinin](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "Site ikonu resmi",
@@ -651,8 +652,8 @@
           "label__7": "Gizlilik politikası düğme bağlantısı",
           "label__8": "Çerezleri kabul et düğme etiketi",
           "color_privacy_policy": "Gizlilik politikası düğme rengi",
-          "info__1": "[Daha fazla bilgi edinin](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies)",
-          "info__2": "Örnek: https:\/\/policies.google.com"
+          "info__1": "[Daha fazla bilgi edinin](https://help.shopify.com/en/manual/your-account/privacy/cookies)",
+          "info__2": "Örnek: https://policies.google.com"
         },
         "wishlist": {
           "label": "İstek listesini etkinleştir",
@@ -735,7 +736,7 @@
           "style_10": "Stil 10"
         },
         "trust_image": {
-          "info__1": "Ürün sayfası\/Hızlı görünüm",
+          "info__1": "Ürün sayfası/Hızlı görünüm",
           "info__2": "Sepet sayfası"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "Paket rozetini göster",
           "label__23": "Yazı tipi boyutu",
           "label__24": "Köşe yarıçapı",
-          "label__26": "Sol\/Sağ dolgu",
+          "label__26": "Sol/Sağ dolgu",
           "label__28": "Dikey konum",
           "label__29": "Yatay konum",
           "options__3": "Dinamik",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "İstek listesini göster",
-          "label__4": "Metin\/Simge etkin",
+          "label__4": "Metin/Simge etkin",
           "label__5": "Arka plan etkin",
           "label__9": "Sınır etkin",
           "label__10": "İstek listesini mobil cihazda göster",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "Hızlı görünümü göster",
           "label__2": "Hızlı görüntüleme stili",
-          "label__3": "Metin\/Simge",
-          "label__5": "Metin\/Simge vurgulu",
+          "label__3": "Metin/Simge",
+          "label__5": "Metin/Simge vurgulu",
           "label__6": "Arka planda vurgulu",
           "label__7": "Hızlı görüntüleme ve istek listesi konumu",
           "label__8": "Mobil cihazda hızlı görünümü göster",
@@ -955,10 +956,10 @@
         "currency_format_enable": "Para birimi biçimini etkinleştir",
         "info_currency_format": "Sepet ve ödeme fiyatları her zaman para birimi kodlarını gösterir. Örnek: $1.00 USD.",
         "enable_shopify_payments_currencies": "Shopify ödemeleri etkinleştirilsin mi?",
-        "info_1": "Yalnızca Shopify ödemeleri olan mağazalar için geçerlidir. Bağlantı [buradan](https:\/\/help.shopify.com\/tr\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_1": "Yalnızca Shopify ödemeleri olan mağazalar için geçerlidir. Bağlantı [buradan](https://help.shopify.com/tr/manual/payments/shopify-payments/multi-currency/setup)",
         "enable_multiple_currencies": "Birden fazla para birimi etkinleştirilsin mi?",
         "enable_auto_currency": "Otomatik para birimi etkinleştirilsin mi?",
-        "info_2": "Aynı anda 3 seçeneğin hepsini seçmeyin veya Shopify ödemesini diğerleriyle birleştirmeyin. Bağlantıyı [buradan](https:\/\/help.shopify.com\/tr\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_2": "Aynı anda 3 seçeneğin hepsini seçmeyin veya Shopify ödemesini diğerleriyle birleştirmeyin. Bağlantıyı [buradan](https://help.shopify.com/tr/manual/payments/shopify-payments/multi-currency/setup)",
         "i-currency-1": "Para birimi kodu 1 için SVG simgesi",
         "currency_1_unit": "Para birimi kodu 1",
         "usd": "Amerikan Doları",
@@ -982,8 +983,8 @@
         "currency_9_unit": "Para birimi kodu 9",
         "i-currency-10": "Para birimi kodu 10 için SVG simgesi",
         "currency_10_unit": "Para birimi kodu 10",
-        "paragraph_1": "Para birimi kodlarınızı bir boşlukla ayırın. ISO 4217 3 harfli para birimi kodunu kullanın. Para birimi kodlarının tam listesi için [buraya](http:\/\/www.xe.com\/iso4217.php) tıklayın. Örnek: CAD USD.",
-        "paragraph_2": "Bu işlevin mağazanızda çalışması için, para biçimlerinizi [bu talimatlara](http:\/\/help.shopify.com\/en\/themes\/customization\/currencies) göre düzenlemeniz gerekir. (Lütfen para biçiminin nerede bulunduğunu belirtin.)",
+        "paragraph_1": "Para birimi kodlarınızı bir boşlukla ayırın. ISO 4217 3 harfli para birimi kodunu kullanın. Para birimi kodlarının tam listesi için [buraya](http://www.xe.com/iso4217.php) tıklayın. Örnek: CAD USD.",
+        "paragraph_2": "Bu işlevin mağazanızda çalışması için, para biçimlerinizi [bu talimatlara](http://help.shopify.com/en/themes/customization/currencies) göre düzenlemeniz gerekir. (Lütfen para biçiminin nerede bulunduğunu belirtin.)",
         "select_a_currency": "Bir para birimi işlevi seçin",
         "option_1": "Shopify ödemesi",
         "option_2": "Çoklu para birimleri",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "Hızlı düzenleme sepetini göster",
-          "options__5": "Düğme\/Renk Örneği"
+          "options__5": "Düğme/Renk Örneği"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "Geri sayım",
-      "info": "Geri sayım, müşterilere ürünün promosyonda olduğu zaman dilimini gösterir. [Daha fazla bilgi edinin](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "Geri sayım, müşterilere ürünün promosyonda olduğu zaman dilimini gösterir. [Daha fazla bilgi edinin](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "Geri sayımı göster",
@@ -1316,7 +1317,7 @@
           "options__2": "Her ürün için",
           "options__3": "Koleksiyon için",
           "info": "Örnek: Dec 31, 2024 18:00:00",
-          "info__1": "Lütfen tam olarak şu formatı kullanın: yyyy\/mm\/dd saat\/dakika\/saniye. Örnek: 2024\/12\/4 0:0:00."
+          "info__1": "Lütfen tam olarak şu formatı kullanın: yyyy/mm/dd saat/dakika/saniye. Örnek: 2024/12/4 0:0:00."
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "Hizalama",
-          "label__2": "Hizalama (üst\/orta\/alt)",
-          "label__3": "Hizalama (sola\/ortaya\/sağa\/yaslama)",
+          "label__2": "Hizalama (üst/orta/alt)",
+          "label__3": "Hizalama (sola/ortaya/sağa/yaslama)",
           "label__4": "Mobil cihazda hizalama",
           "label__5": "İçerik için sol konum",
           "options__4": "Savunmak",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "Başlık\/Başlık tipografisi"
+            "content": "Başlık/Başlık tipografisi"
           },
           "paragraph__2": {
             "content": "Metin tipografisi"
           },
           "paragraph__3": {
-            "content": "Tarih\/Yazar\/Yorum tipografisi"
+            "content": "Tarih/Yazar/Yorum tipografisi"
           },
           "font_style": "Yazı tipi stili"
         }
@@ -1854,7 +1855,7 @@
           "select_menu": "Kategori menüsü",
           "recommen_image": "Önerilen resim: 250 x 250 piksel",
           "banner_link": "Banner bağlantısı",
-          "info__1": "Her kategori için görselleri göstermek üzere menü tutamağıyla aynı adı taşıyan görselleri yükleyin. [Daha fazla bilgi edinin](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
+          "info__1": "Her kategori için görselleri göstermek üzere menü tutamağıyla aynı adı taşıyan görselleri yükleyin. [Daha fazla bilgi edinin](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
         }
       },
       "presets": {
@@ -2083,9 +2084,9 @@
         "content_spacing": "İçerik dolgusu",
         "align_items_spacing_top": "İçerik üst kenar boşluğu",
         "align_items_spacing_bottom": "İçerik alt kenar boşluğu",
-        "align_items_spacing_lr": "İçerik sol\/sağ aralığı",
-        "align_items_spacing_top_bottom_position": "İçerik üst\/alt aralığı",
-        "align_items_spacing_top_bottom_position_mb": "Mobil cihazlarda içeriğin üst\/alt aralığı",
+        "align_items_spacing_lr": "İçerik sol/sağ aralığı",
+        "align_items_spacing_top_bottom_position": "İçerik üst/alt aralığı",
+        "align_items_spacing_top_bottom_position_mb": "Mobil cihazlarda içeriğin üst/alt aralığı",
         "content_1": "Öğeleri engelle",
         "enable_shadow": "Kutu gölgesini göster",
         "use_special_header_layout": "Özel düzen kullan",
@@ -2134,8 +2135,8 @@
           "blog_style_1": "Resmin altında",
           "blog_style_2": "Resmin üst üste binmesi",
           "show_link_as": "'Ayrıntıları görüntüle' bağlantısını düğme olarak göster",
-          "link_button_color": "Bağlantı\/Düğme etiketi rengi",
-          "link_button_hover_color": "Bağlantı\/Düğme etiketi vurgulu rengi"
+          "link_button_color": "Bağlantı/Düğme etiketi rengi",
+          "link_button_hover_color": "Bağlantı/Düğme etiketi vurgulu rengi"
         }
       },
       "presets": {
@@ -2221,7 +2222,7 @@
         "tab": {
           "name": "Sekme öğesi",
           "show_image": "Sekme resmini göster",
-          "info": "Blok öğelerini göstermek için bir gezinme seçin. [Görüntülerin nasıl yükleneceği hakkında daha fazla bilgi edinin.](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show-images-for-brand-tab-section)"
+          "info": "Blok öğelerini göstermek için bir gezinme seçin. [Görüntülerin nasıl yükleneceği hakkında daha fazla bilgi edinin.](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show-images-for-brand-tab-section)"
         }
       },
       "settings": {
@@ -2264,7 +2265,7 @@
         "info": "Yalnızca içerik hizalama ayarı orta olarak ayarlandığında geçerlidir.",
         "enable_map": "Google haritasını göster",
         "map_iframe": "Harita yerleştirme",
-        "info__1": "HTML yerleştirme kodunu almak için [Google haritalara](https:\/\/www.google.com\/maps) gitmeniz gerekir.",
+        "info__1": "HTML yerleştirme kodunu almak için [Google haritalara](https://www.google.com/maps) gitmeniz gerekir.",
         "button": {
           "label__8": "Maksimum düğme genişliği"
         }
@@ -2594,7 +2595,7 @@
           "product_block_02": "Ürün bloğu ikilisi",
           "feature_product": "Öne çıkan ürün",
           "feature_product_unsymmetrical": "Ürün vurgusu",
-          "info_tablet_mobile": "Mobil\/tablet için kullanın"
+          "info_tablet_mobile": "Mobil/tablet için kullanın"
         },
         "product_block_layout": {
           "option": "Düzen",
@@ -2650,11 +2651,11 @@
           "content": "Kaydırıcı düzeni",
           "product_block_dots": "Gezinme noktalarını göster",
           "product_block_dots_desk": "Gezinme noktalarını masaüstünde göster",
-          "product_block_dots_mb": "Mobil cihazda\/tablette gezinme noktalarını göster",
+          "product_block_dots_mb": "Mobil cihazda/tablette gezinme noktalarını göster",
           "product_block_dots_spacing_top": "Gezinme noktalarının üst kenar boşluğu",
           "product_block_arrows": "Gezinme oklarını göster",
           "product_block_arrows_desk": "Gezinme oklarını masaüstünde göster",
-          "product_block_arrows_mb": "Mobil cihazda\/tablette gezinme oklarını göster",
+          "product_block_arrows_mb": "Mobil cihazda/tablette gezinme oklarını göster",
           "product_block_arrows_position": "Gezinme oklarının masaüstünde özel konumlandırılmasını etkinleştir",
           "use_special_arrow_position": "Özel ok konumunu kullan",
           "enable_progress_bar": "Kaydırma çubuğunu göster",
@@ -2692,8 +2693,8 @@
             "info__1": "Konum mobil cihazlar için otomatik olarak optimize edilir."
           },
           "name": "Afiş",
-          "align_items_spacing_tb": "İçerik üst\/alt dolgusu",
-          "align_items_spacing_lr": "İçerik sol\/sağ dolgusu",
+          "align_items_spacing_tb": "İçerik üst/alt dolgusu",
+          "align_items_spacing_lr": "İçerik sol/sağ dolgusu",
           "position_vertical_arrow": "Dikey konum (birim % veya piksel)",
           "info__1": "Yalnızca 'içerik konumu' ayarı üst veya alt olarak ayarlandığında geçerlidir.",
           "info__2": "Yalnızca 'içerik hizalama' ayarı sola veya sağa ayarlandığında geçerlidir."
@@ -2892,7 +2893,7 @@
         "box_shadow_hover_color": "Kutu gölge vurgulu rengi",
         "social_media_link": {
           "content": "Sosyal medya simgeleri",
-          "info": "Sosyal medya hesaplarınızı görüntülemek için bunları [tema ayarlarınıza](\/editor?context=theme&category=social%20media) giderek bağlayın.",
+          "info": "Sosyal medya hesaplarınızı görüntülemek için bunları [tema ayarlarınıza](/editor?context=theme&category=social%20media) giderek bağlayın.",
           "show_social": "Sosyal medya simgelerini göster",
           "enable_background_social": "Sosyal simgelerdeki arka planları göster",
           "social_position": {
@@ -2978,7 +2979,7 @@
             "option": "Ödeme simgeleri türü",
             "option1": "Varsayılan",
             "option2": "Gelenek",
-            "info": "\"Varsayılan\"ı seçtiğinizde ödeme simgeleri eklemek için [ödeme ayarlarınıza](\/admin\/settings\/payments) gidin"
+            "info": "\"Varsayılan\"ı seçtiğinizde ödeme simgeleri eklemek için [ödeme ayarlarınıza](/admin/settings/payments) gidin"
           },
           "payment_position": {
             "option": "Ödeme pozisyonu",
@@ -3091,12 +3092,12 @@
           "background_color_items_cart_mb": "Mobil cihazdaki öğelerin arka plan rengi",
           "color_items_cart_mb": "Mobil cihazlarda öğelerin rengi",
           "font_size_cart_item": "Öğe yazı tipi boyutu",
-          "language_currency": "Dil\/Para Birimi",
-          "label__2": "Metin\/Simge rengi 1",
-          "label__3": "Metin\/Simge rengi 2",
-          "label__3_1": "Metin\/Simge rengi 3",
-          "label__4": "Metin\/Simge rengi",
-          "label__5": "Metin\/Simge vurgulu rengi",
+          "language_currency": "Dil/Para Birimi",
+          "label__2": "Metin/Simge rengi 1",
+          "label__3": "Metin/Simge rengi 2",
+          "label__3_1": "Metin/Simge rengi 3",
+          "label__4": "Metin/Simge rengi",
+          "label__5": "Metin/Simge vurgulu rengi",
           "label__6": "Simge kenarlık rengi",
           "label__7": "Daktilo kullan",
           "label__8": "Mobil cihazda ilk içeriği göster",
@@ -3120,7 +3121,7 @@
           "bg_bottom": "Alt arka plan",
           "mg_top": "Menü üst dolgusu",
           "mg_bottom": "Menü alt dolgusu",
-          "spacing_left_right": "Öğelerin sol\/sağ dolgusu",
+          "spacing_left_right": "Öğelerin sol/sağ dolgusu",
           "spacing_left_menu": "Menünün sol dolgusu",
           "spacing_right_menu": "Menünün sağ dolgusu"
         },
@@ -3199,7 +3200,7 @@
           "label__1": "Logo resmi",
           "label__2": "Mobil logo resmi",
           "label__3": "Masaüstü logosu konumu",
-          "label__fixed": "Yapışkan başlık\/sabit başlık için logo resmi",
+          "label__fixed": "Yapışkan başlık/sabit başlık için logo resmi",
           "label__7": "Logo metni veya SVG simgesi",
           "label__8": "Logo metni veya SVG simge rengi",
           "logo_info": "Bu logo, sekme menüsü eklenmediğinde gösterilecektir",
@@ -3366,7 +3367,8 @@
           "color_link_text": "Düğme etiketi rengi",
           "url": "Düğme bağlantısı",
           "info": "Birim: % veya piksel",
-          "info__2": "Bu mega menüye uygulamak istediğiniz menü öğesinin adını girin."
+          "info__2": "Bu mega menüye uygulamak istediğiniz menü öğesinin adını girin.",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "Başlık gezintisi - düz",
@@ -3378,8 +3380,8 @@
           "name_7": "Başlık gezintisi - sola hizalanmış",
           "name_8": "Başlık gezintisi - temel",
           "name_9": "Başlık gezintisi - çoklu site",
-          "label_2": "Mega menü\/Açılır menü",
-          "label_3": "Dili\/para birimini göster",
+          "label_2": "Mega menü/Açılır menü",
+          "label_3": "Dili/para birimini göster",
           "label_5": "Ana menüde göster",
           "label_6": "Yapışkan menüde göster",
           "label_7": "Tümünü göster",
@@ -3389,7 +3391,7 @@
           "option_3": "Sağ dolgu",
           "cart_count_bubble": "Sepet sayma balonu",
           "search_input": "Arama girişi stili 2",
-          "cart_wishlist_count_bubble": "Sepet\/İstek Listesi sayma balonu",
+          "cart_wishlist_count_bubble": "Sepet/İstek Listesi sayma balonu",
           "wishlist_count_bubble": "İstek listesi sayma balonu",
           "search_dropdown": "Arama açılır menüsü",
           "search_dropdown_style": "Arama açılır stili",
@@ -3520,7 +3522,7 @@
           "label__1": "Yazarı göster",
           "label__2": "Tarihi göster",
           "label__3": "Paylaşımı göster",
-          "label__4": "Sonraki\/önceki makaleyi göster",
+          "label__4": "Sonraki/önceki makaleyi göster",
           "label__5": "Ana resmi göster",
           "label__6": "Etiketleri göster"
         }
@@ -3588,7 +3590,7 @@
           "options__1": "Temel renk (renk adını kullanın)",
           "options__2": "Gelişmiş renk (PNG formatındaki görseli kullanın)",
           "options__3": "Kaydırma",
-          "info__1": "[Filtreleri özelleştirin](\/admin\/apps\/search-and-discovery)",
+          "info__1": "[Filtreleri özelleştirin](/admin/apps/search-and-discovery)",
           "info__2": "Renk örneği stilini göstermek için filtre adını girin",
           "info__3": "Dikdörtgen stilini göstermek için filtre adını girin",
           "info__4": "Filtre ekranı için kullanılır: daha fazlasını göster düğmesi",
@@ -3688,7 +3690,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "Resim eklemek için [koleksiyonlarınızı düzenleyin](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "Resim eklemek için [koleksiyonlarınızı düzenleyin](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3924,7 +3926,7 @@
         },
         "social-media": {
           "label__1": "Sosyal medyayı göster",
-          "label__2": "Metin\/Simge rengi"
+          "label__2": "Metin/Simge rengi"
         },
         "countdown": {
           "label__1": "Zaman",
@@ -3965,7 +3967,7 @@
           "label__1": "Genişlik",
           "option__1": "Orta",
           "option__2": "Büyük",
-          "info": "[Medya türleri](https:\/\/help.shopify.com\/manual\/products\/product-media) hakkında daha fazla bilgi edinin"
+          "info": "[Medya türleri](https://help.shopify.com/manual/products/product-media) hakkında daha fazla bilgi edinin"
         },
         "header__3": {
           "content": "Rozet"
@@ -3993,20 +3995,20 @@
         },
         "header__12": {
           "content": "Güvenilir görseller",
-          "paragraph": "Güvenilir görseller, ürün sayfalarında yalnızca doğrulanmış, yüksek kaliteli görselleri görüntüler, müşteri güvenini artırır ve bilinçli satın alma kararlarını destekler. [Daha fazla bilgi edinin](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "Güvenilir görseller, ürün sayfalarında yalnızca doğrulanmış, yüksek kaliteli görselleri görüntüler, müşteri güvenini artırır ve bilinçli satın alma kararlarını destekler. [Daha fazla bilgi edinin](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "Dinamik ödeme düğmeleri"
         },
         "header__15": {
-          "content": "Sonraki\/Önceki ürün"
+          "content": "Sonraki/Önceki ürün"
         },
         "header__16": {
           "content": "Boyut tablosu"
         },
         "header__17": {
           "content": "Teslim alma olanağı",
-          "paragraph": "Seçili varyant için mevcut çevrimdışı mağazaları gösterir. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/tr\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "Seçili varyant için mevcut çevrimdışı mağazaları gösterir. [Daha fazla bilgi edinin](https://help.shopify.com/tr/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "Renk karşılaştırması"
@@ -4019,14 +4021,14 @@
         },
         "header__21": {
           "content": "Varyant meta alanı",
-          "paragraph": "Açıklama sekmesinde varyanta özgü içerikleri göstererek seçili varyanta göre uyarlanmış içerikler sağlayın. [Daha fazla bilgi edinin](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant)"
+          "paragraph": "Açıklama sekmesinde varyanta özgü içerikleri göstererek seçili varyanta göre uyarlanmış içerikler sağlayın. [Daha fazla bilgi edinin](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant)"
         },
         "header__22": {
           "content": "Tamamlayıcı ürünler"
         },
         "header__23": {
           "content": "Olumlu hisler paketi",
-          "paragraph": "Positive vibes paketi, '60 kişi 2+ kez satın aldı' veya 'Son 24 saatte 37 kişi sattı' gibi motivasyonel mesajları sürekli kayan bir biçimde görüntüleyerek satın alımları teşvik etmek için tasarlanmış dinamik bir özelliktir, aciliyet yaratır ve ürün talebini artırır. [Daha fazla bilgi edinin](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "Positive vibes paketi, '60 kişi 2+ kez satın aldı' veya 'Son 24 saatte 37 kişi sattı' gibi motivasyonel mesajları sürekli kayan bir biçimde görüntüleyerek satın alımları teşvik etmek için tasarlanmış dinamik bir özelliktir, aciliyet yaratır ve ürün talebini artırır. [Daha fazla bilgi edinin](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "Teslimat süresi",
@@ -4051,7 +4053,7 @@
           "text": "Metin"
         },
         "general": {
-          "label__1": "Masaüstünde\/tablette yapışkan Ürün bilgilerini etkinleştirin",
+          "label__1": "Masaüstünde/tablette yapışkan Ürün bilgilerini etkinleştirin",
           "label__2": "Masaüstü düzeni",
           "label__3": "Ana görüntü konumu",
           "options__1": "Küçük resimleri solda göster",
@@ -4065,7 +4067,7 @@
           "buy_buttons": "Düğme satın al",
           "show_gift_card_recipient": {
             "label": "Hediye kartı ürünleri için alıcı formunu göster",
-            "info": "Alıcıların kişisel bir mesajla birlikte planlanmış bir tarihte hediye kartları göndermesine olanak tanır. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "Alıcıların kişisel bir mesajla birlikte planlanmış bir tarihte hediye kartları göndermesine olanak tanır. [Daha fazla bilgi edinin](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "Paylaşmak",
           "vendor": "Satıcı",
@@ -4116,7 +4118,7 @@
           "product_tab_source_info": "Yalnızca 'İçeriği göster' ayarı 'Meta alanı kullanan belirli ürünler' olarak ayarlandığında geçerlidir.",
           "dynamic_source": "Dinamik kaynak",
           "key_text_source": "Ürün meta alanı anahtarı",
-          "product_tab_key_info": "Yalnızca 'İçeriği göster' ayarı 'Meta alanı kullanan belirli ürünler' olarak ve 'İçerik kaynağı' ayarı 'Ürün meta alanı anahtarı' olarak ayarlandığında geçerlidir. [Daha fazla bilgi edinin](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "Yalnızca 'İçeriği göster' ayarı 'Meta alanı kullanan belirli ürünler' olarak ve 'İçerik kaynağı' ayarı 'Ürün meta alanı anahtarı' olarak ayarlandığında geçerlidir. [Daha fazla bilgi edinin](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "Etkin küçük resim rengi",
           "navigation_arrows_color_mobile": "Mobil cihazlarda gezinme oklarının rengi",
           "read_more": "Devamını oku",
@@ -4136,7 +4138,7 @@
           "options__9": "Ana görsellerin üzerine gelin",
           "unit": "%",
           "layout_video": "Video düzeni",
-          "info__1": "[Medya uyumu](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media) hakkında daha fazla bilgi edinin",
+          "info__1": "[Medya uyumu](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media) hakkında daha fazla bilgi edinin",
           "info__2": "Medyaya sığdırma ayarı orijinal olarak ayarlandığında geçerli değildir.",
           "info__3": "Yalnızca ürün görseli oranı ayarının portre seçeneği için geçerlidir."
         },
@@ -4177,7 +4179,7 @@
         "variant": {
           "label__2": "Gruplandırılmış varyant resmini etkinleştir",
           "options__1": "Yıkılmak",
-          "options__2": "Kare\/Dikdörtgen\/Renk Örneği",
+          "options__2": "Kare/Dikdörtgen/Renk Örneği",
           "variant_picker": "Varyant seçici"
         },
         "quantity": {
@@ -4202,11 +4204,11 @@
         },
         "dynamic_checkout": {
           "label": "Dinamik ödeme düğmelerini göster",
-          "info": "Mağazanızda mevcut ödeme yöntemlerini kullanarak müşterileriniz paypal veya apple pay gibi tercih ettikleri seçeneği görecekler. [Daha fazla bilgi edinin](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "Mağazanızda mevcut ödeme yöntemlerini kullanarak müşterileriniz paypal veya apple pay gibi tercih ettikleri seçeneği görecekler. [Daha fazla bilgi edinin](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "Sonraki\/önceki ürünü göster",
-          "info": "Koleksiyondaki sonraki\/önceki ürünün ürününü göster"
+          "label": "Sonraki/önceki ürünü göster",
+          "info": "Koleksiyondaki sonraki/önceki ürünün ürününü göster"
         },
         "size_chart": {
           "label__1": "Boyut grafiğini etkinleştir",
@@ -4277,7 +4279,7 @@
           "label__1": "Tamamlayıcı ürünü göster",
           "label__2": "Tamamlayıcı ürün stili 1",
           "label__3": "Tamamlayıcı ürün stili 2",
-          "info__1": "Tamamlayıcı ürünleri seçmek için arama ve keşif uygulamasını ekleyin. [Daha fazla bilgi edinin](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "Tamamlayıcı ürünleri seçmek için arama ve keşif uygulamasını ekleyin. [Daha fazla bilgi edinin](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4302,7 +4304,7 @@
             "options__1": "Tüm ürünler",
             "options__2": "Meta alanı kullanan belirli ürünler",
             "info_1": "Yalnızca 'İçeriği göster' ayarı 'Tüm ürünler' olarak ayarlandığında geçerlidir.",
-            "info_2": "[Meta alanı kullanarak özel bir sekmenin nasıl kurulacağı hakkında daha fazla bilgi edinin](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)"
+            "info_2": "[Meta alanı kullanarak özel bir sekmenin nasıl kurulacağı hakkında daha fazla bilgi edinin](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)"
           }
         },
         "grouped_product": {
@@ -4437,8 +4439,8 @@
         "info": "'Göreceli' olan 'içerik konumu' için geçerlidir",
         "info_2": "Sağ blok otomatik olarak hesaplanır",
         "title_align": "İçerik hizalaması",
-        "align_items_spacing_tb": "İçerik: üstte aralık\/altta aralık",
-        "align_items_spacing_lr": "İçerik: sol aralık\/sağ aralık",
+        "align_items_spacing_tb": "İçerik: üstte aralık/altta aralık",
+        "align_items_spacing_lr": "İçerik: sol aralık/sağ aralık",
         "enable_item_1": "Öğe 1'i etkinleştir",
         "enable_item_2": "Öğe 2'yi etkinleştir",
         "enable_item_3": "3. öğeyi etkinleştir",
@@ -4633,7 +4635,7 @@
           "name": "Koleksiyon resmi",
           "settings": {
             "paragraph": {
-              "content": "Koleksiyon açıklamalarını veya koleksiyon görsellerini değiştirmek için [koleksiyonlarınızı düzenleyin.](\/admin\/collections)"
+              "content": "Koleksiyon açıklamalarını veya koleksiyon görsellerini değiştirmek için [koleksiyonlarınızı düzenleyin.](/admin/collections)"
             },
             "general": {
               "label__1": "Paralaks banner'ını göster",
@@ -4654,7 +4656,7 @@
             },
             "description": {
               "label__1": "Koleksiyon açıklamasını göster",
-              "label__2": "'Daha fazlasını oku'\/'daha az oku'yu göster",
+              "label__2": "'Daha fazlasını oku'/'daha az oku'yu göster",
               "label__3": "Konum",
               "label__4": "Koleksiyon başlığını göster",
               "label__5": "Koleksiyon açıklaması hizalaması",
@@ -4715,7 +4717,7 @@
         },
         "general": {
           "label": "Ürün Paketini Etkinleştir",
-          "info": "Daha fazla bilgi edinin [ürün paketi](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "Daha fazla bilgi edinin [ürün paketi](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "Paket indirimini etkinleştir",
@@ -4813,10 +4815,10 @@
     "app_partner": {
       "name": "Uygulama ortağı",
       "enable_promotion": "PageFly teklifini etkinleştir",
-      "label_1": "1. İnceleme işlevi için: [Loox uygulamasını](https:\/\/shopify.pxf.io\/y2D52b) kullanın ve 30 günlük deneme edinin. [Loox nasıl kurulur?](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. Özel teklif: 20 PageFly sayfasını yalnızca 1$ karşılığında 3 ay kullanın. [Teklifi hemen talep edin](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. [UpPromote affiliate & Referral](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs) kullanın ve %20 indirim kazanın.",
-      "label_4": "4. [Avada SEO ile site performansını yükseltin suit](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
+      "label_1": "1. İnceleme işlevi için: [Loox uygulamasını](https://shopify.pxf.io/y2D52b) kullanın ve 30 günlük deneme edinin. [Loox nasıl kurulur?](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. Özel teklif: 20 PageFly sayfasını yalnızca 1$ karşılığında 3 ay kullanın. [Teklifi hemen talep edin](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. [UpPromote affiliate & Referral](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs) kullanın ve %20 indirim kazanın.",
+      "label_4": "4. [Avada SEO ile site performansını yükseltin suit](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
     },
     "slidable_spotlight": {
       "name": "Kaydırılabilir spot ışığı",
@@ -4906,7 +4908,7 @@
           "country": "Ülke",
           "cross_street": "Çapraz sokak",
           "postal_code": "Posta Kodu",
-          "state": "Eyalet\/İl",
+          "state": "Eyalet/İl",
           "info": "örneğin: (202) 387-9338",
           "map_iframe": "Google harita iframe'ini ekleyin"
         }
@@ -4924,12 +4926,12 @@
         "tiktok_video": {
           "name": "Tiktok videosu",
           "embed_code": "Video kimliği",
-          "info__1": "[Tiktok video kimliğini alma talimatları](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[Tiktok video kimliğini alma talimatları](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "Öncesi\/Sonrası resim kaydırıcısı",
+      "name": "Öncesi/Sonrası resim kaydırıcısı",
       "settings": {
         "content_position": "İçerik konumu",
         "above": "Yukarıdaki karşılaştırma resimleri",

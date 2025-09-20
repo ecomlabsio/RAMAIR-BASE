@@ -85,7 +85,10 @@
       "search_result_title": "Product results",
       "search_no_result": "Search for",
       "search_more": "Search more",
-      "view_all": "View all results ({{ count }})"
+      "view_all": "View all results ({{ count }})",
+      "no_results": "No results found",
+      "view_results": "View results",
+      "heading_results": "Search results"
     },
     "cart": {
       "cart": "Cart",

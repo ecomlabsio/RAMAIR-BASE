@@ -86,7 +86,7 @@
           "label__3": "मोबाइल लोडिंग आइकन का रंग"
         },
         "colors_breadcrumb": {
-          "label__4": "ब्रेडक्रम्ब पृष्ठभूमि\/ग्रेडिएंट केवल ब्रेडक्रम्ब लेयआउट 2 और 3 के लिए"
+          "label__4": "ब्रेडक्रम्ब पृष्ठभूमि/ग्रेडिएंट केवल ब्रेडक्रम्ब लेयआउट 2 और 3 के लिए"
         },
         "spinner_colors": {
           "content": "लोडिंग स्पिनर",
@@ -134,7 +134,7 @@
           "product_page_gallery": "गैलरी",
           "product_page_left_thumbs": "बाईं ओर वर्टिकल थम्बनेल्स",
           "product_page_right_thumbs": "दाईं ओर वर्टिकल थम्बनेल्स",
-          "product_page_left_right_sidebar": "बाईं\/दाईं साइडबार",
+          "product_page_left_right_sidebar": "बाईं/दाईं साइडबार",
           "product_page_horizontal_tabs_no_sidebar": "अक्षीय टैब्स विशेष साइडबार के बिना",
           "product_page_step_by_step": "चरण दर चरण",
           "header_layout_rtl": "दाईं से बाईं लेयआउट",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "RTL भाषाओं के लिए ISO कोड सूची",
           "list_iso_rtl_info": "प्रत्येक भाषा ISO कोड को ',' से अलग करें। उदाहरण: ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "RTL लेयआउट को स्वचालित रूप से बदलने के लिए भाषा ISO कोड सूची बनाएं: ar:(अरबी); dv:(दिवेही,मलदिवनीय); ha:(हौसा); he:(हेब्रू); ku:(कुर्दिश\/सोरानी); fa:(पर्सियन\/फरसी); ur:(उर्दू); ps:(पश्तो); yi:(यिडिश)"
+          "list_iso_rtl_note": "RTL लेयआउट को स्वचालित रूप से बदलने के लिए भाषा ISO कोड सूची बनाएं: ar:(अरबी); dv:(दिवेही,मलदिवनीय); ha:(हौसा); he:(हेब्रू); ku:(कुर्दिश/सोरानी); fa:(पर्सियन/फरसी); ur:(उर्दू); ps:(पश्तो); yi:(यिडिश)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "फॉन्ट स्रोत",
           "options__1": "गुगल फॉन्ट्स",
           "options__2": "शॉपिफ़ाई फॉन्ट्स",
-          "info": "गुगल फॉन्ट्स का उपयोग करने के लिए, फॉन्ट नाम जोड़ें। [अधिक जानें](https:\/\/fonts.google.com\/)",
+          "info": "गुगल फॉन्ट्स का उपयोग करने के लिए, फॉन्ट नाम जोड़ें। [अधिक जानें](https://fonts.google.com/)",
           "info_shopify_font": "अपने वेबसाइट की प्रदर्शन को अपनाने के लिए शॉपिफ़ाई फॉन्ट्स का उपयोग करें!",
           "info_language": "जब कस्टमाइजेशन सेटिंग्स में भाषा को समायोजित करते हैं, तो इसे व्यवस्थापन सेटिंग्स में समान भाषा प्राथमिकता स्थापित करनी चाहिए।"
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "बॉडी फॉन्ट",
           "label": "शॉपिफ़ाई फॉन्ट",
-          "info": "एक अलग फॉन्ट का चुनाव अपने स्टोर की गति को प्रभावित कर सकता है। [अधिक जानें](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "एक अलग फॉन्ट का चुनाव अपने स्टोर की गति को प्रभावित कर सकता है। [अधिक जानें](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "हेडिंग फॉन्ट",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "मेगा मेनू लेवल 2",
           "title_mega_menu_lv3": "मेगा मेनू लेवल 3",
           "label": "नेविगेशन फॉन्ट फैमिली",
-          "info": "एक अलग फॉन्ट का चुनाव अपने स्टोर की गति को प्रभावित कर सकता है। [अधिक जानें](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "एक अलग फॉन्ट का चुनाव अपने स्टोर की गति को प्रभावित कर सकता है। [अधिक जानें](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "उत्पाद आइटम फॉन्ट",
@@ -237,7 +237,7 @@
           "yes": "हाँ",
           "no": "नहीं",
           "label": "बटन 1 फॉन्ट फैमिली",
-          "info": "एक अलग फॉन्ट का चुनाव अपने स्टोर की गति को प्रभावित कर सकता है। [अधिक जानें](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "एक अलग फॉन्ट का चुनाव अपने स्टोर की गति को प्रभावित कर सकता है। [अधिक जानें](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "बाहरी बॉर्डर दिखाएं",
           "cta_button": "CTA बटन"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "'View all' आइकन स्थिति",
           "view_all_font_size": "'View all' फॉन्ट आकार",
           "view_all_width": "'View all' चौड़ाई",
-          "view_all_info": "इस लिंक पर जाएं [अपना आइकन ढूंढें](https:\/\/fontawesome.com\/v5\/search)। आप चाहते हैं कि आइकन ढूंढें, फिर इसे कॉपी करें और इसे यहां चिपकाएं।",
-          "logo_icon_info": "केवल तभी लागू होता है जब लोगो छवि खाली छोड़ी जाती है। इस लिंक पर जाएं [अपना आइकन खोजें](https:\/\/fontawesome.com\/v5\/search)। वह आइकन खोजें जो आप चाहते हैं, फिर SVG कोड को कॉपी करें और यहां पेस्ट करें।",
+          "view_all_info": "इस लिंक पर जाएं [अपना आइकन ढूंढें](https://fontawesome.com/v5/search)। आप चाहते हैं कि आइकन ढूंढें, फिर इसे कॉपी करें और इसे यहां चिपकाएं।",
+          "logo_icon_info": "केवल तभी लागू होता है जब लोगो छवि खाली छोड़ी जाती है। इस लिंक पर जाएं [अपना आइकन खोजें](https://fontawesome.com/v5/search)। वह आइकन खोजें जो आप चाहते हैं, फिर SVG कोड को कॉपी करें और यहां पेस्ट करें।",
           "item": "Items",
-          "item_padding_top_bottom": "शीर्ष\/निचली पैडिंग",
-          "item_padding_left_right": "बाएं\/दाएं पैडिंग",
+          "item_padding_top_bottom": "शीर्ष/निचली पैडिंग",
+          "item_padding_left_right": "बाएं/दाएं पैडिंग",
           "item_padding_top": "आइटम शीर्ष पैडिंग",
           "item_padding_bottom": "आइटम निचली पैडिंग",
           "item_width": "आइटम चौड़ाई",
@@ -429,19 +429,19 @@
           "icon_color_hover": "आइकन हॉवर कलर",
           "icon_color_mb": "मोबाइल पर आइकन कलर",
           "icon_width": "आइकन चौड़ाई",
-          "icon_width_info": "जब टेक्स्ट\/आइकन डिस्प्ले सेटिंग आइकन पर सेट होती है।",
+          "icon_width_info": "जब टेक्स्ट/आइकन डिस्प्ले सेटिंग आइकन पर सेट होती है।",
           "icon_height": "आइकन ऊंचाई",
           "icon_width_1": "आइकन की चौड़ाई",
           "icon_height_1": "आइकन की ऊंचाई",
           "icon_width_mb": "मोबाइल पर आइकन की चौड़ाई",
           "icon_height_mb": "मोबाइल पर आइकन की ऊंचाई",
-          "icon_mg_right": "टेक्स्ट\/SVG आइकन दाएं मार्जिन",
+          "icon_mg_right": "टेक्स्ट/SVG आइकन दाएं मार्जिन",
           "icon_mg_bottom": "आइकन निचली अंतराल",
           "icon_spacing_mobile": "मोबाइल पर आइकन अंतराल",
-          "icon_type": "छवि या टेक्स्ट\/SVG आइकन उपयोग करें",
+          "icon_type": "छवि या टेक्स्ट/SVG आइकन उपयोग करें",
           "icons_type": "आइकन प्रकार",
           "icons_type_info": "केवल जब 'आइकन प्रकार' सेटिंग आइकन पर सेट होती है।",
-          "text_svg_icon": "टेक्स्ट\/SVG आइकन",
+          "text_svg_icon": "टेक्स्ट/SVG आइकन",
           "layout_mobile": "मोबाइल लेआउट",
           "layout_mobile_info": "केवल ग्रिड लेआउट के लिए लागू होता है।",
           "list": "सूची",
@@ -518,7 +518,7 @@
           "beside_the_title": "टेक्स्ट के दाईं ओर",
           "width_on_desktop": "डेस्कटॉप पर चौड़ाई",
           "section_footer": "विभाग फुटर",
-          "prev_next_button": "पिछला\/अगला बटन",
+          "prev_next_button": "पिछला/अगला बटन",
           "info_mobile_layout": "केवल जब 'मोबाइल लेआउट' सेटिंग स्लाइडर पर सेट होती है।",
           "header_block": {
             "option_1": "टेक्स्ट बाईं ओर दिखाएं",
@@ -526,7 +526,8 @@
             "option_3": "टेक्स्ट केंद्र में दिखाएं",
             "option_4": "टेक्स्ट केंद्र में दिखाएं",
             "option_5": "टेक्स्ट केंद्र में दिखाएं"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "फुटर फॉन्ट"
@@ -577,23 +578,23 @@
         "whatsapp_label": "व्हाट्सएप पर साझा करें",
         "header__2": "सोशल एकाउंट्स",
         "social_twitter_link_label": "ट्विटर लिंक",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "फेसबुक लिंक",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "पिन्टरेस्ट लिंक",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "इंस्टाग्राम लिंक",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "टिकटॉक लिंक",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "ट्यूम्बल लिंक",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "स्नैपचैट लिंक",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "यूट्यूब लिंक",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "विमो लिंक",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "कस्टमाइजेशन विकल्प",
-          "info": "कस्टमाइजेशन विकल्प कार्ट में जोड़े गए आइटम के लिए कस्टमाइजेशन जानकारी संग्रहीत करने के लिए उपयोग किए जाते हैं। यह जानकारी उत्पाद पेज और क्विक व्यू से खरीदार से एकत्र की जा सकती है। [अधिक जानें](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "कस्टमाइजेशन विकल्प कार्ट में जोड़े गए आइटम के लिए कस्टमाइजेशन जानकारी संग्रहीत करने के लिए उपयोग किए जाते हैं। यह जानकारी उत्पाद पेज और क्विक व्यू से खरीदार से एकत्र की जा सकती है। [अधिक जानें](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "फॅविकॉन छवि",
@@ -651,8 +652,8 @@
           "label__7": "निजी नीति बटन लिंक",
           "label__8": "कुकी स्वीकार करें बटन लेबल",
           "color_privacy_policy": "निजी नीति बटन कलर",
-          "info__1": "[अधिक जानें](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies)",
-          "info__2": "उदाहरण: https:\/\/policies.google.com"
+          "info__1": "[अधिक जानें](https://help.shopify.com/en/manual/your-account/privacy/cookies)",
+          "info__2": "उदाहरण: https://policies.google.com"
         },
         "wishlist": {
           "label": "विश्वास विश्वास सक्षम करें",
@@ -735,7 +736,7 @@
           "style_10": "स्टाइल 10"
         },
         "trust_image": {
-          "info__1": "उत्पाद पेज\/त्वरित व्यू",
+          "info__1": "उत्पाद पेज/त्वरित व्यू",
           "info__2": "कार्ट पेज"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "बंडल बैग दिखाएं",
           "label__23": "फ़ॉन्ट साइज",
           "label__24": "कोनर रेडियस",
-          "label__26": "बाएं\/दाएं पैडिंग",
+          "label__26": "बाएं/दाएं पैडिंग",
           "label__28": "वर्टिकल पोस्टिशन",
           "label__29": "हॉरिजॉन्टल पोस्टिशन",
           "options__3": "डायनामिक",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "इच्छा सूची दिखाएं",
-          "label__4": "टेक्स्ट\/आइकॉन एक्टिव",
+          "label__4": "टेक्स्ट/आइकॉन एक्टिव",
           "label__5": "बैकग्राउंड एक्टिव",
           "label__9": "बॉर्डर एक्टिव",
           "label__10": "मोबाइल पर इच्छा सूची दिखाएं",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "त्वरित व्यू दिखाएं",
           "label__2": "त्वरित व्यू स्टाइल",
-          "label__3": "टेक्स्ट\/आइकॉन",
-          "label__5": "टेक्स्ट\/आइकॉन हॉवर",
+          "label__3": "टेक्स्ट/आइकॉन",
+          "label__5": "टेक्स्ट/आइकॉन हॉवर",
           "label__6": "बैकग्राउंड हॉवर",
           "label__7": "त्वरित व्यू और इच्छा सूची स्थिति",
           "label__8": "मोबाइल पर त्वरित व्यू दिखाएं",
@@ -955,10 +956,10 @@
         "currency_format_enable": "मुद्रा स्वरूप सक्षम करें",
         "info_currency_format": "कार्ट और चेकआउट मूल्य हमेशा मुद्रा कोड दिखाते हैं। उदाहरण: $1.00 USD.",
         "enable_shopify_payments_currencies": "Shopify भुगतान सक्षम करें?",
-        "info_1": "केवल Shopify भुगतान वाले स्टोर्स के लिए उपलब्ध। लिंक [यहाँ](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_1": "केवल Shopify भुगतान वाले स्टोर्स के लिए उपलब्ध। लिंक [यहाँ](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "enable_multiple_currencies": "विभिन्न मुद्राएं सक्षम करें?",
         "enable_auto_currency": "स्वचालित मुद्रा सक्षम करें?",
-        "info_2": "इसे एक साथ सभी 3 विकल्प चुनने या Shopify भुगतान को अन्य विकल्पों के साथ संयोजित न करें। लिंक [यहाँ](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_2": "इसे एक साथ सभी 3 विकल्प चुनने या Shopify भुगतान को अन्य विकल्पों के साथ संयोजित न करें। लिंक [यहाँ](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "i-currency-1": "Currency code 1 के लिए SVG आइकॉन",
         "currency_1_unit": "मुद्रा कोड 1",
         "usd": "USD",
@@ -982,8 +983,8 @@
         "currency_9_unit": "मुद्रा कोड 9",
         "i-currency-10": "Currency code 10 के लिए SVG आइकॉन",
         "currency_10_unit": "मुद्रा कोड 10",
-        "paragraph_1": "अपने मुद्रा कोड को स्पेस से अलग करें। ISO 4217 3-अक्षर मुद्रा कोड का उपयोग करें। मुद्रा कोड की पूरी सूची के लिए [यहां क्लिक करें](http:\/\/www.xe.com\/iso4217.php)। उदाहरण: CAD USD।",
-        "paragraph_2": "आपकी दुकान में इस कार्यक्षमता को काम करने के लिए, आपको [इन निर्देशों](http:\/\/help.shopify.com\/en\/themes\/customization\/currencies) के अनुसार अपने मनी फॉर्मेट को संपादित करना होगा। (कृपया बताएं कि मनी फॉर्मेट कहां स्थित है।)",
+        "paragraph_1": "अपने मुद्रा कोड को स्पेस से अलग करें। ISO 4217 3-अक्षर मुद्रा कोड का उपयोग करें। मुद्रा कोड की पूरी सूची के लिए [यहां क्लिक करें](http://www.xe.com/iso4217.php)। उदाहरण: CAD USD।",
+        "paragraph_2": "आपकी दुकान में इस कार्यक्षमता को काम करने के लिए, आपको [इन निर्देशों](http://help.shopify.com/en/themes/customization/currencies) के अनुसार अपने मनी फॉर्मेट को संपादित करना होगा। (कृपया बताएं कि मनी फॉर्मेट कहां स्थित है।)",
         "select_a_currency": "चयन करें मुद्रा कार्यक्षमता",
         "option_1": "Shopify भुगतान",
         "option_2": "विभिन्न मुद्राएं",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "क्विक एडिट कार्ट दिखाएं",
-          "options__5": "बटन\/स्वाच्छता"
+          "options__5": "बटन/स्वाच्छता"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "काउंटडाउन",
-      "info": "काउंटडाउन ग्राहकों को उत्पाद की प्रमोशन के दौरान समय की अवधि दिखाता है। [अधिक जानें](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "काउंटडाउन ग्राहकों को उत्पाद की प्रमोशन के दौरान समय की अवधि दिखाता है। [अधिक जानें](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "काउंटडाउन दिखाएं",
@@ -1316,7 +1317,7 @@
           "options__2": "प्रत्येक उत्पाद के लिए",
           "options__3": "कलेक्शन के लिए",
           "info": "उदाहरण: Dec 31, 2024 18:00:00",
-          "info__1": "कृपया इस विशेष स्वरूप का उपयोग करें: yyyy\/mm\/dd hour\/minute\/second. उदाहरण: 2024\/12\/4 0:0:00."
+          "info__1": "कृपया इस विशेष स्वरूप का उपयोग करें: yyyy/mm/dd hour/minute/second. उदाहरण: 2024/12/4 0:0:00."
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "संरेखण",
-          "label__2": "संरेखण (शीर्ष\/केंद्र\/नीचे)",
-          "label__3": "संरेखण (बाएं\/केंद्र\/दाएं\/ज़िस्ट)",
+          "label__2": "संरेखण (शीर्ष/केंद्र/नीचे)",
+          "label__3": "संरेखण (बाएं/केंद्र/दाएं/ज़िस्ट)",
           "label__4": "मोबाइल पर संरेखण",
           "label__5": "सामग्री के लिए बाएं स्थान",
           "options__4": "ज़िस्ट",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "शीर्षक\/हेडिंग टाइपोग्राफी"
+            "content": "शीर्षक/हेडिंग टाइपोग्राफी"
           },
           "paragraph__2": {
             "content": "टेक्स्ट टाइपोग्राफी"
           },
           "paragraph__3": {
-            "content": "तिथि\/लेखक\/टिप्पणी टाइपोग्राफी"
+            "content": "तिथि/लेखक/टिप्पणी टाइपोग्राफी"
           },
           "font_style": "फ़ॉन्ट स्टाइल"
         }
@@ -1854,7 +1855,7 @@
           "select_menu": "श्रेणी मेनू",
           "recommen_image": "अनुशंसित छवि: 250 x 250px",
           "banner_link": "बैनर लिंक",
-          "info__1": "श्रेणी खंड को दिखाने के लिए छवियों को श्रेणी हैंडल के समान नाम के साथ अपलोड करें। [अधिक जानें](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
+          "info__1": "श्रेणी खंड को दिखाने के लिए छवियों को श्रेणी हैंडल के समान नाम के साथ अपलोड करें। [अधिक जानें](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
         }
       },
       "presets": {
@@ -2083,9 +2084,9 @@
         "content_spacing": "सामग्री पैडिंग",
         "align_items_spacing_top": "सामग्री ऊपरी मार्जिन",
         "align_items_spacing_bottom": "सामग्री निचली मार्जिन",
-        "align_items_spacing_lr": "सामग्री बाईं\/दाईं ओर स्पेसिंग",
-        "align_items_spacing_top_bottom_position": "सामग्री ऊपर\/निचली स्पेसिंग",
-        "align_items_spacing_top_bottom_position_mb": "सामग्री ऊपर\/निचली स्पेसिंग मोबाइल पर",
+        "align_items_spacing_lr": "सामग्री बाईं/दाईं ओर स्पेसिंग",
+        "align_items_spacing_top_bottom_position": "सामग्री ऊपर/निचली स्पेसिंग",
+        "align_items_spacing_top_bottom_position_mb": "सामग्री ऊपर/निचली स्पेसिंग मोबाइल पर",
         "content_1": "ब्लॉक वस्तु",
         "use_special_header_layout": "विशेष लेआउट का उपयोग करें",
         "enable_shadow": "बॉक्स छाया दिखाएं",
@@ -2134,8 +2135,8 @@
           "blog_style_1": "छवि के नीचे",
           "blog_style_2": "छवि को सबसे ऊपर अधिग्रहण करें",
           "show_link_as": "'View details' लिंक को बटन के रूप में दिखाएं",
-          "link_button_color": "लिंक\/बटन लेबल रंग",
-          "link_button_hover_color": "लिंक\/बटन लेबल हॉवर रंग"
+          "link_button_color": "लिंक/बटन लेबल रंग",
+          "link_button_hover_color": "लिंक/बटन लेबल हॉवर रंग"
         }
       },
       "presets": {
@@ -2221,7 +2222,7 @@
         "tab": {
           "name": "टैब वस्तु",
           "show_image": "टैब छवि दिखाएं",
-          "info": "एक नेविगेशन चुनें जिसे ब्लॉक वस्तुओं को दिखाने के लिए चुनें। [जानें कैसे छवियां विभिन्न टैब अनुभाग में दिखाई दें।](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show-images-for-brand-tab-section)"
+          "info": "एक नेविगेशन चुनें जिसे ब्लॉक वस्तुओं को दिखाने के लिए चुनें। [जानें कैसे छवियां विभिन्न टैब अनुभाग में दिखाई दें।](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show-images-for-brand-tab-section)"
         }
       },
       "settings": {
@@ -2264,7 +2265,7 @@
         "info": "केवल सामग्री संरेखण सेटिंग केंद्र पर लागू है।",
         "enable_map": "गूगल मैप दिखाएं",
         "map_iframe": "एम्बेड एक मैप",
-        "info__1": "आपको [Google maps](https:\/\/www.google.com\/maps) पर जाने की जरूरत है जिसे आप HTML एम्बेड कोड प्राप्त करने के लिए चुनें।",
+        "info__1": "आपको [Google maps](https://www.google.com/maps) पर जाने की जरूरत है जिसे आप HTML एम्बेड कोड प्राप्त करने के लिए चुनें।",
         "button": {
           "label__8": "अधिकतम बटन चौड़ाई"
         }
@@ -2594,7 +2595,7 @@
           "product_block_02": "प्रोडक्ट ब्लॉक डुओ",
           "feature_product": "फीचर्ड प्रोडक्ट",
           "feature_product_unsymmetrical": "प्रोडक्ट हाइलाइट",
-          "info_tablet_mobile": "मोबाइल\/टैबलेट के लिए उपयोग करें"
+          "info_tablet_mobile": "मोबाइल/टैबलेट के लिए उपयोग करें"
         },
         "product_block_layout": {
           "option": "लेआउट",
@@ -2650,11 +2651,11 @@
           "content": "स्लाइडर लेआउट",
           "product_block_dots": "नेविगेशन डॉट दिखाएं",
           "product_block_dots_desk": "डेस्कटॉप पर नेविगेशन डॉट दिखाएं",
-          "product_block_dots_mb": "मोबाइल\/टैबलेट पर नेविगेशन डॉट दिखाएं",
+          "product_block_dots_mb": "मोबाइल/टैबलेट पर नेविगेशन डॉट दिखाएं",
           "product_block_dots_spacing_top": "नेविगेशन डॉट का ऊपरी स्थान",
           "product_block_arrows": "नेविगेशन अर्रों दिखाएं",
           "product_block_arrows_desk": "डेस्कटॉप पर नेविगेशन अर्रों दिखाएं",
-          "product_block_arrows_mb": "मोबाइल\/टैबलेट पर नेविगेशन अर्रों दिखाएं",
+          "product_block_arrows_mb": "मोबाइल/टैबलेट पर नेविगेशन अर्रों दिखाएं",
           "product_block_arrows_position": "डेस्कटॉप पर नेविगेशन अर्रों को स्वचालित स्थान सक्रिय करें",
           "use_special_arrow_position": "विशेष तीर स्थिति का उपयोग करें",
           "enable_progress_bar": "स्क्रॉल बार दिखाएं",
@@ -2692,8 +2693,8 @@
             "info__1": "मोबाइल पर स्थान स्वचालित अनुकूलित है।"
           },
           "name": "बैनर",
-          "align_items_spacing_tb": "सामग्री का ऊपरी\/निचला पैडिंग",
-          "align_items_spacing_lr": "सामग्री का बाएं\/दाएं पैडिंग",
+          "align_items_spacing_tb": "सामग्री का ऊपरी/निचला पैडिंग",
+          "align_items_spacing_lr": "सामग्री का बाएं/दाएं पैडिंग",
           "position_vertical_arrow": "ऊर्ध्वाधर स्थान (इकाई % या पिक्सेल)",
           "info__1": "केवल जब 'सामग्री स्थान' सेटिंग सेट है ऊपर या निचला है।",
           "info__2": "केवल जब 'सामग्री संरेखण' सेटिंग सेट है बाएं या दाएं है।"
@@ -2892,7 +2893,7 @@
         "box_shadow_hover_color": "बॉक्स छाया हॉवर रंग",
         "social_media_link": {
           "content": "सोशल मीडिया आइकन",
-          "info": "अपने सोशल मीडिया खातों को दिखाने के लिए, उन्हें [थीम सेटिंग्स](\/editor?context=theme&category=social%20media) में लिंक करें।",
+          "info": "अपने सोशल मीडिया खातों को दिखाने के लिए, उन्हें [थीम सेटिंग्स](/editor?context=theme&category=social%20media) में लिंक करें।",
           "show_social": "सोशल मीडिया आइकन दिखाएं",
           "enable_background_social": "सोशल आइकन पृष्ठभूमि दिखाएं",
           "social_position": {
@@ -2978,7 +2979,7 @@
             "option": "भुगतान आइकन प्रकार",
             "option1": "डिफ़ॉल्ट",
             "option2": "कस्टम",
-            "info": "जब आप \"डिफ़ॉल्ट\" चुनते हैं, तो भुगतान आइकन जोड़ने के लिए, [भुगतान सेटिंग्स](\/admin\/settings\/payments) पर जाएं।"
+            "info": "जब आप \"डिफ़ॉल्ट\" चुनते हैं, तो भुगतान आइकन जोड़ने के लिए, [भुगतान सेटिंग्स](/admin/settings/payments) पर जाएं।"
           },
           "payment_position": {
             "option": "भुगतान स्थान",
@@ -3091,12 +3092,12 @@
           "background_color_items_cart_mb": "मोबाइल पर आइटम पृष्ठभूमि रंग",
           "color_items_cart_mb": "मोबाइल पर आइटम रंग",
           "font_size_cart_item": "आइटम फॉन्ट साइज",
-          "language_currency": "भाषा\/मुद्रा",
-          "label__2": "टेक्स्ट\/आइकन रंग 1",
-          "label__3": "टेक्स्ट\/आइकन रंग 2",
-          "label__3_1": "टेक्स्ट\/आइकन रंग 3",
-          "label__4": "टेक्स्ट\/आइकन रंग",
-          "label__5": "टेक्स्ट\/आइकन हॉवर रंग",
+          "language_currency": "भाषा/मुद्रा",
+          "label__2": "टेक्स्ट/आइकन रंग 1",
+          "label__3": "टेक्स्ट/आइकन रंग 2",
+          "label__3_1": "टेक्स्ट/आइकन रंग 3",
+          "label__4": "टेक्स्ट/आइकन रंग",
+          "label__5": "टेक्स्ट/आइकन हॉवर रंग",
           "label__6": "आइकन बॉर्डर रंग",
           "label__7": "टाइपराइटर का उपयोग करें",
           "label__8": "मोबाइल पर पहली सामग्री दिखाएं",
@@ -3120,7 +3121,7 @@
           "bg_bottom": "बॉटम पृष्ठभूमि",
           "mg_top": "मेनू ऊपर पैडिंग",
           "mg_bottom": "मेनू नीचे पैडिंग",
-          "spacing_left_right": "आइटम बाईं\/दाईं पैडिंग",
+          "spacing_left_right": "आइटम बाईं/दाईं पैडिंग",
           "spacing_left_menu": "मेनू के बाईं ओर पैडिंग",
           "spacing_right_menu": "मेनू के दाईं ओर पैडिंग"
         },
@@ -3199,7 +3200,7 @@
           "label__1": "लोगो छवि",
           "label__2": "मोबाइल लोगो छवि",
           "label__3": "डेस्कटॉप लोगो स्थान",
-          "label__fixed": "स्टिकी हेडर\/स्थिर हेडर पर लोगो छवि",
+          "label__fixed": "स्टिकी हेडर/स्थिर हेडर पर लोगो छवि",
           "label__7": "लोगो टेक्स्ट या SVG आइकन",
           "label__8": "लोगो टेक्स्ट या SVG आइकन रंग",
           "logo_info": "यह लोगो जब कोई टैब मेनू नहीं जोड़ा जाता है तो प्रदर्शित होगा",
@@ -3366,7 +3367,8 @@
           "color_link_text": "बटन लेबल का रंग",
           "url": "बटन लिंक",
           "info": "इकाई: % या px",
-          "info__2": "उस मेनू आइटम का नाम दर्ज करें जिसे आप इस मेगा मेनू पर लागू करना चाहते हैं।"
+          "info__2": "उस मेनू आइटम का नाम दर्ज करें जिसे आप इस मेगा मेनू पर लागू करना चाहते हैं।",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "हेडर नेव - सादा",
@@ -3378,8 +3380,8 @@
           "name_7": "हेडर नेव - बाएं संरेखित",
           "name_8": "हेडर नेव - बेसिक",
           "name_9": "हेडर नेव - मल्टी-साइट",
-          "label_2": "मेगा मेनू\/ड्रॉपडाउन मेनू",
-          "label_3": "भाषा\/मुद्रा दिखाएं",
+          "label_2": "मेगा मेनू/ड्रॉपडाउन मेनू",
+          "label_3": "भाषा/मुद्रा दिखाएं",
           "label_5": "मुख्य मेनू पर दिखाएं",
           "label_6": "स्टिकी मेनू पर दिखाएं",
           "label_7": "सभी दिखाएं",
@@ -3389,7 +3391,7 @@
           "option_3": "दायां पैडिंग",
           "cart_count_bubble": "कार्ट काउंट बबल",
           "search_input": "खोज इनपुट शैली 2",
-          "cart_wishlist_count_bubble": "कार्ट\/विशलिस्ट काउंट बबल",
+          "cart_wishlist_count_bubble": "कार्ट/विशलिस्ट काउंट बबल",
           "wishlist_count_bubble": "विशलिस्ट काउंट बबल",
           "search_dropdown": "सर्च ड्रॉपडाउन",
           "search_dropdown_style": "सर्च ड्रॉपडाउन स्टाइल",
@@ -3520,7 +3522,7 @@
           "label__1": "लेखक दिखाएं",
           "label__2": "तारीख दिखाएं",
           "label__3": "साझा करें",
-          "label__4": "अगला\/पिछला लेख",
+          "label__4": "अगला/पिछला लेख",
           "label__5": "मुख्य छवि दिखाएं",
           "label__6": "टैग दिखाएं"
         }
@@ -3588,7 +3590,7 @@
           "options__1": "बेसिक रंग (रंग का नाम उपयोग करें)",
           "options__2": "विशेष रंग (PNG स्वरूप की छवि उपयोग करें)",
           "options__3": "स्क्रॉलिंग",
-          "info__1": "[Customize filters](\/admin\/apps\/search-and-discovery)",
+          "info__1": "[Customize filters](/admin/apps/search-and-discovery)",
           "info__2": "फ़िल्टर नाम दर्शाने के लिए स्वॉच स्टाइल दर्ज करें",
           "info__3": "फ़िल्टर नाम दर्शाने के लिए आयताकार स्टाइल दर्ज करें",
           "info__4": "फ़िल्टर प्रदर्शन के लिए उपयोग किया जाता है: अधिक दिखाएं बटन",
@@ -3688,7 +3690,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "To add images, [edit your collections](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "To add images, [edit your collections](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3924,7 +3926,7 @@
         },
         "social-media": {
           "label__1": "सोशल मीडिया दिखाएं",
-          "label__2": "टेक्स्ट\/आइकन रंग"
+          "label__2": "टेक्स्ट/आइकन रंग"
         },
         "countdown": {
           "label__1": "समय",
@@ -3965,7 +3967,7 @@
           "label__1": "चौड़ाई",
           "option__1": "मध्यम",
           "option__2": "बड़ा",
-          "info": "अधिक जानकारी के लिए [मीडिया प्रकार](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "अधिक जानकारी के लिए [मीडिया प्रकार](https://help.shopify.com/manual/products/product-media)"
         },
         "header__3": {
           "content": "बैग"
@@ -3993,20 +3995,20 @@
         },
         "header__12": {
           "content": "विश्वसनीय छवियां",
-          "paragraph": "विश्वसनीय छवियां उत्पाद पृष्ठों पर केवल सत्यापित, उच्च-गुणवत्ता वाली दृश्य सामग्री प्रदर्शित करती हैं, जो ग्राहक विश्वास को बढ़ाती हैं और सूचित खरीदारी निर्णयों का समर्थन करती हैं। [अधिक जानें](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "विश्वसनीय छवियां उत्पाद पृष्ठों पर केवल सत्यापित, उच्च-गुणवत्ता वाली दृश्य सामग्री प्रदर्शित करती हैं, जो ग्राहक विश्वास को बढ़ाती हैं और सूचित खरीदारी निर्णयों का समर्थन करती हैं। [अधिक जानें](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "डायनामिक चेकआउट बटन"
         },
         "header__15": {
-          "content": "अगला\/पिछला उत्पाद"
+          "content": "अगला/पिछला उत्पाद"
         },
         "header__16": {
           "content": "साइज चार्ट"
         },
         "header__17": {
           "content": "पिक-अप उपलब्धता",
-          "paragraph": "चयनित वैरिएंट के लिए उपलब्ध ऑफलाइन स्टोर दिखाता है। [अधिक जानें](https\/\/help.shopify.com\/en\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "चयनित वैरिएंट के लिए उपलब्ध ऑफलाइन स्टोर दिखाता है। [अधिक जानें](https//help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "रंग तुलना"
@@ -4019,14 +4021,14 @@
         },
         "header__21": {
           "content": "वैरिएंट मेटाफील्ड",
-          "paragraph": "विवरण टैब में वैरिएंट-विशिष्ट सामग्री दिखाएं, चयनित वैरिएंट के आधार पर अनुकूलित सामग्री प्रदान करें। [अधिक जानें](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant)"
+          "paragraph": "विवरण टैब में वैरिएंट-विशिष्ट सामग्री दिखाएं, चयनित वैरिएंट के आधार पर अनुकूलित सामग्री प्रदान करें। [अधिक जानें](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant)"
         },
         "header__22": {
           "content": "पूरक उत्पाद"
         },
         "header__23": {
           "content": "सकारात्मक वाइब्स बंडल",
-          "paragraph": "सकारात्मक वाइब्स बंडल एक डायनामिक फीचर है जो '60 लोगों ने 2+ बार खरीदा' या 'पिछले 24 घंटों में 37 बिके' जैसे प्रेरक संदेशों को निरंतर स्लाइडिंग प्रारूप में प्रदर्शित करके खरीदारी को प्रोत्साहित करने के लिए डिज़ाइन किया गया है, जो तत्कालता पैदा करता है और उत्पाद की मांग को बढ़ाता है। [अधिक जानें](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "सकारात्मक वाइब्स बंडल एक डायनामिक फीचर है जो '60 लोगों ने 2+ बार खरीदा' या 'पिछले 24 घंटों में 37 बिके' जैसे प्रेरक संदेशों को निरंतर स्लाइडिंग प्रारूप में प्रदर्शित करके खरीदारी को प्रोत्साहित करने के लिए डिज़ाइन किया गया है, जो तत्कालता पैदा करता है और उत्पाद की मांग को बढ़ाता है। [अधिक जानें](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "वितरण समय",
@@ -4049,9 +4051,9 @@
         "header__25": {
           "content": "विवरण देखें",
           "text": "पाठ"
-        },        
+        },
         "general": {
-          "label__1": "स्टिकी उत्पाद जानकारी डेस्कटॉप\/टैबलेट पर सक्रिय करें",
+          "label__1": "स्टिकी उत्पाद जानकारी डेस्कटॉप/टैबलेट पर सक्रिय करें",
           "label__2": "डेस्कटॉप लेआउट",
           "label__3": "मुख्य छवि स्थिति",
           "options__1": "छवि बाईं ओर दिखाएं",
@@ -4065,7 +4067,7 @@
           "buy_buttons": "खरीदने वाले बटन",
           "show_gift_card_recipient": {
             "label": "गिफ्ट कार्ड उत्पादों के लिए उपयोगकर्ता को फॉर्म दिखाएं",
-            "info": "खरीदारों को एक नियत तिथि के साथ गिफ्ट कार्ड भेजने की अनुमति देता है। [अधिक जानें](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "खरीदारों को एक नियत तिथि के साथ गिफ्ट कार्ड भेजने की अनुमति देता है। [अधिक जानें](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "शेयर",
           "vendor": "वेंडर",
@@ -4096,7 +4098,7 @@
           "visible_content_height_info": "जब कुल सामग्री ऊंचाई इस सीमा से अधिक होती है, तो 'अधिक पढ़ें' बटन दिखाई देगा।",
           "info_enable_des_show_more": "केवल 'विवरण टैब' पर लागू होता है",
           "animation": "एनीमेशन",
-          "image_behavior": { 
+          "image_behavior": {
             "label": "छवि व्यवहार",
             "info": "'जॉम ऑन स्क्रॉल' सुविधा सक्रिय होती है।",
             "option__1": "वातावरण गति",
@@ -4116,7 +4118,7 @@
           "product_tab_source_info": "केवल जब 'विशेष उत्पाद उपयोग करके उत्पादों को दिखाने के लिए' सेटिंग सेट होता है 'उत्पाद मेटाफील्ड का उपयोग करके विशेष उत्पादों को दिखाने के लिए'।",
           "dynamic_source": "डायनामिक स्रोत",
           "key_text_source": "उत्पाद मेटाफील्ड की कुंजी",
-          "product_tab_key_info": "केवल जब 'विशेष उत्पाद उपयोग करके उत्पादों को दिखाने के लिए' सेटिंग सेट होता है 'उत्पाद मेटाफील्ड का उपयोग करके विशेष उत्पादों को दिखाने के लिए' और 'सामग्री स्रोत' सेटिंग सेट होता है 'उत्पाद मेटाफील्ड की कुंजी'। [अधिक जानें](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "केवल जब 'विशेष उत्पाद उपयोग करके उत्पादों को दिखाने के लिए' सेटिंग सेट होता है 'उत्पाद मेटाफील्ड का उपयोग करके विशेष उत्पादों को दिखाने के लिए' और 'सामग्री स्रोत' सेटिंग सेट होता है 'उत्पाद मेटाफील्ड की कुंजी'। [अधिक जानें](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "सक्रिय छवियां का रंग",
           "navigation_arrows_color_mobile": "मोबाइल पर नेविगेशन चिह्न का रंग",
           "read_more": "अधिक पढ़ें",
@@ -4136,7 +4138,7 @@
           "options__9": "मुख्य छवि पर हॉवर",
           "unit": "%",
           "layout_video": "वीडियो लेआउट",
-          "info__1": "जानें [मीडिया फिट](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)",
+          "info__1": "जानें [मीडिया फिट](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)",
           "info__2": "जब मीडिया फिट सेटिंग सेट होता है 'ऑरिजिनल' तो लागू नहीं होता है।",
           "info__3": "केवल उत्पाद छवि अनुपात सेटिंग के पोर्ट्रेट विकल्प के लिए लागू होता है।"
         },
@@ -4177,7 +4179,7 @@
         "variant": {
           "label__2": "Variant image grouped सक्रिय करें",
           "options__1": "ड्रॉपडाउन",
-          "options__2": "Square\/Rectangle\/Swatch",
+          "options__2": "Square/Rectangle/Swatch",
           "variant_picker": "Variant picker"
         },
         "quantity": {
@@ -4202,11 +4204,11 @@
         },
         "dynamic_checkout": {
           "label": "Dynamic checkout buttons दिखाएं",
-          "info": "आपके स्टोर पर उपलब्ध भुगतान तरीकों का उपयोग करके, ग्राहक अपने वरीयता वाले विकल्प को देखेंगे, जैसे पेपैल या एपल पे है। [अधिक जानें](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "आपके स्टोर पर उपलब्ध भुगतान तरीकों का उपयोग करके, ग्राहक अपने वरीयता वाले विकल्प को देखेंगे, जैसे पेपैल या एपल पे है। [अधिक जानें](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "Next\/previous product दिखाएं",
-          "info": "विकल्प में अगले\/पिछले उत्पाद को दिखाएं"
+          "label": "Next/previous product दिखाएं",
+          "info": "विकल्प में अगले/पिछले उत्पाद को दिखाएं"
         },
         "size_chart": {
           "label__1": "Size chart सक्रिय करें",
@@ -4277,7 +4279,7 @@
           "label__1": "पूरक उत्पाद दिखाएं",
           "label__2": "पूरक उत्पाद शैली 1",
           "label__3": "पूरक उत्पाद शैली 2",
-          "info__1": "पूरक उत्पादों का चयन करने के लिए, सर्च एंड डिस्कवर ऐप जोड़ें। [अधिक जानें](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "पूरक उत्पादों का चयन करने के लिए, सर्च एंड डिस्कवर ऐप जोड़ें। [अधिक जानें](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4302,7 +4304,7 @@
             "options__1": "सभी उत्पाद",
             "options__2": "उत्पाद मेटाफील्ड का उपयोग करके विशेष उत्पाद",
             "info_1": "केवल जब 'Content दिखाएं करने के लिए' सेटिंग सेट होता है 'सभी उत्पाद'।",
-            "info_2": "[उत्पाद मेटाफील्ड का उपयोग करके स्वचालित टैब सेटअप के बारे में अधिक जानें](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)"
+            "info_2": "[उत्पाद मेटाफील्ड का उपयोग करके स्वचालित टैब सेटअप के बारे में अधिक जानें](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)"
           }
         },
         "grouped_product": {
@@ -4437,8 +4439,8 @@
         "info": "'सामग्री स्थिति' पर लागू होता है जो 'सापेक्ष' है",
         "info_2": "दायां ब्लॉक स्वचालित रूप से गणना की जाती है",
         "title_align": "सामग्री संरेखण",
-        "align_items_spacing_tb": "सामग्री: स्पेसिंग टॉप\/स्पेसिंग बॉटम",
-        "align_items_spacing_lr": "सामग्री: स्पेसिंग लेफ्ट\/स्पेसिंग राइट",
+        "align_items_spacing_tb": "सामग्री: स्पेसिंग टॉप/स्पेसिंग बॉटम",
+        "align_items_spacing_lr": "सामग्री: स्पेसिंग लेफ्ट/स्पेसिंग राइट",
         "enable_item_1": "आइटम 1 सक्रिय करें",
         "enable_item_2": "आइटम 2 सक्रिय करें",
         "enable_item_3": "आइटम 3 सक्रिय करें",
@@ -4633,7 +4635,7 @@
           "name": "कलेक्शन छवि",
           "settings": {
             "paragraph": {
-              "content": "कलेक्शन विवरण या कलेक्शन छवि बदलने के लिए, [कलेक्शन संपादित करें।](\/admin\/collections)"
+              "content": "कलेक्शन विवरण या कलेक्शन छवि बदलने के लिए, [कलेक्शन संपादित करें।](/admin/collections)"
             },
             "general": {
               "label__1": "परलेख बनर सक्रिय करें",
@@ -4654,7 +4656,7 @@
             },
             "description": {
               "label__1": "कलेक्शन विवरण दिखाएं",
-              "label__2": "दिखाएं 'पढ़ें अधिक\/पढ़ें कम'",
+              "label__2": "दिखाएं 'पढ़ें अधिक/पढ़ें कम'",
               "label__3": "स्थिति",
               "label__4": "कलेक्शन शीर्षक दिखाएं",
               "label__5": "कलेक्शन विवरण संरेखण",
@@ -4715,11 +4717,11 @@
         },
         "general": {
           "label": "उत्पाद बन्धन सक्रिय करें",
-          "info": "अधिक जानने के लिए [उत्पाद बन्धन](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "अधिक जानने के लिए [उत्पाद बन्धन](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "बन्धन छूट सक्रिय करें",
-          "info": "उपयोग [छूट](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle) छूट दर दिखाने के लिए"
+          "info": "उपयोग [छूट](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle) छूट दर दिखाने के लिए"
         }
       }
     },
@@ -4813,10 +4815,10 @@
     "app_partner": {
       "name": "App partner",
       "enable_promotion": "Enable PageFly offer",
-      "label_1": "1. समीक्षा फ़ंक्शन के लिए: [Loox ऐप](https:\/\/shopify.pxf.io\/y2D52b) का उपयोग करें और 30-दिन का ट्रायल प्राप्त करें। [Loox कैसे सेट अप करें?](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. विशेष ऑफर: 20 PageFly पृष्ठों का 3 महीने तक उपयोग करें, केवल $1\/महीना। [ऑफर अभी प्राप्त करें](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. [UpPromote एफिलिएट और रेफरल](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs) का उपयोग करें और 20% छूट प्राप्त करें।",
-      "label_4": "4. [Avada SEO सूट](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor) के साथ साइट प्रदर्शन को बढ़ाएं।"
+      "label_1": "1. समीक्षा फ़ंक्शन के लिए: [Loox ऐप](https://shopify.pxf.io/y2D52b) का उपयोग करें और 30-दिन का ट्रायल प्राप्त करें। [Loox कैसे सेट अप करें?](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. विशेष ऑफर: 20 PageFly पृष्ठों का 3 महीने तक उपयोग करें, केवल $1/महीना। [ऑफर अभी प्राप्त करें](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. [UpPromote एफिलिएट और रेफरल](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs) का उपयोग करें और 20% छूट प्राप्त करें।",
+      "label_4": "4. [Avada SEO सूट](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor) के साथ साइट प्रदर्शन को बढ़ाएं।"
     },
     "slidable_spotlight": {
       "name": "स्लाइडर स्पॉटलाइट",
@@ -4906,7 +4908,7 @@
           "country": "देश",
           "cross_street": "क्रॉस स्ट्रीट",
           "postal_code": "पोस्टल कोड",
-          "state": "राज्य\/प्रांत",
+          "state": "राज्य/प्रांत",
           "info": "उदाहरण: (202) 387-9338",
           "map_iframe": "गूगल मैप इफ्रेम डालें"
         }
@@ -4924,12 +4926,12 @@
         "tiktok_video": {
           "name": "टिकटॉक वीडियो",
           "embed_code": "वीडियो ID",
-          "info__1": "[Instructions to get tiktok video ID](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[Instructions to get tiktok video ID](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "बेफॉर\/एफॉल्लो छवि स्लाइडर",
+      "name": "बेफॉर/एफॉल्लो छवि स्लाइडर",
       "settings": {
         "content_position": "सामग्री स्थिति",
         "above": "छवि के ऊपर",
@@ -4982,16 +4984,16 @@
     }
   },
   "icons": {
-      "show_icon": "आइकन दिखाएं",
-      "icon_position": "आइकन स्थिति",
-      "play_icon_position": "प्ले आइकन स्थिति",
-      "envelope": "ईमेल",
-      "envelope_outline": "ईमेल आउटलाइन",
-      "envelope_outline_2": "ईमेल आउटलाइन 2",
-      "message": "संदेश",
-      "message_2": "संदेश 2",
-      "address": "पता",
-      "phone": "फोन"
+    "show_icon": "आइकन दिखाएं",
+    "icon_position": "आइकन स्थिति",
+    "play_icon_position": "प्ले आइकन स्थिति",
+    "envelope": "ईमेल",
+    "envelope_outline": "ईमेल आउटलाइन",
+    "envelope_outline_2": "ईमेल आउटलाइन 2",
+    "message": "संदेश",
+    "message_2": "संदेश 2",
+    "address": "पता",
+    "phone": "फोन"
   },
   "flex_section": {
     "categories": {

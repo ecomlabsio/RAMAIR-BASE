@@ -86,7 +86,7 @@
           "label__3": "モバイル読み込みアイコンの色"
         },
         "colors_breadcrumb": {
-          "label__4": "パンくずリストの背景\/グラデーション (パンくずリスト 2 および 3 のみ)"
+          "label__4": "パンくずリストの背景/グラデーション (パンくずリスト 2 および 3 のみ)"
         },
         "spinner_colors": {
           "content": "ローディングスピナー",
@@ -134,7 +134,7 @@
           "product_page_gallery": "ギャラリー",
           "product_page_left_thumbs": "左縦サムネイル",
           "product_page_right_thumbs": "右の縦方向のサムネイル",
-          "product_page_left_right_sidebar": "左\/右サイドバー",
+          "product_page_left_right_sidebar": "左/右サイドバー",
           "product_page_horizontal_tabs_no_sidebar": "サイドバーのない水平タブ",
           "product_page_step_by_step": "ステップバイステップ",
           "header_layout_rtl": "右から左へのレイアウト",
@@ -160,7 +160,7 @@
           "label__1": "フォントソース",
           "options__1": "Google フォント",
           "options__2": "Shopify フォント",
-          "info": "Google フォントを使用するには、フォント名を追加します。[詳細](https:\/\/fonts.google.com\/)",
+          "info": "Google フォントを使用するには、フォント名を追加します。[詳細](https://fonts.google.com/)",
           "info_shopify_font": "Shopify フォントを活用してウェブサイトのパフォーマンスを最適化しましょう。",
           "info_language": "カスタマイズ設定で言語を構成するときは、管理設定内でも同じ言語設定を確立することが重要です。"
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "本文フォント",
           "label": "Shopify フォント",
-          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。[システム フォントの詳細については、こちらをご覧ください。](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。[システム フォントの詳細については、こちらをご覧ください。](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "見出しフォント",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "メガメニューレベル2",
           "title_mega_menu_lv3": "メガメニューレベル3",
           "label": "ナビゲーションフォントファミリー",
-          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。[システム フォントの詳細については、こちらをご覧ください。](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。[システム フォントの詳細については、こちらをご覧ください。](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "商品アイテムのフォント",
@@ -237,7 +237,7 @@
           "yes": "はい",
           "no": "いいえ",
           "label": "ボタン 1 のフォント ファミリー",
-          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。[システム フォントの詳細については、こちらをご覧ください。](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "別のフォントを選択すると、ストアの速度に影響する可能性があります。[システム フォントの詳細については、こちらをご覧ください。](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "アウトラインを表示",
           "cta_button": "CTAボタン"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "「すべて表示」アイコンの位置",
           "view_all_font_size": "「すべて表示」のフォントサイズ",
           "view_all_width": "「すべて表示」の幅",
-          "view_all_info": "このリンク [アイコンを検索](https:\/\/fontawesome.com\/v5\/search) にアクセスしてください。",
+          "view_all_info": "このリンク [アイコンを検索](https://fontawesome.com/v5/search) にアクセスしてください。",
           "logo_icon_info": "ロゴ画像が空白のままの場合にのみ適用されます。",
           "item": "アイテム",
-          "item_padding_top_bottom": "上部\/下部のパディング",
-          "item_padding_left_right": "左\/右パディング",
+          "item_padding_top_bottom": "上部/下部のパディング",
+          "item_padding_left_right": "左/右パディング",
           "item_padding_top": "アイテム上部のパディング",
           "item_padding_bottom": "アイテムの下のパディング",
           "item_width": "アイテムの幅",
@@ -429,19 +429,19 @@
           "icon_color_hover": "アイコンのホバー色",
           "icon_color_mb": "モバイルのアイコンの色",
           "icon_width": "アイコンの幅",
-          "icon_width_info": "テキスト\/アイコンの表示設定がアイコンに設定されている場合に適用されます",
+          "icon_width_info": "テキスト/アイコンの表示設定がアイコンに設定されている場合に適用されます",
           "icon_height": "アイコンの高さ",
           "icon_width_1": "アイコンの幅",
           "icon_height_1": "アイコンの高さ",
           "icon_width_mb": "モバイルでのアイコンの幅",
           "icon_height_mb": "モバイルでのアイコンの高さ",
-          "icon_mg_right": "テキスト\/SVG アイコンの右マージン",
+          "icon_mg_right": "テキスト/SVG アイコンの右マージン",
           "icon_mg_bottom": "アイコンの下部の間隔",
           "icon_spacing_mobile": "モバイルでのアイコンの間隔",
-          "icon_type": "画像またはテキスト\/SVGアイコンを使用する",
+          "icon_type": "画像またはテキスト/SVGアイコンを使用する",
           "icons_type": "アイコンの種類",
           "icons_type_info": "「アイコン タイプ」設定がアイコンに設定されている場合にのみ適用されます。",
-          "text_svg_icon": "テキスト\/SVGアイコン",
+          "text_svg_icon": "テキスト/SVGアイコン",
           "layout_mobile": "モバイルレイアウト",
           "layout_mobile_info": "グリッド レイアウトにのみ適用されます",
           "list": "リスト",
@@ -518,7 +518,7 @@
           "beside_the_title": "タイトルの横に",
           "width_on_desktop": "デスクトップ上の幅",
           "section_footer": "セクションフッター",
-          "prev_next_button": "前へ\/次へボタン",
+          "prev_next_button": "前へ/次へボタン",
           "info_mobile_layout": "「モバイル レイアウト」設定がスライダーに設定されている場合にのみ適用されます。",
           "header_block": {
             "option_1": "タイトルを残してすべてを表示",
@@ -526,7 +526,8 @@
             "option_3": "タイトル中央にビューをすべて左に表示",
             "option_4": "タイトル中央、ビューオーライ",
             "option_5": "タイトル中央と下にすべて表示"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "フッターのフォント"
@@ -577,23 +578,23 @@
         "whatsapp_label": "Whatsappで共有する",
         "header__2": "ソーシャルアカウント",
         "social_twitter_link_label": "ツイッターリンク",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "フェイスブックリンク",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "ピンタレストのリンク",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "インスタグラムへのリンク",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "TikTokリンク",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "タンブラーリンク",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "スナップチャットのリンク",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "YouTube リンク",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "Vimeoリンク",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "カスタマイズオプション",
-          "info": "カスタマイズ オプションは、カートに追加されたアイテムのカスタマイズ情報を収集するために使用されます。この情報は、製品ページとクイック ビューで購入者から収集できます。[詳細](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "カスタマイズ オプションは、カートに追加されたアイテムのカスタマイズ情報を収集するために使用されます。この情報は、製品ページとクイック ビューで購入者から収集できます。[詳細](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "ファビコン画像",
@@ -651,8 +652,8 @@
           "label__7": "プライバシーポリシーボタンのリンク",
           "label__8": "Cookie を受け入れるボタンのラベル",
           "color_privacy_policy": "プライバシーポリシーボタンの色",
-          "info__1": "[詳細](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies)",
-          "info__2": "例: https:\/\/policies.google.com"
+          "info__1": "[詳細](https://help.shopify.com/en/manual/your-account/privacy/cookies)",
+          "info__2": "例: https://policies.google.com"
         },
         "wishlist": {
           "label": "ウィッシュリストを有効にする",
@@ -735,7 +736,7 @@
           "style_10": "スタイル10"
         },
         "trust_image": {
-          "info__1": "製品ページ\/クイックビュー",
+          "info__1": "製品ページ/クイックビュー",
           "info__2": "カートページ"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "バンドルバッジを表示",
           "label__23": "フォントサイズ",
           "label__24": "コーナー半径",
-          "label__26": "左\/右パディング",
+          "label__26": "左/右パディング",
           "label__28": "縦位置",
           "label__29": "水平位置",
           "options__3": "動的",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "ウィッシュリストを表示",
-          "label__4": "テキスト\/アイコンがアクティブです",
+          "label__4": "テキスト/アイコンがアクティブです",
           "label__5": "バックグラウンドアクティブ",
           "label__9": "ボーダーアクティブ",
           "label__10": "モバイルでウィッシュリストを表示",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "クイックビューを表示",
           "label__2": "クイックビュースタイル",
-          "label__3": "テキスト\/アイコン",
-          "label__5": "テキスト\/アイコンのホバー",
+          "label__3": "テキスト/アイコン",
+          "label__5": "テキスト/アイコンのホバー",
           "label__6": "背景ホバー",
           "label__7": "クイックビューとウィッシュリストの位置",
           "label__8": "モバイルでクイックビューを表示",
@@ -955,10 +956,10 @@
         "currency_format_enable": "通貨形式を有効にする",
         "info_currency_format": "カートとチェックアウトの価格には常に通貨コードが表示されます。例: $1.00 USD。",
         "enable_shopify_payments_currencies": "Shopify 支払いを有効にしますか?",
-        "info_1": "Shopify 決済を導入しているストアでのみご利用いただけます。リンクは [こちら](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup) です。",
+        "info_1": "Shopify 決済を導入しているストアでのみご利用いただけます。リンクは [こちら](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup) です。",
         "enable_multiple_currencies": "複数の通貨を有効にしますか?",
         "enable_auto_currency": "自動通貨を有効にしますか?",
-        "info_2": "3 つのオプションを同時に選択したり、Shopify の支払いを他の支払いと組み合わせたりしないでください。リンクは [こちら](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup) です。",
+        "info_2": "3 つのオプションを同時に選択したり、Shopify の支払いを他の支払いと組み合わせたりしないでください。リンクは [こちら](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup) です。",
         "i-currency-1": "通貨コード 1 の SVG アイコン",
         "currency_1_unit": "通貨コード1",
         "usd": "米ドル",
@@ -982,8 +983,8 @@
         "currency_9_unit": "通貨コード9",
         "i-currency-10": "通貨コード 10 の SVG アイコン",
         "currency_10_unit": "通貨コード 10",
-        "paragraph_1": "通貨コードはスペースで区切ります。ISO 4217 の 3 文字通貨コードを使用します。通貨コードの完全なリストについては、[ここ](http:\/\/www.xe.com\/iso4217.php) をクリックしてください。例: CAD USD。",
-        "paragraph_2": "この機能をショップで動作させるには、[これらの手順](http:\/\/help.shopify.com\/en\/themes\/customization\/currencies) に従って通貨形式を編集する必要があります。(通貨形式がどこにあるかを指定してください。)",
+        "paragraph_1": "通貨コードはスペースで区切ります。ISO 4217 の 3 文字通貨コードを使用します。通貨コードの完全なリストについては、[ここ](http://www.xe.com/iso4217.php) をクリックしてください。例: CAD USD。",
+        "paragraph_2": "この機能をショップで動作させるには、[これらの手順](http://help.shopify.com/en/themes/customization/currencies) に従って通貨形式を編集する必要があります。(通貨形式がどこにあるかを指定してください。)",
         "select_a_currency": "通貨機能を選択してください",
         "option_1": "Shopifyの支払い",
         "option_2": "複数の通貨",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "クイック編集カートを表示",
-          "options__5": "ボタン\/スウォッチ"
+          "options__5": "ボタン/スウォッチ"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "カウントダウン",
-      "info": "カウントダウンでは、製品がプロモーションされている期間を顧客に示すことができます。[詳細](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "カウントダウンでは、製品がプロモーションされている期間を顧客に示すことができます。[詳細](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "カウントダウンを表示する",
@@ -1316,7 +1317,7 @@
           "options__2": "各製品ごとに",
           "options__3": "コレクション用に",
           "info": "例: Dec 31, 2024 18:00:00",
-          "info__1": "正確な形式を使用してください: yyyy\/mm\/dd 時間\/分\/秒。例: 2024\/12\/4 0:0:00。"
+          "info__1": "正確な形式を使用してください: yyyy/mm/dd 時間/分/秒。例: 2024/12/4 0:0:00。"
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "位置合わせ",
-          "label__2": "配置（上\/中央\/下）",
-          "label__3": "配置 (左\/中央\/右\/揃え)",
+          "label__2": "配置（上/中央/下）",
+          "label__3": "配置 (左/中央/右/揃え)",
           "label__4": "モバイルでの配置",
           "label__5": "コンテンツの左位置",
           "options__4": "正当化する",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "タイトル\/見出しのタイポグラフィ"
+            "content": "タイトル/見出しのタイポグラフィ"
           },
           "paragraph__2": {
             "content": "テキストのタイポグラフィー"
           },
           "paragraph__3": {
-            "content": "日付\/作成者\/コメントのタイポグラフィ"
+            "content": "日付/作成者/コメントのタイポグラフィ"
           },
           "font_style": "フォントスタイル"
         }
@@ -1854,7 +1855,7 @@
           "select_menu": "カテゴリメニュー",
           "recommen_image": "推奨画像: 250 x 250px",
           "banner_link": "バナーリンク",
-          "info__1": "各カテゴリの画像を表示するには、メニュー ハンドルと同じ名前の画像をアップロードします。[詳細](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
+          "info__1": "各カテゴリの画像を表示するには、メニュー ハンドルと同じ名前の画像をアップロードします。[詳細](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
         }
       },
       "presets": {
@@ -2083,9 +2084,9 @@
         "content_spacing": "コンテンツのパディング",
         "align_items_spacing_top": "コンテンツの上マージン",
         "align_items_spacing_bottom": "コンテンツの下マージン",
-        "align_items_spacing_lr": "コンテンツの左\/右の間隔",
-        "align_items_spacing_top_bottom_position": "コンテンツの上部\/下部の間隔",
-        "align_items_spacing_top_bottom_position_mb": "モバイルでのコンテンツの上部\/下部の間隔",
+        "align_items_spacing_lr": "コンテンツの左/右の間隔",
+        "align_items_spacing_top_bottom_position": "コンテンツの上部/下部の間隔",
+        "align_items_spacing_top_bottom_position_mb": "モバイルでのコンテンツの上部/下部の間隔",
         "content_1": "アイテムをブロックする",
         "enable_shadow": "ボックスの影を表示する",
         "use_special_header_layout": "特別なレイアウトを使用",
@@ -2134,8 +2135,8 @@
           "blog_style_1": "画像の下",
           "blog_style_2": "画像を重ねる",
           "show_link_as": "「詳細を表示」リンクをボタンとして表示",
-          "link_button_color": "リンク\/ボタンのラベルの色",
-          "link_button_hover_color": "リンク\/ボタン ラベルのホバー色"
+          "link_button_color": "リンク/ボタンのラベルの色",
+          "link_button_hover_color": "リンク/ボタン ラベルのホバー色"
         }
       },
       "presets": {
@@ -2221,7 +2222,7 @@
         "tab": {
           "name": "タブ項目",
           "show_image": "タブ画像を表​​示",
-          "info": "ブロック項目を表示するには、ナビゲーションを選択します。[画像のアップロード方法の詳細については、こちらをご覧ください。](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show-images-for-brand-tab-section)"
+          "info": "ブロック項目を表示するには、ナビゲーションを選択します。[画像のアップロード方法の詳細については、こちらをご覧ください。](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show-images-for-brand-tab-section)"
         }
       },
       "settings": {
@@ -2264,7 +2265,7 @@
         "info": "コンテンツの配置設定が中央に設定されている場合にのみ適用されます。",
         "enable_map": "グーグルマップを表示",
         "map_iframe": "地図を埋め込む",
-        "info__1": "[Google マップ](https:\/\/www.google.com\/maps) にアクセスして HTML 埋め込みコードを取得する必要があります。",
+        "info__1": "[Google マップ](https://www.google.com/maps) にアクセスして HTML 埋め込みコードを取得する必要があります。",
         "button": {
           "label__8": "ボタンの最大幅"
         }
@@ -2594,7 +2595,7 @@
           "product_block_02": "プロダクトブロックデュオ",
           "feature_product": "注目の製品",
           "feature_product_unsymmetrical": "製品ハイライト",
-          "info_tablet_mobile": "モバイル\/タブレットで使用する"
+          "info_tablet_mobile": "モバイル/タブレットで使用する"
         },
         "product_block_layout": {
           "option": "レイアウト",
@@ -2650,11 +2651,11 @@
           "content": "スライダーのレイアウト",
           "product_block_dots": "ナビゲーションドットを表示する",
           "product_block_dots_desk": "デスクトップにナビゲーション ドットを表示する",
-          "product_block_dots_mb": "モバイル\/タブレットにナビゲーション ドットを表示する",
+          "product_block_dots_mb": "モバイル/タブレットにナビゲーション ドットを表示する",
           "product_block_dots_spacing_top": "ナビゲーションドットの上マージン",
           "product_block_arrows": "ナビゲーション矢印を表示する",
           "product_block_arrows_desk": "デスクトップにナビゲーション矢印を表示する",
-          "product_block_arrows_mb": "モバイル\/タブレットにナビゲーション矢印を表示する",
+          "product_block_arrows_mb": "モバイル/タブレットにナビゲーション矢印を表示する",
           "product_block_arrows_position": "デスクトップ上のナビゲーション矢印のカスタム位置を有効にする",
           "use_special_arrow_position": "特別な矢印の位置を使用する",
           "enable_progress_bar": "スクロールバーを表示する",
@@ -2692,8 +2693,8 @@
             "info__1": "位置はモバイル向けに自動的に最適化されます。"
           },
           "name": "バナー",
-          "align_items_spacing_tb": "コンテンツの上部\/下部のパディング",
-          "align_items_spacing_lr": "コンテンツの左\/右パディング",
+          "align_items_spacing_tb": "コンテンツの上部/下部のパディング",
+          "align_items_spacing_lr": "コンテンツの左/右パディング",
           "position_vertical_arrow": "垂直位置 (単位 % または px)",
           "info__1": "「コンテンツの位置」設定が上部または下部に設定されている場合にのみ適用されます。",
           "info__2": "「コンテンツの配置」設定が左または右に設定されている場合にのみ適用されます。"
@@ -2892,7 +2893,7 @@
         "box_shadow_hover_color": "ボックスシャドウホバーカラー",
         "social_media_link": {
           "content": "ソーシャルメディアアイコン",
-          "info": "ソーシャル メディア アカウントを表示するには、[テーマ設定](\/editor?context=theme&category=social%20media) でアカウントをリンクします。",
+          "info": "ソーシャル メディア アカウントを表示するには、[テーマ設定](/editor?context=theme&category=social%20media) でアカウントをリンクします。",
           "show_social": "ソーシャルメディアアイコンを表示する",
           "enable_background_social": "ソーシャルアイコンに背景を表示する",
           "social_position": {
@@ -2978,7 +2979,7 @@
             "option": "支払いアイコンの種類",
             "option1": "デフォルト",
             "option2": "カスタム",
-            "info": "「デフォルト」を選択した場合、支払いアイコンを追加するには、[支払い設定](\/admin\/settings\/payments) に移動します。"
+            "info": "「デフォルト」を選択した場合、支払いアイコンを追加するには、[支払い設定](/admin/settings/payments) に移動します。"
           },
           "payment_position": {
             "option": "支払いポジション",
@@ -3091,12 +3092,12 @@
           "background_color_items_cart_mb": "モバイルのアイテムの背景色",
           "color_items_cart_mb": "モバイルでのアイテムの色付け",
           "font_size_cart_item": "項目のフォントサイズ",
-          "language_currency": "言語\/通貨",
-          "label__2": "文字\/アイコンの色1",
-          "label__3": "文字\/アイコンの色2",
-          "label__3_1": "文字\/アイコンの色 3",
-          "label__4": "文字\/アイコンの色",
-          "label__5": "テキスト\/アイコンのホバー色",
+          "language_currency": "言語/通貨",
+          "label__2": "文字/アイコンの色1",
+          "label__3": "文字/アイコンの色2",
+          "label__3_1": "文字/アイコンの色 3",
+          "label__4": "文字/アイコンの色",
+          "label__5": "テキスト/アイコンのホバー色",
           "label__6": "アイコンの枠線の色",
           "label__7": "タイプライターを使用する",
           "label__8": "モバイルで最初のコンテンツを表示する",
@@ -3120,7 +3121,7 @@
           "bg_bottom": "下部の背景",
           "mg_top": "メニュー上部のパディング",
           "mg_bottom": "メニューの下のパディング",
-          "spacing_left_right": "項目の左\/​​右パディング",
+          "spacing_left_right": "項目の左/​​右パディング",
           "spacing_left_menu": "メニューの左パディング",
           "spacing_right_menu": "メニューの右パディング"
         },
@@ -3199,7 +3200,7 @@
           "label__1": "ロゴイメージ",
           "label__2": "モバイルのロゴ画像",
           "label__3": "デスクトップのロゴの位置",
-          "label__fixed": "固定ヘッダー\/固定ヘッダーのロゴ画像",
+          "label__fixed": "固定ヘッダー/固定ヘッダーのロゴ画像",
           "label__7": "ロゴテキストまたはSVGアイコン",
           "label__8": "ロゴテキストまたはSVGアイコンの色",
           "logo_info": "このロゴはタブメニューが追加されていない場合に表示されます",
@@ -3366,7 +3367,8 @@
           "color_link_text": "ボタンラベルの色",
           "url": "ボタンリンク",
           "info": "単位: % または px",
-          "info__2": "このメガ メニューに適用するメニュー項目の名前を入力します。"
+          "info__2": "このメガ メニューに適用するメニュー項目の名前を入力します。",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "ヘッダー ナビゲーション - プレーン",
@@ -3378,8 +3380,8 @@
           "name_7": "ヘッダー ナビゲーション - 左揃え",
           "name_8": "ヘッダー ナビゲーション - 基本",
           "name_9": "ヘッダー ナビゲーション - マルチサイト",
-          "label_2": "メガメニュー\/ドロップダウンメニュー",
-          "label_3": "言語\/通貨を表示",
+          "label_2": "メガメニュー/ドロップダウンメニュー",
+          "label_3": "言語/通貨を表示",
           "label_5": "メインメニューに表示",
           "label_6": "スティッキーメニューに表示",
           "label_7": "すべて表示",
@@ -3389,7 +3391,7 @@
           "option_3": "右パディング",
           "cart_count_bubble": "カート数バブル",
           "search_input": "検索入力スタイル 2",
-          "cart_wishlist_count_bubble": "カート\/ウィッシュリスト数バブル",
+          "cart_wishlist_count_bubble": "カート/ウィッシュリスト数バブル",
           "wishlist_count_bubble": "ウィッシュリスト数バブル",
           "search_dropdown": "検索ドロップダウン",
           "search_dropdown_style": "検索ドロップダウン スタイル",
@@ -3520,7 +3522,7 @@
           "label__1": "著者を表示",
           "label__2": "上映日",
           "label__3": "シェアを表示",
-          "label__4": "次の\/前の記事を表示",
+          "label__4": "次の/前の記事を表示",
           "label__5": "メイン画像を表示",
           "label__6": "タグを表示"
         }
@@ -3588,7 +3590,7 @@
           "options__1": "基本色（色名を使用）",
           "options__2": "アドバンストカラー（PNG形式の画像を使用）",
           "options__3": "スクロール",
-          "info__1": "[フィルターのカスタマイズ](\/admin\/apps\/search-and-discovery)",
+          "info__1": "[フィルターのカスタマイズ](/admin/apps/search-and-discovery)",
           "info__2": "スウォッチ スタイルを表示するフィルター名を入力してください",
           "info__3": "長方形スタイルを表示するフィルター名を入力します",
           "info__4": "フィルター表示に使用: [もっと見る] ボタン",
@@ -3688,7 +3690,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "画像を追加するには、[コレクションを編集](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "画像を追加するには、[コレクションを編集](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3924,7 +3926,7 @@
         },
         "social-media": {
           "label__1": "ソーシャルメディアを表示する",
-          "label__2": "文字\/アイコンの色"
+          "label__2": "文字/アイコンの色"
         },
         "countdown": {
           "label__1": "時間",
@@ -3965,7 +3967,7 @@
           "label__1": "幅",
           "option__1": "中",
           "option__2": "大",
-          "info": "[メディア タイプ] の詳細についてはこちら(https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "[メディア タイプ] の詳細についてはこちら(https://help.shopify.com/manual/products/product-media)"
         },
         "header__3": {
           "content": "バッジ"
@@ -3993,20 +3995,20 @@
         },
         "header__12": {
           "content": "信頼できるイメージ",
-          "paragraph": "信頼できる画像では、製品ページに検証済みの高品質の画像のみが表示されるため、顧客の信頼が高まり、情報に基づいた購入決定がサポートされます。[詳細](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "信頼できる画像では、製品ページに検証済みの高品質の画像のみが表示されるため、顧客の信頼が高まり、情報に基づいた購入決定がサポートされます。[詳細](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "動的なチェックアウトボタン"
         },
         "header__15": {
-          "content": "次の\/前の製品"
+          "content": "次の/前の製品"
         },
         "header__16": {
           "content": "サイズ表"
         },
         "header__17": {
           "content": "送迎の有無",
-          "paragraph": "選択したバリエーションで利用可能なオフライン ストアを表示します。[詳細](https:\/\/help.shopify.com\/en\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "選択したバリエーションで利用可能なオフライン ストアを表示します。[詳細](https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "色の比較"
@@ -4019,14 +4021,14 @@
         },
         "header__21": {
           "content": "バリアントメタフィールド",
-          "paragraph": "説明タブにバリアント固有のコンテンツを表示し、選択したバリアントに基づいてカスタマイズされたコンテンツを提供します。[詳細](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant)"
+          "paragraph": "説明タブにバリアント固有のコンテンツを表示し、選択したバリアントに基づいてカスタマイズされたコンテンツを提供します。[詳細](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant)"
         },
         "header__22": {
           "content": "補完的な製品"
         },
         "header__23": {
           "content": "ポジティブな雰囲気のバンドル",
-          "paragraph": "Positive vibes バンドルは、継続的にスライドする形式で「60 人が 2 回以上購入しました」や「過去 24 時間以内に 37 個販売されました」などのモチベーションを高めるメッセージを表示して購入を促し、緊急性を生み出して製品の需要を高めるように設計された動的な機能です。[詳細](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "Positive vibes バンドルは、継続的にスライドする形式で「60 人が 2 回以上購入しました」や「過去 24 時間以内に 37 個販売されました」などのモチベーションを高めるメッセージを表示して購入を促し、緊急性を生み出して製品の需要を高めるように設計された動的な機能です。[詳細](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "納期",
@@ -4051,7 +4053,7 @@
           "text": "テキスト"
         },
         "general": {
-          "label__1": "デスクトップ\/タブレット上でスティッキー製品情報を有効にする",
+          "label__1": "デスクトップ/タブレット上でスティッキー製品情報を有効にする",
           "label__2": "デスクトップのレイアウト",
           "label__3": "メイン画像の位置",
           "options__1": "左側にサムネイルを表示",
@@ -4065,7 +4067,7 @@
           "buy_buttons": "購入ボタン",
           "show_gift_card_recipient": {
             "label": "ギフトカード製品の受取人フォームを表示する",
-            "info": "購入者が、予定された日付に個人的なメッセージとともにギフト カードを送信できるようにします。[詳細](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "購入者が、予定された日付に個人的なメッセージとともにギフト カードを送信できるようにします。[詳細](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "共有",
           "vendor": "ベンダー",
@@ -4116,7 +4118,7 @@
           "product_tab_source_info": "「コンテンツの表示」設定が「メタフィールドを使用する特定の製品」に設定されている場合にのみ適用されます。",
           "dynamic_source": "ダイナミックソース",
           "key_text_source": "製品メタフィールドキー",
-          "product_tab_key_info": "「コンテンツの表示対象」設定が「メタフィールドを使用する特定の製品」に設定され、「コンテンツ ソース」設定が「製品メタフィールド キー」に設定されている場合にのみ適用されます。[詳細](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "「コンテンツの表示対象」設定が「メタフィールドを使用する特定の製品」に設定され、「コンテンツ ソース」設定が「製品メタフィールド キー」に設定されている場合にのみ適用されます。[詳細](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "アクティブなサムネイルの色",
           "navigation_arrows_color_mobile": "モバイルのナビゲーション矢印の色",
           "read_more": "続きを読む",
@@ -4136,7 +4138,7 @@
           "options__9": "メイン画像にカーソルを合わせる",
           "unit": "%",
           "layout_video": "ビデオのレイアウト",
-          "info__1": "[メディア フィット] の詳細については、こちらをご覧ください(https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)",
+          "info__1": "[メディア フィット] の詳細については、こちらをご覧ください(https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)",
           "info__2": "メディアフィット設定がオリジナルに設定されている場合は適用されません。",
           "info__3": "商品画像比率設定のポートレートオプションにのみ適用されます。"
         },
@@ -4177,7 +4179,7 @@
         "variant": {
           "label__2": "グループ化されたバリアント画像を有効にする",
           "options__1": "落ちる",
-          "options__2": "正方形\/長方形\/見本",
+          "options__2": "正方形/長方形/見本",
           "variant_picker": "バリアントピッカー"
         },
         "quantity": {
@@ -4202,11 +4204,11 @@
         },
         "dynamic_checkout": {
           "label": "動的なチェックアウト ボタンを表示する",
-          "info": "ストアで利用可能な支払い方法を使用すると、顧客には PayPal や Apple Pay などの好みのオプションが表示されます。[詳細](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "ストアで利用可能な支払い方法を使用すると、顧客には PayPal や Apple Pay などの好みのオプションが表示されます。[詳細](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "次\/前の商品を表示",
-          "info": "コレクション内の次\/前の製品の製品を表示します"
+          "label": "次/前の商品を表示",
+          "info": "コレクション内の次/前の製品の製品を表示します"
         },
         "size_chart": {
           "label__1": "サイズチャートを有効にする",
@@ -4277,7 +4279,7 @@
           "label__1": "補完的な製品を表示",
           "label__2": "補完製品スタイル 1",
           "label__3": "補完製品スタイル 2",
-          "info__1": "補完的な製品を選択するには、検索と発見のアプリを追加します。[詳細](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "補完的な製品を選択するには、検索と発見のアプリを追加します。[詳細](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4302,7 +4304,7 @@
             "options__1": "すべての製品",
             "options__2": "メタフィールドを使用する特定の製品",
             "info_1": "「コンテンツの表示」設定が「すべての製品」に設定されている場合にのみ適用されます。",
-            "info_2": "[メタフィールドを使用してカスタム タブを設定する方法の詳細](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)"
+            "info_2": "[メタフィールドを使用してカスタム タブを設定する方法の詳細](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)"
           }
         },
         "grouped_product": {
@@ -4437,8 +4439,8 @@
         "info": "'相対'の'コンテンツ位置'に適用されます",
         "info_2": "右ブロックは自動的に計算されます",
         "title_align": "コンテンツの配置",
-        "align_items_spacing_tb": "内容: 上部のスペース\/下部のスペース",
-        "align_items_spacing_lr": "内容: 左のスペース\/右のスペース",
+        "align_items_spacing_tb": "内容: 上部のスペース/下部のスペース",
+        "align_items_spacing_lr": "内容: 左のスペース/右のスペース",
         "enable_item_1": "項目 1 を有効にする",
         "enable_item_2": "項目 2 を有効にする",
         "enable_item_3": "項目 3 を有効にする",
@@ -4633,7 +4635,7 @@
           "name": "コレクションイメージ",
           "settings": {
             "paragraph": {
-              "content": "コレクションの説明またはコレクション画像を変更するには、[コレクションを編集します。](\/admin\/collections)"
+              "content": "コレクションの説明またはコレクション画像を変更するには、[コレクションを編集します。](/admin/collections)"
             },
             "general": {
               "label__1": "視差バナーを表示",
@@ -4654,7 +4656,7 @@
             },
             "description": {
               "label__1": "コレクションの説明を表示",
-              "label__2": "「続きを読む」\/「もっと読む」を表示",
+              "label__2": "「続きを読む」/「もっと読む」を表示",
               "label__3": "位置",
               "label__4": "コレクションのタイトルを表示",
               "label__5": "コレクションの説明の配置",
@@ -4715,7 +4717,7 @@
         },
         "general": {
           "label": "製品バンドルを有効にする",
-          "info": "詳細はこちら [製品バンドル](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "詳細はこちら [製品バンドル](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "バンドル割引を有効にする",
@@ -4813,10 +4815,10 @@
     "app_partner": {
       "name": "アプリパートナー",
       "enable_promotion": "PageFly オファーを有効にする",
-      "label_1": "1. レビュー機能については、[Looxアプリ](https:\/\/shopify.pxf.io\/y2D52b)を使用して30日間の無料トライアルを取得してください。 [Looxの設定方法は？](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. 特別オファー: 20 PageFlyページを3か月間、月額1ドルで利用できます。 [今すぐオファーを取得](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. [UpPromoteアフィリエイト＆リファラル](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs)を使用して20％オフを獲得しましょう。",
-      "label_4": "4. [Avada SEOスイート](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)でサイトのパフォーマンスを向上させましょう。"
+      "label_1": "1. レビュー機能については、[Looxアプリ](https://shopify.pxf.io/y2D52b)を使用して30日間の無料トライアルを取得してください。 [Looxの設定方法は？](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. 特別オファー: 20 PageFlyページを3か月間、月額1ドルで利用できます。 [今すぐオファーを取得](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. [UpPromoteアフィリエイト＆リファラル](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs)を使用して20％オフを獲得しましょう。",
+      "label_4": "4. [Avada SEOスイート](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)でサイトのパフォーマンスを向上させましょう。"
     },
     "slidable_spotlight": {
       "name": "スライド可能なスポットライト",
@@ -4906,7 +4908,7 @@
           "country": "国",
           "cross_street": "交差点",
           "postal_code": "郵便番号",
-          "state": "州\/県",
+          "state": "州/県",
           "info": "例: (202) 387-9338",
           "map_iframe": "Google マップの iframe を挿入する"
         }
@@ -4924,12 +4926,12 @@
         "tiktok_video": {
           "name": "Tiktokビデオ",
           "embed_code": "ビデオID",
-          "info__1": "[tiktokビデオIDを取得する手順](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[tiktokビデオIDを取得する手順](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "ビフォー\/アフター画像スライダー",
+      "name": "ビフォー/アフター画像スライダー",
       "settings": {
         "content_position": "コンテンツの位置",
         "above": "上の比較画像",

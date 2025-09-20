@@ -86,7 +86,7 @@
           "label__3": "Mobil betöltés ikon színe"
         },
         "colors_breadcrumb": {
-          "label__4": "Panoráma-háttér\/átmenet csak a 2. és 3. kenyérmorzsa-elrendezéshez"
+          "label__4": "Panoráma-háttér/átmenet csak a 2. és 3. kenyérmorzsa-elrendezéshez"
         },
         "spinner_colors": {
           "content": "Pörgető betöltése",
@@ -134,7 +134,7 @@
           "product_page_gallery": "Galéria",
           "product_page_left_thumbs": "Bal oldali függőleges indexképek",
           "product_page_right_thumbs": "Jobb oldali függőleges miniatűrök",
-          "product_page_left_right_sidebar": "Bal\/Jobb oldalsáv",
+          "product_page_left_right_sidebar": "Bal/Jobb oldalsáv",
           "product_page_horizontal_tabs_no_sidebar": "Vízszintes fülek oldalsáv nélkül",
           "product_page_step_by_step": "Lépésről Lépésre",
           "header_layout_rtl": "Jobbról balra elrendezés",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "ISO kódok listája RTL nyelvekhez",
           "list_iso_rtl_info": "Az egyes nyelvek ISO-kódjait „,” jellel válassza el. Pl.: ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "Sorolja fel a nyelvi ISO kódokat az RTL elrendezésre való automatikus váltáshoz: ar:(arab); dv:(Dhivehi,maldív); ha:(Hausa); ő:(héber); ku:(kurd\/sorani); fa:(perzsa\/fárszi); ur: (urdu); ps:(pastu); yi: (jiddis)"
+          "list_iso_rtl_note": "Sorolja fel a nyelvi ISO kódokat az RTL elrendezésre való automatikus váltáshoz: ar:(arab); dv:(Dhivehi,maldív); ha:(Hausa); ő:(héber); ku:(kurd/sorani); fa:(perzsa/fárszi); ur: (urdu); ps:(pastu); yi: (jiddis)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "Betűtípus forrása",
           "options__1": "Google betűtípusok",
           "options__2": "Shopify betűtípusok",
-          "info": "A google betűtípusok használatához adja hozzá a betűtípus nevét. [További információ](https:\/\/fonts.google.com\/)",
+          "info": "A google betűtípusok használatához adja hozzá a betűtípus nevét. [További információ](https://fonts.google.com/)",
           "info_shopify_font": "Optimalizálja webhelye teljesítményét a shopify betűtípusok használatával!",
           "info_language": "Amikor nyelvet konfigurál a testreszabási beállításokban, fontos, hogy ugyanazt a nyelvi preferenciát állítsa be az adminisztrációs beállításokban is."
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "Törzs betűtípus",
           "label": "Shopify betűtípus",
-          "info": "Más betűtípus kiválasztása befolyásolhatja az üzlet sebességét. [További információ a rendszer-betűtípusokról.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Más betűtípus kiválasztása befolyásolhatja az üzlet sebességét. [További információ a rendszer-betűtípusokról.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "Címsor betűtípus",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "Mega menü 2. szint",
           "title_mega_menu_lv3": "Mega menü 3. szint",
           "label": "Navigációs betűtípus család",
-          "info": "Más betűtípus kiválasztása befolyásolhatja az üzlet sebességét. [További információ a rendszer-betűtípusokról.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Más betűtípus kiválasztása befolyásolhatja az üzlet sebességét. [További információ a rendszer-betűtípusokról.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "Termékelem betűtípusa",
@@ -237,7 +237,7 @@
           "yes": "Igen",
           "no": "Nem",
           "label": "1. gomb betűtípuscsalád",
-          "info": "Más betűtípus kiválasztása befolyásolhatja az üzlet sebességét. [További információ a rendszer-betűtípusokról.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "Más betűtípus kiválasztása befolyásolhatja az üzlet sebességét. [További információ a rendszer-betűtípusokról.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "Vázlat megjelenítése",
           "cta_button": "CTA gomb"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "Az „Összes megtekintése” ikon pozíciója",
           "view_all_font_size": "\"Összes megtekintése\" betűméret",
           "view_all_width": "\"Összes megtekintése\" szélesség",
-          "view_all_info": "Nyissa meg ezt a linket [keresse meg ikonját] (https:\/\/fontawesome.com\/v5\/search). Keresse meg a kívánt ikont, majd másolja ki az SVG-kódot, és illessze be ide.",
-          "logo_icon_info": "Csak akkor alkalmazható, ha az embléma képe üresen maradt. Nyissa meg ezt a linket [keresse meg ikonját] (https:\/\/fontawesome.com\/v5\/search). Keresse meg a kívánt ikont, majd másolja ki az SVG-kódot, és illessze be ide.",
+          "view_all_info": "Nyissa meg ezt a linket [keresse meg ikonját] (https://fontawesome.com/v5/search). Keresse meg a kívánt ikont, majd másolja ki az SVG-kódot, és illessze be ide.",
+          "logo_icon_info": "Csak akkor alkalmazható, ha az embléma képe üresen maradt. Nyissa meg ezt a linket [keresse meg ikonját] (https://fontawesome.com/v5/search). Keresse meg a kívánt ikont, majd másolja ki az SVG-kódot, és illessze be ide.",
           "item": "Tételek",
-          "item_padding_top_bottom": "Felső\/alsó párnázás",
-          "item_padding_left_right": "Bal\/Jobb párnázás",
+          "item_padding_top_bottom": "Felső/alsó párnázás",
+          "item_padding_left_right": "Bal/Jobb párnázás",
           "item_padding_top": "Tétel felső párnázása",
           "item_padding_bottom": "Tétel alsó párnázása",
           "item_width": "Cikk szélessége",
@@ -429,19 +429,19 @@
           "icon_color_hover": "Ikon lebeg színe",
           "icon_color_mb": "Ikon színe a mobil",
           "icon_width": "Ikonok szélessége",
-          "icon_width_info": "Akkor alkalmazható, ha a szöveg\/ikon megjelenítési beállítása ikonra van állítva",
+          "icon_width_info": "Akkor alkalmazható, ha a szöveg/ikon megjelenítési beállítása ikonra van állítva",
           "icon_height": "Ikonok magassága",
           "icon_width_1": "Ikon szélessége",
           "icon_height_1": "Ikon magassága",
           "icon_width_mb": "Ikon szélessége mobilon",
           "icon_height_mb": "Ikon magassága mobilon",
-          "icon_mg_right": "Szöveg\/SVG ikon jobb margó",
+          "icon_mg_right": "Szöveg/SVG ikon jobb margó",
           "icon_mg_bottom": "Ikon távolság alján",
           "icon_spacing_mobile": "Ikon távolság a mobil",
-          "icon_type": "Kép vagy szöveg\/SVG ikon használata",
+          "icon_type": "Kép vagy szöveg/SVG ikon használata",
           "icons_type": "Ikonok típusa",
           "icons_type_info": "Csak akkor alkalmazható, ha az „ikonok típusa” beállítás Ikonra van állítva.",
-          "text_svg_icon": "Szöveg\/SVG ikon",
+          "text_svg_icon": "Szöveg/SVG ikon",
           "layout_mobile": "Mobil elrendezés",
           "layout_mobile_info": "Csak rács elrendezésre alkalmazható",
           "list": "Lista",
@@ -518,7 +518,7 @@
           "beside_the_title": "A cím mellett",
           "width_on_desktop": "Szélesség az asztalon",
           "section_footer": "Szakasz lábléce",
-          "prev_next_button": "Előző\/Következő gomb",
+          "prev_next_button": "Előző/Következő gomb",
           "info_mobile_layout": "Csak akkor alkalmazható, ha a „mobilelrendezés” beállítása csúszka.",
           "header_block": {
             "option_1": "A cím balra, az összes megtekintéssel balra",
@@ -526,7 +526,8 @@
             "option_3": "Cím közepén balra néz",
             "option_4": "Cím közepén, kilátással minden rendben",
             "option_5": "Cím közepén az összes nézet lent"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "Lábléc betűtípus"
@@ -577,23 +578,23 @@
         "whatsapp_label": "Oszd meg a Whatsappon",
         "header__2": "Társadalmi számlák",
         "social_twitter_link_label": "Twitter link",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "Facebook link",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "Pinterest link",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "Instagram link",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "TikTok link",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "Tumblr link",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "Snapchat link",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "YouTube link",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "Vimeo link",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "Testreszabási lehetőség",
-          "info": "A testreszabási lehetőségek a kosárba helyezett termékek testreszabási információinak gyűjtésére szolgálnak. Ezeket az információkat a vevőtől a termékoldalon és a gyorsnézetben lehet gyűjteni. [További információ](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "A testreszabási lehetőségek a kosárba helyezett termékek testreszabási információinak gyűjtésére szolgálnak. Ezeket az információkat a vevőtől a termékoldalon és a gyorsnézetben lehet gyűjteni. [További információ](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "Favicon kép",
@@ -651,8 +652,8 @@
           "label__7": "Adatvédelmi szabályzat gomb linkje",
           "label__8": "A cookie-k elfogadása gomb címkéje",
           "color_privacy_policy": "Adatvédelmi szabályzat gomb színe",
-          "info__1": "[További információ](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies)",
-          "info__2": "Példa: https:\/\/policies.google.com"
+          "info__1": "[További információ](https://help.shopify.com/en/manual/your-account/privacy/cookies)",
+          "info__2": "Példa: https://policies.google.com"
         },
         "wishlist": {
           "label": "Kívánságlista engedélyezése",
@@ -735,7 +736,7 @@
           "style_10": "Stílus 10"
         },
         "trust_image": {
-          "info__1": "Termékoldal\/Gyors megtekintés",
+          "info__1": "Termékoldal/Gyors megtekintés",
           "info__2": "Kosár oldal"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "A csomag jelvényének megjelenítése",
           "label__23": "Betűméret",
           "label__24": "Saroksugár",
-          "label__26": "Bal\/Jobb párnázás",
+          "label__26": "Bal/Jobb párnázás",
           "label__28": "Függőleges helyzet",
           "label__29": "Vízszintes helyzet",
           "options__3": "Dinamikus",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "Kívánságlista megjelenítése",
-          "label__4": "Szöveg\/ikon aktív",
+          "label__4": "Szöveg/ikon aktív",
           "label__5": "A háttér aktív",
           "label__9": "Határ aktív",
           "label__10": "Kívánságlista megjelenítése mobilon",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "Gyors nézet megjelenítése",
           "label__2": "Gyorsnézet stílus",
-          "label__3": "Szöveg\/Ikon",
-          "label__5": "Szöveg\/ikon lebeg",
+          "label__3": "Szöveg/Ikon",
+          "label__5": "Szöveg/ikon lebeg",
           "label__6": "Háttér lebeg",
           "label__7": "Gyors megtekintés és kívánságlista pozíció",
           "label__8": "Gyors nézet megjelenítése mobilon",
@@ -955,10 +956,10 @@
         "currency_format_enable": "Pénznemformátum engedélyezése",
         "info_currency_format": "A kosár és a pénztári árak mindig a pénznemkódokat mutatják. Példa: 1,00 USD.",
         "enable_shopify_payments_currencies": "Engedélyezi a shopify fizetést?",
-        "info_1": "Csak a shopify fizetéssel rendelkező üzletekben érhető el. Link [itt](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_1": "Csak a shopify fizetéssel rendelkező üzletekben érhető el. Link [itt](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "enable_multiple_currencies": "Több pénznem engedélyezése?",
         "enable_auto_currency": "Engedélyezi az automatikus pénznemet?",
-        "info_2": "Ne válassza egyszerre mind a 3 lehetőséget, és ne kombinálja a shopify fizetést másokkal. Link [itt](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_2": "Ne válassza egyszerre mind a 3 lehetőséget, és ne kombinálja a shopify fizetést másokkal. Link [itt](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "i-currency-1": "SVG ikon az 1. pénznemkódhoz",
         "currency_1_unit": "Pénznem kódja 1",
         "usd": "USD",
@@ -982,8 +983,8 @@
         "currency_9_unit": "Pénznem kódja 9",
         "i-currency-10": "SVG ikon a 10-es pénznemkódhoz",
         "currency_10_unit": "Pénznem kódja 10",
-        "paragraph_1": "A pénznemkódokat szóközzel válassza el. Használja az ISO 4217 3 betűs pénznemkódot. Kattintson [ide](http:\/\/www.xe.com\/iso4217.php) a pénznemkódok teljes listájához. Példa: CAD USD.",
-        "paragraph_2": "Ahhoz, hogy ez a funkció működjön az üzletében, szerkesztenie kell a pénzformátumokat [ezeknek az utasításoknak] megfelelően (http:\/\/help.shopify.com\/en\/themes\/customization\/currencies). (Kérjük, adja meg, hol található a pénz formátuma.)",
+        "paragraph_1": "A pénznemkódokat szóközzel válassza el. Használja az ISO 4217 3 betűs pénznemkódot. Kattintson [ide](http://www.xe.com/iso4217.php) a pénznemkódok teljes listájához. Példa: CAD USD.",
+        "paragraph_2": "Ahhoz, hogy ez a funkció működjön az üzletében, szerkesztenie kell a pénzformátumokat [ezeknek az utasításoknak] megfelelően (http://help.shopify.com/en/themes/customization/currencies). (Kérjük, adja meg, hol található a pénz formátuma.)",
         "select_a_currency": "Válasszon egy pénznem funkciót",
         "option_1": "Shopify fizetés",
         "option_2": "Több valuta",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "Mutasd a kosár gyors szerkesztését",
-          "options__5": "Gomb\/Swatch"
+          "options__5": "Gomb/Swatch"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "Visszaszámlálás",
-      "info": "A visszaszámlálás megmutatja az ügyfeleknek azt az időtartamot, amikor a termék promócióban van. [További információ](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "A visszaszámlálás megmutatja az ügyfeleknek azt az időtartamot, amikor a termék promócióban van. [További információ](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "Visszaszámlálás megjelenítése",
@@ -1316,7 +1317,7 @@
           "options__2": "Minden termékhez",
           "options__3": "A gyűjteményhez",
           "info": "Példa: Dec 31, 2024 18:00:00",
-          "info__1": "Kérjük, pontosan ezt a formátumot használja: éééé\/hh\/nn óra\/perc\/másodperc. Példa: 2024\/12\/4 0:0:00."
+          "info__1": "Kérjük, pontosan ezt a formátumot használja: éééé/hh/nn óra/perc/másodperc. Példa: 2024/12/4 0:0:00."
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "Igazítás",
-          "label__2": "Igazítás (fent\/középen\/alul)",
-          "label__3": "Igazítás (balra\/középre\/jobbra\/igazítás)",
+          "label__2": "Igazítás (fent/középen/alul)",
+          "label__3": "Igazítás (balra/középre/jobbra/igazítás)",
           "label__4": "Igazítás mobileszközön",
           "label__5": "Bal oldali pozíció a tartalomhoz",
           "options__4": "Indokolja meg",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "Cím\/cím tipográfia"
+            "content": "Cím/cím tipográfia"
           },
           "paragraph__2": {
             "content": "Szöveg tipográfia"
           },
           "paragraph__3": {
-            "content": "Dátum\/szerző\/megjegyzés tipográfia"
+            "content": "Dátum/szerző/megjegyzés tipográfia"
           },
           "font_style": "Betűstílus"
         }
@@ -1854,7 +1855,7 @@
           "select_menu": "Kategória menü",
           "recommen_image": "Javasolt kép: 250 x 250 képpont",
           "banner_link": "Banner link",
-          "info__1": "Az egyes kategóriákhoz tartozó képek megjelenítéséhez töltsön fel képeket a menü fogantyújával megegyező néven. [További információ](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow -like-a-szupermarket-honlapján)"
+          "info__1": "Az egyes kategóriákhoz tartozó képek megjelenítéséhez töltsön fel képeket a menü fogantyújával megegyező néven. [További információ](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow -like-a-szupermarket-honlapján)"
         }
       },
       "presets": {
@@ -2083,9 +2084,9 @@
         "content_spacing": "Tartalmi padding",
         "align_items_spacing_top": "Tartalom felső margója",
         "align_items_spacing_bottom": "Tartalom alsó margója",
-        "align_items_spacing_lr": "Tartalom bal\/jobb térköz",
-        "align_items_spacing_top_bottom_position": "Tartalom felső\/alsó térköz",
-        "align_items_spacing_top_bottom_position_mb": "Tartalom felső\/alsó térköze a mobilon",
+        "align_items_spacing_lr": "Tartalom bal/jobb térköz",
+        "align_items_spacing_top_bottom_position": "Tartalom felső/alsó térköz",
+        "align_items_spacing_top_bottom_position_mb": "Tartalom felső/alsó térköze a mobilon",
         "content_1": "Elemek letiltása",
         "enable_shadow": "Doboz árnyékának megjelenítése",
         "use_special_header_layout": "Speciális elrendezés használata",
@@ -2134,8 +2135,8 @@
           "blog_style_1": "A kép alatt",
           "blog_style_2": "Fedje át a képet",
           "show_link_as": "A „részletek megtekintése” link megjelenítése gombként",
-          "link_button_color": "Link\/gomb címke színe",
-          "link_button_hover_color": "Link\/Gomb címke lebegő színe"
+          "link_button_color": "Link/gomb címke színe",
+          "link_button_hover_color": "Link/Gomb címke lebegő színe"
         }
       },
       "presets": {
@@ -2221,7 +2222,7 @@
         "tab": {
           "name": "Tab elem",
           "show_image": "Lapkép megjelenítése",
-          "info": "Válasszon egy navigációt a blokkelemek megjelenítéséhez. [További információ a képek feltöltéséről.](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show -mages-for-brand-tab-section)"
+          "info": "Válasszon egy navigációt a blokkelemek megjelenítéséhez. [További információ a képek feltöltéséről.](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show -mages-for-brand-tab-section)"
         }
       },
       "settings": {
@@ -2264,7 +2265,7 @@
         "info": "Csak akkor alkalmazható, ha a tartalom igazítása középre van állítva.",
         "enable_map": "Google térkép megjelenítése",
         "map_iframe": "Térkép beágyazása",
-        "info__1": "A HTML-beágyazási kód lekéréséhez fel kell lépnie a [Google Térkép] (https:\/\/www.google.com\/maps) oldalára.",
+        "info__1": "A HTML-beágyazási kód lekéréséhez fel kell lépnie a [Google Térkép] (https://www.google.com/maps) oldalára.",
         "button": {
           "label__8": "Maximális gombszélesség"
         }
@@ -2594,7 +2595,7 @@
           "product_block_02": "Termékblokk páros",
           "feature_product": "Kiemelt termék",
           "feature_product_unsymmetrical": "A termék kiemelése",
-          "info_tablet_mobile": "Mobilhoz\/táblagéphez használható"
+          "info_tablet_mobile": "Mobilhoz/táblagéphez használható"
         },
         "product_block_layout": {
           "option": "Elrendezés",
@@ -2650,11 +2651,11 @@
           "content": "Csúszka elrendezése",
           "product_block_dots": "Navigációs pontok megjelenítése",
           "product_block_dots_desk": "Navigációs pontok megjelenítése az asztalon",
-          "product_block_dots_mb": "Navigációs pontok megjelenítése mobilon\/táblagépen",
+          "product_block_dots_mb": "Navigációs pontok megjelenítése mobilon/táblagépen",
           "product_block_dots_spacing_top": "A navigációs pontok felső margója",
           "product_block_arrows": "Navigációs nyilak megjelenítése",
           "product_block_arrows_desk": "A navigációs nyilak megjelenítése az asztalon",
-          "product_block_arrows_mb": "Navigációs nyilak megjelenítése mobilon\/táblagépen",
+          "product_block_arrows_mb": "Navigációs nyilak megjelenítése mobilon/táblagépen",
           "product_block_arrows_position": "A navigációs nyilak egyéni elhelyezésének engedélyezése az asztalon",
           "use_special_arrow_position": "Használjon speciális nyílpozíciót",
           "enable_progress_bar": "Görgetősáv megjelenítése",
@@ -2692,8 +2693,8 @@
             "info__1": "A pozíció automatikusan mobilra van optimalizálva."
           },
           "name": "Transzparens",
-          "align_items_spacing_tb": "Tartalom felső\/alsó párnázás",
-          "align_items_spacing_lr": "Tartalmi bal\/jobb oldali kitöltés",
+          "align_items_spacing_tb": "Tartalom felső/alsó párnázás",
+          "align_items_spacing_lr": "Tartalmi bal/jobb oldali kitöltés",
           "position_vertical_arrow": "Függőleges pozíció (egység % vagy px)",
           "info__1": "Csak akkor érvényes, ha a „tartalom pozíciója” beállítás felső vagy alsó értékre van állítva.",
           "info__2": "Csak akkor érvényes, ha a „tartalom igazítása” beállítás balra vagy jobbra van állítva."
@@ -2892,7 +2893,7 @@
         "box_shadow_hover_color": "Box shadow hover színe",
         "social_media_link": {
           "content": "Szociális média ikonok",
-          "info": "A közösségimédia-fiókok megjelenítéséhez kapcsolja össze őket a [témabeállításokban] (\/editor?context=theme&category=social%20media).",
+          "info": "A közösségimédia-fiókok megjelenítéséhez kapcsolja össze őket a [témabeállításokban] (/editor?context=theme&category=social%20media).",
           "show_social": "Közösségi média ikonok megjelenítése",
           "enable_background_social": "Hátterek megjelenítése a közösségi ikonokon",
           "social_position": {
@@ -2978,7 +2979,7 @@
             "option": "Fizetési ikonok típusa",
             "option1": "Alapértelmezett",
             "option2": "Szokás",
-            "info": "Ha az „alapértelmezett” lehetőséget választja, fizetési ikonok hozzáadásához lépjen a [fizetési beállításokhoz.](\/admin\/settings\/payments)"
+            "info": "Ha az „alapértelmezett” lehetőséget választja, fizetési ikonok hozzáadásához lépjen a [fizetési beállításokhoz.](/admin/settings/payments)"
           },
           "payment_position": {
             "option": "Fizetési pozíció",
@@ -3091,12 +3092,12 @@
           "background_color_items_cart_mb": "Elemek háttérszíne a mobilon",
           "color_items_cart_mb": "Az elemek színe mobilon",
           "font_size_cart_item": "Elem betűmérete",
-          "language_currency": "Nyelv\/Pénznem",
-          "label__2": "Szöveg\/ikon színe 1",
-          "label__3": "Szöveg\/ikon színe 2",
-          "label__3_1": "Szöveg\/ikon színe 3",
-          "label__4": "Szöveg\/ikon színe",
-          "label__5": "Szöveg\/ikon lebegő színe",
+          "language_currency": "Nyelv/Pénznem",
+          "label__2": "Szöveg/ikon színe 1",
+          "label__3": "Szöveg/ikon színe 2",
+          "label__3_1": "Szöveg/ikon színe 3",
+          "label__4": "Szöveg/ikon színe",
+          "label__5": "Szöveg/ikon lebegő színe",
           "label__6": "Ikon határ színe",
           "label__7": "Használjon írógépet",
           "label__8": "Első tartalom megjelenítése mobilon",
@@ -3120,7 +3121,7 @@
           "bg_bottom": "Alsó háttér",
           "mg_top": "Menü felső párnázás",
           "mg_bottom": "Menü alsó párnázás",
-          "spacing_left_right": "Elemek bal\/jobb párnázása",
+          "spacing_left_right": "Elemek bal/jobb párnázása",
           "spacing_left_menu": "A menü bal oldali kitöltése",
           "spacing_right_menu": "A menü jobb oldali kitöltése"
         },
@@ -3199,7 +3200,7 @@
           "label__1": "Logo kép",
           "label__2": "Mobil logó kép",
           "label__3": "Az asztali logó pozíciója",
-          "label__fixed": "Logókép ragadós fejléchez\/rögzített fejléchez",
+          "label__fixed": "Logókép ragadós fejléchez/rögzített fejléchez",
           "label__7": "Logó szöveg vagy SVG ikon",
           "label__8": "Logó szöveg vagy SVG ikon színe",
           "logo_info": "Ez az embléma akkor jelenik meg, ha nem ad hozzá lapmenüt",
@@ -3366,7 +3367,8 @@
           "color_link_text": "A gomb címke színe",
           "url": "Gomb hivatkozás",
           "info": "Mértékegysége: % vagy px",
-          "info__2": "Adja meg annak a menüpontnak a nevét, amelyet alkalmazni szeretne ehhez a mega menühöz."
+          "info__2": "Adja meg annak a menüpontnak a nevét, amelyet alkalmazni szeretne ehhez a mega menühöz.",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "Header nav – sima",
@@ -3378,8 +3380,8 @@
           "name_7": "Navigációs fejléc – balra igazítva",
           "name_8": "Header nav – alap",
           "name_9": "Header nav – több webhely",
-          "label_2": "Mega menü\/legördülő menü",
-          "label_3": "Nyelv\/pénznem megjelenítése",
+          "label_2": "Mega menü/legördülő menü",
+          "label_3": "Nyelv/pénznem megjelenítése",
           "label_5": "Megjelenítés a főmenüben",
           "label_6": "Megjelenítés a ragadós menüben",
           "label_7": "Összes megjelenítése",
@@ -3389,7 +3391,7 @@
           "option_3": "Jobb párnázás",
           "cart_count_bubble": "Kosárszámláló buborék",
           "search_input": "Keresőmező stílusa 2",
-          "cart_wishlist_count_bubble": "Kosár\/kívánságlista számláló buborék",
+          "cart_wishlist_count_bubble": "Kosár/kívánságlista számláló buborék",
           "wishlist_count_bubble": "Kívánságlista számláló buborék",
           "search_dropdown": "Keresés legördülő menü",
           "search_dropdown_style": "Keresés legördülő stílusa",
@@ -3520,7 +3522,7 @@
           "label__1": "Szerző megjelenítése",
           "label__2": "Dátum megjelenítése",
           "label__3": "Megosztás megjelenítése",
-          "label__4": "Következő\/előző cikk megjelenítése",
+          "label__4": "Következő/előző cikk megjelenítése",
           "label__5": "Fő kép megjelenítése",
           "label__6": "Címkék megjelenítése"
         }
@@ -3588,7 +3590,7 @@
           "options__1": "Alapszín (használja a szín nevét)",
           "options__2": "Speciális színek (PNG formátumú kép használata)",
           "options__3": "Görgetés",
-          "info__1": "[Szűrők testreszabása](\/admin\/apps\/search-and-discovery)",
+          "info__1": "[Szűrők testreszabása](/admin/apps/search-and-discovery)",
           "info__2": "Írja be a szűrő nevét a színminta stílusának megjelenítéséhez",
           "info__3": "Adja meg a szűrő nevét a téglalap stílusának megjelenítéséhez",
           "info__4": "Szűrő kijelzéshez használt: többet mutat gomb",
@@ -3688,7 +3690,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "Képek hozzáadásához [szerkessze gyűjteményeit](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "Képek hozzáadásához [szerkessze gyűjteményeit](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3924,7 +3926,7 @@
         },
         "social-media": {
           "label__1": "Mutasd a közösségi médiát",
-          "label__2": "Szöveg\/ikon színe"
+          "label__2": "Szöveg/ikon színe"
         },
         "countdown": {
           "label__1": "Idő",
@@ -3965,7 +3967,7 @@
           "label__1": "Szélesség",
           "option__1": "Közepes",
           "option__2": "Nagy",
-          "info": "További információ a [médiatípusokról](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "További információ a [médiatípusokról](https://help.shopify.com/manual/products/product-media)"
         },
         "header__3": {
           "content": "Jelvény"
@@ -3993,20 +3995,20 @@
         },
         "header__12": {
           "content": "Megbízható képek",
-          "paragraph": "A megbízható képek csak ellenőrzött, jó minőségű képanyagot jelenítenek meg a termékoldalakon, növelve a vásárlók bizalmát és támogatva a megalapozott vásárlási döntéseket. [További információ](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "A megbízható képek csak ellenőrzött, jó minőségű képanyagot jelenítenek meg a termékoldalakon, növelve a vásárlók bizalmát és támogatva a megalapozott vásárlási döntéseket. [További információ](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "Dinamikus pénztárgombok"
         },
         "header__15": {
-          "content": "Következő\/Előző termék"
+          "content": "Következő/Előző termék"
         },
         "header__16": {
           "content": "Mérettáblázat"
         },
         "header__17": {
           "content": "Átvételi lehetőség",
-          "paragraph": "Megjeleníti a kiválasztott változat elérhető offline üzleteit. [További információ](https:\/\/help.shopify.com\/en\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "Megjeleníti a kiválasztott változat elérhető offline üzleteit. [További információ](https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "Szín összehasonlítás"
@@ -4019,14 +4021,14 @@
         },
         "header__21": {
           "content": "Változat metamező",
-          "paragraph": "Változatspecifikus tartalom megjelenítése a leírás lapon, testreszabott tartalmat biztosítva a kiválasztott változat alapján. [További információ](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant)"
+          "paragraph": "Változatspecifikus tartalom megjelenítése a leírás lapon, testreszabott tartalmat biztosítva a kiválasztott változat alapján. [További információ](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant)"
         },
         "header__22": {
           "content": "Kiegészítő termékek"
         },
         "header__23": {
           "content": "Pozitív hangulatcsomag",
-          "paragraph": "A Positive Vibes csomag egy dinamikus funkció, amely a vásárlás ösztönzésére szolgál azáltal, hogy motivációs üzeneteket jelenít meg, például „60 ember 2+ alkalommal vásárolt” vagy „37 értékesített az elmúlt 24 órában” folyamatosan csúszó formátumban, sürgősséget teremtve és növelve a termékkeresletet. [További információ](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "A Positive Vibes csomag egy dinamikus funkció, amely a vásárlás ösztönzésére szolgál azáltal, hogy motivációs üzeneteket jelenít meg, például „60 ember 2+ alkalommal vásárolt” vagy „37 értékesített az elmúlt 24 órában” folyamatosan csúszó formátumban, sürgősséget teremtve és növelve a termékkeresletet. [További információ](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "Szállítási idő",
@@ -4051,7 +4053,7 @@
           "text": "Szöveg"
         },
         "general": {
-          "label__1": "Engedélyezze a ragadós termékinformációkat asztali számítógépen\/táblagépen",
+          "label__1": "Engedélyezze a ragadós termékinformációkat asztali számítógépen/táblagépen",
           "label__2": "Asztali elrendezés",
           "label__3": "A kép fő pozíciója",
           "options__1": "Miniatűrök megjelenítése a bal oldalon",
@@ -4065,7 +4067,7 @@
           "buy_buttons": "Vásárlás gombok",
           "show_gift_card_recipient": {
             "label": "Az ajándékutalvány termékek címzett űrlapjának megjelenítése",
-            "info": "Lehetővé teszi a vásárlók számára, hogy ajándékutalványokat küldjenek egy meghatározott időpontban személyes üzenettel együtt. [További információ](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "Lehetővé teszi a vásárlók számára, hogy ajándékutalványokat küldjenek egy meghatározott időpontban személyes üzenettel együtt. [További információ](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "Részesedés",
           "vendor": "Eladó",
@@ -4116,7 +4118,7 @@
           "product_tab_source_info": "Csak akkor alkalmazható, ha a „Tartalom megjelenítése a következőhöz” beállítás értéke „Speciális termékek metamező használatával”.",
           "dynamic_source": "Dinamikus forrás",
           "key_text_source": "Termék metamező kulcsa",
-          "product_tab_key_info": "Csak akkor alkalmazható, ha a „Tartalom megjelenítése a következőhöz” beállítás értéke „Speciális termékek metamezőt használva”, a „Tartalomforrás” beállítása pedig „Termék metamező kulcsa”. [További információ](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "Csak akkor alkalmazható, ha a „Tartalom megjelenítése a következőhöz” beállítás értéke „Speciális termékek metamezőt használva”, a „Tartalomforrás” beállítása pedig „Termék metamező kulcsa”. [További információ](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "Aktív miniatűr szín",
           "navigation_arrows_color_mobile": "Színes navigációs nyilak mobiltelefonon",
           "read_more": "Olvass tovább",
@@ -4136,7 +4138,7 @@
           "options__9": "Mutasson a fő képekre",
           "unit": "%",
           "layout_video": "Videó elrendezése",
-          "info__1": "További információ a [media fit]-ről (https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)",
+          "info__1": "További információ a [media fit]-ről (https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)",
           "info__2": "Nem alkalmazható, ha a hordozó illesztése az eredetire van állítva.",
           "info__3": "Csak a termék képarány beállításának portré opciójára vonatkozik."
         },
@@ -4177,7 +4179,7 @@
         "variant": {
           "label__2": "Képváltozat csoportosított engedélyezése",
           "options__1": "Legördülő menü",
-          "options__2": "Négyzet\/Téglalap\/Swatch",
+          "options__2": "Négyzet/Téglalap/Swatch",
           "variant_picker": "Változatválasztó"
         },
         "quantity": {
@@ -4202,11 +4204,11 @@
         },
         "dynamic_checkout": {
           "label": "Dinamikus fizetési gombok megjelenítése",
-          "info": "Az üzletében elérhető fizetési módok használatával az ügyfelek láthatják az általuk preferált fizetési módot, például a paypalt vagy az Apple Pay-t. [További információ](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "Az üzletében elérhető fizetési módok használatával az ügyfelek láthatják az általuk preferált fizetési módot, például a paypalt vagy az Apple Pay-t. [További információ](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "Következő\/előző termék megjelenítése",
-          "info": "Mutassa meg a következő\/előző termék termékét a kollekcióban"
+          "label": "Következő/előző termék megjelenítése",
+          "info": "Mutassa meg a következő/előző termék termékét a kollekcióban"
         },
         "size_chart": {
           "label__1": "Mérettáblázat engedélyezése",
@@ -4277,7 +4279,7 @@
           "label__1": "Kiegészítő termék megjelenítése",
           "label__2": "Kiegészítő termékstílus 1",
           "label__3": "Kiegészítő termékstílus 2",
-          "info__1": "Kiegészítő termékek kiválasztásához adja hozzá a Search & Discovery alkalmazást. [További információ](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "Kiegészítő termékek kiválasztásához adja hozzá a Search & Discovery alkalmazást. [További információ](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4302,7 +4304,7 @@
             "options__1": "Minden termék",
             "options__2": "Konkrét termékek metamező használatával",
             "info_1": "Csak akkor alkalmazható, ha a „Tartalom megjelenítése ehhez” beállítás „Minden termék” értékre van állítva.",
-            "info_2": "[További információ az egyéni lap metamező használatával történő beállításáról](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields "
+            "info_2": "[További információ az egyéni lap metamező használatával történő beállításáról](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields "
           }
         },
         "grouped_product": {
@@ -4437,8 +4439,8 @@
         "info": "A 'tartalom pozícióra' vonatkozik, ami 'Relatív'",
         "info_2": "A jobb blokk automatikusan számítódik",
         "title_align": "Tartalmi igazítás",
-        "align_items_spacing_tb": "Tartalom: térköz felül\/távköz alul",
-        "align_items_spacing_lr": "Tartalom: térköz balra \/ térköz jobbra",
+        "align_items_spacing_tb": "Tartalom: térköz felül/távköz alul",
+        "align_items_spacing_lr": "Tartalom: térköz balra / térköz jobbra",
         "enable_item_1": "Engedélyezze az 1. elemet",
         "enable_item_2": "Engedélyezze a 2. elemet",
         "enable_item_3": "Engedélyezze a 3. elemet",
@@ -4633,7 +4635,7 @@
           "name": "Gyűjtemény kép",
           "settings": {
             "paragraph": {
-              "content": "A gyűjtemények leírásának vagy képeinek módosításához [szerkessze a gyűjteményeket.](\/admin\/collections)"
+              "content": "A gyűjtemények leírásának vagy képeinek módosításához [szerkessze a gyűjteményeket.](/admin/collections)"
             },
             "general": {
               "label__1": "Parallax banner megjelenítése",
@@ -4654,7 +4656,7 @@
             },
             "description": {
               "label__1": "Gyűjtemény leírásának megjelenítése",
-              "label__2": "„Olvass többet”\/„Keveset olvas” megjelenítése",
+              "label__2": "„Olvass többet”/„Keveset olvas” megjelenítése",
               "label__3": "Pozíció",
               "label__4": "Gyűjtemény címének megjelenítése",
               "label__5": "Gyűjtemény leírásának igazítása",
@@ -4715,7 +4717,7 @@
         },
         "general": {
           "label": "Termékcsomag engedélyezése",
-          "info": "További információ [termékcsomag](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "További információ [termékcsomag](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "Csomagengedmény engedélyezése",
@@ -4813,10 +4815,10 @@
     "app_partner": {
       "name": "Alkalmazáspartner",
       "enable_promotion": "PageFly ajánlat engedélyezése",
-      "label_1": "1. Az értékelési funkcióhoz: Használja a [Loox alkalmazást](https:\/\/shopify.pxf.io\/y2D52b) és kapjon 30 napos próbaidőszakot. [Hogyan állíthatom be a Looxot?](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. Exkluzív ajánlat: 3 hónapig 20 PageFly oldal használata csak $1\/hóért. [Igényelje az ajánlatot most](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. Használja az [UpPromote affiliate & Referral](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs) szolgáltatást és kapjon 20% kedvezményt.",
-      "label_4": "4. Növelje webhelye teljesítményét az [Avada SEO suite](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor) segítségével."
+      "label_1": "1. Az értékelési funkcióhoz: Használja a [Loox alkalmazást](https://shopify.pxf.io/y2D52b) és kapjon 30 napos próbaidőszakot. [Hogyan állíthatom be a Looxot?](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. Exkluzív ajánlat: 3 hónapig 20 PageFly oldal használata csak $1/hóért. [Igényelje az ajánlatot most](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. Használja az [UpPromote affiliate & Referral](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs) szolgáltatást és kapjon 20% kedvezményt.",
+      "label_4": "4. Növelje webhelye teljesítményét az [Avada SEO suite](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor) segítségével."
     },
     "slidable_spotlight": {
       "name": "Csúsztatható spotlámpa",
@@ -4906,7 +4908,7 @@
           "country": "Ország",
           "cross_street": "Keresztutca",
           "postal_code": "Irányítószám",
-          "state": "állam\/tartomány",
+          "state": "állam/tartomány",
           "info": "pl.: (202) 387-9338",
           "map_iframe": "Helyezze be a Google térkép iframe-ét"
         }
@@ -4924,12 +4926,12 @@
         "tiktok_video": {
           "name": "Tiktok videó",
           "embed_code": "Videóazonosító",
-          "info__1": "[Utasítások a tiktok videóazonosító beszerzéséhez](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[Utasítások a tiktok videóazonosító beszerzéséhez](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "Előtte\/Utána kép csúszka",
+      "name": "Előtte/Utána kép csúszka",
       "settings": {
         "content_position": "Tartalmi pozíció",
         "above": "A fenti képek összehasonlítása",

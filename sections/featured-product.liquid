@@ -619,6 +619,7 @@
                                             style="--spacing-top: {{ spacing_top | append: 'px' }};
                                             --spacing-bottom: {{ spacing_bottom | append: 'px' }};
                                             --fontsize-text: {{ fontsize_text | append: 'px' }};
+                                            {% if block.settings.price_color %}--product-price-color: {{ block.settings.price_color }};{% endif %}
                                             {% if block.settings.price_style == '2' %}--product-sale-price-color: {{ block.settings.sale_color }};{% endif %}"
                                         >
                                             <div class="productView-price no-js-hidden clearfix" id="product-price-{{ product.id }}">
@@ -1715,6 +1716,12 @@
                     "step": 1,
                     "unit": "t:sections.general.settings.padding.unit",
                     "default": 18
+                },
+                {
+                    "type": "color",
+                    "id": "price_color",
+                    "label": "t:settings_schema.typography.settings.typography.text_color",
+                    "default": "#121212"
                 },
                 {
                     "type": "select",

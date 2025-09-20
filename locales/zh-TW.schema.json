@@ -86,7 +86,7 @@
           "label__3": "手機載入圖示顏色"
         },
         "colors_breadcrumb": {
-          "label__4": "麵包屑背景\/漸變，僅適用於麵包屑佈局2和3"
+          "label__4": "麵包屑背景/漸變，僅適用於麵包屑佈局2和3"
         },
         "spinner_colors": {
           "content": "載入圖示",
@@ -134,7 +134,7 @@
           "product_page_gallery": "畫廊",
           "product_page_left_thumbs": "左垂直縮圖",
           "product_page_right_thumbs": "右垂直縮圖",
-          "product_page_left_right_sidebar": "左\/右側邊欄",
+          "product_page_left_right_sidebar": "左/右側邊欄",
           "product_page_horizontal_tabs_no_sidebar": "水平標籤無側邊欄",
           "product_page_step_by_step": "逐步",
           "header_layout_rtl": "右到左佈局",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "適用於從右到左書寫語言的 ISO 代碼列表",
           "list_iso_rtl_info": "用','分隔每個語言ISO代碼。例如：ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "列出語言ISO代碼以自動切換到RTL佈局：ar:(阿拉伯語); dv:(迪維希語,馬爾代夫語); ha:(豪薩語); he:(希伯來語); ku:(庫爾德語\/索羅尼語); fa:(波斯語\/法爾斯語); ur:(烏爾都語); ps:(普什圖語); yi:(意第緒語)"
+          "list_iso_rtl_note": "列出語言ISO代碼以自動切換到RTL佈局：ar:(阿拉伯語); dv:(迪維希語,馬爾代夫語); ha:(豪薩語); he:(希伯來語); ku:(庫爾德語/索羅尼語); fa:(波斯語/法爾斯語); ur:(烏爾都語); ps:(普什圖語); yi:(意第緒語)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "字體來源",
           "options__1": "Google 字體",
           "options__2": "Shopify 字體",
-          "info": "要使用 Google 字體，請添加字體名稱。[了解更多](https:\/\/fonts.google.com\/)",
+          "info": "要使用 Google 字體，請添加字體名稱。[了解更多](https://fonts.google.com/)",
           "info_shopify_font": "優化您的網站性能，利用 Shopify 字體！",
           "info_language": "在自訂設定中配置語言時，重要的是也在管理設定中建立相同的語言偏好。"
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "主體字體",
           "label": "Shopify 字體",
-          "info": "選擇不同的字體可以影響您商店的速度。[了解更多系統字體](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "選擇不同的字體可以影響您商店的速度。[了解更多系統字體](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "標題字體",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "超級選單 2 級",
           "title_mega_menu_lv3": "超級選單 3 級",
           "label": "導航字體",
-          "info": "選擇不同的字體可以影響您商店的速度。[了解更多系統字體](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "選擇不同的字體可以影響您商店的速度。[了解更多系統字體](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "商品項目字體",
@@ -237,7 +237,7 @@
           "yes": "是",
           "no": "否",
           "label": "按鈕1字體",
-          "info": "選擇不同的字體可以影響您商店的速度。[了解更多系統字體](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "選擇不同的字體可以影響您商店的速度。[了解更多系統字體](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "顯示外框",
           "cta_button": "CTA按鈕"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "'查看全部'圖示位置",
           "view_all_font_size": "'看全部'字體大小",
           "view_all_width": "'查看全部'寬度",
-          "view_all_info": "前往此連結 [找到您的圖示](https:\/\/fontawesome.com\/v5\/search)。找到您想要的圖示，然後複製SVG代碼並貼到這裡。",
-          "logo_icon_info": "只有在logo圖片為空白時適用。前往此連結 [找到您的圖示](https:\/\/fontawesome.com\/v5\/search)。找到您想要的圖示，然後複製SVG代碼並貼到這裡。",
+          "view_all_info": "前往此連結 [找到您的圖示](https://fontawesome.com/v5/search)。找到您想要的圖示，然後複製SVG代碼並貼到這裡。",
+          "logo_icon_info": "只有在logo圖片為空白時適用。前往此連結 [找到您的圖示](https://fontawesome.com/v5/search)。找到您想要的圖示，然後複製SVG代碼並貼到這裡。",
           "item": "專案",
-          "item_padding_top_bottom": "上\/下內距",
-          "item_padding_left_right": "左\/右內距",
+          "item_padding_top_bottom": "上/下內距",
+          "item_padding_left_right": "左/右內距",
           "item_padding_top": "專案上內距",
           "item_padding_bottom": "專案下內距",
           "item_width": "專案寬度",
@@ -429,19 +429,19 @@
           "icon_color_hover": "圖示滑鼠移動顏色",
           "icon_color_mb": "手機圖示顏色",
           "icon_width": "圖示寬度",
-          "icon_width_info": "當文字\/圖示顯示設定設置為圖示時適用。",
+          "icon_width_info": "當文字/圖示顯示設定設置為圖示時適用。",
           "icon_height": "圖示高度",
           "icon_width_1": "圖示寬度",
           "icon_height_1": "圖示高度",
           "icon_width_mb": "行動裝置上的圖示寬度",
           "icon_height_mb": "行動裝置上的圖示高度",
-          "icon_mg_right": "文字\/SVG圖示右邊距",
+          "icon_mg_right": "文字/SVG圖示右邊距",
           "icon_mg_bottom": "圖示底部間距",
           "icon_spacing_mobile": "手機圖示間距",
-          "icon_type": "使用圖片或文字\/SVG圖示",
+          "icon_type": "使用圖片或文字/SVG圖示",
           "icons_type": "圖示類型",
           "icons_type_info": "只有在'圖示類型'設定設置為圖示時適用。",
-          "text_svg_icon": "文字\/SVG圖示",
+          "text_svg_icon": "文字/SVG圖示",
           "layout_mobile": "手機佈局",
           "layout_mobile_info": "僅適用於網格佈局",
           "list": "列表",
@@ -518,7 +518,7 @@
           "beside_the_title": "標題旁邊",
           "width_on_desktop": "桌面版寬度",
           "section_footer": "區塊頁尾",
-          "prev_next_button": "前\/後按鈕",
+          "prev_next_button": "前/後按鈕",
           "info_mobile_layout": "只有在'手機佈局'設定設置為滑塊時適用。",
           "header_block": {
             "option_1": "標題左邊與查看所有左邊",
@@ -526,7 +526,8 @@
             "option_3": "標題中間與查看所有左邊",
             "option_4": "標題中間與查看所有右邊",
             "option_5": "標題中間與查看所有下方"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "頁尾字體"
@@ -577,23 +578,23 @@
         "whatsapp_label": "分享到Whatsapp",
         "header__2": "社交帳號",
         "social_twitter_link_label": "Twitter連結",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "Facebook連結",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "Pinterest連結",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "Instagram連結",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "TikTok連結",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "Tumblr連結",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "Snapchat連結",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "YouTube連結",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "Vimeo連結",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "自訂屬性",
-          "info": "自訂屬性用於收集添加到購物車的項目的自訂信息。此信息可以從買家在產品頁面和快速視圖中收集。[了解更多](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "自訂屬性用於收集添加到購物車的項目的自訂信息。此信息可以從買家在產品頁面和快速視圖中收集。[了解更多](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "Favicon圖片",
@@ -651,8 +652,8 @@
           "label__7": "隱私政策按鈕連結",
           "label__8": "接受Cookies按鈕標籤",
           "color_privacy_policy": "隱私政策按鈕顏色",
-          "info__1": "[了解更多](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies)",
-          "info__2": "範例: https:\/\/policies.google.com"
+          "info__1": "[了解更多](https://help.shopify.com/en/manual/your-account/privacy/cookies)",
+          "info__2": "範例: https://policies.google.com"
         },
         "wishlist": {
           "label": "啟用願望清單",
@@ -735,7 +736,7 @@
           "style_10": "樣式 10"
         },
         "trust_image": {
-          "info__1": "產品頁面\/快速檢視",
+          "info__1": "產品頁面/快速檢視",
           "info__2": "購物車頁面"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "顯示套裝徽章",
           "label__23": "字體大小",
           "label__24": "圓角半徑",
-          "label__26": "左\/右填充",
+          "label__26": "左/右填充",
           "label__28": "垂直位置",
           "label__29": "水平位置",
           "options__3": "動態",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "顯示願望清單",
-          "label__4": "文字\/圖示啟用",
+          "label__4": "文字/圖示啟用",
           "label__5": "背景啟用",
           "label__9": "邊框啟用",
           "label__10": "在手機上顯示願望清單",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "顯示快速檢視",
           "label__2": "快速檢視樣式",
-          "label__3": "文字\/圖示",
-          "label__5": "文字\/圖示懸停",
+          "label__3": "文字/圖示",
+          "label__5": "文字/圖示懸停",
           "label__6": "背景懸停",
           "label__7": "快速檢視與願望清單位置",
           "label__8": "在手機上顯示快速檢視",
@@ -955,10 +956,10 @@
         "currency_format_enable": "啟用貨幣格式",
         "info_currency_format": "購物車和結帳價格始終顯示貨幣代碼。 例如： $1.00 USD。",
         "enable_shopify_payments_currencies": "啟用 Shopify 支付？",
-        "info_1": "僅適用於具有 Shopify 支付的商店。 鏈接 [這裡](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_1": "僅適用於具有 Shopify 支付的商店。 鏈接 [這裡](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "enable_multiple_currencies": "啟用多種貨幣？",
         "enable_auto_currency": "啟用自動貨幣？",
-        "info_2": "不要同時選擇所有 3 個選項或將 Shopify 支付與其他選項結合使用。 鏈接 [這裡](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_2": "不要同時選擇所有 3 個選項或將 Shopify 支付與其他選項結合使用。 鏈接 [這裡](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "i-currency-1": "貨幣代碼 1 的 SVG 圖標",
         "currency_1_unit": "貨幣代碼 1",
         "usd": "USD",
@@ -982,8 +983,8 @@
         "currency_9_unit": "貨幣代碼 9",
         "i-currency-10": "貨幣代碼 10 的 SVG 圖標",
         "currency_10_unit": "貨幣代碼 10",
-        "paragraph_1": "用空格分隔您的貨幣代碼。 使用 ISO 4217 3 位貨幣代碼。 點擊 [這裡](http:\/\/www.xe.com\/iso4217.php) 查看貨幣代碼的完整列表。 例如： CAD USD。",
-        "paragraph_2": "為了讓這個功能在您的商店中正常工作，您需要根據 [這些指示](http:\/\/help.shopify.com\/en\/themes\/customization\/currencies) 編輯您的貨幣格式。 （請指定貨幣格式所在的位置。）",
+        "paragraph_1": "用空格分隔您的貨幣代碼。 使用 ISO 4217 3 位貨幣代碼。 點擊 [這裡](http://www.xe.com/iso4217.php) 查看貨幣代碼的完整列表。 例如： CAD USD。",
+        "paragraph_2": "為了讓這個功能在您的商店中正常工作，您需要根據 [這些指示](http://help.shopify.com/en/themes/customization/currencies) 編輯您的貨幣格式。 （請指定貨幣格式所在的位置。）",
         "select_a_currency": "選擇貨幣功能",
         "option_1": "Shopify 支付",
         "option_2": "多種貨幣",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "顯示快速編輯購物車",
-          "options__5": "按鈕\/色板"
+          "options__5": "按鈕/色板"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "倒計時",
-      "info": "倒計時顯示客戶產品促銷期間的時間。[了解更多](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "倒計時顯示客戶產品促銷期間的時間。[了解更多](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "顯示倒計時",
@@ -1315,8 +1316,8 @@
           "options__1": "所有產品",
           "options__2": "每個產品",
           "options__3": "每個Collection",
-          "info": "範例：2024\/12\/4 0:0:00。",
-          "info__1": "請使用此確切格式：yyyy\/mm\/dd hour\/minute\/second。範例：2024\/12\/4 0:0:00。"
+          "info": "範例：2024/12/4 0:0:00。",
+          "info__1": "請使用此確切格式：yyyy/mm/dd hour/minute/second。範例：2024/12/4 0:0:00。"
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "對齊",
-          "label__2": "對齊 (上\/中\/下)",
-          "label__3": "對齊 (左\/中\/右\/均分)",
+          "label__2": "對齊 (上/中/下)",
+          "label__3": "對齊 (左/中/右/均分)",
           "label__4": "行動裝置上的對齊方式",
           "label__5": "內容左邊位置",
           "options__4": "均分",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "標題\/標題樣式"
+            "content": "標題/標題樣式"
           },
           "paragraph__2": {
             "content": "文字樣式"
           },
           "paragraph__3": {
-            "content": "日期\/作者\/評論樣式"
+            "content": "日期/作者/評論樣式"
           },
           "font_style": "字體樣式"
         }
@@ -1853,7 +1854,7 @@
           "select_menu": "分類選單",
           "recommen_image": "推薦圖像：250 x 250px",
           "banner_link": "橫幅連結",
-          "info__1": "上傳與選單句柄同名的圖像以顯示每個分類的圖像。[了解更多](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
+          "info__1": "上傳與選單句柄同名的圖像以顯示每個分類的圖像。[了解更多](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
         }
       },
       "presets": {
@@ -2133,8 +2134,8 @@
           "blog_style_1": "在圖像下方",
           "blog_style_2": "覆蓋圖像",
           "show_link_as": "顯示'View details'連結作為按鈕",
-          "link_button_color": "連結\/按鈕標籤顏色",
-          "link_button_hover_color": "連結\/按鈕標籤懸停顏色"
+          "link_button_color": "連結/按鈕標籤顏色",
+          "link_button_hover_color": "連結/按鈕標籤懸停顏色"
         }
       },
       "presets": {
@@ -2220,7 +2221,7 @@
         "tab": {
           "name": "標籤項目",
           "show_image": "顯示標籤圖像",
-          "info": "選擇導航以顯示區塊項目。[了解更多如何上傳圖像。](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show-images-for-brand-tab-section)"
+          "info": "選擇導航以顯示區塊項目。[了解更多如何上傳圖像。](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show-images-for-brand-tab-section)"
         }
       },
       "settings": {
@@ -2263,7 +2264,7 @@
         "info": "僅適用於內容對齊設置為中心。",
         "enable_map": "顯示Google地圖",
         "map_iframe": "嵌入地圖",
-        "info__1": "您需要前往[Google地圖](https:\/\/www.google.com\/maps)以獲取HTML嵌入代碼。",
+        "info__1": "您需要前往[Google地圖](https://www.google.com/maps)以獲取HTML嵌入代碼。",
         "button": {
           "label__8": "最大按鈕寬度"
         }
@@ -2593,7 +2594,7 @@
           "product_block_02": "產品雙塊",
           "feature_product": "精選產品",
           "feature_product_unsymmetrical": "產品突出",
-          "info_tablet_mobile": "適用於移動\/平板電腦"
+          "info_tablet_mobile": "適用於移動/平板電腦"
         },
         "product_block_layout": {
           "option": "佈局",
@@ -2649,11 +2650,11 @@
           "content": "滑塊佈局",
           "product_block_dots": "顯示導航點",
           "product_block_dots_desk": "顯示導航點在桌面",
-          "product_block_dots_mb": "顯示導航點在移動\/平板電腦",
+          "product_block_dots_mb": "顯示導航點在移動/平板電腦",
           "product_block_dots_spacing_top": "導航點頂部邊距",
           "product_block_arrows": "顯示導航箭頭",
           "product_block_arrows_desk": "顯示導航箭頭在桌面",
-          "product_block_arrows_mb": "顯示導航箭頭在移動\/平板電腦",
+          "product_block_arrows_mb": "顯示導航箭頭在移動/平板電腦",
           "product_block_arrows_position": "啟用導航箭頭的自定義定位在桌面",
           "use_special_arrow_position": "使用特殊箭頭位置",
           "enable_progress_bar": "顯示滾動條",
@@ -2742,7 +2743,7 @@
         },
         "video_url": {
           "label": "桌面上的影片",
-          "label_mb": "移動\/平板電腦上的影片",
+          "label_mb": "移動/平板電腦上的影片",
           "info": "使用YouTube或Vimeo鏈接"
         },
         "description": {
@@ -2759,7 +2760,7 @@
         },
         "url_mp4": {
           "label": "桌面上的MP4影片",
-          "label_mb": "移動\/平板電腦上的MP4影片",
+          "label_mb": "移動/平板電腦上的MP4影片",
           "info": "使用MP4鏈接"
         },
         "autoplay": {
@@ -2771,7 +2772,7 @@
         },
         "video_height": {
           "label": "影片高度（單位%）",
-          "label_1": "移動\/平板電腦上的影片高度（單位%）",
+          "label_1": "移動/平板電腦上的影片高度（單位%）",
           "info": "單位：%"
         }
       },
@@ -2891,7 +2892,7 @@
         "box_shadow_hover_color": "Box shadow懸停顏色",
         "social_media_link": {
           "content": "社交媒體圖標",
-          "info": "要顯示您的社交媒體帳戶，請在[主題設置](\/editor?context=theme&category=social%20media)中鏈接它們。",
+          "info": "要顯示您的社交媒體帳戶，請在[主題設置](/editor?context=theme&category=social%20media)中鏈接它們。",
           "show_social": "顯示社交媒體圖標",
           "enable_background_social": "在社交圖標上顯示背景",
           "social_position": {
@@ -2977,7 +2978,7 @@
             "option": "付款圖標類型",
             "option1": "預設",
             "option2": "自定義",
-            "info": "當您選擇\"預設\"時，添加付款圖標，請前往您的[付款設置。](\/admin\/settings\/payments)"
+            "info": "當您選擇\"預設\"時，添加付款圖標，請前往您的[付款設置。](/admin/settings/payments)"
           },
           "payment_position": {
             "option": "付款位置",
@@ -3090,12 +3091,12 @@
           "background_color_items_cart_mb": "項目背景顏色在移動設備上",
           "color_items_cart_mb": "項目顏色在移動設備上",
           "font_size_cart_item": "項目字體大小",
-          "language_currency": "語言\/貨幣",
-          "label__2": "Text\/Icon顏色1",
-          "label__3": "Text\/Icon顏色2",
-          "label__3_1": "Text\/Icon顏色3",
-          "label__4": "Text\/Icon顏色",
-          "label__5": "Text\/Icon懸停顏色",
+          "language_currency": "語言/貨幣",
+          "label__2": "Text/Icon顏色1",
+          "label__3": "Text/Icon顏色2",
+          "label__3_1": "Text/Icon顏色3",
+          "label__4": "Text/Icon顏色",
+          "label__5": "Text/Icon懸停顏色",
           "label__6": "Icon邊框顏色",
           "label__7": "使用打字機",
           "label__8": "在行動裝置上顯示第一個內容",
@@ -3198,7 +3199,7 @@
           "label__1": "Logo圖像",
           "label__2": "移動Logo圖像",
           "label__3": "桌面Logo位置",
-          "label__fixed": "粘性標題\/固定標題的Logo圖像",
+          "label__fixed": "粘性標題/固定標題的Logo圖像",
           "label__7": "Logo文字或SVG圖標",
           "label__8": "Logo文字或SVG圖標顏色",
           "logo_info": "當未添加選單標籤時，將顯示此Logo",
@@ -3365,7 +3366,8 @@
           "color_link_text": "按鈕標籤顏色",
           "url": "按鈕連結",
           "info": "單位：%或px",
-          "info__2": "輸入您希望應用於此mega選單的選單項目名稱。"
+          "info__2": "輸入您希望應用於此mega選單的選單項目名稱。",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "Header nav - plain",
@@ -3377,8 +3379,8 @@
           "name_7": "Header nav - left aligned",
           "name_8": "Header nav - basic",
           "name_9": "Header nav - multi-site",
-          "label_2": "Mega選單\/下拉選單",
-          "label_3": "顯示語言\/貨幣",
+          "label_2": "Mega選單/下拉選單",
+          "label_3": "顯示語言/貨幣",
           "label_5": "在主選單中顯示",
           "label_6": "在粘性選單中顯示",
           "label_7": "顯示全部",
@@ -3388,7 +3390,7 @@
           "option_3": "右側填充",
           "cart_count_bubble": "購物車計數氣泡",
           "search_input": "搜尋輸入框樣式 2",
-          "cart_wishlist_count_bubble": "購物車\/願望清單計數氣泡",
+          "cart_wishlist_count_bubble": "購物車/願望清單計數氣泡",
           "wishlist_count_bubble": "願望清單計數氣泡",
           "search_dropdown": "搜索下拉",
           "search_dropdown_style": "搜索下拉樣式",
@@ -3519,7 +3521,7 @@
           "label__1": "顯示作者",
           "label__2": "顯示日期",
           "label__3": "顯示分享",
-          "label__4": "顯示下一\/上一篇文章",
+          "label__4": "顯示下一/上一篇文章",
           "label__5": "顯示主圖像",
           "label__6": "顯示標籤"
         }
@@ -3587,7 +3589,7 @@
           "options__1": "基本顏色（使用顏色名稱）",
           "options__2": "高級顏色（使用PNG格式的圖像）",
           "options__3": "Scrolling",
-          "info__1": "[自定義過濾器](\/admin\/apps\/search-and-discovery)",
+          "info__1": "[自定義過濾器](/admin/apps/search-and-discovery)",
           "info__2": "輸入過濾器名稱以顯示顏色樣式",
           "info__3": "輸入過濾器名稱以顯示矩形樣式",
           "info__4": "用於過濾器顯示：顯示更多按鈕",
@@ -3687,7 +3689,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "要添加圖像，請[編輯您的選單](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "要添加圖像，請[編輯您的選單](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3923,7 +3925,7 @@
         },
         "social-media": {
           "label__1": "顯示社交媒體",
-          "label__2": "文字\/圖標顏色"
+          "label__2": "文字/圖標顏色"
         },
         "countdown": {
           "label__1": "時間",
@@ -3964,7 +3966,7 @@
           "label__1": "寬度",
           "option__1": "中等的",
           "option__2": "大的",
-          "info": "了解更多關於[媒體類型](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "了解更多關於[媒體類型](https://help.shopify.com/manual/products/product-media)"
         },
         "header__3": {
           "content": "徽章"
@@ -3992,20 +3994,20 @@
         },
         "header__12": {
           "content": "可信圖像",
-          "paragraph": "可信圖像僅在產品頁面上顯示經過驗證的高質量視覺效果，增強客戶信任並支持知情購買決策。[了解更多](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "可信圖像僅在產品頁面上顯示經過驗證的高質量視覺效果，增強客戶信任並支持知情購買決策。[了解更多](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "動態結帳按鈕"
         },
         "header__15": {
-          "content": "下一個\/上一個產品"
+          "content": "下一個/上一個產品"
         },
         "header__16": {
           "content": "尺碼圖表"
         },
         "header__17": {
           "content": "取貨可用性",
-          "paragraph": "顯示選定變體的可用實體店。[了解更多](https:\/\/help.shopify.com\/en\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "顯示選定變體的可用實體店。[了解更多](https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "顏色比較"
@@ -4018,14 +4020,14 @@
         },
         "header__21": {
           "content": "變體元字段",
-          "paragraph": "在描述標籤中顯示變體特定的內容，提供基於選定變體的定制內容。[了解更多](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant)"
+          "paragraph": "在描述標籤中顯示變體特定的內容，提供基於選定變體的定制內容。[了解更多](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant)"
         },
         "header__22": {
           "content": "互補產品"
         },
         "header__23": {
           "content": "積極能量套裝",
-          "paragraph": "積極能量套裝是一個動態功能，旨在通過顯示持續滑動的激勵性消息（如“60人購買了2次以上”或“37人在過去24小時內售出”）來鼓勵購買，創造緊迫感並提升產品需求。[了解更多](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "積極能量套裝是一個動態功能，旨在通過顯示持續滑動的激勵性消息（如“60人購買了2次以上”或“37人在過去24小時內售出”）來鼓勵購買，創造緊迫感並提升產品需求。[了解更多](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "送貨時間",
@@ -4050,7 +4052,7 @@
           "text": "文字"
         },
         "general": {
-          "label__1": "啟用sticky產品信息在桌面\/平板電腦上",
+          "label__1": "啟用sticky產品信息在桌面/平板電腦上",
           "label__2": "桌面佈局",
           "label__3": "主圖像位置",
           "options__1": "在左側顯示縮略圖",
@@ -4064,7 +4066,7 @@
           "buy_buttons": "購買按鈕",
           "show_gift_card_recipient": {
             "label": "顯示禮品卡產品的收件人表格",
-            "info": "允許買家在指定日期和個人消息中發送禮品卡。[了解更多](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "允許買家在指定日期和個人消息中發送禮品卡。[了解更多](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "分享",
           "vendor": "供應商",
@@ -4095,7 +4097,7 @@
           "visible_content_height_info": "當總內容高度超過此限制時，'讀更多'按鈕將出現。",
           "info_enable_des_show_more": "僅適用於'描述標籤'",
           "animation": "動畫",
-          "image_behavior": { 
+          "image_behavior": {
             "label": "圖像行為",
             "info": "'滾動時放大'功能與'加載動畫'啟用。",
             "option__1": "環境運動",
@@ -4115,7 +4117,7 @@
           "product_tab_source_info": "僅適用於'顯示內容'設置設置為'使用metafield的特定產品'。",
           "dynamic_source": "動態來源",
           "key_text_source": "產品metafield鍵",
-          "product_tab_key_info": "僅適用於'顯示內容'設置設置為'使用metafield的特定產品'和'內容來源'設置設置為'產品metafield鍵'。[了解更多](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "僅適用於'顯示內容'設置設置為'使用metafield的特定產品'和'內容來源'設置設置為'產品metafield鍵'。[了解更多](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "活動縮略圖顏色",
           "navigation_arrows_color_mobile": "移動設備上的導航箭頭顏色",
           "read_more": "讀更多",
@@ -4135,7 +4137,7 @@
           "options__9": "懸停主圖像",
           "unit": "%",
           "layout_video": "視頻佈局",
-          "info__1": "了解更多關於[媒體適配](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)",
+          "info__1": "了解更多關於[媒體適配](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)",
           "info__2": "當媒體適配設置設置為原始時不適用。",
           "info__3": "僅適用於產品圖像比例設置中的肖像選項。"
         },
@@ -4176,7 +4178,7 @@
         "variant": {
           "label__2": "啟用變體圖像組合",
           "options__1": "下拉",
-          "options__2": "方形\/矩形\/色板",
+          "options__2": "方形/矩形/色板",
           "variant_picker": "變體選擇器"
         },
         "quantity": {
@@ -4201,11 +4203,11 @@
         },
         "dynamic_checkout": {
           "label": "顯示動態結帳按鈕",
-          "info": "使用商店提供的付款方式，顧客將看到他們的首選選項，如paypal或apple pay。[了解更多](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "使用商店提供的付款方式，顧客將看到他們的首選選項，如paypal或apple pay。[了解更多](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "顯示下一個\/上一個產品",
-          "info": "顯示集合中的下一個\/上一個產品"
+          "label": "顯示下一個/上一個產品",
+          "info": "顯示集合中的下一個/上一個產品"
         },
         "size_chart": {
           "label__1": "啟用尺碼圖表",
@@ -4276,7 +4278,7 @@
           "label__1": "顯示互補產品",
           "label__2": "互補產品樣式1",
           "label__3": "互補產品樣式2",
-          "info__1": "要選擇互補產品，請添加搜索和發現應用程序。[了解更多](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "要選擇互補產品，請添加搜索和發現應用程序。[了解更多](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4301,7 +4303,7 @@
             "options__1": "所有產品",
             "options__2": "使用metafield的特定產品",
             "info_1": "僅適用於'顯示內容'設置設置為'所有產品'。",
-            "info_2": "[了解更多關於如何使用metafield設置自定義標籤](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)"
+            "info_2": "[了解更多關於如何使用metafield設置自定義標籤](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)"
           }
         },
         "grouped_product": {
@@ -4436,8 +4438,8 @@
         "info": "適用於內容位置為'相對'的情況",
         "info_2": "右側區塊自動計算",
         "title_align": "內容對齊",
-        "align_items_spacing_tb": "內容：頂部填充\/底部填充",
-        "align_items_spacing_lr": "內容：左側填充\/右側填充",
+        "align_items_spacing_tb": "內容：頂部填充/底部填充",
+        "align_items_spacing_lr": "內容：左側填充/右側填充",
         "enable_item_1": "啟用項目1",
         "enable_item_2": "啟用項目2",
         "enable_item_3": "啟用項目3",
@@ -4632,7 +4634,7 @@
           "name": "集合圖像",
           "settings": {
             "paragraph": {
-              "content": "要更改集合描述或集合圖像，[編輯您的集合。](\/admin\/collections)"
+              "content": "要更改集合描述或集合圖像，[編輯您的集合。](/admin/collections)"
             },
             "general": {
               "label__1": "顯示視差橫幅",
@@ -4653,7 +4655,7 @@
             },
             "description": {
               "label__1": "顯示集合描述",
-              "label__2": "顯示'讀更多'\/'讀更少'",
+              "label__2": "顯示'讀更多'/'讀更少'",
               "label__3": "位置",
               "label__4": "顯示集合標題",
               "label__5": "集合描述對齊",
@@ -4714,7 +4716,7 @@
         },
         "general": {
           "label": "啟用產品捆綁",
-          "info": "了解更多 [產品捆綁](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "了解更多 [產品捆綁](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "啟用捆綁折扣",
@@ -4812,10 +4814,10 @@
     "app_partner": {
       "name": "App partner",
       "enable_promotion": "啟用PageFly優惠",
-      "label_1": "1. 評論功能：使用[Loox應用](https:\/\/shopify.pxf.io\/y2D52b)並獲得30天試用。[如何設置loox？](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. 獨家優惠：3個月使用20個PageFly頁面只需$1\/月。[立即申請](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. 使用[UpPromote聯盟和推薦](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs)並獲得20%折扣。",
-      "label_4": "4. Skyrocket site performance with [Avada SEO suite](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
+      "label_1": "1. 評論功能：使用[Loox應用](https://shopify.pxf.io/y2D52b)並獲得30天試用。[如何設置loox？](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. 獨家優惠：3個月使用20個PageFly頁面只需$1/月。[立即申請](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. 使用[UpPromote聯盟和推薦](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs)並獲得20%折扣。",
+      "label_4": "4. Skyrocket site performance with [Avada SEO suite](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
     },
     "slidable_spotlight": {
       "name": "滑動聚光燈",
@@ -4905,7 +4907,7 @@
           "country": "國家",
           "cross_street": "交叉街道",
           "postal_code": "郵政編碼",
-          "state": "州\/省",
+          "state": "州/省",
           "info": "例如：(202) 387-9338",
           "map_iframe": "插入Google地圖iframe"
         }
@@ -4923,12 +4925,12 @@
         "tiktok_video": {
           "name": "Tiktok視頻",
           "embed_code": "視頻ID",
-          "info__1": "[取得抖音影片ID的說明](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[取得抖音影片ID的說明](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "Before\/After image slider",
+      "name": "Before/After image slider",
       "settings": {
         "content_position": "內容位置",
         "above": "上面比較圖片",

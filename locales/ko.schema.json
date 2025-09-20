@@ -86,7 +86,7 @@
           "label__3": "모바일 로딩 아이콘 색상"
         },
         "colors_breadcrumb": {
-          "label__4": "탐색경로 레이아웃 2 및 3에만 탐색경로 배경\/그라데이션"
+          "label__4": "탐색경로 레이아웃 2 및 3에만 탐색경로 배경/그라데이션"
         },
         "spinner_colors": {
           "content": "로딩 스피너",
@@ -134,7 +134,7 @@
           "product_page_gallery": "갱도",
           "product_page_left_thumbs": "왼쪽 세로 축소판",
           "product_page_right_thumbs": "오른쪽 세로 축소판",
-          "product_page_left_right_sidebar": "왼쪽\/오른쪽 사이드바",
+          "product_page_left_right_sidebar": "왼쪽/오른쪽 사이드바",
           "product_page_horizontal_tabs_no_sidebar": "사이드바가 없는 가로 탭",
           "product_page_step_by_step": "단계별",
           "header_layout_rtl": "오른쪽에서 왼쪽으로 레이아웃",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "RTL 언어에 대한 ISO 코드 목록",
           "list_iso_rtl_info": "각 언어 ISO 코드를 ','로 구분합니다. 예: ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "RTL 레이아웃으로 자동 전환하기 위한 언어 ISO 코드를 나열하세요: ar:(아랍어); dv:(디베히어, 몰디브어); ha:(하우사어); he:(히브리어); ku:(쿠르드어\/소라니어); fa:(페르시아어\/파르시어); ur:(우르두어); ps:(파슈토어); yi:(이디시어)"
+          "list_iso_rtl_note": "RTL 레이아웃으로 자동 전환하기 위한 언어 ISO 코드를 나열하세요: ar:(아랍어); dv:(디베히어, 몰디브어); ha:(하우사어); he:(히브리어); ku:(쿠르드어/소라니어); fa:(페르시아어/파르시어); ur:(우르두어); ps:(파슈토어); yi:(이디시어)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "글꼴 소스",
           "options__1": "구글 글꼴",
           "options__2": "Shopify 글꼴",
-          "info": "Google Fonts를 사용하려면 글꼴 이름을 추가하세요. [자세히 알아보기](https:\/\/fonts.google.com\/)",
+          "info": "Google Fonts를 사용하려면 글꼴 이름을 추가하세요. [자세히 알아보기](https://fonts.google.com/)",
           "info_shopify_font": "Shopify 글꼴을 활용하여 웹사이트 성능을 최적화하세요!",
           "info_language": "사용자 정의 설정에서 언어를 구성할 때 관리 설정 내에서도 동일한 언어 기본 설정을 지정하는 것이 중요합니다."
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "본문 글꼴",
           "label": "Shopify 글꼴",
-          "info": "다른 글꼴을 선택하면 매장 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "다른 글꼴을 선택하면 매장 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "제목 글꼴",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "메가 메뉴 레벨 2",
           "title_mega_menu_lv3": "메가 메뉴 레벨 3",
           "label": "탐색 글꼴 모음",
-          "info": "다른 글꼴을 선택하면 매장 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "다른 글꼴을 선택하면 매장 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "제품 항목 글꼴",
@@ -237,7 +237,7 @@
           "yes": "예",
           "no": "아니요",
           "label": "버튼 1 글꼴 모음",
-          "info": "다른 글꼴을 선택하면 매장 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "다른 글꼴을 선택하면 매장 속도에 영향을 미칠 수 있습니다. [시스템 글꼴에 대해 자세히 알아보세요.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "개요 표시",
           "cta_button": "CTA 버튼"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "'모두 보기' 아이콘 위치",
           "view_all_font_size": "'모두 보기' 글꼴 크기",
           "view_all_width": "'모두 보기' 너비",
-          "view_all_info": "이 링크로 가세요 [아이콘 찾기](https:\/\/fontawesome.com\/v5\/search). 원하는 아이콘을 찾은 다음 SVG 코드를 복사하여 여기에 붙여넣으세요.",
-          "logo_icon_info": "로고 이미지가 비어 있는 경우에만 적용됩니다. 이 링크로 가세요 [아이콘 찾기](https:\/\/fontawesome.com\/v5\/search). 원하는 아이콘을 찾은 다음 SVG 코드를 복사하여 여기에 붙여넣습니다.",
+          "view_all_info": "이 링크로 가세요 [아이콘 찾기](https://fontawesome.com/v5/search). 원하는 아이콘을 찾은 다음 SVG 코드를 복사하여 여기에 붙여넣으세요.",
+          "logo_icon_info": "로고 이미지가 비어 있는 경우에만 적용됩니다. 이 링크로 가세요 [아이콘 찾기](https://fontawesome.com/v5/search). 원하는 아이콘을 찾은 다음 SVG 코드를 복사하여 여기에 붙여넣습니다.",
           "item": "품목",
-          "item_padding_top_bottom": "상단\/하단 패딩",
-          "item_padding_left_right": "왼쪽\/오른쪽 패딩",
+          "item_padding_top_bottom": "상단/하단 패딩",
+          "item_padding_left_right": "왼쪽/오른쪽 패딩",
           "item_padding_top": "아이템 상단 패딩",
           "item_padding_bottom": "아이템 하단 패딩",
           "item_width": "항목 너비",
@@ -411,7 +411,7 @@
           "image_border_radius": "이미지 코너 반경",
           "image_margin_bottom": "이미지 하단 패딩",
           "image_margin_bottom_mb": "모바일에서 이미지 하단 패딩",
-          "image_enable_hover_zoom": "마우스 오버 시 이미지 확대\/축소 활성화",
+          "image_enable_hover_zoom": "마우스 오버 시 이미지 확대/축소 활성화",
           "image_zoom": "이미지 줌",
           "image_fadeup": "이미지 페이드 인 업",
           "image_border": "이미지 테두리",
@@ -429,19 +429,19 @@
           "icon_color_hover": "아이콘 호버 색상",
           "icon_color_mb": "모바일의 아이콘 색상",
           "icon_width": "아이콘 너비",
-          "icon_width_info": "텍스트\/아이콘 표시 설정을 아이콘으로 설정한 경우 적용 가능",
+          "icon_width_info": "텍스트/아이콘 표시 설정을 아이콘으로 설정한 경우 적용 가능",
           "icon_height": "아이콘 높이",
           "icon_width_1": "아이콘 너비",
           "icon_height_1": "아이콘 높이",
           "icon_width_mb": "모바일 아이콘 너비",
           "icon_height_mb": "모바일 아이콘 높이",
-          "icon_mg_right": "텍스트\/SVG 아이콘 오른쪽 여백",
+          "icon_mg_right": "텍스트/SVG 아이콘 오른쪽 여백",
           "icon_mg_bottom": "아이콘 간격 하단",
           "icon_spacing_mobile": "모바일에서의 아이콘 간격",
-          "icon_type": "이미지 또는 텍스트\/SVG 아이콘 사용",
+          "icon_type": "이미지 또는 텍스트/SVG 아이콘 사용",
           "icons_type": "아이콘 유형",
           "icons_type_info": "'아이콘 유형' 설정이 아이콘으로 설정된 경우에만 적용됩니다.",
-          "text_svg_icon": "텍스트\/SVG 아이콘",
+          "text_svg_icon": "텍스트/SVG 아이콘",
           "layout_mobile": "모바일 레이아웃",
           "layout_mobile_info": "그리드 레이아웃에만 적용 가능",
           "list": "목록",
@@ -518,7 +518,7 @@
           "beside_the_title": "제목 옆에",
           "width_on_desktop": "데스크탑의 너비",
           "section_footer": "섹션 바닥글",
-          "prev_next_button": "이전\/다음 버튼",
+          "prev_next_button": "이전/다음 버튼",
           "info_mobile_layout": "'모바일 레이아웃' 설정이 슬라이더로 설정된 경우에만 적용됩니다.",
           "header_block": {
             "option_1": "제목은 왼쪽이고 보기는 모두 왼쪽입니다.",
@@ -526,7 +526,8 @@
             "option_3": "보기가 모두 왼쪽인 제목 센터",
             "option_4": "시야가 좋은 타이틀 센터",
             "option_5": "아래의 모든 보기가 포함된 제목 센터"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "바닥글 글꼴"
@@ -577,23 +578,23 @@
         "whatsapp_label": "Whatsapp에 공유",
         "header__2": "소셜 계정",
         "social_twitter_link_label": "트위터 링크",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "페이스북 링크",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "핀터레스트 링크",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "인스타그램 링크",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "틱톡 링크",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "텀블러 링크",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "스냅챗 링크",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "유튜브 링크",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "비메오 링크",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "사용자 정의 옵션",
-          "info": "사용자 정의 옵션은 장바구니에 추가된 항목에 대한 사용자 정의 정보를 수집하는 데 사용됩니다. 이 정보는 제품 페이지와 빠른 보기에서 구매자로부터 수집할 수 있습니다. [자세히 알아보기](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "사용자 정의 옵션은 장바구니에 추가된 항목에 대한 사용자 정의 정보를 수집하는 데 사용됩니다. 이 정보는 제품 페이지와 빠른 보기에서 구매자로부터 수집할 수 있습니다. [자세히 알아보기](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "파비콘 이미지",
@@ -651,8 +652,8 @@
           "label__7": "개인정보 보호정책 버튼 링크",
           "label__8": "쿠키 버튼 라벨 수락",
           "color_privacy_policy": "개인정보취급방침 버튼 색상",
-          "info__1": "[자세히 알아보기](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies)",
-          "info__2": "예: https:\/\/policies.google.com"
+          "info__1": "[자세히 알아보기](https://help.shopify.com/en/manual/your-account/privacy/cookies)",
+          "info__2": "예: https://policies.google.com"
         },
         "wishlist": {
           "label": "위시리스트 활성화",
@@ -735,7 +736,7 @@
           "style_10": "스타일 10"
         },
         "trust_image": {
-          "info__1": "제품페이지\/빠른보기",
+          "info__1": "제품페이지/빠른보기",
           "info__2": "장바구니 페이지"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "번들 배지 표시",
           "label__23": "글꼴 크기",
           "label__24": "코너 반경",
-          "label__26": "왼쪽\/오른쪽 패딩",
+          "label__26": "왼쪽/오른쪽 패딩",
           "label__28": "수직 위치",
           "label__29": "수평 위치",
           "options__3": "동적",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "위시리스트 표시",
-          "label__4": "텍스트\/아이콘 활성화",
+          "label__4": "텍스트/아이콘 활성화",
           "label__5": "백그라운드 활성",
           "label__9": "국경 활성화",
           "label__10": "모바일에서 위시리스트 표시",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "빠른 보기 표시",
           "label__2": "빠른 보기 스타일",
-          "label__3": "텍스트\/아이콘",
-          "label__5": "텍스트\/아이콘 가리키기",
+          "label__3": "텍스트/아이콘",
+          "label__5": "텍스트/아이콘 가리키기",
           "label__6": "배경 호버",
           "label__7": "빠른 보기 및 위시리스트 위치",
           "label__8": "모바일에서 빠른 보기 표시",
@@ -955,10 +956,10 @@
         "currency_format_enable": "통화 형식 활성화",
         "info_currency_format": "장바구니 및 결제 가격은 항상 통화 코드를 표시합니다. 예: $1.00 USD.",
         "enable_shopify_payments_currencies": "Shopify 결제를 활성화하시겠습니까?",
-        "info_1": "Shopify Payments가 있는 매장에서만 사용 가능합니다. 링크 [여기](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_1": "Shopify Payments가 있는 매장에서만 사용 가능합니다. 링크 [여기](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "enable_multiple_currencies": "여러 통화를 활성화하시겠습니까?",
         "enable_auto_currency": "자동 통화를 활성화하시겠습니까?",
-        "info_2": "3가지 옵션을 동시에 선택하거나 다른 결제 수단과 Shopify 결제 수단을 결합하지 마세요. 링크 [여기](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_2": "3가지 옵션을 동시에 선택하거나 다른 결제 수단과 Shopify 결제 수단을 결합하지 마세요. 링크 [여기](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "i-currency-1": "통화 코드 1의 SVG 아이콘",
         "currency_1_unit": "통화 코드 1",
         "usd": "USD",
@@ -982,8 +983,8 @@
         "currency_9_unit": "통화 코드 9",
         "i-currency-10": "통화 코드 10의 SVG 아이콘",
         "currency_10_unit": "통화 코드 10",
-        "paragraph_1": "통화 코드를 공백으로 구분하세요. ISO 4217 3글자 통화 코드를 사용하세요. 통화 코드 전체 목록은 [여기](http:\/\/www.xe.com\/iso4217.php)를 클릭하세요. 예: CAD USD.",
-        "paragraph_2": "이 기능을 귀하의 상점에서 작동시키려면 [이 지침](http:\/\/help.shopify.com\/en\/themes\/customization\/currencies)에 따라 통화 형식을 편집해야 합니다. (통화 형식이 있는 위치를 지정하세요.)",
+        "paragraph_1": "통화 코드를 공백으로 구분하세요. ISO 4217 3글자 통화 코드를 사용하세요. 통화 코드 전체 목록은 [여기](http://www.xe.com/iso4217.php)를 클릭하세요. 예: CAD USD.",
+        "paragraph_2": "이 기능을 귀하의 상점에서 작동시키려면 [이 지침](http://help.shopify.com/en/themes/customization/currencies)에 따라 통화 형식을 편집해야 합니다. (통화 형식이 있는 위치를 지정하세요.)",
         "select_a_currency": "통화 기능 선택",
         "option_1": "Shopify 결제",
         "option_2": "여러 통화",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "빠른 편집 장바구니 표시",
-          "options__5": "버튼\/견본"
+          "options__5": "버튼/견본"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "카운트다운",
-      "info": "카운트다운은 고객에게 제품이 프로모션에 있는 기간을 보여줍니다. [자세히 알아보기](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "카운트다운은 고객에게 제품이 프로모션에 있는 기간을 보여줍니다. [자세히 알아보기](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "카운트다운 표시",
@@ -1316,7 +1317,7 @@
           "options__2": "각 제품마다",
           "options__3": "컬렉션용",
           "info": "예: Dec 31, 2024 18:00:00",
-          "info__1": "다음 형식을 정확히 사용하세요: yyyy\/mm\/dd 시\/분\/초. 예: 2024\/12\/4 0:0:00."
+          "info__1": "다음 형식을 정확히 사용하세요: yyyy/mm/dd 시/분/초. 예: 2024/12/4 0:0:00."
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "조정",
-          "label__2": "정렬(위쪽\/가운데\/아래쪽)",
-          "label__3": "정렬(왼쪽\/가운데\/오른쪽\/자리맞춤)",
+          "label__2": "정렬(위쪽/가운데/아래쪽)",
+          "label__3": "정렬(왼쪽/가운데/오른쪽/자리맞춤)",
           "label__4": "모바일에서의 정렬",
           "label__5": "콘텐츠의 왼쪽 위치",
           "options__4": "신이 옳다고 하다",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "제목\/제목 타이포그래피"
+            "content": "제목/제목 타이포그래피"
           },
           "paragraph__2": {
             "content": "텍스트 타이포그래피"
           },
           "paragraph__3": {
-            "content": "날짜\/작성자\/댓글 타이포그래피"
+            "content": "날짜/작성자/댓글 타이포그래피"
           },
           "font_style": "글꼴 스타일"
         }
@@ -1854,7 +1855,7 @@
           "select_menu": "카테고리 메뉴",
           "recommen_image": "권장 이미지: 250x250px",
           "banner_link": "배너 링크",
-          "info__1": "각 카테고리의 이미지를 표시하려면 메뉴 핸들과 같은 이름의 이미지를 업로드하세요. [자세히 알아보기](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
+          "info__1": "각 카테고리의 이미지를 표시하려면 메뉴 핸들과 같은 이름의 이미지를 업로드하세요. [자세히 알아보기](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
         }
       },
       "presets": {
@@ -1948,7 +1949,7 @@
               "sub_title_below": "제목 아래",
               "style_bg": "배경 스타일",
               "none": "없음",
-              "for_img": "1\/3 너비",
+              "for_img": "1/3 너비",
               "info__1": "첫 번째 버튼과 두 번째 버튼 모두에 적용됩니다."
             }
           }
@@ -2083,9 +2084,9 @@
         "content_spacing": "콘텐츠 패딩",
         "align_items_spacing_top": "콘텐츠 상단 여백",
         "align_items_spacing_bottom": "콘텐츠 하단 여백",
-        "align_items_spacing_lr": "콘텐츠 왼쪽\/오른쪽 간격",
-        "align_items_spacing_top_bottom_position": "콘텐츠 상단\/하단 간격",
-        "align_items_spacing_top_bottom_position_mb": "모바일 콘텐츠 상단\/하단 간격",
+        "align_items_spacing_lr": "콘텐츠 왼쪽/오른쪽 간격",
+        "align_items_spacing_top_bottom_position": "콘텐츠 상단/하단 간격",
+        "align_items_spacing_top_bottom_position_mb": "모바일 콘텐츠 상단/하단 간격",
         "content_1": "항목 차단",
         "enable_shadow": "상자 그림자 표시",
         "use_special_header_layout": "특별 레이아웃 사용",
@@ -2134,8 +2135,8 @@
           "blog_style_1": "이미지 아래",
           "blog_style_2": "이미지를 겹치세요",
           "show_link_as": "'세부정보 보기' 링크를 버튼으로 표시",
-          "link_button_color": "링크\/버튼 라벨 색상",
-          "link_button_hover_color": "링크\/버튼 라벨 호버 색상"
+          "link_button_color": "링크/버튼 라벨 색상",
+          "link_button_hover_color": "링크/버튼 라벨 호버 색상"
         }
       },
       "presets": {
@@ -2221,7 +2222,7 @@
         "tab": {
           "name": "탭 항목",
           "show_image": "탭 이미지 표시",
-          "info": "블록 항목을 표시하려면 탐색을 선택하세요. [이미지 업로드 방법에 대해 자세히 알아보세요.](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show-images-for-brand-tab-section)"
+          "info": "블록 항목을 표시하려면 탐색을 선택하세요. [이미지 업로드 방법에 대해 자세히 알아보세요.](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show-images-for-brand-tab-section)"
         }
       },
       "settings": {
@@ -2264,7 +2265,7 @@
         "info": "콘텐츠 정렬 설정이 가운데로 설정된 경우에만 적용됩니다.",
         "enable_map": "구글 지도 표시",
         "map_iframe": "지도 삽입",
-        "info__1": "HTML 삽입 코드를 얻으려면 [Google 지도](https:\/\/www.google.com\/maps)로 이동해야 합니다.",
+        "info__1": "HTML 삽입 코드를 얻으려면 [Google 지도](https://www.google.com/maps)로 이동해야 합니다.",
         "button": {
           "label__8": "최대 버튼 너비"
         }
@@ -2594,7 +2595,7 @@
           "product_block_02": "제품 블록 듀오",
           "feature_product": "주요 제품",
           "feature_product_unsymmetrical": "제품 하이라이트",
-          "info_tablet_mobile": "모바일\/태블릿에 사용"
+          "info_tablet_mobile": "모바일/태블릿에 사용"
         },
         "product_block_layout": {
           "option": "공들여 나열한 것",
@@ -2650,11 +2651,11 @@
           "content": "슬라이더 레이아웃",
           "product_block_dots": "탐색 점 표시",
           "product_block_dots_desk": "데스크탑에 탐색 점 표시",
-          "product_block_dots_mb": "모바일\/태블릿에 탐색 점 표시",
+          "product_block_dots_mb": "모바일/태블릿에 탐색 점 표시",
           "product_block_dots_spacing_top": "탐색 점의 위쪽 여백",
           "product_block_arrows": "탐색 화살표 표시",
           "product_block_arrows_desk": "데스크탑에 탐색 화살표 표시",
-          "product_block_arrows_mb": "모바일\/태블릿에 탐색 화살표 표시",
+          "product_block_arrows_mb": "모바일/태블릿에 탐색 화살표 표시",
           "product_block_arrows_position": "데스크탑에서 탐색 화살표의 사용자 정의 위치 지정 활성화",
           "use_special_arrow_position": "특수 화살표 위치 사용",
           "enable_progress_bar": "스크롤바 표시",
@@ -2692,8 +2693,8 @@
             "info__1": "위치는 모바일에 자동으로 최적화됩니다."
           },
           "name": "기치",
-          "align_items_spacing_tb": "콘텐츠 상단\/하단 패딩",
-          "align_items_spacing_lr": "콘텐츠 왼쪽\/오른쪽 패딩",
+          "align_items_spacing_tb": "콘텐츠 상단/하단 패딩",
+          "align_items_spacing_lr": "콘텐츠 왼쪽/오른쪽 패딩",
           "position_vertical_arrow": "세로 위치(단위 % 또는 px)",
           "info__1": "'콘텐츠 위치' 설정이 상단 또는 하단으로 설정된 경우에만 적용됩니다.",
           "info__2": "'콘텐츠 정렬' 설정이 왼쪽 또는 오른쪽으로 설정된 경우에만 적용됩니다."
@@ -2892,7 +2893,7 @@
         "box_shadow_hover_color": "상자 그림자 호버 색상",
         "social_media_link": {
           "content": "소셜 미디어 아이콘",
-          "info": "소셜 미디어 계정을 표시하려면 [테마 설정](\/editor?context=theme&category=social%20media)에서 연결하세요.",
+          "info": "소셜 미디어 계정을 표시하려면 [테마 설정](/editor?context=theme&category=social%20media)에서 연결하세요.",
           "show_social": "소셜 미디어 아이콘 표시",
           "enable_background_social": "소셜 아이콘에 배경 표시",
           "social_position": {
@@ -2978,7 +2979,7 @@
             "option": "결제 아이콘 유형",
             "option1": "기본",
             "option2": "관습",
-            "info": "\"기본값\"을 선택한 경우 결제 아이콘을 추가하려면 [결제 설정](\/admin\/settings\/payments)으로 이동하세요."
+            "info": "\"기본값\"을 선택한 경우 결제 아이콘을 추가하려면 [결제 설정](/admin/settings/payments)으로 이동하세요."
           },
           "payment_position": {
             "option": "지불 위치",
@@ -3091,12 +3092,12 @@
           "background_color_items_cart_mb": "모바일의 항목 배경색",
           "color_items_cart_mb": "모바일에서 항목 색상",
           "font_size_cart_item": "항목 글꼴 크기",
-          "language_currency": "언어\/통화",
-          "label__2": "텍스트\/아이콘 색상 1",
-          "label__3": "텍스트\/아이콘 색상 2",
-          "label__3_1": "텍스트\/아이콘 색상 3",
-          "label__4": "텍스트\/아이콘 색상",
-          "label__5": "텍스트\/아이콘 호버 색상",
+          "language_currency": "언어/통화",
+          "label__2": "텍스트/아이콘 색상 1",
+          "label__3": "텍스트/아이콘 색상 2",
+          "label__3_1": "텍스트/아이콘 색상 3",
+          "label__4": "텍스트/아이콘 색상",
+          "label__5": "텍스트/아이콘 호버 색상",
           "label__6": "아이콘 테두리 색상",
           "label__7": "타자기 사용",
           "label__8": "모바일에서 첫 번째 콘텐츠 표시",
@@ -3120,7 +3121,7 @@
           "bg_bottom": "하단 배경",
           "mg_top": "메뉴 상단 패딩",
           "mg_bottom": "메뉴 하단 패딩",
-          "spacing_left_right": "항목 왼쪽\/오른쪽 패딩",
+          "spacing_left_right": "항목 왼쪽/오른쪽 패딩",
           "spacing_left_menu": "메뉴의 왼쪽 패딩",
           "spacing_right_menu": "메뉴의 오른쪽 패딩"
         },
@@ -3199,7 +3200,7 @@
           "label__1": "로고 이미지",
           "label__2": "모바일 로고 이미지",
           "label__3": "데스크탑 로고 위치",
-          "label__fixed": "고정 헤더\/고정 헤더의 로고 이미지",
+          "label__fixed": "고정 헤더/고정 헤더의 로고 이미지",
           "label__7": "로고 텍스트 또는 SVG 아이콘",
           "label__8": "로고 텍스트 또는 SVG 아이콘 색상",
           "logo_info": "탭 메뉴가 추가되지 않으면 이 로고가 표시됩니다.",
@@ -3366,7 +3367,8 @@
           "color_link_text": "버튼 라벨 색상",
           "url": "버튼 링크",
           "info": "단위: % 또는 px",
-          "info__2": "이 메가 메뉴에 적용하려는 메뉴 항목의 이름을 입력하세요."
+          "info__2": "이 메가 메뉴에 적용하려는 메뉴 항목의 이름을 입력하세요.",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "헤더 탐색 - 일반",
@@ -3378,8 +3380,8 @@
           "name_7": "헤더 탐색 - 왼쪽 정렬",
           "name_8": "헤더 탐색 - 기본",
           "name_9": "헤더 탐색 - 다중 사이트",
-          "label_2": "메가 메뉴\/드롭다운 메뉴",
-          "label_3": "언어\/통화 표시",
+          "label_2": "메가 메뉴/드롭다운 메뉴",
+          "label_3": "언어/통화 표시",
           "label_5": "메인 메뉴에 표시",
           "label_6": "고정 메뉴에 표시",
           "label_7": "모두 표시",
@@ -3389,7 +3391,7 @@
           "option_3": "오른쪽 패딩",
           "cart_count_bubble": "장바구니 수 버블",
           "search_input": "검색 입력 스타일 2",
-          "cart_wishlist_count_bubble": "장바구니\/위시리스트 개수 풍선",
+          "cart_wishlist_count_bubble": "장바구니/위시리스트 개수 풍선",
           "wishlist_count_bubble": "위시리스트 개수 풍선",
           "search_dropdown": "검색 드롭다운",
           "search_dropdown_style": "검색 드롭다운 스타일",
@@ -3520,7 +3522,7 @@
           "label__1": "작성자 표시",
           "label__2": "날짜 표시",
           "label__3": "공유 표시",
-          "label__4": "다음\/이전 기사 표시",
+          "label__4": "다음/이전 기사 표시",
           "label__5": "기본 이미지 표시",
           "label__6": "태그 표시"
         }
@@ -3588,7 +3590,7 @@
           "options__1": "기본 색상(색상 이름 사용)",
           "options__2": "고급 색상(PNG 형식의 이미지 사용)",
           "options__3": "스크롤링",
-          "info__1": "[필터 맞춤설정](\/admin\/apps\/search-and-discovery)",
+          "info__1": "[필터 맞춤설정](/admin/apps/search-and-discovery)",
           "info__2": "견본 스타일을 표시할 필터 이름 입력",
           "info__3": "직사각형 스타일을 표시할 필터 이름을 입력하세요.",
           "info__4": "필터 표시에 사용됨: 더보기 버튼 표시",
@@ -3688,7 +3690,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "이미지를 추가하려면 [컬렉션을 편집](https:\/\/help.shopify.com\/en\/manual\/products\/collections)하세요."
+            "content": "이미지를 추가하려면 [컬렉션을 편집](https://help.shopify.com/en/manual/products/collections)하세요."
           }
         },
         "grid": {
@@ -3924,7 +3926,7 @@
         },
         "social-media": {
           "label__1": "소셜 미디어 표시",
-          "label__2": "텍스트\/아이콘 색상"
+          "label__2": "텍스트/아이콘 색상"
         },
         "countdown": {
           "label__1": "시간",
@@ -3965,7 +3967,7 @@
           "label__1": "너비",
           "option__1": "중간",
           "option__2": "큰",
-          "info": "[미디어 유형](https:\/\/help.shopify.com\/manual\/products\/product-media)에 대해 자세히 알아보세요."
+          "info": "[미디어 유형](https://help.shopify.com/manual/products/product-media)에 대해 자세히 알아보세요."
         },
         "header__3": {
           "content": "배지"
@@ -3993,20 +3995,20 @@
         },
         "header__12": {
           "content": "신뢰할 수 있는 이미지",
-          "paragraph": "신뢰할 수 있는 이미지는 제품 페이지에 검증된 고품질 비주얼만 표시하여 고객의 신뢰를 높이고 정보에 입각한 구매 결정을 지원합니다. [자세히 알아보기](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "신뢰할 수 있는 이미지는 제품 페이지에 검증된 고품질 비주얼만 표시하여 고객의 신뢰를 높이고 정보에 입각한 구매 결정을 지원합니다. [자세히 알아보기](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "동적 결제 버튼"
         },
         "header__15": {
-          "content": "다음\/이전 제품"
+          "content": "다음/이전 제품"
         },
         "header__16": {
           "content": "사이즈 차트"
         },
         "header__17": {
           "content": "픽업 가능 여부",
-          "paragraph": "선택한 변형에 대해 사용 가능한 오프라인 매장을 표시합니다. [자세히 알아보기](https:\/\/help.shopify.com\/ko\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "선택한 변형에 대해 사용 가능한 오프라인 매장을 표시합니다. [자세히 알아보기](https://help.shopify.com/ko/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "색상 비교"
@@ -4019,14 +4021,14 @@
         },
         "header__21": {
           "content": "변형 메타필드",
-          "paragraph": "설명 탭에서 변형별 콘텐츠를 표시하여 선택한 변형에 따라 맞춤형 콘텐츠를 제공합니다. [자세히 알아보기](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant)"
+          "paragraph": "설명 탭에서 변형별 콘텐츠를 표시하여 선택한 변형에 따라 맞춤형 콘텐츠를 제공합니다. [자세히 알아보기](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant)"
         },
         "header__22": {
           "content": "보완 제품"
         },
         "header__23": {
           "content": "긍정적인 느낌 번들",
-          "paragraph": "Positive vibes 번들은 '60명이 2회 이상 구매' 또는 '지난 24시간 동안 37개 판매'와 같은 동기 부여 메시지를 지속적으로 슬라이딩 형식으로 표시하여 구매를 장려하도록 설계된 동적 기능으로, 긴급성을 조성하고 제품 수요를 증가시킵니다. [자세히 알아보기](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "Positive vibes 번들은 '60명이 2회 이상 구매' 또는 '지난 24시간 동안 37개 판매'와 같은 동기 부여 메시지를 지속적으로 슬라이딩 형식으로 표시하여 구매를 장려하도록 설계된 동적 기능으로, 긴급성을 조성하고 제품 수요를 증가시킵니다. [자세히 알아보기](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "배달 시간",
@@ -4051,7 +4053,7 @@
           "text": "텍스트"
         },
         "general": {
-          "label__1": "데스크톱\/태블릿에서 고정 제품 정보 활성화",
+          "label__1": "데스크톱/태블릿에서 고정 제품 정보 활성화",
           "label__2": "데스크탑 레이아웃",
           "label__3": "메인 이미지 위치",
           "options__1": "왼쪽에 썸네일 표시",
@@ -4065,7 +4067,7 @@
           "buy_buttons": "구매 버튼",
           "show_gift_card_recipient": {
             "label": "기프트 카드 제품의 수신자 양식 표시",
-            "info": "구매자가 예약된 날짜에 기프트 카드를 개인 메시지와 함께 보낼 수 있도록 합니다. [자세히 알아보기](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "구매자가 예약된 날짜에 기프트 카드를 개인 메시지와 함께 보낼 수 있도록 합니다. [자세히 알아보기](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "공유하다",
           "vendor": "공급업체",
@@ -4082,7 +4084,7 @@
           "main_image_arrows_mobile": "모바일에 탐색 화살표 표시",
           "main_image_counter_mobile": "모바일에서 슬라이드 카운터 표시",
           "main_image_enable_parallax_mb": "모바일에서 시차 표시",
-          "main_image_show_zoom_icon_mb": "모바일에 확대\/축소 아이콘 표시",
+          "main_image_show_zoom_icon_mb": "모바일에 확대/축소 아이콘 표시",
           "main_image_show_1_column_mb": "모바일에서 항목 1개 표시",
           "meta": "메타",
           "share_info": "공유 블록은 '레이아웃' 설정이 '소셜 미디어 아이콘 목록'으로 설정된 경우에만 위아래로 이동할 수 있습니다.",
@@ -4116,7 +4118,7 @@
           "product_tab_source_info": "'다음 콘텐츠 표시' 설정이 '메타필드를 사용하는 특정 제품'으로 설정된 경우에만 적용됩니다.",
           "dynamic_source": "동적 소스",
           "key_text_source": "제품 메타필드 키",
-          "product_tab_key_info": "'콘텐츠 표시' 설정이 '메타필드를 사용하여 특정 제품'으로 설정되고 '콘텐츠 소스' 설정이 '제품 메타필드 키'로 설정된 경우에만 적용됩니다. [자세히 알아보기](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "'콘텐츠 표시' 설정이 '메타필드를 사용하여 특정 제품'으로 설정되고 '콘텐츠 소스' 설정이 '제품 메타필드 키'로 설정된 경우에만 적용됩니다. [자세히 알아보기](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "활성 축소판 색상",
           "navigation_arrows_color_mobile": "모바일의 탐색 화살표 색상",
           "read_more": "더 읽어보세요",
@@ -4124,7 +4126,7 @@
         },
         "media": {
           "label__1": "상품 이미지 비율",
-          "label__3": "확대\/축소 이미지 활성화",
+          "label__3": "확대/축소 이미지 활성화",
           "label__4": "이미지 스타일 확대",
           "label__5": "미디어 핏",
           "label__6": "이미지 맞춤",
@@ -4136,7 +4138,7 @@
           "options__9": "메인 이미지 위로 마우스를 가져가세요",
           "unit": "%",
           "layout_video": "비디오 레이아웃",
-          "info__1": "[미디어 핏](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)에 대해 자세히 알아보세요.",
+          "info__1": "[미디어 핏](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)에 대해 자세히 알아보세요.",
           "info__2": "미디어 맞춤 설정이 원본일 경우 ​​해당되지 않습니다.",
           "info__3": "상품 이미지 비율 설정 중 인물 옵션에만 해당됩니다."
         },
@@ -4177,7 +4179,7 @@
         "variant": {
           "label__2": "변형 이미지 그룹화 사용",
           "options__1": "드롭다운",
-          "options__2": "정사각형\/직사각형\/견본",
+          "options__2": "정사각형/직사각형/견본",
           "variant_picker": "변형 선택기"
         },
         "quantity": {
@@ -4202,11 +4204,11 @@
         },
         "dynamic_checkout": {
           "label": "동적 결제 버튼 표시",
-          "info": "매장에서 제공하는 결제 수단을 사용하면 고객은 PayPal이나 Apple Pay와 같은 선호하는 옵션을 볼 수 있습니다. [자세히 알아보기](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "매장에서 제공하는 결제 수단을 사용하면 고객은 PayPal이나 Apple Pay와 같은 선호하는 옵션을 볼 수 있습니다. [자세히 알아보기](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "다음\/이전 제품 표시",
-          "info": "컬렉션 내 다음\/이전 제품의 제품 표시"
+          "label": "다음/이전 제품 표시",
+          "info": "컬렉션 내 다음/이전 제품의 제품 표시"
         },
         "size_chart": {
           "label__1": "사이즈 차트 활성화",
@@ -4277,7 +4279,7 @@
           "label__1": "보완 제품 표시",
           "label__2": "보완적인 제품 스타일 1",
           "label__3": "보완적인 제품 스타일 2",
-          "info__1": "보완 제품을 선택하려면 검색 및 발견 앱을 추가하세요. [자세히 알아보기](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "보완 제품을 선택하려면 검색 및 발견 앱을 추가하세요. [자세히 알아보기](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4302,7 +4304,7 @@
             "options__1": "모든 제품",
             "options__2": "메타필드를 활용한 특정 제품",
             "info_1": "'다음 콘텐츠 표시' 설정이 '모든 제품'으로 설정된 경우에만 적용됩니다.",
-            "info_2": "[메타필드를 사용하여 사용자 정의 탭을 설정하는 방법에 대해 자세히 알아보세요](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)"
+            "info_2": "[메타필드를 사용하여 사용자 정의 탭을 설정하는 방법에 대해 자세히 알아보세요](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)"
           }
         },
         "grouped_product": {
@@ -4437,8 +4439,8 @@
         "info": "'상대적'인 '콘텐츠 위치'에 적용",
         "info_2": "오른쪽 블록은 자동으로 계산됩니다",
         "title_align": "콘텐츠 정렬",
-        "align_items_spacing_tb": "내용: 상단 간격\/하단 간격",
-        "align_items_spacing_lr": "내용: 왼쪽 간격\/오른쪽 간격",
+        "align_items_spacing_tb": "내용: 상단 간격/하단 간격",
+        "align_items_spacing_lr": "내용: 왼쪽 간격/오른쪽 간격",
         "enable_item_1": "항목 1 활성화",
         "enable_item_2": "항목 2 활성화",
         "enable_item_3": "항목 3 활성화",
@@ -4633,7 +4635,7 @@
           "name": "컬렉션 이미지",
           "settings": {
             "paragraph": {
-              "content": "컬렉션 설명이나 컬렉션 이미지를 변경하려면 [컬렉션을 편집하세요.](\/admin\/collections)"
+              "content": "컬렉션 설명이나 컬렉션 이미지를 변경하려면 [컬렉션을 편집하세요.](/admin/collections)"
             },
             "general": {
               "label__1": "시차 배너 표시",
@@ -4654,7 +4656,7 @@
             },
             "description": {
               "label__1": "컬렉션 설명 표시",
-              "label__2": "'자세히 읽기'\/'간략히 읽기' 표시",
+              "label__2": "'자세히 읽기'/'간략히 읽기' 표시",
               "label__3": "위치",
               "label__4": "컬렉션 제목 표시",
               "label__5": "컬렉션 설명 정렬",
@@ -4715,7 +4717,7 @@
         },
         "general": {
           "label": "제품 번들 활성화",
-          "info": "[제품 번들](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle) 자세히 알아보기"
+          "info": "[제품 번들](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle) 자세히 알아보기"
         },
         "discount": {
           "label__1": "번들 할인 활성화",
@@ -4813,10 +4815,10 @@
     "app_partner": {
       "name": "앱 파트너",
       "enable_promotion": "PageFly 제안 활성화",
-      "label_1": "1. 리뷰 기능을 위해 [Loox 앱](https:\/\/shopify.pxf.io\/y2D52b)을 사용하고 30일 무료 체험을 받으세요. [Loox 설정 방법](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. 특별 제안: 20개의 PageFly 페이지를 3개월 동안 월 $1에 이용하세요. [지금 제안 받기](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. [UpPromote 제휴 및 추천](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs)을 사용하고 20% 할인을 받으세요.",
-      "label_4": "4. [Avada SEO 스위트](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)로 사이트 성능을 극대화하세요."
+      "label_1": "1. 리뷰 기능을 위해 [Loox 앱](https://shopify.pxf.io/y2D52b)을 사용하고 30일 무료 체험을 받으세요. [Loox 설정 방법](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. 특별 제안: 20개의 PageFly 페이지를 3개월 동안 월 $1에 이용하세요. [지금 제안 받기](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. [UpPromote 제휴 및 추천](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs)을 사용하고 20% 할인을 받으세요.",
+      "label_4": "4. [Avada SEO 스위트](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)로 사이트 성능을 극대화하세요."
     },
     "slidable_spotlight": {
       "name": "슬라이딩 가능한 스포트라이트",
@@ -4906,7 +4908,7 @@
           "country": "국가",
           "cross_street": "교차로",
           "postal_code": "우편번호",
-          "state": "주\/도",
+          "state": "주/도",
           "info": "예: (202) 387-9338",
           "map_iframe": "Google 지도 iframe 삽입"
         }
@@ -4924,12 +4926,12 @@
         "tiktok_video": {
           "name": "틱톡 영상",
           "embed_code": "비디오 ID",
-          "info__1": "[틱톡 동영상 ID를 얻는 방법 안내](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[틱톡 동영상 ID를 얻는 방법 안내](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "전\/후 이미지 슬라이더",
+      "name": "전/후 이미지 슬라이더",
       "settings": {
         "content_position": "콘텐츠 위치",
         "above": "위 비교 이미지",

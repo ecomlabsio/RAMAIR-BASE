@@ -86,7 +86,7 @@
           "label__3": "Kolor ikony ładowania telefonu komórkowego"
         },
         "colors_breadcrumb": {
-          "label__4": "Tło\/gradient nawigacyjny tylko dla układów nawigacyjnych 2 i 3"
+          "label__4": "Tło/gradient nawigacyjny tylko dla układów nawigacyjnych 2 i 3"
         },
         "spinner_colors": {
           "content": "Ładowanie pokrętła",
@@ -134,7 +134,7 @@
           "product_page_gallery": "Galeria",
           "product_page_left_thumbs": "Miniatury pionowe po lewej stronie",
           "product_page_right_thumbs": "Miniatury pionowe w prawo",
-          "product_page_left_right_sidebar": "Lewy\/prawy pasek boczny",
+          "product_page_left_right_sidebar": "Lewy/prawy pasek boczny",
           "product_page_horizontal_tabs_no_sidebar": "Zakładki poziome bez paska bocznego",
           "product_page_step_by_step": "Krok po Kroku",
           "header_layout_rtl": "Układ od prawej do lewej",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "Lista kodów ISO dla języków RTL",
           "list_iso_rtl_info": "Oddziel każdy kod ISO języka znakiem ','. Np.: ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "Wypisz kody ISO języków, aby automatycznie przełączyć się na układ RTL: ar:(arabski); dv:(dhivehi,malediwski); ha:(hausa); he:(hebrajski); ku:(kurdyjski\/sorani); fa:(perski\/farsi); ur:(urdu); ps:(paszto); yi:(jidysz)"
+          "list_iso_rtl_note": "Wypisz kody ISO języków, aby automatycznie przełączyć się na układ RTL: ar:(arabski); dv:(dhivehi,malediwski); ha:(hausa); he:(hebrajski); ku:(kurdyjski/sorani); fa:(perski/farsi); ur:(urdu); ps:(paszto); yi:(jidysz)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "Źródło czcionki",
           "options__1": "Czcionki Google",
           "options__2": "Czcionki Shopify",
-          "info": "Aby użyć czcionek Google, dodaj nazwę czcionki. [Dowiedz się więcej](https:\/\/fonts.google.com\/)",
+          "info": "Aby użyć czcionek Google, dodaj nazwę czcionki. [Dowiedz się więcej](https://fonts.google.com/)",
           "info_shopify_font": "Zoptymalizuj wydajność swojej witryny, korzystając z czcionek Shopify!",
           "info_language": "Konfigurując język w ustawieniach dostosowywania, ważne jest, aby ustawić te same preferencje językowe w ustawieniach administracyjnych."
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "Czcionka ciała",
           "label": "Czcionka Shopify",
-          "info": "Wybranie innej czcionki może wpłynąć na szybkość działania sklepu. [Dowiedz się więcej o czcionkach systemowych.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Wybranie innej czcionki może wpłynąć na szybkość działania sklepu. [Dowiedz się więcej o czcionkach systemowych.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "Czcionka nagłówka",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "Mega menu poziom 2",
           "title_mega_menu_lv3": "Mega menu poziom 3",
           "label": "Rodzina czcionek nawigacyjnych",
-          "info": "Wybranie innej czcionki może wpłynąć na szybkość działania sklepu. [Dowiedz się więcej o czcionkach systemowych.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Wybranie innej czcionki może wpłynąć na szybkość działania sklepu. [Dowiedz się więcej o czcionkach systemowych.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "Czcionka elementu produktu",
@@ -237,7 +237,7 @@
           "yes": "Tak",
           "no": "NIE",
           "label": "Rodzina czcionek przycisku 1",
-          "info": "Wybranie innej czcionki może wpłynąć na szybkość działania sklepu. [Dowiedz się więcej o czcionkach systemowych.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "Wybranie innej czcionki może wpłynąć na szybkość działania sklepu. [Dowiedz się więcej o czcionkach systemowych.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "Pokaż zarys",
           "cta_button": "przycisk CTA"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "Pozycja ikony „Wyświetl wszystko”.",
           "view_all_font_size": "Rozmiar czcionki „Wyświetl wszystko”.",
           "view_all_width": "Szerokość „Wyświetl wszystko”.",
-          "view_all_info": "Przejdź do tego linku [znajdź swoją ikonę](https:\/\/fontawesome.com\/v5\/search). Znajdź ikonę, którą chcesz, a następnie skopiuj kod SVG i wklej go tutaj.",
-          "logo_icon_info": "Dotyczy tylko sytuacji, gdy obraz logo jest pusty. Przejdź do tego łącza [znajdź swoją ikonę](https:\/\/fontawesome.com\/v5\/search). Znajdź ikonę, którą chcesz, a następnie skopiuj kod SVG i wklej go tutaj.",
+          "view_all_info": "Przejdź do tego linku [znajdź swoją ikonę](https://fontawesome.com/v5/search). Znajdź ikonę, którą chcesz, a następnie skopiuj kod SVG i wklej go tutaj.",
+          "logo_icon_info": "Dotyczy tylko sytuacji, gdy obraz logo jest pusty. Przejdź do tego łącza [znajdź swoją ikonę](https://fontawesome.com/v5/search). Znajdź ikonę, którą chcesz, a następnie skopiuj kod SVG i wklej go tutaj.",
           "item": "Rzeczy",
-          "item_padding_top_bottom": "Wyściółka górna\/dolna",
-          "item_padding_left_right": "Wyściółka lewa\/prawa",
+          "item_padding_top_bottom": "Wyściółka górna/dolna",
+          "item_padding_left_right": "Wyściółka lewa/prawa",
           "item_padding_top": "Górna wyściółka przedmiotu",
           "item_padding_bottom": "Dolna wyściółka przedmiotu",
           "item_width": "Szerokość elementu",
@@ -429,19 +429,19 @@
           "icon_color_hover": "Kolor wskaźnika ikony",
           "icon_color_mb": "Kolor ikony na telefonie komórkowym",
           "icon_width": "Szerokość ikon",
-          "icon_width_info": "Ma zastosowanie, gdy ustawienie wyświetlania tekstu\/ikon jest ustawione na ikonę",
+          "icon_width_info": "Ma zastosowanie, gdy ustawienie wyświetlania tekstu/ikon jest ustawione na ikonę",
           "icon_height": "Wysokość ikon",
           "icon_width_1": "Szerokość ikony",
           "icon_height_1": "Wysokość ikony",
           "icon_width_mb": "Szerokość ikony na telefonie",
           "icon_height_mb": "Wysokość ikony na telefonie",
-          "icon_mg_right": "Prawy margines ikony tekstu\/SVG",
+          "icon_mg_right": "Prawy margines ikony tekstu/SVG",
           "icon_mg_bottom": "Rozstaw ikon u dołu",
           "icon_spacing_mobile": "Odstępy między ikonami na telefonie komórkowym",
-          "icon_type": "Użyj obrazu lub ikony tekstowej\/SVG",
+          "icon_type": "Użyj obrazu lub ikony tekstowej/SVG",
           "icons_type": "Typ ikon",
           "icons_type_info": "Ma zastosowanie tylko wtedy, gdy ustawienie „typu ikon” jest ustawione na Ikona.",
-          "text_svg_icon": "Ikona tekstu\/SVG",
+          "text_svg_icon": "Ikona tekstu/SVG",
           "layout_mobile": "Układ mobilny",
           "layout_mobile_info": "Dotyczy tylko układu siatki",
           "list": "Lista",
@@ -518,7 +518,7 @@
           "beside_the_title": "Obok tytułu",
           "width_on_desktop": "Szerokość na pulpicie",
           "section_footer": "Stopka sekcji",
-          "prev_next_button": "Przycisk Poprzedni\/Dalej",
+          "prev_next_button": "Przycisk Poprzedni/Dalej",
           "info_mobile_layout": "Ma zastosowanie tylko wtedy, gdy ustawienie „układu mobilnego” jest ustawione na suwak.",
           "header_block": {
             "option_1": "Tytuł po lewej stronie, widok wszystkich po lewej stronie",
@@ -526,7 +526,8 @@
             "option_3": "Tytuł w środku, widok po lewej stronie",
             "option_4": "Centrum tytułu z widokiem w porządku",
             "option_5": "Centrum tytułu z widokiem wszystkich poniżej"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "Czcionka stopki"
@@ -577,23 +578,23 @@
         "whatsapp_label": "Udostępnij na Whatsappie",
         "header__2": "Konta społecznościowe",
         "social_twitter_link_label": "Link do Twittera",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "Link do Facebooka",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "Link do Pinteresta",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "Link do Instagrama",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "Link do TikToka",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "Link do Tumblra",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "Link do Snapchata",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "Link do YouTube'a",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "Link do Vimeo",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "Opcja dostosowywania",
-          "info": "Opcje dostosowywania służą do zbierania informacji o dostosowywaniu dla pozycji dodanej do koszyka. Informacje te można zbierać od kupującego na stronie produktu i w szybkim podglądzie. [Dowiedz się więcej](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "Opcje dostosowywania służą do zbierania informacji o dostosowywaniu dla pozycji dodanej do koszyka. Informacje te można zbierać od kupującego na stronie produktu i w szybkim podglądzie. [Dowiedz się więcej](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "Obraz Favikony",
@@ -651,8 +652,8 @@
           "label__7": "Link do przycisku polityki prywatności",
           "label__8": "Etykieta przycisku Zaakceptuj pliki cookie",
           "color_privacy_policy": "Kolor przycisku polityki prywatności",
-          "info__1": "[Dowiedz się więcej](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies)",
-          "info__2": "Przykład: https:\/\/policies.google.com"
+          "info__1": "[Dowiedz się więcej](https://help.shopify.com/en/manual/your-account/privacy/cookies)",
+          "info__2": "Przykład: https://policies.google.com"
         },
         "wishlist": {
           "label": "Włącz listę życzeń",
@@ -735,7 +736,7 @@
           "style_10": "Styl 10"
         },
         "trust_image": {
-          "info__1": "Strona produktu\/Szybki podgląd",
+          "info__1": "Strona produktu/Szybki podgląd",
           "info__2": "Strona koszyka"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "Pokaż plakietkę pakietu",
           "label__23": "Rozmiar czcionki",
           "label__24": "Promień narożnika",
-          "label__26": "Wyściółka lewa\/prawa",
+          "label__26": "Wyściółka lewa/prawa",
           "label__28": "Pozycja pionowa",
           "label__29": "Pozycja pozioma",
           "options__3": "Dynamiczny",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "Pokaż listę życzeń",
-          "label__4": "Tekst\/ikona aktywna",
+          "label__4": "Tekst/ikona aktywna",
           "label__5": "Tło aktywne",
           "label__9": "Granica aktywna",
           "label__10": "Pokaż listę życzeń na telefonie komórkowym",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "Pokaż szybki podgląd",
           "label__2": "Styl szybkiego podglądu",
-          "label__3": "Tekst\/ikona",
-          "label__5": "Najedź kursorem na tekst\/ikonę",
+          "label__3": "Tekst/ikona",
+          "label__5": "Najedź kursorem na tekst/ikonę",
           "label__6": "Najedź na tło",
           "label__7": "Szybki podgląd i pozycja na liście życzeń",
           "label__8": "Pokaż szybki podgląd na urządzeniu mobilnym",
@@ -955,10 +956,10 @@
         "currency_format_enable": "Włącz format waluty",
         "info_currency_format": "Ceny w koszyku i kasie zawsze pokazują kody walut. Przykład: $1.00 USD.",
         "enable_shopify_payments_currencies": "Włączyć płatności Shopify?",
-        "info_1": "Dostępne tylko dla sklepów z płatnościami Shopify. Link [tutaj](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_1": "Dostępne tylko dla sklepów z płatnościami Shopify. Link [tutaj](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "enable_multiple_currencies": "Włączyć wiele walut?",
         "enable_auto_currency": "Włączyć automatyczną walutę?",
-        "info_2": "Nie wybieraj wszystkich 3 opcji jednocześnie ani nie łącz płatności Shopify z innymi. Link [tutaj](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_2": "Nie wybieraj wszystkich 3 opcji jednocześnie ani nie łącz płatności Shopify z innymi. Link [tutaj](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "i-currency-1": "Ikona SVG dla kodu waluty 1",
         "currency_1_unit": "Kod waluty 1",
         "usd": "USD",
@@ -982,8 +983,8 @@
         "currency_9_unit": "Kod waluty 9",
         "i-currency-10": "Ikona SVG dla kodu waluty 10",
         "currency_10_unit": "Kod waluty 10",
-        "paragraph_1": "Oddziel kody walut spacją. Użyj 3-literowego kodu waluty ISO 4217. Kliknij [tutaj](http:\/\/www.xe.com\/iso4217.php), aby uzyskać pełną listę kodów walut. Przykład: CAD USD.",
-        "paragraph_2": "Aby ta funkcjonalność działała w Twoim sklepie, musisz edytować formaty pieniędzy zgodnie z [tymi instrukcjami](http:\/\/help.shopify.com\/en\/themes\/customization\/currencies). (Proszę określić, gdzie znajduje się format pieniędzy.)",
+        "paragraph_1": "Oddziel kody walut spacją. Użyj 3-literowego kodu waluty ISO 4217. Kliknij [tutaj](http://www.xe.com/iso4217.php), aby uzyskać pełną listę kodów walut. Przykład: CAD USD.",
+        "paragraph_2": "Aby ta funkcjonalność działała w Twoim sklepie, musisz edytować formaty pieniędzy zgodnie z [tymi instrukcjami](http://help.shopify.com/en/themes/customization/currencies). (Proszę określić, gdzie znajduje się format pieniędzy.)",
         "select_a_currency": "Wybierz funkcję walutową",
         "option_1": "Płatność Shopify",
         "option_2": "Wiele walut",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "Pokaż koszyk szybkiej edycji",
-          "options__5": "Przycisk\/próbka"
+          "options__5": "Przycisk/próbka"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "Odliczanie",
-      "info": "Countdown pokazuje klientom okres czasu, w którym produkt jest objęty promocją. [Dowiedz się więcej](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "Countdown pokazuje klientom okres czasu, w którym produkt jest objęty promocją. [Dowiedz się więcej](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "Pokaż odliczanie",
@@ -1316,7 +1317,7 @@
           "options__2": "Dla każdego produktu",
           "options__3": "Do kolekcji",
           "info": "Przykład: Dec 31, 2024 18:00:00",
-          "info__1": "Proszę użyć tego dokładnego formatu: yyyy\/mm\/dd godzina\/minuta\/sekunda. Przykład: 2024\/12\/4 0:0:00."
+          "info__1": "Proszę użyć tego dokładnego formatu: yyyy/mm/dd godzina/minuta/sekunda. Przykład: 2024/12/4 0:0:00."
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "Wyrównanie",
-          "label__2": "Wyrównanie (góra\/środek\/dół)",
-          "label__3": "Wyrównanie (do lewej\/do środka\/do prawej\/wyrównanie)",
+          "label__2": "Wyrównanie (góra/środek/dół)",
+          "label__3": "Wyrównanie (do lewej/do środka/do prawej/wyrównanie)",
           "label__4": "Wyrównanie na urządzeniu mobilnym",
           "label__5": "Lewa pozycja dla treści",
           "options__4": "Uzasadniać",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "Typografia tytułu\/nagłówka"
+            "content": "Typografia tytułu/nagłówka"
           },
           "paragraph__2": {
             "content": "Typografia tekstu"
           },
           "paragraph__3": {
-            "content": "Typografia daty\/autora\/komentarza"
+            "content": "Typografia daty/autora/komentarza"
           },
           "font_style": "Styl czcionki"
         }
@@ -1854,7 +1855,7 @@
           "select_menu": "Menu kategorii",
           "recommen_image": "Zalecany obraz: 250 x 250 pikseli",
           "banner_link": "Link do banera",
-          "info__1": "Prześlij obrazy o tej samej nazwie co uchwyt menu, aby wyświetlić obrazy dla każdej kategorii. [Dowiedz się więcej](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
+          "info__1": "Prześlij obrazy o tej samej nazwie co uchwyt menu, aby wyświetlić obrazy dla każdej kategorii. [Dowiedz się więcej](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
         }
       },
       "presets": {
@@ -2083,9 +2084,9 @@
         "content_spacing": "Dopełnienie treści",
         "align_items_spacing_top": "Górny margines treści",
         "align_items_spacing_bottom": "Dolny margines treści",
-        "align_items_spacing_lr": "Odstępy między treścią po lewej\/prawej stronie",
-        "align_items_spacing_top_bottom_position": "Odstępy góra\/dół zawartości",
-        "align_items_spacing_top_bottom_position_mb": "Odstępy między górą\/dółem treści na urządzeniu mobilnym",
+        "align_items_spacing_lr": "Odstępy między treścią po lewej/prawej stronie",
+        "align_items_spacing_top_bottom_position": "Odstępy góra/dół zawartości",
+        "align_items_spacing_top_bottom_position_mb": "Odstępy między górą/dółem treści na urządzeniu mobilnym",
         "content_1": "Blokuj elementy",
         "enable_shadow": "Pokaż cień pudełka",
         "use_special_header_layout": "Użyj specjalnego układu",
@@ -2134,8 +2135,8 @@
           "blog_style_1": "Poniżej obrazu",
           "blog_style_2": "Nałóż obraz",
           "show_link_as": "Pokaż link „wyświetl szczegóły” jako przycisk",
-          "link_button_color": "Kolor etykiety łącza\/przycisku",
-          "link_button_hover_color": "Kolor najechania etykietą łącza\/przycisku"
+          "link_button_color": "Kolor etykiety łącza/przycisku",
+          "link_button_hover_color": "Kolor najechania etykietą łącza/przycisku"
         }
       },
       "presets": {
@@ -2221,7 +2222,7 @@
         "tab": {
           "name": "Element zakładki",
           "show_image": "Pokaż obraz karty",
-          "info": "Wybierz nawigację, aby wyświetlić elementy bloku. [Dowiedz się więcej o tym, jak przesyłać obrazy.](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show-images-for-brand-tab-section)"
+          "info": "Wybierz nawigację, aby wyświetlić elementy bloku. [Dowiedz się więcej o tym, jak przesyłać obrazy.](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show-images-for-brand-tab-section)"
         }
       },
       "settings": {
@@ -2264,7 +2265,7 @@
         "info": "Ma zastosowanie tylko wtedy, gdy ustawienie wyrównania treści jest ustawione na środek.",
         "enable_map": "Pokaż mapę Google",
         "map_iframe": "Osadź mapę",
-        "info__1": "Aby uzyskać kod HTML do umieszczenia na stronie, musisz wejść na [Mapy Google](https:\/\/www.google.com\/maps).",
+        "info__1": "Aby uzyskać kod HTML do umieszczenia na stronie, musisz wejść na [Mapy Google](https://www.google.com/maps).",
         "button": {
           "label__8": "Maksymalna szerokość przycisku"
         }
@@ -2594,7 +2595,7 @@
           "product_block_02": "Duet bloków produktów",
           "feature_product": "Polecany produkt",
           "feature_product_unsymmetrical": "Najważniejsza cecha produktu",
-          "info_tablet_mobile": "Używaj na telefonie komórkowym\/tablecie"
+          "info_tablet_mobile": "Używaj na telefonie komórkowym/tablecie"
         },
         "product_block_layout": {
           "option": "Układ",
@@ -2650,11 +2651,11 @@
           "content": "Układ suwaka",
           "product_block_dots": "Pokaż kropki nawigacyjne",
           "product_block_dots_desk": "Pokaż kropki nawigacyjne na pulpicie",
-          "product_block_dots_mb": "Pokaż kropki nawigacyjne na telefonie komórkowym\/tablecie",
+          "product_block_dots_mb": "Pokaż kropki nawigacyjne na telefonie komórkowym/tablecie",
           "product_block_dots_spacing_top": "Górny margines punktów nawigacyjnych",
           "product_block_arrows": "Pokaż strzałki nawigacyjne",
           "product_block_arrows_desk": "Pokaż strzałki nawigacyjne na pulpicie",
-          "product_block_arrows_mb": "Pokaż strzałki nawigacyjne na telefonie komórkowym\/tablecie",
+          "product_block_arrows_mb": "Pokaż strzałki nawigacyjne na telefonie komórkowym/tablecie",
           "product_block_arrows_position": "Włącz niestandardowe pozycjonowanie strzałek nawigacyjnych na pulpicie",
           "use_special_arrow_position": "Użyj specjalnej pozycji strzałki",
           "enable_progress_bar": "Pokaż pasek przewijania",
@@ -2692,8 +2693,8 @@
             "info__1": "Pozycja jest automatycznie optymalizowana pod kątem urządzeń mobilnych."
           },
           "name": "Transparent",
-          "align_items_spacing_tb": "Wyściółka górna\/dolna zawartości",
-          "align_items_spacing_lr": "Dopełnienie treści po lewej\/prawej stronie",
+          "align_items_spacing_tb": "Wyściółka górna/dolna zawartości",
+          "align_items_spacing_lr": "Dopełnienie treści po lewej/prawej stronie",
           "position_vertical_arrow": "Pozycja pionowa (jednostka% lub px)",
           "info__1": "Ma zastosowanie tylko wtedy, gdy ustawienie „pozycji treści” jest ustawione na górę lub na dół.",
           "info__2": "Ma zastosowanie tylko wtedy, gdy ustawienie „wyrównania treści” jest ustawione na lewą lub prawą stronę."
@@ -2892,7 +2893,7 @@
         "box_shadow_hover_color": "Kolor najechania cieniem pudełka",
         "social_media_link": {
           "content": "Ikony mediów społecznościowych",
-          "info": "Aby wyświetlić swoje konta w mediach społecznościowych, połącz je w [ustawieniach motywu](\/editor?context=theme&category=social%20media).",
+          "info": "Aby wyświetlić swoje konta w mediach społecznościowych, połącz je w [ustawieniach motywu](/editor?context=theme&category=social%20media).",
           "show_social": "Pokaż ikony mediów społecznościowych",
           "enable_background_social": "Pokaż tła na ikonach społecznościowych",
           "social_position": {
@@ -2978,7 +2979,7 @@
             "option": "Typ ikon płatności",
             "option1": "Domyślny",
             "option2": "Zwyczaj",
-            "info": "Jeśli wybierzesz opcję „domyślną”, aby dodać ikony płatności, przejdź do [ustawień płatności.](\/admin\/settings\/payments)"
+            "info": "Jeśli wybierzesz opcję „domyślną”, aby dodać ikony płatności, przejdź do [ustawień płatności.](/admin/settings/payments)"
           },
           "payment_position": {
             "option": "Stanowisko płatnicze",
@@ -3091,12 +3092,12 @@
           "background_color_items_cart_mb": "Kolor tła elementów na telefonie komórkowym",
           "color_items_cart_mb": "Kolorowanie elementów na telefonie komórkowym",
           "font_size_cart_item": "Rozmiar czcionki elementu",
-          "language_currency": "Język\/waluta",
-          "label__2": "Kolor tekstu\/ikony 1",
-          "label__3": "Kolor tekstu\/ikony 2",
-          "label__3_1": "Kolor tekstu\/ikony 3",
-          "label__4": "Kolor tekstu\/ikony",
-          "label__5": "Kolor wskaźnika tekstu\/ikony",
+          "language_currency": "Język/waluta",
+          "label__2": "Kolor tekstu/ikony 1",
+          "label__3": "Kolor tekstu/ikony 2",
+          "label__3_1": "Kolor tekstu/ikony 3",
+          "label__4": "Kolor tekstu/ikony",
+          "label__5": "Kolor wskaźnika tekstu/ikony",
           "label__6": "Kolor obramowania ikony",
           "label__7": "Użyj maszyny do pisania",
           "label__8": "Pokaż pierwszą treść na urządzeniu mobilnym",
@@ -3120,7 +3121,7 @@
           "bg_bottom": "Dolne tło",
           "mg_top": "Wyściółka górnego menu",
           "mg_bottom": "Dolne wypełnienie menu",
-          "spacing_left_right": "Wyściółka elementów po lewej\/prawej stronie",
+          "spacing_left_right": "Wyściółka elementów po lewej/prawej stronie",
           "spacing_left_menu": "Lewe wypełnienie menu",
           "spacing_right_menu": "Prawe uzupełnienie menu"
         },
@@ -3199,7 +3200,7 @@
           "label__1": "Obraz logo",
           "label__2": "Obraz logo mobilnego",
           "label__3": "Pozycja logo na pulpicie",
-          "label__fixed": "Obraz logo dla przyklejonego nagłówka\/stałego nagłówka",
+          "label__fixed": "Obraz logo dla przyklejonego nagłówka/stałego nagłówka",
           "label__7": "Tekst logo lub ikona SVG",
           "label__8": "Tekst logo lub kolor ikony SVG",
           "logo_info": "To logo będzie widoczne, gdy nie zostanie dodane żadne menu zakładek",
@@ -3366,7 +3367,8 @@
           "color_link_text": "Kolor etykiety przycisku",
           "url": "Link do przycisku",
           "info": "Jednostka:% lub px",
-          "info__2": "Wpisz nazwę pozycji menu, którą chcesz zastosować w tym mega menu."
+          "info__2": "Wpisz nazwę pozycji menu, którą chcesz zastosować w tym mega menu.",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "Nawigacja nagłówka - zwykła",
@@ -3378,8 +3380,8 @@
           "name_7": "Nawigacja nagłówka — wyrównana do lewej",
           "name_8": "Nawigacja nagłówka - podstawowa",
           "name_9": "Nawigacja nagłówka - wiele witryn",
-          "label_2": "Mega menu\/menu rozwijane",
-          "label_3": "Pokaż język\/walutę",
+          "label_2": "Mega menu/menu rozwijane",
+          "label_3": "Pokaż język/walutę",
           "label_5": "Pokaż w menu głównym",
           "label_6": "Pokaż w przyklejonym menu",
           "label_7": "Pokaż wszystko",
@@ -3389,7 +3391,7 @@
           "option_3": "Prawe wypełnienie",
           "cart_count_bubble": "Bańka liczby koszyków",
           "search_input": "Styl pola wyszukiwania 2",
-          "cart_wishlist_count_bubble": "Bańka z licznikiem koszyka\/listy życzeń",
+          "cart_wishlist_count_bubble": "Bańka z licznikiem koszyka/listy życzeń",
           "wishlist_count_bubble": "Bańka z licznikiem listy życzeń",
           "search_dropdown": "Lista rozwijana wyszukiwania",
           "search_dropdown_style": "Styl rozwijany wyszukiwania",
@@ -3520,7 +3522,7 @@
           "label__1": "Pokaż autora",
           "label__2": "Pokaż datę",
           "label__3": "Pokaż udostępnij",
-          "label__4": "Pokaż następny\/poprzedni artykuł",
+          "label__4": "Pokaż następny/poprzedni artykuł",
           "label__5": "Pokaż obraz główny",
           "label__6": "Pokaż tagi"
         }
@@ -3588,7 +3590,7 @@
           "options__1": "Kolor podstawowy (użyj nazwy koloru)",
           "options__2": "Zaawansowany kolor (użyj obrazu w formacie PNG)",
           "options__3": "Przewijanie",
-          "info__1": "[Dostosuj filtry](\/admin\/apps\/search-and-discovery)",
+          "info__1": "[Dostosuj filtry](/admin/apps/search-and-discovery)",
           "info__2": "Wprowadź nazwę filtra wejściowego, aby wyświetlić styl próbki",
           "info__3": "Wprowadź nazwę filtra, aby pokazać styl prostokąta",
           "info__4": "Używany do wyświetlania filtra: przycisk pokaż więcej",
@@ -3688,7 +3690,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "Aby dodać obrazy, [edytuj swoje kolekcje](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "Aby dodać obrazy, [edytuj swoje kolekcje](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3924,7 +3926,7 @@
         },
         "social-media": {
           "label__1": "Pokaż media społecznościowe",
-          "label__2": "Kolor tekstu\/ikony"
+          "label__2": "Kolor tekstu/ikony"
         },
         "countdown": {
           "label__1": "Czas",
@@ -3965,7 +3967,7 @@
           "label__1": "Szerokość",
           "option__1": "Średni",
           "option__2": "Duży",
-          "info": "Dowiedz się więcej o [typach mediów](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Dowiedz się więcej o [typach mediów](https://help.shopify.com/manual/products/product-media)"
         },
         "header__3": {
           "content": "Odznaka"
@@ -3993,20 +3995,20 @@
         },
         "header__12": {
           "content": "Zaufane obrazy",
-          "paragraph": "Zaufane obrazy wyświetlają tylko zweryfikowane, wysokiej jakości wizualizacje na stronach produktów, zwiększając zaufanie klientów i wspierając świadome decyzje zakupowe. [Dowiedz się więcej](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "Zaufane obrazy wyświetlają tylko zweryfikowane, wysokiej jakości wizualizacje na stronach produktów, zwiększając zaufanie klientów i wspierając świadome decyzje zakupowe. [Dowiedz się więcej](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "Dynamiczne przyciski kasy"
         },
         "header__15": {
-          "content": "Następny\/poprzedni produkt"
+          "content": "Następny/poprzedni produkt"
         },
         "header__16": {
           "content": "Tabela rozmiarów"
         },
         "header__17": {
           "content": "Możliwość odbioru",
-          "paragraph": "Pokazuje dostępne sklepy offline dla wybranej wersji. [Dowiedz się więcej](https:\/\/help.shopify.com\/en\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "Pokazuje dostępne sklepy offline dla wybranej wersji. [Dowiedz się więcej](https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "Porównanie kolorów"
@@ -4019,14 +4021,14 @@
         },
         "header__21": {
           "content": "Wariant metapola",
-          "paragraph": "Pokaż zawartość specyficzną dla wariantu na karcie opisu, zapewniając dostosowaną zawartość na podstawie wybranego wariantu. [Dowiedz się więcej](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant)"
+          "paragraph": "Pokaż zawartość specyficzną dla wariantu na karcie opisu, zapewniając dostosowaną zawartość na podstawie wybranego wariantu. [Dowiedz się więcej](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant)"
         },
         "header__22": {
           "content": "Produkty uzupełniające"
         },
         "header__23": {
           "content": "Pakiet pozytywnych wibracji",
-          "paragraph": "Pakiet Positive vibes to dynamiczna funkcja zaprojektowana w celu zachęcania do zakupów poprzez wyświetlanie motywujących wiadomości, takich jak „60 osób kupiło 2+ razy” lub „37 sprzedało w ciągu ostatnich 24 godzin” w ciągle przesuwającym się formacie, co tworzy poczucie pilności i zwiększa popyt na produkt. [Dowiedz się więcej](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "Pakiet Positive vibes to dynamiczna funkcja zaprojektowana w celu zachęcania do zakupów poprzez wyświetlanie motywujących wiadomości, takich jak „60 osób kupiło 2+ razy” lub „37 sprzedało w ciągu ostatnich 24 godzin” w ciągle przesuwającym się formacie, co tworzy poczucie pilności i zwiększa popyt na produkt. [Dowiedz się więcej](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "Czas dostawy",
@@ -4051,7 +4053,7 @@
           "text": "Tekst"
         },
         "general": {
-          "label__1": "Włącz przyklejone informacje o produkcie na komputerze\/tablecie",
+          "label__1": "Włącz przyklejone informacje o produkcie na komputerze/tablecie",
           "label__2": "Układ pulpitu",
           "label__3": "Główna pozycja obrazu",
           "options__1": "Pokaż miniatury po lewej stronie",
@@ -4065,7 +4067,7 @@
           "buy_buttons": "Kup guziki",
           "show_gift_card_recipient": {
             "label": "Pokaż formularz odbiorcy produktów z karty upominkowej",
-            "info": "Umożliwia kupującym wysyłanie kart podarunkowych w zaplanowanym terminie wraz z osobistą wiadomością. [Dowiedz się więcej](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "Umożliwia kupującym wysyłanie kart podarunkowych w zaplanowanym terminie wraz z osobistą wiadomością. [Dowiedz się więcej](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "Udział",
           "vendor": "Sprzedawca",
@@ -4116,7 +4118,7 @@
           "product_tab_source_info": "Ma zastosowanie tylko wtedy, gdy ustawienie „Pokaż treść dla” jest ustawione na „Określone produkty korzystające z metapola”.",
           "dynamic_source": "Źródło dynamiczne",
           "key_text_source": "Klucz metapola produktu",
-          "product_tab_key_info": "Dotyczy wyłącznie sytuacji, gdy ustawienie „Pokaż zawartość dla” jest ustawione na „Określone produkty używające metapola”, a ustawienie „Źródło zawartości” jest ustawione na „Klucz metapola produktu”. [Dowiedz się więcej](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "Dotyczy wyłącznie sytuacji, gdy ustawienie „Pokaż zawartość dla” jest ustawione na „Określone produkty używające metapola”, a ustawienie „Źródło zawartości” jest ustawione na „Klucz metapola produktu”. [Dowiedz się więcej](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "Aktywny kolor miniatury",
           "navigation_arrows_color_mobile": "Kolor strzałek nawigacyjnych na telefonie komórkowym",
           "read_more": "Przeczytaj więcej",
@@ -4136,7 +4138,7 @@
           "options__9": "Najedź kursorem na główne obrazy",
           "unit": "%",
           "layout_video": "Układ wideo",
-          "info__1": "Dowiedz się więcej o [dopasowaniu multimediów](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)",
+          "info__1": "Dowiedz się więcej o [dopasowaniu multimediów](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)",
           "info__2": "Nie dotyczy, gdy ustawienie dopasowania nośnika jest ustawione na oryginał.",
           "info__3": "Dotyczy wyłącznie opcji portretu w ustawieniu proporcji obrazu produktu."
         },
@@ -4177,7 +4179,7 @@
         "variant": {
           "label__2": "Włącz grupowanie obrazów wariantowych",
           "options__1": "Lista rozwijana",
-          "options__2": "Kwadrat\/prostokąt\/próbka",
+          "options__2": "Kwadrat/prostokąt/próbka",
           "variant_picker": "Selektor wariantów"
         },
         "quantity": {
@@ -4202,11 +4204,11 @@
         },
         "dynamic_checkout": {
           "label": "Pokaż dynamiczne przyciski kasy",
-          "info": "Klienci, korzystając z metod płatności dostępnych w Twoim sklepie, zobaczą preferowaną opcję, np. PayPal lub Apple Pay. [Dowiedz się więcej](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "Klienci, korzystając z metod płatności dostępnych w Twoim sklepie, zobaczą preferowaną opcję, np. PayPal lub Apple Pay. [Dowiedz się więcej](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "Pokaż następny\/poprzedni produkt",
-          "info": "Pokaż produkt z następnego\/poprzedniego produktu w kolekcji"
+          "label": "Pokaż następny/poprzedni produkt",
+          "info": "Pokaż produkt z następnego/poprzedniego produktu w kolekcji"
         },
         "size_chart": {
           "label__1": "Włącz tabelę rozmiarów",
@@ -4277,7 +4279,7 @@
           "label__1": "Pokaż produkt uzupełniający",
           "label__2": "Uzupełniający styl produktu 1",
           "label__3": "Uzupełniający styl produktu 2",
-          "info__1": "Aby wybrać produkty uzupełniające, dodaj aplikację wyszukiwania i odkrywania. [Dowiedz się więcej](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "Aby wybrać produkty uzupełniające, dodaj aplikację wyszukiwania i odkrywania. [Dowiedz się więcej](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4302,7 +4304,7 @@
             "options__1": "Wszystkie produkty",
             "options__2": "Konkretne produkty wykorzystujące metapole",
             "info_1": "Ma zastosowanie tylko wtedy, gdy ustawienie „Pokaż treść dla” jest ustawione na „Wszystkie produkty”.",
-            "info_2": "[Dowiedz się więcej o tym, jak skonfigurować niestandardową kartę za pomocą metapola](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)"
+            "info_2": "[Dowiedz się więcej o tym, jak skonfigurować niestandardową kartę za pomocą metapola](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)"
           }
         },
         "grouped_product": {
@@ -4437,8 +4439,8 @@
         "info": "Dotyczy 'pozycji treści', która jest 'Względna'",
         "info_2": "Prawy blok jest obliczany automatycznie",
         "title_align": "Wyrównanie treści",
-        "align_items_spacing_tb": "Treść: odstęp góra\/odstęp dół",
-        "align_items_spacing_lr": "Treść: odstęp lewy\/odstęp prawy",
+        "align_items_spacing_tb": "Treść: odstęp góra/odstęp dół",
+        "align_items_spacing_lr": "Treść: odstęp lewy/odstęp prawy",
         "enable_item_1": "Włącz element 1",
         "enable_item_2": "Włącz element 2",
         "enable_item_3": "Włącz element 3",
@@ -4633,7 +4635,7 @@
           "name": "Kolekcja obrazu",
           "settings": {
             "paragraph": {
-              "content": "Aby zmienić opisy kolekcji lub obrazy kolekcji, [edytuj swoje kolekcje.](\/admin\/collections)"
+              "content": "Aby zmienić opisy kolekcji lub obrazy kolekcji, [edytuj swoje kolekcje.](/admin/collections)"
             },
             "general": {
               "label__1": "Pokaż baner paralaksy",
@@ -4654,7 +4656,7 @@
             },
             "description": {
               "label__1": "Pokaż opis kolekcji",
-              "label__2": "Pokaż „czytaj więcej”\/„czytaj mniej”",
+              "label__2": "Pokaż „czytaj więcej”/„czytaj mniej”",
               "label__3": "Pozycja",
               "label__4": "Pokaż tytuł kolekcji",
               "label__5": "Wyrównanie opisu kolekcji",
@@ -4715,7 +4717,7 @@
         },
         "general": {
           "label": "Włącz pakiet produktów",
-          "info": "Dowiedz się więcej [pakiet produktów](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "Dowiedz się więcej [pakiet produktów](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "Włącz zniżkę na pakiet",
@@ -4813,10 +4815,10 @@
     "app_partner": {
       "name": "Partner aplikacji",
       "enable_promotion": "Włącz ofertę PageFly",
-      "label_1": "1. Funkcja recenzji: użyj [aplikacji Loox](https:\/\/shopify.pxf.io\/y2D52b) i uzyskaj 30-dniowy okres próbny. [Jak skonfigurować loox?](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. Oferta ekskluzywna: 3 miesiące korzystania z 20 stron PageFly za jedyne 1 USD\/miesiąc. [Skorzystaj z oferty teraz](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. Użyj [afiliacji i poleceń UpPromote](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs) i uzyskaj 20% zniżki.",
-      "label_4": "4. Gwałtownie zwiększ wydajność witryny dzięki [Avada SEO pakiet](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
+      "label_1": "1. Funkcja recenzji: użyj [aplikacji Loox](https://shopify.pxf.io/y2D52b) i uzyskaj 30-dniowy okres próbny. [Jak skonfigurować loox?](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. Oferta ekskluzywna: 3 miesiące korzystania z 20 stron PageFly za jedyne 1 USD/miesiąc. [Skorzystaj z oferty teraz](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. Użyj [afiliacji i poleceń UpPromote](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs) i uzyskaj 20% zniżki.",
+      "label_4": "4. Gwałtownie zwiększ wydajność witryny dzięki [Avada SEO pakiet](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
     },
     "slidable_spotlight": {
       "name": "Przesuwany reflektor",
@@ -4906,7 +4908,7 @@
           "country": "Kraj",
           "cross_street": "Ulica Krzyżowa",
           "postal_code": "Kod pocztowy",
-          "state": "Stan\/Prowincja",
+          "state": "Stan/Prowincja",
           "info": "np.: (202) 387-9338",
           "map_iframe": "Wstaw ramkę iframe mapy Google"
         }
@@ -4924,12 +4926,12 @@
         "tiktok_video": {
           "name": "Film z Tiktoka",
           "embed_code": "Identyfikator wideo",
-          "info__1": "[Instrukcje uzyskiwania identyfikatora wideo Tiktok](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[Instrukcje uzyskiwania identyfikatora wideo Tiktok](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "Suwak obrazu przed\/po",
+      "name": "Suwak obrazu przed/po",
       "settings": {
         "content_position": "Pozycja treści",
         "above": "Powyżej porównaj obrazy",

@@ -86,7 +86,7 @@
           "label__3": "Pictogramkleur voor mobiel laden"
         },
         "colors_breadcrumb": {
-          "label__4": "Broodkruimelachtergrond\/verloop alleen voor broodkruimelindelingen 2 en 3"
+          "label__4": "Broodkruimelachtergrond/verloop alleen voor broodkruimelindelingen 2 en 3"
         },
         "spinner_colors": {
           "content": "Spinner laden",
@@ -134,7 +134,7 @@
           "product_page_gallery": "Galerij",
           "product_page_left_thumbs": "Verticale miniaturen links",
           "product_page_right_thumbs": "Rechter verticale miniaturen",
-          "product_page_left_right_sidebar": "Links\/rechts zijbalk",
+          "product_page_left_right_sidebar": "Links/rechts zijbalk",
           "product_page_horizontal_tabs_no_sidebar": "Horizontale tabbladen zonder zijbalk",
           "product_page_step_by_step": "Stap voor Stap",
           "header_layout_rtl": "Indeling van rechts naar links",
@@ -142,7 +142,7 @@
           "list_iso_rtl": "ISO-codelijst voor RTL-talen",
           "list_iso_rtl_info": "Scheid elke ISO-taalcode met een ','. Bijv.: ar, ha, he",
           "list_iso_rtl_placeholder": "ar, ha, he",
-          "list_iso_rtl_note": "Geef de ISO-taalcodes weer om automatisch over te schakelen naar RTL-indeling: ar:(Arabisch); dv:(Dhivehi,Maldivisch); ha:(Hausa); he:(Hebreeuws); ku:(Koerdisch\/Sorani); fa:(Perzisch\/Farsi); ur:(Urdu); ps:(Pashto); yi:(Jiddisch)"
+          "list_iso_rtl_note": "Geef de ISO-taalcodes weer om automatisch over te schakelen naar RTL-indeling: ar:(Arabisch); dv:(Dhivehi,Maldivisch); ha:(Hausa); he:(Hebreeuws); ku:(Koerdisch/Sorani); fa:(Perzisch/Farsi); ur:(Urdu); ps:(Pashto); yi:(Jiddisch)"
         }
       }
     },
@@ -160,7 +160,7 @@
           "label__1": "Lettertypebron",
           "options__1": "Google-lettertypen",
           "options__2": "Shopify-lettertypen",
-          "info": "Om Google-lettertypen te gebruiken, voegt u de naam van het lettertype toe. [Meer informatie](https:\/\/fonts.google.com\/)",
+          "info": "Om Google-lettertypen te gebruiken, voegt u de naam van het lettertype toe. [Meer informatie](https://fonts.google.com/)",
           "info_shopify_font": "Optimaliseer de prestaties van uw website door shopify-lettertypen te gebruiken!",
           "info_language": "Bij het configureren van een taal in de aanpassingsinstellingen is het belangrijk om dezelfde taalvoorkeur ook in de administratieve instellingen vast te leggen."
         },
@@ -170,7 +170,7 @@
         "type_body_font": {
           "title": "Lichaamslettertype",
           "label": "Shopify-lettertype",
-          "info": "Als u een ander lettertype selecteert, kan dit de snelheid van uw winkel beïnvloeden. [Lees meer over systeemlettertypen.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Als u een ander lettertype selecteert, kan dit de snelheid van uw winkel beïnvloeden. [Lees meer over systeemlettertypen.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_heading_font": {
           "title": "Koplettertype",
@@ -184,7 +184,7 @@
           "title_mega_menu_lv2": "Megamenu niveau 2",
           "title_mega_menu_lv3": "Megamenuniveau 3",
           "label": "Navigatielettertypefamilie",
-          "info": "Als u een ander lettertype selecteert, kan dit de snelheid van uw winkel beïnvloeden. [Lees meer over systeemlettertypen.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
+          "info": "Als u een ander lettertype selecteert, kan dit de snelheid van uw winkel beïnvloeden. [Lees meer over systeemlettertypen.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "type_product_item_font": {
           "title": "Lettertype van productitem",
@@ -237,7 +237,7 @@
           "yes": "Ja",
           "no": "Nee",
           "label": "Knop 1 lettertypefamilie",
-          "info": "Als u een ander lettertype selecteert, kan dit de snelheid van uw winkel beïnvloeden. [Lees meer over systeemlettertypen.](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)",
+          "info": "Als u een ander lettertype selecteert, kan dit de snelheid van uw winkel beïnvloeden. [Lees meer over systeemlettertypen.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)",
           "enable_border_outside": "Overzicht tonen",
           "cta_button": "CTA-knop"
         },
@@ -391,11 +391,11 @@
           "view_all_icon_side": "Pictogrampositie 'Bekijk alles'",
           "view_all_font_size": "Lettergrootte 'Bekijk alles'",
           "view_all_width": "Breedte 'Bekijk alles'",
-          "view_all_info": "Ga naar deze link [vind je pictogram](https:\/\/fontawesome.com\/v5\/search). Zoek het pictogram dat je wilt, kopieer vervolgens de SVG-code en plak deze hier.",
-          "logo_icon_info": "Alleen van toepassing als de logo-afbeelding leeg is gelaten. Ga naar deze link [vind uw pictogram](https:\/\/fontawesome.com\/v5\/search). Zoek het pictogram dat u wilt, kopieer vervolgens de SVG-code en plak deze hier.",
+          "view_all_info": "Ga naar deze link [vind je pictogram](https://fontawesome.com/v5/search). Zoek het pictogram dat je wilt, kopieer vervolgens de SVG-code en plak deze hier.",
+          "logo_icon_info": "Alleen van toepassing als de logo-afbeelding leeg is gelaten. Ga naar deze link [vind uw pictogram](https://fontawesome.com/v5/search). Zoek het pictogram dat u wilt, kopieer vervolgens de SVG-code en plak deze hier.",
           "item": "Artikelen",
-          "item_padding_top_bottom": "Boven-\/ondervulling",
-          "item_padding_left_right": "Links\/rechts opvulling",
+          "item_padding_top_bottom": "Boven-/ondervulling",
+          "item_padding_left_right": "Links/rechts opvulling",
           "item_padding_top": "Bovenste vulling van het item",
           "item_padding_bottom": "Artikel onderkant opvulling",
           "item_width": "Artikelbreedte",
@@ -429,19 +429,19 @@
           "icon_color_hover": "Pictogram hoverkleur",
           "icon_color_mb": "Pictogramkleur op mobiel",
           "icon_width": "Pictogrammen breedte",
-          "icon_width_info": "Van toepassing wanneer de weergave-instelling voor tekst\/pictogram is ingesteld op pictogram",
+          "icon_width_info": "Van toepassing wanneer de weergave-instelling voor tekst/pictogram is ingesteld op pictogram",
           "icon_height": "Pictogrammen hoogte",
           "icon_width_1": "Pictogrambreedte",
           "icon_height_1": "Pictogramhoogte",
           "icon_width_mb": "Pictogrambreedte op mobiel",
           "icon_height_mb": "Pictogramhoogte op mobiel",
-          "icon_mg_right": "Tekst\/SVG-pictogram rechtermarge",
+          "icon_mg_right": "Tekst/SVG-pictogram rechtermarge",
           "icon_mg_bottom": "Pictogramafstand onderaan",
           "icon_spacing_mobile": "Pictogramafstand op mobiel",
-          "icon_type": "Gebruik een afbeelding of tekst\/SVG-pictogram",
+          "icon_type": "Gebruik een afbeelding of tekst/SVG-pictogram",
           "icons_type": "Pictogrammen typen",
           "icons_type_info": "Alleen van toepassing als de instelling 'icons type' op Icon staat.",
-          "text_svg_icon": "Tekst\/SVG-pictogram",
+          "text_svg_icon": "Tekst/SVG-pictogram",
           "layout_mobile": "Mobiele lay-out",
           "layout_mobile_info": "Alleen van toepassing op rasterindeling",
           "list": "Lijst",
@@ -518,7 +518,7 @@
           "beside_the_title": "Naast de titel",
           "width_on_desktop": "Breedte op bureaublad",
           "section_footer": "Sectie voettekst",
-          "prev_next_button": "Knop Vorige\/Volgende",
+          "prev_next_button": "Knop Vorige/Volgende",
           "info_mobile_layout": "Alleen van toepassing als de instelling 'mobiele layout' op slider staat.",
           "header_block": {
             "option_1": "Titel links met weergave alles links",
@@ -526,7 +526,8 @@
             "option_3": "Titel midden met overzicht alles links",
             "option_4": "Titel midden met goed zicht",
             "option_5": "Titel midden met bekijk alles hieronder"
-          }
+          },
+          "spacing_view_all_icon": "Spacing between 'View all' and icon"
         },
         "footer": {
           "content": "Voettekst lettertype"
@@ -577,23 +578,23 @@
         "whatsapp_label": "Deel op Whatsapp",
         "header__2": "Sociale accounts",
         "social_twitter_link_label": "Twitter-link",
-        "social_twitter_link_info": "https:\/\/twitter.com\/shopify",
+        "social_twitter_link_info": "https://twitter.com/shopify",
         "social_facebook_link_label": "Facebook-link",
-        "social_facebook_link_info": "https:\/\/facebook.com\/shopify",
+        "social_facebook_link_info": "https://facebook.com/shopify",
         "social_pinterest_link_label": "Pinterest-link",
-        "social_pinterest_link_info": "https:\/\/pinterest.com\/shopify",
+        "social_pinterest_link_info": "https://pinterest.com/shopify",
         "social_instagram_link_label": "Instagram-link",
-        "social_instagram_link_info": "http:\/\/instagram.com\/shopify",
+        "social_instagram_link_info": "http://instagram.com/shopify",
         "social_tiktok_link_label": "TikTok-link",
-        "social_tiktok_link_info": "https:\/\/tiktok.com\/@shopify",
+        "social_tiktok_link_info": "https://tiktok.com/@shopify",
         "social_tumblr_link_label": "Tumblr-link",
-        "social_tumblr_link_info": "https:\/\/shopify.tumblr.com",
+        "social_tumblr_link_info": "https://shopify.tumblr.com",
         "social_snapchat_link_label": "Snapchat-link",
-        "social_snapchat_link_info": "https:\/\/www.snapchat.com\/add\/shopify",
+        "social_snapchat_link_info": "https://www.snapchat.com/add/shopify",
         "social_youtube_link_label": "YouTube-link",
-        "social_youtube_link_info": "https:\/\/www.youtube.com\/shopify",
+        "social_youtube_link_info": "https://www.youtube.com/shopify",
         "social_vimeo_link_label": "Vimeo-link",
-        "social_vimeo_link_info": "https:\/\/vimeo.com\/shopify"
+        "social_vimeo_link_info": "https://vimeo.com/shopify"
       }
     },
     "general": {
@@ -637,7 +638,7 @@
         },
         "header__14": {
           "content": "Aanpassingsoptie",
-          "info": "Aanpassingsopties worden gebruikt om aanpassingsinformatie te verzamelen voor een artikel dat aan de winkelwagen is toegevoegd. Deze informatie kan worden verzameld van de koper op de productpagina en in het snelle overzicht. [Meer informatie](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/customization-option)"
+          "info": "Aanpassingsopties worden gebruikt om aanpassingsinformatie te verzamelen voor een artikel dat aan de winkelwagen is toegevoegd. Deze informatie kan worden verzameld van de koper op de productpagina en in het snelle overzicht. [Meer informatie](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/customization-option)"
         },
         "favicon": {
           "label": "Favicon-afbeelding",
@@ -651,8 +652,8 @@
           "label__7": "Link naar knop Privacybeleid",
           "label__8": "Accepteer cookies knoplabel",
           "color_privacy_policy": "Knopkleur privacybeleid",
-          "info__1": "[Meer informatie](https:\/\/help.shopify.com\/en\/manual\/uw-account\/privacy\/cookies)",
-          "info__2": "Voorbeeld: https:\/\/policies.google.com"
+          "info__1": "[Meer informatie](https://help.shopify.com/en/manual/uw-account/privacy/cookies)",
+          "info__2": "Voorbeeld: https://policies.google.com"
         },
         "wishlist": {
           "label": "Verlanglijst inschakelen",
@@ -735,7 +736,7 @@
           "style_10": "Stijl 10"
         },
         "trust_image": {
-          "info__1": "Productpagina\/Snelle weergave",
+          "info__1": "Productpagina/Snelle weergave",
           "info__2": "Winkelwagenpagina"
         },
         "pagination": {
@@ -828,7 +829,7 @@
           "label__19": "Bundelbadge tonen",
           "label__23": "Lettergrootte",
           "label__24": "Hoekradius",
-          "label__26": "Links\/rechts opvulling",
+          "label__26": "Links/rechts opvulling",
           "label__28": "Verticale positie",
           "label__29": "Horizontale positie",
           "options__3": "Dynamisch",
@@ -883,7 +884,7 @@
         },
         "product_wishlist": {
           "label__1": "Toon verlanglijst",
-          "label__4": "Tekst\/pictogram actief",
+          "label__4": "Tekst/pictogram actief",
           "label__5": "Achtergrond actief",
           "label__9": "Grens actief",
           "label__10": "Toon verlanglijst op mobiel",
@@ -899,8 +900,8 @@
         "product_quick_view": {
           "label__1": "Snelle weergave weergeven",
           "label__2": "Snelle weergavestijl",
-          "label__3": "Tekst\/pictogram",
-          "label__5": "Tekst\/pictogram zweven",
+          "label__3": "Tekst/pictogram",
+          "label__5": "Tekst/pictogram zweven",
           "label__6": "Achtergrond zweven",
           "label__7": "Snelle weergave en verlanglijstpositie",
           "label__8": "Snelle weergave weergeven op mobiel",
@@ -955,10 +956,10 @@
         "currency_format_enable": "Valutaformaat inschakelen",
         "info_currency_format": "Winkelwagen- en afrekenprijzen tonen altijd valutacodes. Bijvoorbeeld: $1,00 USD.",
         "enable_shopify_payments_currencies": "Shopify-betalingen inschakelen?",
-        "info_1": "Alleen beschikbaar voor winkels met Shopify Payments. Link [hier](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_1": "Alleen beschikbaar voor winkels met Shopify Payments. Link [hier](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "enable_multiple_currencies": "Meerdere valuta's inschakelen?",
         "enable_auto_currency": "Automatische valuta inschakelen?",
-        "info_2": "Kies niet alle 3 opties tegelijk en combineer Shopify Payment niet met anderen. Link [hier](https:\/\/help.shopify.com\/en\/manual\/payments\/shopify-payments\/multi-currency\/setup)",
+        "info_2": "Kies niet alle 3 opties tegelijk en combineer Shopify Payment niet met anderen. Link [hier](https://help.shopify.com/en/manual/payments/shopify-payments/multi-currency/setup)",
         "i-currency-1": "SVG-pictogram voor valutacode 1",
         "currency_1_unit": "Valutacode 1",
         "usd": "USD",
@@ -982,8 +983,8 @@
         "currency_9_unit": "Valutacode 9",
         "i-currency-10": "SVG-pictogram voor valutacode 10",
         "currency_10_unit": "Valutacode 10",
-        "paragraph_1": "Scheid uw valutacodes met een spatie. Gebruik de ISO 4217 3-letter valutacode. Klik [hier](http:\/\/www.xe.com\/iso4217.php) voor een complete lijst met valutacodes. Bijvoorbeeld: CAD USD.",
-        "paragraph_2": "Om deze functionaliteit in uw winkel te laten werken, moet u uw geldformaten bewerken volgens [deze instructies](http:\/\/help.shopify.com\/en\/themes\/customization\/currencies). (Geef aan waar het geldformaat zich bevindt.)",
+        "paragraph_1": "Scheid uw valutacodes met een spatie. Gebruik de ISO 4217 3-letter valutacode. Klik [hier](http://www.xe.com/iso4217.php) voor een complete lijst met valutacodes. Bijvoorbeeld: CAD USD.",
+        "paragraph_2": "Om deze functionaliteit in uw winkel te laten werken, moet u uw geldformaten bewerken volgens [deze instructies](http://help.shopify.com/en/themes/customization/currencies). (Geef aan waar het geldformaat zich bevindt.)",
         "select_a_currency": "Selecteer een valutafunctie",
         "option_1": "Shopify-betaling",
         "option_2": "Meerdere valuta's",
@@ -1097,7 +1098,7 @@
         },
         "quick_edit_cart": {
           "label__1": "Toon snelbewerkingswagentje",
-          "options__5": "Knoop\/staal"
+          "options__5": "Knoop/staal"
         }
       }
     },
@@ -1304,7 +1305,7 @@
     },
     "countdown": {
       "name": "Aftellen",
-      "info": "Countdown laat klanten de periode zien waarin het product in de aanbieding is. [Meer informatie](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/countdown)",
+      "info": "Countdown laat klanten de periode zien waarin het product in de aanbieding is. [Meer informatie](https://halosoft.gitbook.io/ella-documentation/theme-settings/countdown)",
       "settings": {
         "general": {
           "label__1": "Aftellen weergeven",
@@ -1316,7 +1317,7 @@
           "options__2": "Voor elk product",
           "options__3": "Voor de collectie",
           "info": "Voorbeeld: Dec 31, 2024 18:00:00",
-          "info__1": "Gebruik dit exacte formaat: jjjj\/mm\/dd uur\/minuut\/seconde. Bijvoorbeeld: 2024\/12\/4 0:0:00."
+          "info__1": "Gebruik dit exacte formaat: jjjj/mm/dd uur/minuut/seconde. Bijvoorbeeld: 2024/12/4 0:0:00."
         }
       }
     },
@@ -1420,8 +1421,8 @@
       "settings": {
         "alignment": {
           "label__1": "Uitlijning",
-          "label__2": "Uitlijning (boven\/midden\/onder)",
-          "label__3": "Uitlijning (links\/midden\/rechts\/uitvullen)",
+          "label__2": "Uitlijning (boven/midden/onder)",
+          "label__3": "Uitlijning (links/midden/rechts/uitvullen)",
           "label__4": "Uitlijning op mobiel",
           "label__5": "Linkerpositie voor inhoud",
           "options__4": "Verantwoorden",
@@ -1517,13 +1518,13 @@
         },
         "typography": {
           "paragraph__1": {
-            "content": "Titel\/kop typografie"
+            "content": "Titel/kop typografie"
           },
           "paragraph__2": {
             "content": "Teksttypografie"
           },
           "paragraph__3": {
-            "content": "Datum\/auteur\/commentaar typografie"
+            "content": "Datum/auteur/commentaar typografie"
           },
           "font_style": "Lettertypestijl"
         }
@@ -1854,7 +1855,7 @@
           "select_menu": "Categoriemenu",
           "recommen_image": "Aanbevolen afbeelding: 250 x 250px",
           "banner_link": "Bannerlink",
-          "info__1": "Upload afbeeldingen met dezelfde naam als de menu-ingang om afbeeldingen voor elke categorie weer te geven. [Meer informatie](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
+          "info__1": "Upload afbeeldingen met dezelfde naam als de menu-ingang om afbeeldingen voor elke categorie weer te geven. [Meer informatie](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/slideshow#how-to-show-category-block-for-slideshow-like-on-the-supermarket-homepage)"
         }
       },
       "presets": {
@@ -2083,9 +2084,9 @@
         "content_spacing": "Inhoud opvulling",
         "align_items_spacing_top": "Inhoud bovenmarge",
         "align_items_spacing_bottom": "Inhoud ondermarge",
-        "align_items_spacing_lr": "Inhoud links\/rechts-afstand",
-        "align_items_spacing_top_bottom_position": "Boven-\/onderafstand inhoud",
-        "align_items_spacing_top_bottom_position_mb": "Boven-\/onderafstand van inhoud op mobiel",
+        "align_items_spacing_lr": "Inhoud links/rechts-afstand",
+        "align_items_spacing_top_bottom_position": "Boven-/onderafstand inhoud",
+        "align_items_spacing_top_bottom_position_mb": "Boven-/onderafstand van inhoud op mobiel",
         "content_1": "Blokkeer artikelen",
         "enable_shadow": "Toon doosschaduw",
         "use_special_header_layout": "Speciale lay-out gebruiken",
@@ -2134,8 +2135,8 @@
           "blog_style_1": "Hieronder de afbeelding",
           "blog_style_2": "Laat de afbeelding overlappen",
           "show_link_as": "Toon de link 'bekijk details' als knop",
-          "link_button_color": "Kleur van link-\/knoplabel",
-          "link_button_hover_color": "Kleur van het link-\/knoplabel"
+          "link_button_color": "Kleur van link-/knoplabel",
+          "link_button_hover_color": "Kleur van het link-/knoplabel"
         }
       },
       "presets": {
@@ -2221,7 +2222,7 @@
         "tab": {
           "name": "Tabbladitem",
           "show_image": "Tabbladafbeelding weergeven",
-          "info": "Selecteer een navigatie om de blokitems weer te geven. [Lees meer over het uploaden van afbeeldingen.](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/brand-tab#how-to-show-images-for-brand-tab-section)"
+          "info": "Selecteer een navigatie om de blokitems weer te geven. [Lees meer over het uploaden van afbeeldingen.](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/brand-tab#how-to-show-images-for-brand-tab-section)"
         }
       },
       "settings": {
@@ -2264,7 +2265,7 @@
         "info": "Alleen van toepassing als de instelling voor het uitlijnen van de inhoud is ingesteld op gecentreerd.",
         "enable_map": "Google-kaart weergeven",
         "map_iframe": "Een kaart insluiten",
-        "info__1": "U moet naar [Google maps](https:\/\/www.google.com\/maps) gaan om de HTML-insluitcode op te halen.",
+        "info__1": "U moet naar [Google maps](https://www.google.com/maps) gaan om de HTML-insluitcode op te halen.",
         "button": {
           "label__8": "Maximale knoopbreedte"
         }
@@ -2594,7 +2595,7 @@
           "product_block_02": "Productblokduo",
           "feature_product": "Uitgelicht product",
           "feature_product_unsymmetrical": "Producthoogtepunt",
-          "info_tablet_mobile": "Gebruik voor mobiel\/tablet"
+          "info_tablet_mobile": "Gebruik voor mobiel/tablet"
         },
         "product_block_layout": {
           "option": "Indeling",
@@ -2650,11 +2651,11 @@
           "content": "Indeling schuifregelaar",
           "product_block_dots": "Toon navigatiepunten",
           "product_block_dots_desk": "Toon navigatiepunten op het bureaublad",
-          "product_block_dots_mb": "Toon navigatiepunten op mobiel\/tablet",
+          "product_block_dots_mb": "Toon navigatiepunten op mobiel/tablet",
           "product_block_dots_spacing_top": "Bovenmarge van de navigatiepunten",
           "product_block_arrows": "Toon navigatiepijlen",
           "product_block_arrows_desk": "Toon navigatiepijlen op het bureaublad",
-          "product_block_arrows_mb": "Toon navigatiepijlen op mobiel\/tablet",
+          "product_block_arrows_mb": "Toon navigatiepijlen op mobiel/tablet",
           "product_block_arrows_position": "Schakel aangepaste positionering van navigatiepijlen op het bureaublad in",
           "use_special_arrow_position": "Gebruik speciale pijlpositie",
           "enable_progress_bar": "Schuifbalk weergeven",
@@ -2692,8 +2693,8 @@
             "info__1": "Positie wordt automatisch geoptimaliseerd voor mobiel."
           },
           "name": "Banier",
-          "align_items_spacing_tb": "Inhoud boven\/onder opvulling",
-          "align_items_spacing_lr": "Inhoud links\/rechts opvulling",
+          "align_items_spacing_tb": "Inhoud boven/onder opvulling",
+          "align_items_spacing_lr": "Inhoud links/rechts opvulling",
           "position_vertical_arrow": "Verticale positie (eenheid % of px)",
           "info__1": "Geldt alleen als de instelling 'inhoudspositie' op boven of onder staat.",
           "info__2": "Geldt alleen wanneer de instelling 'content uitlijning' op links of rechts staat."
@@ -2892,7 +2893,7 @@
         "box_shadow_hover_color": "Kleur van de schaduw van het vak",
         "social_media_link": {
           "content": "Sociale media iconen",
-          "info": "Om uw sociale media-accounts weer te geven, koppelt u ze in uw [thema-instellingen](\/editor?context=theme&category=social%20media).",
+          "info": "Om uw sociale media-accounts weer te geven, koppelt u ze in uw [thema-instellingen](/editor?context=theme&category=social%20media).",
           "show_social": "Toon sociale media iconen",
           "enable_background_social": "Toon achtergronden op sociale iconen",
           "social_position": {
@@ -2978,7 +2979,7 @@
             "option": "Type betalingspictogrammen",
             "option1": "Standaard",
             "option2": "Aangepast",
-            "info": "Wanneer u 'standaard' kiest, gaat u naar uw [betalingsinstellingen.](\/admin\/settings\/betalingen) om betalingspictogrammen toe te voegen"
+            "info": "Wanneer u 'standaard' kiest, gaat u naar uw [betalingsinstellingen.](/admin/settings/betalingen) om betalingspictogrammen toe te voegen"
           },
           "payment_position": {
             "option": "Betalingspositie",
@@ -3091,12 +3092,12 @@
           "background_color_items_cart_mb": "Achtergrondkleur van items op mobiel",
           "color_items_cart_mb": "Items kleuren op mobiel",
           "font_size_cart_item": "Lettergrootte van artikel",
-          "language_currency": "Taal\/valuta",
-          "label__2": "Tekst-\/pictogramkleur 1",
-          "label__3": "Tekst-\/pictogramkleur 2",
-          "label__3_1": "Tekst-\/pictogramkleur 3",
-          "label__4": "Tekst\/pictogramkleur",
-          "label__5": "Tekst\/pictogram hoverkleur",
+          "language_currency": "Taal/valuta",
+          "label__2": "Tekst-/pictogramkleur 1",
+          "label__3": "Tekst-/pictogramkleur 2",
+          "label__3_1": "Tekst-/pictogramkleur 3",
+          "label__4": "Tekst/pictogramkleur",
+          "label__5": "Tekst/pictogram hoverkleur",
           "label__6": "Randkleur van het pictogram",
           "label__7": "Gebruik typemachine",
           "label__8": "Toon eerste inhoud op mobiel",
@@ -3120,7 +3121,7 @@
           "bg_bottom": "Onderste achtergrond",
           "mg_top": "Opvulling menu bovenaan",
           "mg_bottom": "Opvulling menu onderkant",
-          "spacing_left_right": "Items links\/rechts opvulling",
+          "spacing_left_right": "Items links/rechts opvulling",
           "spacing_left_menu": "Linkeropvulling van het menu",
           "spacing_right_menu": "Rechter opvulling van het menu"
         },
@@ -3199,7 +3200,7 @@
           "label__1": "Logo-afbeelding",
           "label__2": "Afbeelding van mobiel logo",
           "label__3": "Positie van het bureaubladlogo",
-          "label__fixed": "Logoafbeelding voor sticky header\/vaste header",
+          "label__fixed": "Logoafbeelding voor sticky header/vaste header",
           "label__7": "Logotekst of SVG-pictogram",
           "label__8": "Logotekst of SVG-pictogramkleur",
           "logo_info": "Dit logo wordt weergegeven als er geen tabbladmenu is toegevoegd",
@@ -3367,7 +3368,8 @@
           "color_link_text": "Kleur knoplabel",
           "url": "Knop koppeling",
           "info": "Eenheid: % of px",
-          "info__2": "Voer de naam in van het menu-item dat u op dit megamenu wilt toepassen."
+          "info__2": "Voer de naam in van het menu-item dat u op dit megamenu wilt toepassen.",
+          "label__40": "Sixth banner"
         },
         "navigation": {
           "name_1": "Kopnavigatie - duidelijk",
@@ -3379,8 +3381,8 @@
           "name_7": "Kopnavigatie - links uitgelijnd",
           "name_8": "Kopnavigatie - eenvoudig",
           "name_9": "Header-navigatie - meerdere sites",
-          "label_2": "Megamenu\/dropdownmenu",
-          "label_3": "Toon taal\/valuta",
+          "label_2": "Megamenu/dropdownmenu",
+          "label_3": "Toon taal/valuta",
           "label_5": "Toon in hoofdmenu",
           "label_6": "Weergeven in sticky menu",
           "label_7": "Toon alles",
@@ -3390,7 +3392,7 @@
           "option_3": "Rechter vulling",
           "cart_count_bubble": "Bel voor het tellen van winkelwagens",
           "search_input": "Zoekveldstijl 2",
-          "cart_wishlist_count_bubble": "Telbubbel voor winkelwagen\/verlanglijst",
+          "cart_wishlist_count_bubble": "Telbubbel voor winkelwagen/verlanglijst",
           "wishlist_count_bubble": "Bel voor verlanglijsttelling",
           "search_dropdown": "Vervolgkeuzelijst Zoeken",
           "search_dropdown_style": "Dropdownstijl voor zoeken",
@@ -3521,7 +3523,7 @@
           "label__1": "Toon auteur",
           "label__2": "Datum weergeven",
           "label__3": "Toon aandeel",
-          "label__4": "Toon volgend\/vorig artikel",
+          "label__4": "Toon volgend/vorig artikel",
           "label__5": "Toon hoofdafbeelding",
           "label__6": "Toon tags"
         }
@@ -3589,7 +3591,7 @@
           "options__1": "Basiskleur (gebruik kleurnaam)",
           "options__2": "Geavanceerde kleur (gebruik afbeelding met PNG-indeling)",
           "options__3": "Scrollen",
-          "info__1": "[Filters aanpassen](\/admin\/apps\/search-and-discovery)",
+          "info__1": "[Filters aanpassen](/admin/apps/search-and-discovery)",
           "info__2": "Voer de filternaam in om de staalstijl weer te geven",
           "info__3": "Voer de filternaam in om de rechthoekstijl weer te geven",
           "info__4": "Gebruikt voor filterweergave: knop meer weergeven",
@@ -3689,7 +3691,7 @@
         },
         "image": {
           "paragraph": {
-            "content": "Om afbeeldingen toe te voegen, [bewerk je collecties](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
+            "content": "Om afbeeldingen toe te voegen, [bewerk je collecties](https://help.shopify.com/en/manual/products/collections)"
           }
         },
         "grid": {
@@ -3925,7 +3927,7 @@
         },
         "social-media": {
           "label__1": "Laat sociale media zien",
-          "label__2": "Tekst\/pictogramkleur"
+          "label__2": "Tekst/pictogramkleur"
         },
         "countdown": {
           "label__1": "Tijd",
@@ -3966,7 +3968,7 @@
           "label__1": "Breedte",
           "option__1": "Medium",
           "option__2": "Groot",
-          "info": "Meer informatie over [mediatypen](https:\/\/help.shopify.com\/manual\/products\/product-media)"
+          "info": "Meer informatie over [mediatypen](https://help.shopify.com/manual/products/product-media)"
         },
         "header__3": {
           "content": "Kenteken"
@@ -3994,20 +3996,20 @@
         },
         "header__12": {
           "content": "Vertrouwde afbeeldingen",
-          "paragraph": "Vertrouwde afbeeldingen tonen alleen geverifieerde, hoogwaardige beelden op productpagina's, waardoor het vertrouwen van de klant wordt vergroot en weloverwogen aankoopbeslissingen worden ondersteund. [Meer informatie](https:\/\/halosoft.gitbook.io\/ella-documentation\/theme-settings\/general\/trust-image)"
+          "paragraph": "Vertrouwde afbeeldingen tonen alleen geverifieerde, hoogwaardige beelden op productpagina's, waardoor het vertrouwen van de klant wordt vergroot en weloverwogen aankoopbeslissingen worden ondersteund. [Meer informatie](https://halosoft.gitbook.io/ella-documentation/theme-settings/general/trust-image)"
         },
         "header__14": {
           "content": "Dynamische afrekenknoppen"
         },
         "header__15": {
-          "content": "Volgende\/vorige product"
+          "content": "Volgende/vorige product"
         },
         "header__16": {
           "content": "Maattabel"
         },
         "header__17": {
           "content": "Beschikbaarheid van ophalen",
-          "paragraph": "Toont beschikbare offline winkels voor de geselecteerde variant. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/fulfillment\/setup\/delivery-methods\/pickup-in-store)"
+          "paragraph": "Toont beschikbare offline winkels voor de geselecteerde variant. [Meer informatie](https://help.shopify.com/en/manual/fulfillment/setup/delivery-methods/pickup-in-store)"
         },
         "header__18": {
           "content": "Kleurvergelijking"
@@ -4020,14 +4022,14 @@
         },
         "header__21": {
           "content": "Variant metaveld",
-          "paragraph": "Toon variantspecifieke inhoud in het tabblad Beschrijving, waarbij u aangepaste inhoud biedt op basis van de geselecteerde variant. [Meer informatie](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/how-to-set-up-product-description-for-each-variant)"
+          "paragraph": "Toon variantspecifieke inhoud in het tabblad Beschrijving, waarbij u aangepaste inhoud biedt op basis van de geselecteerde variant. [Meer informatie](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/how-to-set-up-product-description-for-each-variant)"
         },
         "header__22": {
           "content": "Aanvullende producten"
         },
         "header__23": {
           "content": "Positieve vibes bundel",
-          "paragraph": "De Positive vibes-bundel is een dynamische functie die is ontworpen om aankopen te stimuleren door motiverende berichten weer te geven, zoals '60 mensen hebben 2+ keer gekocht' of '37 hebben verkocht in de afgelopen 24 uur' in een continu verschuivend formaat, waardoor urgentie wordt gecreëerd en de vraag naar het product wordt gestimuleerd. [Meer informatie](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/positive-vibes-bundle)"
+          "paragraph": "De Positive vibes-bundel is een dynamische functie die is ontworpen om aankopen te stimuleren door motiverende berichten weer te geven, zoals '60 mensen hebben 2+ keer gekocht' of '37 hebben verkocht in de afgelopen 24 uur' in een continu verschuivend formaat, waardoor urgentie wordt gecreëerd en de vraag naar het product wordt gestimuleerd. [Meer informatie](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/positive-vibes-bundle)"
         },
         "header__24": {
           "content": "Levertijd",
@@ -4052,7 +4054,7 @@
           "text": "Tekst"
         },
         "general": {
-          "label__1": "Schakel sticky productinformatie in op desktop\/tablet",
+          "label__1": "Schakel sticky productinformatie in op desktop/tablet",
           "label__2": "Bureaubladindeling",
           "label__3": "Hoofdbeeldpositie",
           "options__1": "Toon miniaturen aan de linkerkant",
@@ -4066,7 +4068,7 @@
           "buy_buttons": "Knopen kopen",
           "show_gift_card_recipient": {
             "label": "Toon ontvangersformulier voor cadeaubonproducten",
-            "info": "Hiermee kunnen kopers cadeaubonnen op een geplande datum verzenden, samen met een persoonlijk bericht. [Meer informatie](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
+            "info": "Hiermee kunnen kopers cadeaubonnen op een geplande datum verzenden, samen met een persoonlijk bericht. [Meer informatie](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
           },
           "share": "Deel",
           "vendor": "Leverancier",
@@ -4117,7 +4119,7 @@
           "product_tab_source_info": "Alleen van toepassing als de instelling 'Inhoud weergeven voor' is ingesteld op 'Specifieke producten met metaveld'.",
           "dynamic_source": "Dynamische bron",
           "key_text_source": "Product-metaveldsleutel",
-          "product_tab_key_info": "Alleen van toepassing wanneer de instelling 'Inhoud weergeven voor' is ingesteld op 'Specifieke producten die metaveld gebruiken' en de instelling 'Inhoudsbron' is ingesteld op 'Productmetaveldsleutel'. [Meer informatie](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)",
+          "product_tab_key_info": "Alleen van toepassing wanneer de instelling 'Inhoud weergeven voor' is ingesteld op 'Specifieke producten die metaveld gebruiken' en de instelling 'Inhoudsbron' is ingesteld op 'Productmetaveldsleutel'. [Meer informatie](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)",
           "product_thumbnail_color": "Actieve miniatuurkleur",
           "navigation_arrows_color_mobile": "Navigatiepijlen kleuren op mobiel",
           "read_more": "Lees meer",
@@ -4137,7 +4139,7 @@
           "options__9": "Beweeg over de hoofdafbeeldingen",
           "unit": "%",
           "layout_video": "Video-indeling",
-          "info__1": "Meer informatie over [media fit](https:\/\/halosoft.gitbook.io\/ella-documentation\/sections\/all-sections-in-theme\/featured-product#media)",
+          "info__1": "Meer informatie over [media fit](https://halosoft.gitbook.io/ella-documentation/sections/all-sections-in-theme/featured-product#media)",
           "info__2": "Niet van toepassing als de instelling Media Fit op Origineel is ingesteld.",
           "info__3": "Alleen van toepassing op de portretoptie van de instelling voor productbeeldverhouding."
         },
@@ -4178,7 +4180,7 @@
         "variant": {
           "label__2": "Schakel variantafbeelding gegroepeerd in",
           "options__1": "Dropdownmenu",
-          "options__2": "Vierkant\/rechthoek\/staal",
+          "options__2": "Vierkant/rechthoek/staal",
           "variant_picker": "Variantkiezer"
         },
         "quantity": {
@@ -4203,11 +4205,11 @@
         },
         "dynamic_checkout": {
           "label": "Toon dynamische afrekenknoppen",
-          "info": "Als klanten de betaalmethoden gebruiken die beschikbaar zijn in uw winkel, zien ze hun voorkeursoptie, zoals PayPal of Apple Pay. [Meer informatie](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
+          "info": "Als klanten de betaalmethoden gebruiken die beschikbaar zijn in uw winkel, zien ze hun voorkeursoptie, zoals PayPal of Apple Pay. [Meer informatie](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
         },
         "next_prev_product": {
-          "label": "Toon volgend\/vorig product",
-          "info": "Toon het product van het volgende\/vorige product in de collectie"
+          "label": "Toon volgend/vorig product",
+          "info": "Toon het product van het volgende/vorige product in de collectie"
         },
         "size_chart": {
           "label__1": "Maattabel inschakelen",
@@ -4278,7 +4280,7 @@
           "label__1": "Aanvullend product tonen",
           "label__2": "Complementaire productstijl 1",
           "label__3": "Complementaire productstijl 2",
-          "info__1": "Om aanvullende producten te selecteren, voegt u de zoek- en ontdekkingsapp toe. [Meer informatie](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+          "info__1": "Om aanvullende producten te selecteren, voegt u de zoek- en ontdekkingsapp toe. [Meer informatie](https://shopify.dev/themes/product-merchandising/recommendations)"
         }
       },
       "blocks": {
@@ -4303,7 +4305,7 @@
             "options__1": "Alle producten",
             "options__2": "Specifieke producten die metafield gebruiken",
             "info_1": "Alleen van toepassing als de instelling 'Inhoud weergeven voor' is ingesteld op 'Alle producten'.",
-            "info_2": "[Leer meer over het instellen van een aangepast tabblad met behulp van een metaveld](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-information\/product-tabs#setup-custom-tabs-by-metafields)"
+            "info_2": "[Leer meer over het instellen van een aangepast tabblad met behulp van een metaveld](https://halosoft.gitbook.io/ella-documentation/product-page/product-information/product-tabs#setup-custom-tabs-by-metafields)"
           }
         },
         "grouped_product": {
@@ -4438,8 +4440,8 @@
         "info": "Van toepassing op 'inhoudspositie' die 'Relatief' is",
         "info_2": "Rechter blok wordt automatisch berekend",
         "title_align": "Uitlijning van de inhoud",
-        "align_items_spacing_tb": "Inhoud: afstand boven\/afstand onder",
-        "align_items_spacing_lr": "Inhoud: afstand links\/afstand rechts",
+        "align_items_spacing_tb": "Inhoud: afstand boven/afstand onder",
+        "align_items_spacing_lr": "Inhoud: afstand links/afstand rechts",
         "enable_item_1": "Schakel item 1 in",
         "enable_item_2": "Schakel item 2 in",
         "enable_item_3": "Schakel item 3 in",
@@ -4634,7 +4636,7 @@
           "name": "Collectie afbeelding",
           "settings": {
             "paragraph": {
-              "content": "Om collectiebeschrijvingen of collectieafbeeldingen te wijzigen, [bewerk uw collecties.](\/admin\/collections)"
+              "content": "Om collectiebeschrijvingen of collectieafbeeldingen te wijzigen, [bewerk uw collecties.](/admin/collections)"
             },
             "general": {
               "label__1": "Parallaxbanner weergeven",
@@ -4655,7 +4657,7 @@
             },
             "description": {
               "label__1": "Toon collectiebeschrijving",
-              "label__2": "Toon 'lees meer'\/'lees minder'",
+              "label__2": "Toon 'lees meer'/'lees minder'",
               "label__3": "Positie",
               "label__4": "Toon collectietitel",
               "label__5": "Uitlijning van de collectiebeschrijving",
@@ -4716,7 +4718,7 @@
         },
         "general": {
           "label": "Productbundel inschakelen",
-          "info": "Meer informatie [productbundel](https:\/\/halosoft.gitbook.io\/ella-documentation\/product-page\/product-bundle)"
+          "info": "Meer informatie [productbundel](https://halosoft.gitbook.io/ella-documentation/product-page/product-bundle)"
         },
         "discount": {
           "label__1": "Schakel bundelkorting in",
@@ -4814,10 +4816,10 @@
     "app_partner": {
       "name": "App-partner",
       "enable_promotion": "Schakel PageFly-aanbieding in",
-      "label_1": "1. Voor de beoordelingsfunctie: gebruik [Loox-app](https:\/\/shopify.pxf.io\/y2D52b) en krijg een proefperiode van 30 dagen. [Hoe stel ik loox in?](https:\/\/docs.google.com\/document\/d\/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU\/edit?usp=sharing)",
-      "label_2": "2. Exclusief aanbod: 3 maanden met 20 PageFly-pagina's voor slechts $ 1\/maand. [Claim nu de aanbieding](https:\/\/pagefly.io\/pages\/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
-      "label_3": "3. Gebruik [UpPromote affiliate & Referral](https:\/\/partners.secomapp.com\/apps\/20off\/affiliate\/ecomlabs) en krijg 20% ​​korting.",
-      "label_4": "4. Vergroot de prestaties van je site met [Avada SEO suite](https:\/\/apps.shopify.com\/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
+      "label_1": "1. Voor de beoordelingsfunctie: gebruik [Loox-app](https://shopify.pxf.io/y2D52b) en krijg een proefperiode van 30 dagen. [Hoe stel ik loox in?](https://docs.google.com/document/d/168AUIxIHClZrhTGNk3eVg8eEF4ZiBa6heRDgTB1PZYU/edit?usp=sharing)",
+      "label_2": "2. Exclusief aanbod: 3 maanden met 20 PageFly-pagina's voor slechts $ 1/maand. [Claim nu de aanbieding](https://pagefly.io/pages/ecomlabs-pagefly-offer?utm_source=ramair-pf-deal&utm_medium=ramair-theme-editor&utm_content=theme-settings)",
+      "label_3": "3. Gebruik [UpPromote affiliate & Referral](https://partners.secomapp.com/apps/20off/affiliate/ecomlabs) en krijg 20% ​​korting.",
+      "label_4": "4. Vergroot de prestaties van je site met [Avada SEO suite](https://apps.shopify.com/avada-seo-suite?utm_source=partnership&utm_medium=ecomlabs&utm_campaign=themeeditor)."
     },
     "slidable_spotlight": {
       "name": "Verschuifbare spot",
@@ -4907,7 +4909,7 @@
           "country": "Land",
           "cross_street": "Kruis straat",
           "postal_code": "Postcode",
-          "state": "Staat\/Provincie",
+          "state": "Staat/Provincie",
           "info": "bijvoorbeeld: (202) 387-9338",
           "map_iframe": "Voeg het iframe van Google Maps in"
         }
@@ -4925,12 +4927,12 @@
         "tiktok_video": {
           "name": "Tiktok-video",
           "embed_code": "Video-ID",
-          "info__1": "[Instructies om tiktok-video-ID te verkrijgen](https:\/\/help.agencyanalytics.com\/en\/articles\/4771078-embed-tiktok-videos)"
+          "info__1": "[Instructies om tiktok-video-ID te verkrijgen](https://help.agencyanalytics.com/en/articles/4771078-embed-tiktok-videos)"
         }
       }
     },
     "image_comparison": {
-      "name": "Voor\/na afbeeldingsschuifregelaar",
+      "name": "Voor/na afbeeldingsschuifregelaar",
       "settings": {
         "content_position": "Inhoudelijke positie",
         "above": "Vergelijk hierboven afbeeldingen",

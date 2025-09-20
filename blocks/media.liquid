@@ -17,12 +17,13 @@
     }
 {% endstylesheet %}
 
-<{% if block.settings.link == blank %}div{% else %}a href="{{ block.settings.link }}"{% endif %}
-    class="
+{% if block.settings.link == blank %}
+<div
+  class="
         container {{ container }}
         media-block media-block--{{ block.id }} p-relative
     "
-    style="
+  style="
     {% render 'spacing-padding', settings: block.settings %}
     {% if block.settings.section_height == 'custom' %}
         --section-min-height: {{ block.settings.section_height_custom }}svh;
@@ -36,12 +37,36 @@
         --section-preview-height: 600px;
     {% endif %}
     "
-    {%- if block.settings.open_in_new_tab and block.settings.link != blank -%}
-    target="_blank"
-    rel="noopener noreferrer"
-    {%- endif -%}
-    {{ block.shopify_attributes }}
+  {{ block.shopify_attributes }}
 >
+{% else %}
+<a
+  href="{{ block.settings.link }}"
+  class="
+        container {{ container }}
+        media-block media-block--{{ block.id }} p-relative
+    "
+  style="
+    {% render 'spacing-padding', settings: block.settings %}
+    {% if block.settings.section_height == 'custom' %}
+        --section-min-height: {{ block.settings.section_height_custom }}svh;
+    {% elsif block.settings.section_height == 'full-screen' %}
+        --section-min-height: 100svh;
+    {% elsif block.settings.section_height != '' %}
+        --section-min-height: var(--section-height-{{ block.settings.section_height }});
+    {% endif %}
+
+    {% if block.settings.section_height != '' %}
+        --section-preview-height: 600px;
+    {% endif %}
+    "
+  {%- if block.settings.open_in_new_tab -%}
+  target="_blank"
+  rel="noopener noreferrer"
+  {%- endif -%}
+  {{ block.shopify_attributes }}
+>
+{% endif %}
     {% if block.settings.toggle_overlay %}
         {% render 'overlay', settings: block.settings, layer: '1' %}
     {% endif %}
@@ -57,7 +82,11 @@
         background_image: block.settings.background_image,
         background_image_position: block.settings.background_image_position
     %}
-</{% if block.settings.link == blank %}div{% else %}a{% endif %}>
+{% if block.settings.link == blank %}
+</div>
+{% else %}
+</a>
+{% endif %}
 
 {% schema %}
 {
