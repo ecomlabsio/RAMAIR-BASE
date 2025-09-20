@@ -199,10 +199,10 @@
 
 @media (min-width: 1025px){
     .themevale_MultiCategory_wrapper {
-        bottom: 60px;
-        left: 50%;
-        transform: translatex(-50%);
         position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: var(--mlc-bottom-offset, 60px);
         color: #fff;
         background-color: transparent;
         z-index: 8;
@@ -210,5 +210,10 @@
         width: 100%;
         padding-top: 0;
         padding-bottom: 0;
+    }
+    .themevale_MultiCategory_wrapper.is-center {
+        top: 50%;
+        bottom: auto;
+        transform: translate(-50%, -50%);
     }
 }

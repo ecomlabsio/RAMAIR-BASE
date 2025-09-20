@@ -1,6 +1,7 @@
 {% if settings.enable_multilevel_categories %}
 <link rel="stylesheet" href="{{ 'component-multilevel-categories.css' | asset_url }}">
-<div class="themevale_MultiCategory_wrapper">
+<div class="themevale_MultiCategory_wrapper{% if settings.multilevel_categories_position == 'center' %} is-center{% endif %}"
+     style="--mlc-bottom-offset: {{ settings.multilevel_categories_bottom_offset | default: 60 }}px;">
     <div class="themevale_MultiCategory">
         <nav id="navPages" style="display: none;">
             {%- assign category_filter = settings.category_filter -%}

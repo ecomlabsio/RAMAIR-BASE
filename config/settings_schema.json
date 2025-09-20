@@ -4615,6 +4615,25 @@
         "type": "color_background",
         "id": "hover_bg_gradient_button_filter_color",
         "label": "t:settings_schema.colors.settings.colors_name.background_hover_gradient"
+      },
+      {
+        "type": "select",
+        "id": "multilevel_categories_position",
+        "label": "Position on slideshow",
+        "default": "bottom",
+        "options": [
+          { "value": "bottom", "label": "Bottom" },
+          { "value": "center", "label": "Center" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "multilevel_categories_bottom_offset",
+        "label": "Bottom offset (desktop px)",
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "default": 60
       }
     ]
   },
