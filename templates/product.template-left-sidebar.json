@@ -51,6 +51,7 @@
         "b87b5d94-d9c5-4d66-a99b-da56e65d25e9": {
           "type": "short_description",
           "settings": {
+            "show_short_description": true,
             "word_number": "14",
             "fontsize_text": 12,
             "color_text": "#3c3c3c",
@@ -176,10 +177,10 @@
             "title": "Additional Information",
             "type": "all",
             "content": "Sample Paragraph Text\nPraesent vestibulum congue tellus at fringilla. Curabitur vitae semper sem, eu convallis est. Cras felis nunc commodo eu convallis vitae interdum non nisl. Maecenas ac est sit amet augue pharetra convallis nec danos dui. Cras suscipit quam et turpis eleifend vitae malesuada magna congue. Damus id ullamcorper neque. Sed vitae mi a mi pretium aliquet ac sed elitos. Pellentesque nulla eros accumsan quis justo at tincidunt lobortis denimes, suspendisse vestibulum lectus in lectus volutpate.",
-            "enable_btn_show_more": false,
-            "maximum_des_to_show": 300,
             "product_custom_source": "dynamic",
-            "product_tab_key_metafield": ""
+            "product_tab_key_metafield": "",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300
           }
         },
         "3d9ea84d-5527-4bce-abe6-5debef3ec955": {
@@ -189,10 +190,10 @@
             "title": "Shipping & Return",
             "type": "all",
             "content": "<h3>Returns Policy</h3>\n<p>You may return most new, unopened items within 30 days of delivery for a full refund. We'll also pay the return shipping costs if the return is a result of our error (you received an incorrect or defective item, etc.).</p>\n<p>You should expect to receive your refund within four weeks of giving your package to the return shipper, however, in many cases you will receive a refund more quickly. This time period includes the transit time for us to receive your return from the shipper (5 to 10 business days), the time it takes us to process your return once we receive it (3 to 5 business days), and the time it takes your bank to process our refund request (5 to 10 business days).</p>\n<p>If you need to return an item, simply login to your account, view the order using the \"Complete Orders\" link under the My Account menu and click the Return Item(s) button. We'll notify you via e-mail of your refund once we've received and processed the returned item.</p>\n<h3>Shipping</h3>\n<p>We can ship to virtually any address in the world. Note that there are restrictions on some products, and some products cannot be shipped to international destinations.</p>\n<p>When you place an order, we will estimate shipping and delivery dates for you based on the availability of your items and the shipping options you choose. Depending on the shipping provider you choose, shipping date estimates may appear on the shipping quotes page.</p>\n<p>Please also note that the shipping rates for many items we sell are weight-based. The weight of any such item can be found on its detail page. To reflect the policies of the shipping companies we use, all weights will be rounded up to the next full pound.</p>",
-            "enable_btn_show_more": false,
-            "maximum_des_to_show": 300,
             "product_custom_source": "dynamic",
-            "product_tab_key_metafield": ""
+            "product_tab_key_metafield": "",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300
           }
         },
         "b9d6eb19-10f4-41f8-bfdc-ea10e8b3182a": {
@@ -202,10 +203,10 @@
             "title": "Custom Tab",
             "type": "all",
             "content": "<table>\n    <tbody>\n        <tr>\n            <td class=\"tb-title\">Drostique</td>\n            <td>Nam tempus turpis at metus scelerisque placerat nulla deumantos</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Pharetro Lorem</td>\n            <td>Pellentesque diam dolor elementum etos lobortis des mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Milancelos</td>\n            <td>Donec pretium egestas sapien et mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Pellentesque</td>\n            <td>Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Proin Molestie</td>\n            <td>Pellentesque diam dolor elementum etos lobortis des mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Cosmopolis</td>\n            <td>Donec pretium egestas sapien et mollis</td>\n        </tr>\n    </tbody>\n</table>",
-            "enable_btn_show_more": false,
-            "maximum_des_to_show": 300,
             "product_custom_source": "dynamic",
-            "product_tab_key_metafield": ""
+            "product_tab_key_metafield": "",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300
           }
         },
         "19ab1d9f-74b2-4c76-bf2e-1bc749e5c2a3": {
@@ -222,7 +223,7 @@
           "settings": {
             "heading": "Categories",
             "type": "3_level",
-            "link_list": "new-in"
+            "link_list": ""
           }
         },
         "8067c070-f326-4fd4-b722-0ec6a74d039b": {
@@ -243,8 +244,8 @@
             "link_1": "",
             "show_item_2": true,
             "icon_2": "",
-            "text_2": "STUDENT DISCOUNT",
-            "description_2": "up to 40% off*",
+            "text_2": "FREE RETURNS",
+            "description_2": "FREE RETURNS",
             "button_2": "Learn More",
             "link_2": "",
             "show_item_3": true,
@@ -315,6 +316,9 @@
         "sticky_atc_layout": "1",
         "enable_sticky_add_to_cart_always_mobile": false,
         "show_sticky_vendor": false,
+        "show_quick_order_list": false,
+        "show_image": false,
+        "show_sku": false,
         "show_tab": true,
         "tab_layout": "horizontal",
         "tab_layout_mobile": "popup",
