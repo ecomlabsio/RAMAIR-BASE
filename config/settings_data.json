@@ -164,6 +164,8 @@
     "category_filter_label1": "",
     "category_filter_label2": "",
     "category_filter_label3": "",
+    "bg_button_filter_color": "#009bdf",
+    "hover_bg_button_filter_color": "#017aaf",
     "multilevel_categories_position": "center",
     "quick_search_to_show": 3,
     "search_type": "all",
