@@ -40,6 +40,7 @@
           "type": "lookbook",
           "settings": {
             "show_image": false,
+            "image": "shopify://shop_images/66a8d789-235c-4afa-b0f5-44db059281e1__22768.jpg",
             "link": "",
             "show_title": true,
             "page_title_alignment": "left",
