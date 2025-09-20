@@ -358,8 +358,9 @@
           "type": "price",
           "settings": {
             "fontsize_text": 30,
+            "price_color": "#121212",
             "price_style": "1",
-            "sale_color": "#F12D1C",
+            "sale_color": "#f12d1c",
             "spacing_top": 0,
             "spacing_bottom": 24
           }
