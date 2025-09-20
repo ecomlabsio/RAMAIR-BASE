@@ -620,7 +620,8 @@
                                             --spacing-bottom: {{ spacing_bottom | append: 'px' }};
                                             --fontsize-text: {{ fontsize_text | append: 'px' }};
                                             {% if block.settings.price_color %}--product-price-color: {{ block.settings.price_color }};{% endif %}
-                                            {% if block.settings.price_style == '2' %}--product-sale-price-color: {{ block.settings.sale_color }};{% endif %}"
+                                            {% if block.settings.sale_color or block.settings.price_color %}--product-sale-price-color: {{ block.settings.sale_color | default: block.settings.price_color }};{% endif %}
+                                            {% if block.settings.price_color %}--product-compare-price-color: {{ block.settings.price_color }};{% endif %}"
                                         >
                                             <div class="productView-price no-js-hidden clearfix" id="product-price-{{ product.id }}">
                                                 {%- render 'price',
