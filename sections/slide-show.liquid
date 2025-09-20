@@ -143,6 +143,9 @@
                                     </div>
                                 {%- endif -%}
 
+                                {%- if block.settings.enable_overlay -%}
+                                    {% render 'overlay', settings: block.settings, layer: '1' %}
+                                {%- endif -%}
                                 {%- if product_1 != blank or product_2 != blank or product_3 != blank -%}
                                     <lookbook-wrapper>
                                     {%- if product_1 != blank -%}
@@ -1444,6 +1447,58 @@
                 "type": "image",
                 "name": "t:sections.slide-show.blocks.image.name",
                 "settings":[
+                    {
+                        "type": "header",
+                        "content": "Overlay"
+                    },
+                    {
+                        "type": "checkbox",
+                        "id": "enable_overlay",
+                        "label": "Enable overlay",
+                        "default": false
+                    },
+                    {
+                        "type": "select",
+                        "id": "overlay_style",
+                        "label": "Overlay style",
+                        "default": "solid",
+                        "options": [
+                            { "value": "solid", "label": "Solid" },
+                            { "value": "gradient", "label": "Gradient" }
+                        ],
+                        "visible_if": "{{ block.settings.enable_overlay }}"
+                    },
+                    {
+                        "type": "color",
+                        "id": "overlay_color",
+                        "label": "Overlay color",
+                        "default": "#000000",
+                        "visible_if": "{{ block.settings.enable_overlay }}"
+                    },
+                    {
+                        "type": "range",
+                        "id": "overlay_opacity",
+                        "label": "Overlay opacity",
+                        "min": 0,
+                        "max": 100,
+                        "step": 5,
+                        "default": 30,
+                        "unit": "%",
+                        "visible_if": "{{ block.settings.enable_overlay }}"
+                    },
+                    {
+                        "type": "select",
+                        "id": "gradient_direction",
+                        "label": "Gradient direction",
+                        "default": "to top",
+                        "options": [
+                            { "value": "to top", "label": "to top" },
+                            { "value": "to bottom", "label": "to bottom" },
+                            { "value": "to left", "label": "to left" },
+                            { "value": "to right", "label": "to right" }
+                        ],
+                        "visible_if": "{{ block.settings.enable_overlay and block.settings.overlay_style == 'gradient' }}"
+                    },
                     {
                         "type": "image_picker",
                         "id": "image_slide",

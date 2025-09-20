@@ -27,8 +27,15 @@
   style="
     display: block;
     --overlay-layer: {{ layer | default: 'var(--layer-flat)' }};
-    --overlay-color: {{ settings.overlay_color | default: 'rgba(0,0,0,0.25)' }};
-    --overlay-color--end: {{ settings.overlay_color | color_modify: 'alpha', 0 | default: 'rgba(0,0,0,0)' }};
+    {%- assign _base_color = settings.overlay_color | default: '#000000' -%}
+    {%- if settings.overlay_opacity != blank -%}
+      {%- assign _alpha = settings.overlay_opacity | times: 0.01 -%}
+      --overlay-color: {{ _base_color | color_modify: 'alpha', _alpha }};
+      --overlay-color--end: {{ _base_color | color_modify: 'alpha', 0 }};
+    {%- else -%}
+      --overlay-color: {{ settings.overlay_color | default: 'rgba(0,0,0,0.25)' }};
+      --overlay-color--end: {{ settings.overlay_color | color_modify: 'alpha', 0 | default: 'rgba(0,0,0,0)' }};
+    {%- endif -%}
     --overlay-direction: {{ settings.gradient_direction | default: 'to top' }};
     {%- if settings.border_radius %} --overlay-border-radius: {{ settings.border_radius | default: '0' }}px;{% endif -%}
   "
