@@ -4632,7 +4632,7 @@
         "label": "Bottom offset (desktop px)",
         "min": 0,
         "max": 200,
-        "step": 1,
+        "step": 2,
         "default": 60
       }
     ]
