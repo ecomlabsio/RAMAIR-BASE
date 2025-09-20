@@ -15,6 +15,11 @@
         "16321237356a896dad-0": {
           "type": "image",
           "settings": {
+            "enable_overlay": true,
+            "overlay_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "gradient_direction": "to top",
             "image_slide": "shopify://shop_images/Ramair-Lamborghini-Slide.jpg",
             "alignment": "left",
             "enable_custom_position": false,
