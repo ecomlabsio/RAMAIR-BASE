@@ -460,8 +460,8 @@
         "0eabcec2-e2f6-44a3-91b3-c52ce5c76f7c"
       ],
       "settings": {
-        "container": "container",
-        "padding_full_width": 0,
+        "container": "fullwidth",
+        "padding_full_width": 100,
         "colors_bg": "#ffffff",
         "colors_bg_gradient": "",
         "show_breadcrumb": true,
