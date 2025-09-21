@@ -56,10 +56,18 @@
             "margin_bottom": 25,
             "des_color": "#3c3c3c"
           }
+        },
+        "filter_8rpcVp": {
+          "type": "filter",
+          "settings": {
+            "heading": "Filter Title",
+            "list_tags": ""
+          }
         }
       },
       "block_order": [
-        "8472dad8-3289-4746-8b7f-e6ebe3175dd5"
+        "8472dad8-3289-4746-8b7f-e6ebe3175dd5",
+        "filter_8rpcVp"
       ],
       "settings": {
         "container": "default",
