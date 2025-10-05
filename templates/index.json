@@ -18,7 +18,7 @@
             "enable_overlay": true,
             "overlay_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 65,
             "gradient_direction": "to top",
             "image_slide": "shopify://shop_images/Ramair-Lamborghini-Slide.jpg",
             "alignment": "left",
