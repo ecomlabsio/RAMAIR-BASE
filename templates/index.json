@@ -274,6 +274,7 @@
         "image_RkpVPh",
         "image_d9dhaP"
       ],
+      "disabled": true,
       "name": "t:sections.brand.presets.name",
       "settings": {
         "container": "container",
