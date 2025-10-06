@@ -851,6 +851,37 @@
           "footer_top_color_link": "#ffffff",
           "footer_top_color_link_hover": "#ffffff"
         }
+      },
+      "password-page-1": {
+        "type": "password-page-1",
+        "settings": {
+          "background_color": "#232323",
+          "brand_type": "image",
+          "brand_text": "",
+          "brand_logo_font_size": 30,
+          "logo_color": "#232323",
+          "brand_logo": "shopify://shop_images/ramair_logo_1675861054__38342.webp",
+          "brand_logo_width": 200,
+          "banner": "shopify://shop_images/ChatGPT_Image_Oct_5_2025_07_14_39_PM.png",
+          "banner_color": "#ffffff",
+          "show_newsletter": true,
+          "title": "Our new US site will be ready soon.",
+          "title_font_size": 24,
+          "title_font_size_mb": 24,
+          "title_color": "#ffffff",
+          "subtitle": "Sign up to our newsletter to be the first to know when we launch.",
+          "subtitle_font_size": 12,
+          "subtitle_color": "#ffffff",
+          "input_color": "#323232",
+          "terms_text_color": "#848484",
+          "terms_link_color": "#3c3c3c",
+          "btn": "1",
+          "show_social_media": true,
+          "social_media_color": "#ffffff",
+          "show_copyright": true,
+          "copyright_content": "",
+          "copyright_color": "#7e7e7e"
+        }
       }
     },
     "content_for_index": [],
