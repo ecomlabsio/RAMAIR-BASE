@@ -124,7 +124,7 @@
             "enable_overlay": true,
             "overlay_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 35,
+            "overlay_opacity": 0,
             "gradient_direction": "to top",
             "image_slide": "shopify://shop_images/ChatGPT_Image_Oct_6_2025_08_18_47_PM.png",
             "alignment": "left",
