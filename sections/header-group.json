@@ -70,6 +70,7 @@
         "550fbd21-75fb-4051-9dee-77d91b5239f0": {
           "type": "logo",
           "settings": {
+            "logo_mobile": "shopify://shop_images/ramair_logo_1675861054__38342.webp",
             "logo_width_mobile": 65,
             "logo_text": "",
             "logo_font_size": 20,
