@@ -18,7 +18,7 @@
             "enable_overlay": true,
             "overlay_style": "solid",
             "overlay_color": "#000000",
-            "overlay_opacity": 50,
+            "overlay_opacity": 35,
             "gradient_direction": "to top",
             "image_slide": "shopify://shop_images/PRORAM_BLACK_FRIDAY-1.jpg",
             "alignment": "left",
