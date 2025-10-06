@@ -9,6 +9,10 @@
  */
 {
   "sections": {
+    "1759779870651b2cb9": {
+      "type": "_blocks",
+      "settings": {}
+    },
     "16321237356a896dad": {
       "type": "slide-show",
       "blocks": {
@@ -784,6 +788,7 @@
     }
   },
   "order": [
+    "1759779870651b2cb9",
     "16321237356a896dad",
     "brand_slider_fUtpH7",
     "163247026462da6862",
