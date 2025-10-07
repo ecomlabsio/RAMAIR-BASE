@@ -31,9 +31,9 @@
           "type": "product_block",
           "settings": {
             "heading": "Featured Products",
-            "product_block_collection": "air-filter-cleaning",
+            "product_block_collection": "bmw-m2",
             "product_block_layout": "grid",
-            "product_block_limit": 4,
+            "product_block_limit": 2,
             "product_block_dots": false,
             "product_block_arrows": true
           }
