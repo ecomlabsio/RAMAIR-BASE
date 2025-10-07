@@ -676,7 +676,6 @@
         },
         "featured_collection_6naC7Q": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "universal-filters",
             "custom_collection_badge_text": "",
@@ -781,7 +780,7 @@
         "featured_collection_bix4nB": {
           "type": "featured_collection",
           "settings": {
-            "collection": "universal-filters",
+            "collection": "carburettor-filters",
             "custom_collection_badge_text": "",
             "custom_collection_badge_color": "#ffffff",
             "custom_collection_badge_background": "#ffffff"
