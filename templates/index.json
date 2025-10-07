@@ -755,6 +755,108 @@
         "mg_bottom_mobile": 50
       }
     },
+    "collection_list_RjPFLq": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_f6gmje": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "motorsport-filters",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_JAXxUX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "motorcycle-filters",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_bix4nB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "universal-filters",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_izd3wD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "air-filter-cleaning",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_f6gmje",
+        "featured_collection_JAXxUX",
+        "featured_collection_bix4nB",
+        "featured_collection_izd3wD"
+      ],
+      "name": "t:sections.main-list-collections.settings.header__2.content",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "section_bg_color": "#000000",
+        "section_bg_gradient": "",
+        "collection_list_style": "style_2",
+        "enable_swipe_mobile": false,
+        "enable_heading_sticky": false,
+        "style_block_header": "style1",
+        "title": "",
+        "title_color": "",
+        "title_fs": 50,
+        "title_fs_mb": 24,
+        "title_fw": "800",
+        "title_mg_bottom": 50,
+        "title_mg_bottom_mb": 24,
+        "style_view_all": "style1",
+        "view_all": "",
+        "link_view_all": "",
+        "color_view_all": "#3c3c3c",
+        "color_view_all_hover": "#3c3c3c",
+        "heading_align": "center",
+        "min_width": 295,
+        "image_ratio": "adapt",
+        "portrait_aspect_ratio": 112,
+        "collection_align": "left",
+        "co_title_font_size": 40,
+        "co_title_font_size_mb": 16,
+        "co_title_font_weight": "600",
+        "co_title_text_transform": "none",
+        "mg_bottom_co_title": 12,
+        "co_title_color": "#ffffff",
+        "co_title_color_hover": "",
+        "show_co_description": false,
+        "limit_co_content_des": 22,
+        "co_des_color": "#ffffff",
+        "co_des_color_hover": "",
+        "co_des_font_size": 14,
+        "co_des_font_weight": "400",
+        "button_co_title": "Shop the range",
+        "fontsize_co_button": 15,
+        "color_co_button": "#ffffff",
+        "color_co_button_hover": "#ffffff",
+        "collection_per_row": 4,
+        "grid_gap": 5,
+        "display_arrow": true,
+        "display_dots": false,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
+    },
     "163247026462da6862": {
       "type": "product-block",
       "settings": {
@@ -1069,6 +1171,7 @@
     "brand_slider_fUtpH7",
     "featured_product_9rDMBB",
     "collection_list_aBdHtk",
+    "collection_list_RjPFLq",
     "163247026462da6862",
     "instagram_rbUaBd"
   ]
