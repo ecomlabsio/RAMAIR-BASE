@@ -279,6 +279,21 @@
             "spacing_bottom": 0
           }
         },
+        "custom_information_Tz9dLc": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "",
+            "color_icon": "#232323",
+            "text": "Material:{{ product.metafields.spec.material.value }}",
+            "color_title": "#232323",
+            "text_description": "",
+            "color_des": "#999999",
+            "fontsize_text": 14,
+            "content_popup": "",
+            "spacing_top": 0,
+            "spacing_bottom": 0
+          }
+        },
         "9630b233-8164-4dad-ab64-8830bedf328a": {
           "type": "complementary_products",
           "settings": {
@@ -318,6 +333,7 @@
         "a86220cf-8641-4e06-87d3-b5ffa195501b",
         "058d88b7-6cce-4aae-a5c4-b8193bbdfa7f",
         "36addb13-cd73-4713-a15c-7d846c4724e7",
+        "custom_information_Tz9dLc",
         "9630b233-8164-4dad-ab64-8830bedf328a"
       ],
       "settings": {
