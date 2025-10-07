@@ -174,10 +174,10 @@
             "title": "Shipping & Return",
             "type": "all",
             "content": "<h3>Returns Policy</h3>\n<p>You may return most new, unopened items within 30 days of delivery for a full refund. We'll also pay the return shipping costs if the return is a result of our error (you received an incorrect or defective item, etc.).</p>\n<p>You should expect to receive your refund within four weeks of giving your package to the return shipper, however, in many cases you will receive a refund more quickly. This time period includes the transit time for us to receive your return from the shipper (5 to 10 business days), the time it takes us to process your return once we receive it (3 to 5 business days), and the time it takes your bank to process our refund request (5 to 10 business days).</p>\n<p>If you need to return an item, simply login to your account, view the order using the \"Complete Orders\" link under the My Account menu and click the Return Item(s) button. We'll notify you via e-mail of your refund once we've received and processed the returned item.</p>\n<h3>Shipping</h3>\n<p>We can ship to virtually any address in the world. Note that there are restrictions on some products, and some products cannot be shipped to international destinations.</p>\n<p>When you place an order, we will estimate shipping and delivery dates for you based on the availability of your items and the shipping options you choose. Depending on the shipping provider you choose, shipping date estimates may appear on the shipping quotes page.</p>\n<p>Please also note that the shipping rates for many items we sell are weight-based. The weight of any such item can be found on its detail page. To reflect the policies of the shipping companies we use, all weights will be rounded up to the next full pound.</p>",
-            "enable_btn_show_more": false,
-            "maximum_des_to_show": 300,
             "product_custom_source": "dynamic",
-            "product_tab_key_metafield": ""
+            "product_tab_key_metafield": "",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300
           }
         },
         "b9d6eb19-10f4-41f8-bfdc-ea10e8b3182a": {
@@ -187,10 +187,10 @@
             "title": "Custom Tab",
             "type": "all",
             "content": "<table>\n    <tbody>\n        <tr>\n            <td class=\"tb-title\">Drostique</td>\n            <td>Nam tempus turpis at metus scelerisque placerat nulla deumantos</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Pharetro Lorem</td>\n            <td>Pellentesque diam dolor elementum etos lobortis des mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Milancelos</td>\n            <td>Donec pretium egestas sapien et mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Pellentesque</td>\n            <td>Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Proin Molestie</td>\n            <td>Pellentesque diam dolor elementum etos lobortis des mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Cosmopolis</td>\n            <td>Donec pretium egestas sapien et mollis</td>\n        </tr>\n    </tbody>\n</table>",
-            "enable_btn_show_more": false,
-            "maximum_des_to_show": 300,
             "product_custom_source": "dynamic",
-            "product_tab_key_metafield": ""
+            "product_tab_key_metafield": "",
+            "enable_btn_show_more": false,
+            "maximum_des_to_show": 300
           }
         },
         "19ab1d9f-74b2-4c76-bf2e-1bc749e5c2a3": {
@@ -260,6 +260,9 @@
         "sticky_atc_layout": "1",
         "enable_sticky_add_to_cart_always_mobile": false,
         "show_sticky_vendor": false,
+        "show_quick_order_list": false,
+        "show_image": false,
+        "show_sku": false,
         "show_tab": true,
         "tab_layout": "vertical_sidebar",
         "tab_layout_mobile": "popup",
@@ -310,48 +313,128 @@
         "f41f90d5-d90e-4211-92a6-d266a353b487": {
           "type": "instagram",
           "settings": {
+            "title": "",
+            "fontsize_title": 26,
+            "fontsize_title_mb": 20,
+            "color_title": "#ffffff",
+            "description": "",
+            "fontsize_des": 12,
+            "color_des": "#ffffff",
+            "button_text": "",
+            "color_button": "#ffffff",
+            "color_button_hover": "#ffffff",
             "link": ""
           }
         },
         "2f41c757-57e5-4deb-9c1a-24b7fb338f4d": {
           "type": "instagram",
           "settings": {
+            "title": "",
+            "fontsize_title": 26,
+            "fontsize_title_mb": 20,
+            "color_title": "#ffffff",
+            "description": "",
+            "fontsize_des": 12,
+            "color_des": "#ffffff",
+            "button_text": "",
+            "color_button": "#ffffff",
+            "color_button_hover": "#ffffff",
             "link": ""
           }
         },
         "383e5863-2f99-4ed6-b7a0-261f3f2d1a94": {
           "type": "instagram",
           "settings": {
+            "title": "",
+            "fontsize_title": 26,
+            "fontsize_title_mb": 20,
+            "color_title": "#ffffff",
+            "description": "",
+            "fontsize_des": 12,
+            "color_des": "#ffffff",
+            "button_text": "",
+            "color_button": "#ffffff",
+            "color_button_hover": "#ffffff",
             "link": ""
           }
         },
         "4b61a7c0-616b-47f5-8cf9-a6321639773f": {
           "type": "instagram",
           "settings": {
+            "title": "",
+            "fontsize_title": 26,
+            "fontsize_title_mb": 20,
+            "color_title": "#ffffff",
+            "description": "",
+            "fontsize_des": 12,
+            "color_des": "#ffffff",
+            "button_text": "",
+            "color_button": "#ffffff",
+            "color_button_hover": "#ffffff",
             "link": ""
           }
         },
         "f4202539-2136-412b-8686-d4ab44f7a842": {
           "type": "instagram",
           "settings": {
+            "title": "",
+            "fontsize_title": 26,
+            "fontsize_title_mb": 20,
+            "color_title": "#ffffff",
+            "description": "",
+            "fontsize_des": 12,
+            "color_des": "#ffffff",
+            "button_text": "",
+            "color_button": "#ffffff",
+            "color_button_hover": "#ffffff",
             "link": ""
           }
         },
         "9a5ae625-12b3-43dd-a203-f1b9c6ac88fb": {
           "type": "instagram",
           "settings": {
+            "title": "",
+            "fontsize_title": 26,
+            "fontsize_title_mb": 20,
+            "color_title": "#ffffff",
+            "description": "",
+            "fontsize_des": 12,
+            "color_des": "#ffffff",
+            "button_text": "",
+            "color_button": "#ffffff",
+            "color_button_hover": "#ffffff",
             "link": ""
           }
         },
         "a16dd6d5-0efc-4a31-a89b-303fe97ea559": {
           "type": "instagram",
           "settings": {
+            "title": "",
+            "fontsize_title": 26,
+            "fontsize_title_mb": 20,
+            "color_title": "#ffffff",
+            "description": "",
+            "fontsize_des": 12,
+            "color_des": "#ffffff",
+            "button_text": "",
+            "color_button": "#ffffff",
+            "color_button_hover": "#ffffff",
             "link": ""
           }
         },
         "e5d3a032-805e-4cdd-9a45-2f8855f89f3e": {
           "type": "instagram",
           "settings": {
+            "title": "",
+            "fontsize_title": 26,
+            "fontsize_title_mb": 20,
+            "color_title": "#ffffff",
+            "description": "",
+            "fontsize_des": 12,
+            "color_des": "#ffffff",
+            "button_text": "",
+            "color_button": "#ffffff",
+            "color_button_hover": "#ffffff",
             "link": ""
           }
         }
@@ -379,7 +462,10 @@
         "instagram_bg": "#fffaf4",
         "instagram_bg_gradient": "",
         "style_block_header": "style1",
+        "mg_bottom_header": 15,
+        "instagram_title_icon": "",
         "instagram_title": "Image Gallery",
+        "font_weight_instagram_title": "400",
         "enable_border_title": false,
         "border_color_title": "#232323",
         "color_title": "#232323",
@@ -393,8 +479,10 @@
         "content_width": 375,
         "title_align": "center",
         "view_all": "",
+        "icon_for_viewall": "",
         "view_all_fs": 12,
         "view_all_align": "center",
+        "view_all_vert_align": "top",
         "font_weight_view_all": "400",
         "mg_bottom_view": 30,
         "enable_border_view_all": true,
@@ -420,6 +508,7 @@
         "images_per_row": "4",
         "instagram_item_limit": 10,
         "grid_gap": 30,
+        "border_radius": 0,
         "slide_ins": "default_ins",
         "enable_hide_portion": false,
         "display_arrow": true,
@@ -727,26 +816,26 @@
         "grid_gap": 30,
         "item_align": "center",
         "enable_block_bottom": false,
-        "bg_block_bottom": "#000",
+        "bg_block_bottom": "#000000",
         "btn_text_block_bottom": "Shop Now",
         "button_link_block_bottom": "",
         "button_1_width_block_bottom": 235,
-        "button_color_block_bottom": "#fff",
+        "button_color_block_bottom": "#ffffff",
         "button_border_block_bottom": "#232323",
         "button_background_block_bottom": "#232323",
         "button_background_gradient_block_bottom": "",
-        "button_color_hover_block_bottom": "#fff",
+        "button_color_hover_block_bottom": "#ffffff",
         "button_border_hover_block_bottom": "#232323",
         "button_background_hover_block_bottom": "#232323",
         "button_background_gradient_hover_block_bottom": "",
         "btn_2_text_block_bottom": "Shop Now",
         "button_link_2_block_bottom": "",
         "button_2_width_block_bottom": 235,
-        "button_2_color_block_bottom": "#fff",
+        "button_2_color_block_bottom": "#ffffff",
         "button_2_border_block_bottom": "#232323",
         "button_2_background_block_bottom": "#232323",
         "button_2_background_gradient_block_bottom": "",
-        "button_2_color_hover_block_bottom": "#fff",
+        "button_2_color_hover_block_bottom": "#ffffff",
         "button_2_border_hover_block_bottom": "#232323",
         "button_2_background_hover_block_bottom": "#232323",
         "button_2_background_gradient_hover_block_bottom": "",
