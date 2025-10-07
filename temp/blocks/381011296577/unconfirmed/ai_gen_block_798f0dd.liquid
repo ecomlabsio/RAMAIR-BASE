@@ -1,6 +1,201 @@
+{% doc %}
+  @prompt
+    flashing image
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-flashing-image-{{ ai_gen_id }} {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: {{ block.settings.max_width }}px;
+    margin: 0 auto;
+  }
+
+  .ai-flashing-image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: {{ block.settings.border_radius }}px;
+    overflow: hidden;
+  }
+
+  .ai-flashing-image-img-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+    animation: ai-flash-{{ ai_gen_id }} {{ block.settings.flash_duration }}s infinite;
+  }
+
+  .ai-flashing-image-placeholder-{{ ai_gen_id }} {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: {{ block.settings.border_radius }}px;
+    animation: ai-flash-{{ ai_gen_id }} {{ block.settings.flash_duration }}s infinite;
+  }
+
+  .ai-flashing-image-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    opacity: 0.3;
+  }
+
+  .ai-flashing-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 4px;
+  }
+
+  @keyframes ai-flash-{{ ai_gen_id }} {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: {{ block.settings.min_opacity }};
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  {% if block.settings.pause_on_hover %}
+    .ai-flashing-image-{{ ai_gen_id }}:hover .ai-flashing-image-img-{{ ai_gen_id }},
+    .ai-flashing-image-{{ ai_gen_id }}:hover .ai-flashing-image-placeholder-{{ ai_gen_id }} {
+      animation-play-state: paused;
+    }
+  {% endif %}
+
+  @media screen and (max-width: 749px) {
+    .ai-flashing-image-{{ ai_gen_id }} {
+      max-width: 100%;
+    }
+  }
+{% endstyle %}
+
+<div
+  class="ai-flashing-image-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.link_url != blank %}
+    <a href="{{ block.settings.link_url }}" class="ai-flashing-image-wrapper-{{ ai_gen_id }}">
+  {% else %}
+    <div class="ai-flashing-image-wrapper-{{ ai_gen_id }}">
+  {% endif %}
+
+    {% if block.settings.image %}
+      <img
+        src="{{ block.settings.image | image_url: width: 2000 }}"
+        alt="{{ block.settings.image.alt | escape }}"
+        loading="lazy"
+        width="{{ block.settings.image.width }}"
+        height="{{ block.settings.image.height }}"
+        class="ai-flashing-image-img-{{ ai_gen_id }}"
+      >
+    {% else %}
+      <div class="ai-flashing-image-placeholder-{{ ai_gen_id }}">
+        {{ 'image' | placeholder_svg_tag }}
+        <div class="ai-flashing-empty-state-{{ ai_gen_id }}">
+          Add an image to start flashing
+        </div>
+      </div>
+    {% endif %}
+
+  {% if block.settings.link_url != blank %}
+    </a>
+  {% else %}
+    </div>
+  {% endif %}
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Flashing image",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 200,
+      "max": 1200,
+      "step": 50,
+      "unit": "px",
+      "label": "Maximum width",
+      "default": 600
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Flash effect"
+    },
+    {
+      "type": "range",
+      "id": "flash_duration",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "label": "Flash duration",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "min_opacity",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "label": "Minimum opacity",
+      "default": 0.3
+    },
+    {
+      "type": "checkbox",
+      "id": "pause_on_hover",
+      "label": "Pause animation on hover",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "name": "Flashing image"
+    }
+  ]
+}
 {% endschema %}
