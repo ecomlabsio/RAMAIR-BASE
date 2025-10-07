@@ -27,8 +27,8 @@
         "d4bab6c1-ab4b-442b-8884-47890038f054"
       ],
       "settings": {
-        "container": "1170",
-        "padding_full_width": 0,
+        "container": "fullwidth",
+        "padding_full_width": 100,
         "show_breadcrumb": true,
         "breadcrumb_alignment": "center",
         "breadcrumb_bg": "",
@@ -182,8 +182,8 @@
       ],
       "settings": {
         "id_section": "",
-        "container": "1170",
-        "padding_full_width": 0,
+        "container": "fullwidth",
+        "padding_full_width": 100,
         "display_border_top": false,
         "display_border_bottom": false,
         "border_color": "#d0d0d0",
@@ -504,8 +504,8 @@
       ],
       "settings": {
         "id_section": "",
-        "container": "1170",
-        "padding_full_width": 0,
+        "container": "fullwidth",
+        "padding_full_width": 100,
         "display_type": "slide",
         "enable_arrows": true,
         "arrows_position": "-13%",
@@ -620,8 +620,8 @@
       ],
       "settings": {
         "id_section": "",
-        "container": "1770",
-        "padding_full_width": 0,
+        "container": "fullwidth",
+        "padding_full_width": 100,
         "display_type": "slide",
         "enable_arrows": false,
         "arrows_position": "",
