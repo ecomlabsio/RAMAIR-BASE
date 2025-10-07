@@ -667,6 +667,7 @@
         },
         "featured_collection_Cy4Qwq": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "motorcycle-filters",
             "custom_collection_badge_text": "",
@@ -676,6 +677,7 @@
         },
         "featured_collection_6naC7Q": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "universal-filters",
             "custom_collection_badge_text": "",
@@ -685,6 +687,7 @@
         },
         "featured_collection_NUehqd": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "air-filter-cleaning",
             "custom_collection_badge_text": "",
@@ -728,7 +731,7 @@
         "collection_align": "left",
         "co_title_font_size": 40,
         "co_title_font_size_mb": 16,
-        "co_title_font_weight": "600",
+        "co_title_font_weight": "700",
         "co_title_text_transform": "none",
         "mg_bottom_co_title": 12,
         "co_title_color": "#ffffff",
@@ -739,11 +742,11 @@
         "co_des_color_hover": "",
         "co_des_font_size": 14,
         "co_des_font_weight": "400",
-        "button_co_title": "Shop the range",
+        "button_co_title": "Find your vehicle specific kit now",
         "fontsize_co_button": 15,
         "color_co_button": "#ffffff",
         "color_co_button_hover": "#ffffff",
-        "collection_per_row": 4,
+        "collection_per_row": 2,
         "grid_gap": 5,
         "display_arrow": true,
         "display_dots": false,
