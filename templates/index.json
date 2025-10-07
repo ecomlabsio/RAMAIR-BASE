@@ -667,9 +667,8 @@
         },
         "featured_collection_Cy4Qwq": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": "motorcycle-filters",
+            "collection": "original-filters",
             "custom_collection_badge_text": "",
             "custom_collection_badge_color": "#ffffff",
             "custom_collection_badge_background": "#ffffff"
