@@ -1,0 +1,355 @@
+<link rel="stylesheet" href="{{ 'component-ramair-reviews.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'component-ramair-reviews.css' | asset_url | stylesheet_tag }}</noscript>
+
+{% liquid
+    assign container = section.settings.container
+
+    assign mg_top_desktop = section.settings.mg_top_desktop
+    assign mg_top_tablet = section.settings.mg_top_tablet
+    assign mg_top_mobile = section.settings.mg_top_mobile
+
+    assign mg_bottom_desktop = section.settings.mg_bottom_desktop
+    assign mg_bottom_tablet = section.settings.mg_bottom_tablet
+    assign mg_bottom_mobile = section.settings.mg_bottom_mobile
+
+    assign container = section.settings.container | replace: 'fullwidth', 'full'
+    if container == 'container'
+        assign container = 'container'
+    else
+        assign container = 'container-' | append: container
+    endif
+
+    assign heading = section.settings.heading
+%}
+
+<style>
+    .ramair-reviews-section-{{section.id}} {
+        background: {% if section.settings.background_gradient != blank %}{{ section.settings.background_gradient }}{% else %}{{ section.settings.background }}{% endif %};
+    }
+    .ramair-reviews-section-{{section.id}} .ramair-reviews-carousel {
+        --scroll-speed: {{ section.settings.scroll_speed }}s;
+    }
+    .ramair-reviews-section-{{section.id}} .star-rating svg {
+        fill: {{ section.settings.star_color }};
+    }
+    .ramair-reviews-section-{{section.id}} .review-name {
+        color: {{ section.settings.name_color }};
+    }
+    .ramair-reviews-section-{{section.id}} .review-text {
+        color: {{ section.settings.text_color }};
+    }
+    .ramair-reviews-section-{{section.id}} .section-heading {
+        color: {{ section.settings.heading_color }};
+    }
+    @media (max-width: 767px) {
+        .ramair-reviews-section-{{section.id}} {
+            padding-top: {{ mg_top_mobile | append: 'px' }};
+            padding-bottom: {{ mg_bottom_mobile | append: 'px' }}
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1199px) {
+        .ramair-reviews-section-{{section.id}} {
+            padding-top: {{ mg_top_tablet | append: 'px' }};
+            padding-bottom: {{ mg_bottom_tablet | append: 'px' }}
+        }
+    }
+    @media (min-width: 1200px) {
+        .ramair-reviews-section-{{section.id}} {
+            padding-top: {{ mg_top_desktop | append: 'px' }};
+            padding-bottom: {{ mg_bottom_desktop | append: 'px' }}
+        }
+    }
+</style>
+
+<div class="ramair-reviews-section ramair-reviews-section-{{section.id}}" data-loader-script="{{ 'ramair-reviews.js' | asset_url }}">
+    <div class="{{ container }}">
+        {%- if heading != blank -%}
+            <div class="halo-block-header text-{{ section.settings.content_align }}">
+                <h3 class="section-heading{% if settings.banner_animation == 'effect_fade_up' %} scroll-trigger animate--slide-in{% endif %}">
+                    <span class="text">{{ heading }}</span>
+                </h3>
+            </div>
+        {%- endif -%}
+
+        <ramair-reviews-carousel>
+            <div class="ramair-reviews-carousel">
+                <div class="ramair-reviews-track">
+                    {% for block in section.blocks %}
+                        <div class="review-card" {{ block.shopify_attributes }}>
+                            <div class="star-rating">
+                                {% for i in (1..block.settings.star_rating) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 28 26" fill="none">
+                                        <path d="M13.9958 0.00022335C14.4602 -0.00842828 14.7418 0.234779 14.94 0.640444C16.0969 3.00907 17.2634 5.37193 18.4222 7.73959C18.5036 7.90589 18.5984 7.98376 18.7909 8.01164C21.2666 8.36347 23.7412 8.72684 26.2159 9.08828C26.3969 9.1152 26.577 9.14788 26.758 9.1748C27.1602 9.23536 27.435 9.46319 27.5519 9.84674C27.6697 10.2313 27.5595 10.5716 27.2713 10.8532C26.4774 11.629 25.6844 12.4057 24.8914 13.1815C23.7613 14.287 22.6332 15.3953 21.5002 16.4979C21.3911 16.6037 21.3556 16.7008 21.3824 16.8546C21.7195 18.7993 22.0471 20.7459 22.3794 22.6915C22.4991 23.3923 22.6188 24.0941 22.7433 24.7939C22.819 25.2188 22.7136 25.5793 22.3545 25.8282C22.0049 26.0705 21.642 26.0388 21.2723 25.8436C18.9193 24.5978 16.5633 23.3577 14.2112 22.1119C14.0618 22.0321 13.9412 22.0321 13.7908 22.1119C11.4454 23.3548 9.09622 24.5901 6.75083 25.8321C6.36775 26.0349 5.99234 26.0801 5.62746 25.8148C5.26258 25.5495 5.18596 25.1794 5.26162 24.7487C5.62171 22.6781 5.9751 20.6065 6.3304 18.5349C6.42905 17.9601 6.53343 17.3862 6.61484 16.8084C6.62825 16.7133 6.56887 16.5758 6.49704 16.5047C4.81246 14.8464 3.12214 13.1949 1.43181 11.5425C1.19239 11.3079 0.952967 11.0734 0.713545 10.8388C0.431026 10.5629 0.331426 10.2265 0.443476 9.85155C0.559356 9.46703 0.833256 9.23632 1.23549 9.17672C2.73236 8.95659 4.23019 8.73837 5.72802 8.52016C6.89448 8.35001 8.05999 8.17506 9.22742 8.01164C9.39693 7.9876 9.48887 7.91839 9.56453 7.76554C10.7262 5.39115 11.8965 3.0206 13.0572 0.645251C13.2516 0.239585 13.5313 -0.00746699 13.9958 0.00022335Z"/>
+                                    </svg>
+                                {% endfor %}
+                            </div>
+
+                            {%- if block.settings.reviewer_name != blank -%}
+                                <h4 class="review-name">{{ block.settings.reviewer_name }}</h4>
+                            {%- endif -%}
+
+                            {%- if block.settings.review_text != blank -%}
+                                <p class="review-text">{{ block.settings.review_text }}</p>
+                            {%- endif -%}
+                        </div>
+                    {% endfor %}
+
+                    {%- comment -%} Duplicate reviews for seamless infinite scroll {%- endcomment -%}
+                    {% for block in section.blocks %}
+                        <div class="review-card" aria-hidden="true">
+                            <div class="star-rating">
+                                {% for i in (1..block.settings.star_rating) %}
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 28 26" fill="none">
+                                        <path d="M13.9958 0.00022335C14.4602 -0.00842828 14.7418 0.234779 14.94 0.640444C16.0969 3.00907 17.2634 5.37193 18.4222 7.73959C18.5036 7.90589 18.5984 7.98376 18.7909 8.01164C21.2666 8.36347 23.7412 8.72684 26.2159 9.08828C26.3969 9.1152 26.577 9.14788 26.758 9.1748C27.1602 9.23536 27.435 9.46319 27.5519 9.84674C27.6697 10.2313 27.5595 10.5716 27.2713 10.8532C26.4774 11.629 25.6844 12.4057 24.8914 13.1815C23.7613 14.287 22.6332 15.3953 21.5002 16.4979C21.3911 16.6037 21.3556 16.7008 21.3824 16.8546C21.7195 18.7993 22.0471 20.7459 22.3794 22.6915C22.4991 23.3923 22.6188 24.0941 22.7433 24.7939C22.819 25.2188 22.7136 25.5793 22.3545 25.8282C22.0049 26.0705 21.642 26.0388 21.2723 25.8436C18.9193 24.5978 16.5633 23.3577 14.2112 22.1119C14.0618 22.0321 13.9412 22.0321 13.7908 22.1119C11.4454 23.3548 9.09622 24.5901 6.75083 25.8321C6.36775 26.0349 5.99234 26.0801 5.62746 25.8148C5.26258 25.5495 5.18596 25.1794 5.26162 24.7487C5.62171 22.6781 5.9751 20.6065 6.3304 18.5349C6.42905 17.9601 6.53343 17.3862 6.61484 16.8084C6.62825 16.7133 6.56887 16.5758 6.49704 16.5047C4.81246 14.8464 3.12214 13.1949 1.43181 11.5425C1.19239 11.3079 0.952967 11.0734 0.713545 10.8388C0.431026 10.5629 0.331426 10.2265 0.443476 9.85155C0.559356 9.46703 0.833256 9.23632 1.23549 9.17672C2.73236 8.95659 4.23019 8.73837 5.72802 8.52016C6.89448 8.35001 8.05999 8.17506 9.22742 8.01164C9.39693 7.9876 9.48887 7.91839 9.56453 7.76554C10.7262 5.39115 11.8965 3.0206 13.0572 0.645251C13.2516 0.239585 13.5313 -0.00746699 13.9958 0.00022335Z"/>
+                                    </svg>
+                                {% endfor %}
+                            </div>
+
+                            {%- if block.settings.reviewer_name != blank -%}
+                                <h4 class="review-name">{{ block.settings.reviewer_name }}</h4>
+                            {%- endif -%}
+
+                            {%- if block.settings.review_text != blank -%}
+                                <p class="review-text">{{ block.settings.review_text }}</p>
+                            {%- endif -%}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </ramair-reviews-carousel>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Ramair Reviews",
+    "settings": [
+        {
+            "type": "header",
+            "content": "General"
+        },
+        {
+            "type": "select",
+            "id": "container",
+            "label": "Container width",
+            "default": "fullwidth",
+            "options": [
+                {
+                    "value": "container",
+                    "label": "Default"
+                },
+                {
+                    "value": "1170",
+                    "label": "1170px"
+                },
+                {
+                    "value": "1770",
+                    "label": "1770px"
+                },
+                {
+                    "value": "fullwidth",
+                    "label": "Full width"
+                }
+            ]
+        },
+        {
+            "type": "color",
+            "id": "background",
+            "label": "Background color",
+            "default": "#ffffff"
+        },
+        {
+            "type": "color_background",
+            "id": "background_gradient",
+            "label": "Background gradient"
+        },
+        {
+            "type": "header",
+            "content": "Section heading"
+        },
+        {
+            "type": "liquid",
+            "id": "heading",
+            "label": "Heading",
+            "default": "Customer Reviews"
+        },
+        {
+            "type": "color",
+            "id": "heading_color",
+            "label": "Heading color",
+            "default": "#232323"
+        },
+        {
+            "type": "select",
+            "id": "content_align",
+            "label": "Heading alignment",
+            "options": [
+                {
+                    "value": "left",
+                    "label": "Left"
+                },
+                {
+                    "value": "center",
+                    "label": "Center"
+                },
+                {
+                    "value": "right",
+                    "label": "Right"
+                }
+            ],
+            "default": "center"
+        },
+        {
+            "type": "header",
+            "content": "Review styling"
+        },
+        {
+            "type": "color",
+            "id": "star_color",
+            "label": "Star rating color",
+            "default": "#ECC125"
+        },
+        {
+            "type": "color",
+            "id": "name_color",
+            "label": "Reviewer name color",
+            "default": "#232323"
+        },
+        {
+            "type": "color",
+            "id": "text_color",
+            "label": "Review text color",
+            "default": "#666666"
+        },
+        {
+            "type": "header",
+            "content": "Carousel settings"
+        },
+        {
+            "type": "range",
+            "id": "scroll_speed",
+            "label": "Scroll speed (seconds per cycle)",
+            "info": "Lower values = faster scrolling",
+            "min": 10,
+            "max": 60,
+            "step": 5,
+            "unit": "s",
+            "default": 30
+        },
+        {
+            "type": "header",
+            "content": "Spacing - Top"
+        },
+        {
+            "type": "range",
+            "id": "mg_top_desktop",
+            "label": "Desktop",
+            "min": 0,
+            "max": 150,
+            "step": 5,
+            "unit": "px",
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "mg_top_tablet",
+            "label": "Tablet",
+            "min": 0,
+            "max": 150,
+            "step": 5,
+            "unit": "px",
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "mg_top_mobile",
+            "label": "Mobile",
+            "min": 0,
+            "max": 150,
+            "step": 5,
+            "unit": "px",
+            "default": 30
+        },
+        {
+            "type": "header",
+            "content": "Spacing - Bottom"
+        },
+        {
+            "type": "range",
+            "id": "mg_bottom_desktop",
+            "label": "Desktop",
+            "min": 0,
+            "max": 150,
+            "step": 5,
+            "unit": "px",
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "mg_bottom_tablet",
+            "label": "Tablet",
+            "min": 0,
+            "max": 150,
+            "step": 5,
+            "unit": "px",
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "mg_bottom_mobile",
+            "label": "Mobile",
+            "min": 0,
+            "max": 150,
+            "step": 5,
+            "unit": "px",
+            "default": 30
+        }
+    ],
+    "blocks": [
+        {
+            "type": "review",
+            "name": "Review",
+            "limit": 6,
+            "settings": [
+                {
+                    "type": "range",
+                    "id": "star_rating",
+                    "label": "Star rating",
+                    "min": 1,
+                    "max": 5,
+                    "step": 1,
+                    "default": 5
+                },
+                {
+                    "type": "text",
+                    "id": "reviewer_name",
+                    "label": "Reviewer name",
+                    "default": "John Smith"
+                },
+                {
+                    "type": "textarea",
+                    "id": "review_text",
+                    "label": "Review text",
+                    "default": "Amazing product! Highly recommend to anyone looking for quality."
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Ramair Reviews",
+            "blocks": [
+                {
+                    "type": "review"
+                },
+                {
+                    "type": "review"
+                },
+                {
+                    "type": "review"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
