@@ -993,177 +993,57 @@
         "mg_bottom_mobile": 40
       }
     },
-    "instagram_rbUaBd": {
-      "type": "instagram",
+    "ramair_reviews_Fj8VdB": {
+      "type": "ramair-reviews",
       "blocks": {
-        "instagram_6JaM9b": {
-          "type": "instagram",
+        "review_yQCxBd": {
+          "type": "review",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-10-07_at_08.04.10.png",
-            "title": "",
-            "fontsize_title": 26,
-            "fontsize_title_mb": 20,
-            "color_title": "#ffffff",
-            "description": "",
-            "fontsize_des": 12,
-            "color_des": "#ffffff",
-            "button_text": "",
-            "color_button": "#ffffff",
-            "color_button_hover": "#ffffff",
-            "link": ""
+            "star_rating": 5,
+            "reviewer_name": "John Smith",
+            "review_text": "Amazing product! Highly recommend to anyone looking for quality."
           }
         },
-        "instagram_CF6NYx": {
-          "type": "instagram",
+        "review_q6QWmJ": {
+          "type": "review",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-10-07_at_08.05.22.png",
-            "title": "",
-            "fontsize_title": 26,
-            "fontsize_title_mb": 20,
-            "color_title": "#ffffff",
-            "description": "",
-            "fontsize_des": 12,
-            "color_des": "#ffffff",
-            "button_text": "",
-            "color_button": "#ffffff",
-            "color_button_hover": "#ffffff",
-            "link": ""
+            "star_rating": 5,
+            "reviewer_name": "John Smith",
+            "review_text": "Amazing product! Highly recommend to anyone looking for quality."
           }
         },
-        "instagram_8XUzqG": {
-          "type": "instagram",
+        "review_3b67wE": {
+          "type": "review",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-10-07_at_08.05.12.png",
-            "title": "",
-            "fontsize_title": 26,
-            "fontsize_title_mb": 20,
-            "color_title": "#ffffff",
-            "description": "",
-            "fontsize_des": 12,
-            "color_des": "#ffffff",
-            "button_text": "",
-            "color_button": "#ffffff",
-            "color_button_hover": "#ffffff",
-            "link": ""
-          }
-        },
-        "instagram_twJfTd": {
-          "type": "instagram",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-10-07_at_08.05.04.png",
-            "title": "",
-            "fontsize_title": 26,
-            "fontsize_title_mb": 20,
-            "color_title": "#ffffff",
-            "description": "",
-            "fontsize_des": 12,
-            "color_des": "#ffffff",
-            "button_text": "",
-            "color_button": "#ffffff",
-            "color_button_hover": "#ffffff",
-            "link": ""
-          }
-        },
-        "instagram_FVrfEn": {
-          "type": "instagram",
-          "settings": {
-            "title": "",
-            "fontsize_title": 26,
-            "fontsize_title_mb": 20,
-            "color_title": "#ffffff",
-            "description": "",
-            "fontsize_des": 12,
-            "color_des": "#ffffff",
-            "button_text": "",
-            "color_button": "#ffffff",
-            "color_button_hover": "#ffffff",
-            "link": ""
+            "star_rating": 5,
+            "reviewer_name": "John Smith",
+            "review_text": "Amazing product! Highly recommend to anyone looking for quality."
           }
         }
       },
       "block_order": [
-        "instagram_6JaM9b",
-        "instagram_CF6NYx",
-        "instagram_8XUzqG",
-        "instagram_twJfTd",
-        "instagram_FVrfEn"
+        "review_yQCxBd",
+        "review_q6QWmJ",
+        "review_3b67wE"
       ],
-      "name": "t:sections.instagram.presets.name",
+      "name": "Ramair Reviews",
       "settings": {
-        "container": "container",
-        "padding_full_width": 0,
-        "disable_padding_content": false,
-        "type_instagram": "default",
-        "block_layout": "grid",
-        "scroll_from": "rtl",
-        "scroll_time": "30",
-        "enable_border_instagram": false,
-        "instagram_border_color": "#e6e6e6",
-        "instagram_bg": "#000000",
-        "instagram_bg_gradient": "",
-        "style_block_header": "style1",
-        "mg_bottom_header": 15,
-        "instagram_title_icon": "",
-        "instagram_title": "#Ramair On Instagram",
-        "font_weight_instagram_title": "400",
-        "enable_border_title": false,
-        "border_color_title": "#ffffff",
-        "color_title": "#ffffff",
-        "mg_bottom_title": 15,
-        "fontsize_title": 16,
-        "fontsize_title_mb": 16,
-        "instagram_des": "",
-        "color_des": "#ffffff",
-        "fontsize_des": 16,
-        "margin_bottom_des": 35,
-        "content_width": 375,
-        "title_align": "center",
-        "view_all": "View all",
-        "icon_for_viewall": "",
-        "view_all_fs": 12,
-        "view_all_align": "center",
-        "view_all_vert_align": "top",
-        "font_weight_view_all": "400",
-        "mg_bottom_view": 30,
-        "enable_border_view_all": true,
-        "link_view_all": "",
-        "color_view_all": "#ffffff",
-        "display_instagram_button": true,
-        "type_button_more": "load",
-        "instagram_button_text": "View Gallery",
-        "instagram_button_link": "",
-        "enable_underline_button": false,
-        "color_button": "#ffffff",
-        "border_color_button": "#232323",
-        "bg_color_button": "#ffffff",
-        "bg_color_gradient_button": "",
-        "color_button_hover": "#232323",
-        "border_color_button_hover": "#232323",
-        "bg_color_button_hover": "#ffffff",
-        "bg_color_gradient_button_hover": "",
-        "maxwidth_button": 230,
-        "mg_top_button": 30,
-        "embed_code": "",
-        "type_instagram_by_gallery": "popup_image",
-        "images_per_row": "5",
-        "instagram_item_limit": 5,
-        "grid_gap": 10,
-        "border_radius": 5,
-        "slide_ins": "default_ins",
-        "enable_hide_portion": false,
-        "display_arrow": true,
-        "enable_hover_arrow": false,
-        "display_dots": false,
-        "icon_for_image": "",
-        "icon_style": "style_1",
-        "effects_bg": "",
-        "effects_opacity": 0,
+        "container": "fullwidth",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "heading": "Customer Reviews",
+        "heading_color": "#232323",
+        "content_align": "center",
+        "star_color": "#ECC125",
+        "name_color": "#232323",
+        "text_color": "#666666",
+        "scroll_speed": 30,
         "mg_top_desktop": 50,
-        "mg_top_tablet": 50,
-        "mg_top_mobile": 50,
+        "mg_top_tablet": 40,
+        "mg_top_mobile": 30,
         "mg_bottom_desktop": 50,
-        "mg_bottom_tablet": 50,
-        "mg_bottom_mobile": 50
+        "mg_bottom_tablet": 40,
+        "mg_bottom_mobile": 30
       }
     },
     "17604345294ca2062a": {
@@ -1204,7 +1084,7 @@
     "collection_list_aBdHtk",
     "collection_list_RjPFLq",
     "163247026462da6862",
-    "instagram_rbUaBd",
+    "ramair_reviews_Fj8VdB",
     "17604345294ca2062a"
   ]
 }
