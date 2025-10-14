@@ -41,8 +41,8 @@
     }
 }
 
+/* Style 1 - Vertical layout (default) */
 .review-card {
-    background: #ffffff;
     border-radius: 12px;
     padding: 30px 25px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
@@ -85,6 +85,38 @@
     flex-grow: 1;
 }
 
+/* Style 2 - Horizontal compact layout */
+.ramair-reviews-carousel.style-2 .review-card {
+    padding: 20px 25px;
+    min-height: auto;
+}
+
+.ramair-reviews-carousel.style-2 .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.ramair-reviews-carousel.style-2 .review-name {
+    margin: 0;
+    flex: 1;
+}
+
+.ramair-reviews-carousel.style-2 .star-rating {
+    flex-shrink: 0;
+}
+
+.ramair-reviews-carousel.style-2 .star-rating svg {
+    width: 18px;
+    height: 18px;
+}
+
+.ramair-reviews-carousel.style-2 .review-text {
+    margin: 0;
+}
+
 @media (max-width: 767px) {
     .ramair-reviews-track {
         gap: 20px;
@@ -106,6 +138,20 @@
 
     .review-text {
         font-size: 13px;
+    }
+
+    /* Style 2 mobile adjustments */
+    .ramair-reviews-carousel.style-2 .review-card {
+        padding: 18px 20px;
+    }
+
+    .ramair-reviews-carousel.style-2 .review-header {
+        gap: 12px;
+    }
+
+    .ramair-reviews-carousel.style-2 .star-rating svg {
+        width: 16px;
+        height: 16px;
     }
 }
 
