@@ -1166,59 +1166,6 @@
         "mg_bottom_mobile": 50
       }
     },
-    "ramair_reviews_KrBWqt": {
-      "type": "ramair-reviews",
-      "blocks": {
-        "review_KGmLmp": {
-          "type": "review",
-          "settings": {
-            "star_rating": 5,
-            "reviewer_name": "John Smith",
-            "review_text": "Amazing product! Highly recommend to anyone looking for quality."
-          }
-        },
-        "review_twXBtw": {
-          "type": "review",
-          "settings": {
-            "star_rating": 5,
-            "reviewer_name": "John Smith",
-            "review_text": "Amazing product! Highly recommend to anyone looking for quality."
-          }
-        },
-        "review_XebiU9": {
-          "type": "review",
-          "settings": {
-            "star_rating": 5,
-            "reviewer_name": "John Smith",
-            "review_text": "Amazing product! Highly recommend to anyone looking for quality."
-          }
-        }
-      },
-      "block_order": [
-        "review_KGmLmp",
-        "review_twXBtw",
-        "review_XebiU9"
-      ],
-      "name": "Ramair Reviews",
-      "settings": {
-        "container": "fullwidth",
-        "background": "#000000",
-        "background_gradient": "",
-        "heading": "Customer Reviews",
-        "heading_color": "#ffffff",
-        "content_align": "center",
-        "star_color": "#ecc125",
-        "name_color": "#232323",
-        "text_color": "#666666",
-        "scroll_speed": 25,
-        "mg_top_desktop": 50,
-        "mg_top_tablet": 40,
-        "mg_top_mobile": 30,
-        "mg_bottom_desktop": 50,
-        "mg_bottom_tablet": 40,
-        "mg_bottom_mobile": 30
-      }
-    },
     "17604345294ca2062a": {
       "type": "apps",
       "blocks": {
@@ -1258,7 +1205,6 @@
     "collection_list_RjPFLq",
     "163247026462da6862",
     "instagram_rbUaBd",
-    "ramair_reviews_KrBWqt",
     "17604345294ca2062a"
   ]
 }
