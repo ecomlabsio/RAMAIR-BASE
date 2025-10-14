@@ -1205,9 +1205,9 @@
         "background": "#000000",
         "background_gradient": "",
         "heading": "Customer Reviews",
-        "heading_color": "#FFFFFF",
+        "heading_color": "#ffffff",
         "content_align": "center",
-        "star_color": "#ECC125",
+        "star_color": "#ecc125",
         "name_color": "#232323",
         "text_color": "#666666",
         "scroll_speed": 15,
@@ -1217,6 +1217,35 @@
         "mg_bottom_desktop": 50,
         "mg_bottom_tablet": 40,
         "mg_bottom_mobile": 30
+      }
+    },
+    "17604345294ca2062a": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_QLBQMy": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_QLBQMy"
+      ],
+      "settings": {
+        "include_margins": false
       }
     }
   },
@@ -1229,6 +1258,7 @@
     "collection_list_RjPFLq",
     "163247026462da6862",
     "instagram_rbUaBd",
-    "ramair_reviews_KrBWqt"
+    "ramair_reviews_KrBWqt",
+    "17604345294ca2062a"
   ]
 }
