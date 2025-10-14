@@ -1210,7 +1210,7 @@
         "star_color": "#ecc125",
         "name_color": "#232323",
         "text_color": "#666666",
-        "scroll_speed": 15,
+        "scroll_speed": 25,
         "mg_top_desktop": 50,
         "mg_top_tablet": 40,
         "mg_top_mobile": 30,
