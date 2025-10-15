@@ -15,16 +15,27 @@
         "d4bab6c1-ab4b-442b-8884-47890038f054": {
           "type": "content",
           "settings": {
-            "title": "",
+            "title": "About Us",
+            "content": "Ramair is a UK-based manufacturer specialising in advanced air filtration systems for automotive, motorsport, and industrial applications. With a foundation in precision engineering and performance testing, our mission is to optimise airflow and protection through innovative design and material science.\n\nFrom our purpose-built production facility, we combine modern manufacturing techniques with decades of experience to deliver consistent, high-performance filtration solutions. Our team of engineers and technicians work closely with clients to develop products that meet exacting technical and regulatory standards — ensuring reliability, efficiency, and measurable performance gains across every application.",
+            "content_max_width": 2000,
+            "align": "center",
+            "content_text_color": ""
+          }
+        },
+        "content_7jnbfW": {
+          "type": "content",
+          "settings": {
+            "title": "Private Label",
             "content": "Ramair provides precision-engineered private label air filtration solutions for OEMs, distributors, and performance brands. Our in-house design and manufacturing capabilities cover a full range of filter technologies, including multi-layer reticulated foam, pleated synthetic, and high-flow cotton gauze media - all tailored to specific flow, filtration, and fitment requirements.\n\nOperating from our ISO-certified facility in the UK, we manage every stage of production, from CAD design and tooling to material selection, branding, and packaging. Whether you require custom assemblies for a new vehicle platform or rebranded components for your product line, Ramair delivers consistent quality, repeatability, and performance at scale.\n\nPartner with Ramair to leverage decades of filtration expertise, advanced manufacturing processes, and rapid prototyping, enabling you to bring technically robust, market-ready air filtration products to your customers under your own brand.",
-            "content_max_width": 1000,
+            "content_max_width": 2000,
             "align": "center",
             "content_text_color": ""
           }
         }
       },
       "block_order": [
-        "d4bab6c1-ab4b-442b-8884-47890038f054"
+        "d4bab6c1-ab4b-442b-8884-47890038f054",
+        "content_7jnbfW"
       ],
       "settings": {
         "container": "fullwidth",
