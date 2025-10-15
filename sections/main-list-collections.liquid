@@ -343,6 +343,9 @@
         margin-bottom: {{ mg_bottom_des }};
         text-transform: {{ des_text_transform }};
         color: {{ text_color }};
+        {% unless section.settings.show_collection_description %}
+        display: none;
+        {% endunless %}
     }
 
     #CollectionListSection-{{ section.id }} .collections-button {
@@ -1342,6 +1345,12 @@
             "type": "checkbox",
             "id": "show_collection_product_count",
             "label": "t:sections.main-list-collections.settings.content.label__3",
+            "default": true
+        },
+        {
+            "type": "checkbox",
+            "id": "show_collection_description",
+            "label": "Show collection description",
             "default": true
         },
         {
