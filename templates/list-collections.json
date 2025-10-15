@@ -15,15 +15,15 @@
         "040b56d3-2b31-437e-87e0-9f75db59fdba": {
           "type": "collection",
           "settings": {
-            "collection": "cosmopolis",
-            "display_countdown": false,
-            "title": "SPECIAL OFFERS",
+            "collection": "air-filter-cleaning",
+            "display_countdown": true,
+            "title": "Cleaning Kits and accessories",
             "title_font_size": 20,
             "title_font_size_mb": 16,
             "title_font_weight": "700",
             "mg_bottom_title": 13,
             "title_color": "#ffffff",
-            "des": "Sale up to 60% off on selected items. End ins:",
+            "des": "Everything you need to maintain your filter setup.",
             "des_font_size": 12,
             "des_font_size_mb": 12,
             "des_font_weight": "400",
@@ -51,7 +51,7 @@
         "d8a2e0b1-4f99-48fa-af54-1e2c3f7f1516": {
           "type": "collection",
           "settings": {
-            "collection": "suito",
+            "collection": "carburettor-filters",
             "display_countdown": false,
             "title": "Special Offers",
             "title_font_size": 16,
@@ -87,7 +87,7 @@
         "558d2588-e481-4e7f-a059-1cabaa2a9507": {
           "type": "collection",
           "settings": {
-            "collection": "milancelos-1",
+            "collection": "intake-kits",
             "display_countdown": true,
             "title": "SPECIAL OFFERS",
             "title_font_size": 20,
@@ -123,7 +123,7 @@
         "f070a123-bf0f-4981-9d37-ce9bd31a7803": {
           "type": "collection",
           "settings": {
-            "collection": "blazero",
+            "collection": "motorcycle-filters",
             "display_countdown": false,
             "title": "Special Offers",
             "title_font_size": 16,
@@ -159,7 +159,7 @@
         "88f0d701-4b2c-4f6e-9f19-af4107c5cc44": {
           "type": "collection",
           "settings": {
-            "collection": "glamos",
+            "collection": "motorsport-filters",
             "display_countdown": false,
             "title": "Special Offers",
             "title_font_size": 16,
@@ -195,7 +195,7 @@
         "24cb80b7-942d-489f-841a-fa3c813bc800": {
           "type": "collection",
           "settings": {
-            "collection": "metropolis",
+            "collection": "original-filters",
             "display_countdown": false,
             "title": "Special Offers",
             "title_font_size": 16,
@@ -231,7 +231,7 @@
         "cf5e4c28-6aa0-46c3-b6da-ad8bce3aa8fd": {
           "type": "collection",
           "settings": {
-            "collection": "valkyrio",
+            "collection": "universal-filters",
             "display_countdown": false,
             "title": "Special Offers",
             "title_font_size": 16,
@@ -266,6 +266,7 @@
         },
         "3caf9594-d59f-4fcb-aa49-ca70fc027cc9": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "scarvero",
             "display_countdown": false,
@@ -302,6 +303,7 @@
         },
         "5355789e-c611-4e6a-9282-a3f2ec77001c": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "congue",
             "display_countdown": false,
@@ -338,6 +340,7 @@
         },
         "041c42e1-1fe2-401f-88fb-8cf9d97ed493": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "blazero",
             "display_countdown": false,
@@ -374,6 +377,7 @@
         },
         "e8268ab9-5834-4e6f-bcdf-b1b6a1fd2c3b": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "suito",
             "display_countdown": false,
@@ -410,6 +414,7 @@
         },
         "0eabcec2-e2f6-44a3-91b3-c52ce5c76f7c": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "congue",
             "display_countdown": false,
