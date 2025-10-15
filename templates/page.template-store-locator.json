@@ -220,7 +220,7 @@
         "store_locator_map_app_embeded_DQNMLW"
       ],
       "settings": {
-        "include_margins": false
+        "include_margins": true
       }
     }
   },
