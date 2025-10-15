@@ -183,6 +183,7 @@
         "5ff9df75-db76-4d0f-90f7-1913504c75fb",
         "01a2b91b-e433-4e37-a301-d4116a070fcb"
       ],
+      "disabled": true,
       "settings": {
         "container": "fullwidth",
         "padding_full_width": 100,
@@ -204,9 +205,27 @@
         "mg_bottom_tablet": 50,
         "mg_bottom_mobile": 50
       }
+    },
+    "1760532095e0a62e80": {
+      "type": "apps",
+      "blocks": {
+        "store_locator_map_app_embeded_DQNMLW": {
+          "type": "shopify://apps/store-locator-map/blocks/app-embeded/d03d8f57-c980-45ee-96e7-4c1571ca06ef",
+          "settings": {
+            "popup_embedded_id": "maps-id-4720"
+          }
+        }
+      },
+      "block_order": [
+        "store_locator_map_app_embeded_DQNMLW"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1760532095e0a62e80"
   ]
 }
