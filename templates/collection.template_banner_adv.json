@@ -35,7 +35,7 @@
             "collection_description_bg": "#ffffff",
             "collection_description_bg_gradient": "",
             "show_sub_collection": true,
-            "sub_collection_layout": "grid",
+            "sub_collection_layout": "slider",
             "maxheight_sub_collection": 90,
             "sub_collection_description_position": "relative",
             "sub_collection_type": "all",
