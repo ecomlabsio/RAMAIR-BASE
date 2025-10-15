@@ -48,24 +48,24 @@
             "text_time_color": "#ffffff"
           }
         },
-        "d8a2e0b1-4f99-48fa-af54-1e2c3f7f1516": {
+        "collection_7jLxpi": {
           "type": "collection",
           "settings": {
             "collection": "carburettor-filters",
             "display_countdown": true,
-            "title": "Carb Socks, Baseplate Mounted and Domed Filters",
+            "title": "Socks, Baseplate & Domed Filters",
             "title_font_size": 20,
             "title_font_size_mb": 16,
-            "title_font_weight": "800",
+            "title_font_weight": "700",
             "mg_bottom_title": 13,
-            "title_color": "#FFFFFF",
-            "des": "Carb socks, base plated mounted filters and sausage type domed filters.",
+            "title_color": "#ffffff",
+            "des": "Carb socks, baseplate mounted and domed. Filters available in foam or pleated gauze type.",
             "des_font_size": 12,
             "des_font_size_mb": 12,
             "des_font_weight": "400",
             "mg_bottom_des": 15,
-            "text_color": "#000000",
-            "countdown": "2020/01/7 0:0:00",
+            "text_color": "#ffffff",
+            "countdown": "2022/10/10 0:0:00",
             "item_countdown_width": 64,
             "item_countdown_height": 64,
             "item_countdown_gap": 7,
@@ -74,14 +74,14 @@
             "countdown_background": "",
             "countdown_background_gradient": "",
             "opacity_background": 0.8,
-            "num_font_size": 12,
-            "num_font_size_mb": 12,
-            "num_font_weight": "400",
-            "num_color": "#000000",
+            "num_font_size": 20,
+            "num_font_size_mb": 16,
+            "num_font_weight": "600",
+            "num_color": "#ffffff",
             "text_time_font_size": 12,
             "text_time_font_size_mb": 12,
             "text_time_font_weight": "400",
-            "text_time_color": "#000000"
+            "text_time_color": "#ffffff"
           }
         },
         "558d2588-e481-4e7f-a059-1cabaa2a9507": {
@@ -452,7 +452,7 @@
       },
       "block_order": [
         "040b56d3-2b31-437e-87e0-9f75db59fdba",
-        "d8a2e0b1-4f99-48fa-af54-1e2c3f7f1516",
+        "collection_7jLxpi",
         "558d2588-e481-4e7f-a059-1cabaa2a9507",
         "f070a123-bf0f-4981-9d37-ce9bd31a7803",
         "88f0d701-4b2c-4f6e-9f19-af4107c5cc44",
