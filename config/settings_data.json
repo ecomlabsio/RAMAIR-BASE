@@ -901,6 +901,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": ""
         }
+      },
+      "3807945401401308513": {
+        "type": "shopify://apps/store-locator-map/blocks/app-extension/d03d8f57-c980-45ee-96e7-4c1571ca06ef",
+        "disabled": false,
+        "settings": {}
       }
     }
   }
