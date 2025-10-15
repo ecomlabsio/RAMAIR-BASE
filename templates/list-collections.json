@@ -523,6 +523,7 @@
         "mg_bottom_image": 8,
         "show_collection_title": true,
         "show_collection_product_count": false,
+        "show_collection_description": false,
         "align": "center",
         "border_color": "#000000",
         "bg_color": "#000000",
