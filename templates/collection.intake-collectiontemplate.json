@@ -70,12 +70,13 @@
         "8472dad8-3289-4746-8b7f-e6ebe3175dd5",
         "filter_8rpcVp"
       ],
+      "disabled": true,
       "settings": {
-        "container": "default",
+        "container": "container",
         "padding_full_width": 0,
         "colors_bg": "rgba(0,0,0,0)",
         "colors_bg_gradient": "",
-        "sidebar_collapse": "collapse",
+        "sidebar_collapse": "none",
         "enable_sticky": false,
         "sidebar_layout": "layout_1",
         "sidebar_collapse_default": "expand",
@@ -85,7 +86,7 @@
         "sidebar_heading_font_size": 14,
         "sidebar_heading_font_weight": "700",
         "sidebar_heading_text_transform": "uppercase",
-        "show_filter": true,
+        "show_filter": false,
         "filter_swatch": "Color",
         "filter_swatch_type": "png",
         "filter_swatch_layout": "color",
@@ -94,12 +95,12 @@
         "max_item_per_filter": 10,
         "filter_label_all": "",
         "filter_hidden_tag_list": "",
-        "show_toolbar": true,
+        "show_toolbar": false,
         "show_sorting": true,
         "show_item_per_page": true,
         "show_view_as": true,
         "products_per_page": "20",
-        "layout": "4",
+        "layout": "3",
         "show_infinite_scrolling": "show_more",
         "show_banner": false,
         "show_banner_1": true,
@@ -125,6 +126,7 @@
     },
     "product-recently-viewed": {
       "type": "product-recently-viewed",
+      "disabled": true,
       "settings": {
         "display_product_recently_viewed": true,
         "product_recently_viewed_container": "container",
@@ -176,11 +178,194 @@
         "border_width_card": 5,
         "border_color_card": "#f0f1f4"
       }
+    },
+    "collection_list_AdiDhH": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_xpgGCW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "audi-intakes",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_GJyhQA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_CHqBkJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_3wh7Xf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_HirPUH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_7kFJcV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_w8ngEj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_h6PNfV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_PcaH9f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_LKAw9D": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_B4c6iY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        },
+        "featured_collection_fraicH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "custom_collection_badge_text": "",
+            "custom_collection_badge_color": "#ffffff",
+            "custom_collection_badge_background": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_xpgGCW",
+        "featured_collection_GJyhQA",
+        "featured_collection_CHqBkJ",
+        "featured_collection_3wh7Xf",
+        "featured_collection_HirPUH",
+        "featured_collection_7kFJcV",
+        "featured_collection_w8ngEj",
+        "featured_collection_h6PNfV",
+        "featured_collection_PcaH9f",
+        "featured_collection_LKAw9D",
+        "featured_collection_B4c6iY",
+        "featured_collection_fraicH"
+      ],
+      "name": "t:sections.main-list-collections.settings.header__2.content",
+      "settings": {
+        "container": "container",
+        "padding_full_width": 0,
+        "section_bg_color": "",
+        "section_bg_gradient": "",
+        "collection_list_style": "style_2",
+        "enable_swipe_mobile": false,
+        "enable_heading_sticky": false,
+        "style_block_header": "style1",
+        "title": "",
+        "title_color": "",
+        "title_fs": 50,
+        "title_fs_mb": 24,
+        "title_fw": "800",
+        "title_mg_bottom": 49,
+        "title_mg_bottom_mb": 24,
+        "style_view_all": "style1",
+        "view_all": "",
+        "link_view_all": "",
+        "color_view_all": "#3c3c3c",
+        "color_view_all_hover": "#3c3c3c",
+        "heading_align": "center",
+        "min_width": 295,
+        "image_ratio": "square",
+        "portrait_aspect_ratio": 112,
+        "collection_align": "left",
+        "co_title_font_size": 24,
+        "co_title_font_size_mb": 16,
+        "co_title_font_weight": "600",
+        "co_title_text_transform": "none",
+        "mg_bottom_co_title": 18,
+        "co_title_color": "#000000",
+        "co_title_color_hover": "",
+        "show_co_description": false,
+        "limit_co_content_des": 22,
+        "co_des_color": "#ffffff",
+        "co_des_color_hover": "",
+        "co_des_font_size": 14,
+        "co_des_font_weight": "400",
+        "button_co_title": "Shop the collection",
+        "fontsize_co_button": 10,
+        "color_co_button": "#000000",
+        "color_co_button_hover": "#ffffff",
+        "collection_per_row": 6,
+        "grid_gap": 5,
+        "display_arrow": true,
+        "display_dots": false,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 50,
+        "mg_top_mobile": 50,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 50,
+        "mg_bottom_mobile": 50
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "product-recently-viewed"
+    "product-recently-viewed",
+    "collection_list_AdiDhH"
   ]
 }
