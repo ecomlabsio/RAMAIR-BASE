@@ -19,7 +19,7 @@
           "settings": {
             "custom_width": "20",
             "heading": "Shop With Us",
-            "menu": "",
+            "menu": "customer-account-main-menu",
             "mg_bottom": 11
           }
         },
