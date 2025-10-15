@@ -466,7 +466,7 @@
       ],
       "settings": {
         "container": "fullwidth",
-        "padding_full_width": 50,
+        "padding_full_width": 100,
         "colors_bg": "#000000",
         "colors_bg_gradient": "",
         "show_breadcrumb": true,
