@@ -1,0 +1,1041 @@
+{{ 'component-vehicle-selector.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign container = section.settings.container
+  assign padding_full_width = section.settings.padding_full_width
+
+  assign bg_image = section.settings.background_image
+  assign bg_image_mobile = section.settings.background_image_mobile
+  assign show_overlay = section.settings.show_overlay
+  assign overlay_color = section.settings.overlay_color
+  assign overlay_opacity = section.settings.overlay_opacity
+
+  assign heading = section.settings.heading
+  assign heading_color = section.settings.heading_color
+  assign heading_size = section.settings.heading_size
+  assign heading_size_mobile = section.settings.heading_size_mobile
+
+  assign description = section.settings.description
+  assign description_color = section.settings.description_color
+  assign description_size = section.settings.description_size
+  assign description_max_width = section.settings.description_max_width
+
+  assign cta_text = section.settings.cta_text
+  assign cta_bg_color = section.settings.cta_bg_color
+  assign cta_text_color = section.settings.cta_text_color
+  assign cta_border_color = section.settings.cta_border_color
+
+  assign menu_handle = section.settings.vehicle_menu
+  assign brands_per_row_desktop = section.settings.brands_per_row_desktop
+  assign brands_per_row_mobile = section.settings.brands_per_row_mobile
+  assign brand_bg_color = section.settings.brand_bg_color
+  assign brand_text_color = section.settings.brand_text_color
+  assign brand_bg_hover = section.settings.brand_bg_hover
+  assign brand_text_hover = section.settings.brand_text_hover
+  assign brand_button_padding = section.settings.brand_button_padding
+  assign brand_font_size = section.settings.brand_font_size
+  assign brand_font_weight = section.settings.brand_font_weight
+  assign brand_gap = section.settings.brand_gap
+-%}
+
+<div id="vehicle-selector-{{ section.id }}" class="vehicle-selector-section" data-section-id="{{ section.id }}" data-section-type="vehicle-selector">
+  <div class="vehicle-selector__hero">
+    {%- if bg_image != blank or bg_image_mobile != blank -%}
+      <div class="vehicle-selector__background">
+        {%- if bg_image != blank -%}
+          <img
+            src="{{ bg_image | image_url: width: 1920 }}"
+            srcset="
+              {{ bg_image | image_url: width: 375 }} 375w,
+              {{ bg_image | image_url: width: 750 }} 750w,
+              {{ bg_image | image_url: width: 1100 }} 1100w,
+              {{ bg_image | image_url: width: 1500 }} 1500w,
+              {{ bg_image | image_url: width: 1920 }} 1920w
+            "
+            alt="{{ bg_image.alt | escape }}"
+            loading="lazy"
+            class="vehicle-selector__bg-image vehicle-selector__bg-image--desktop"
+          >
+        {%- endif -%}
+        {%- if bg_image_mobile != blank -%}
+          <img
+            src="{{ bg_image_mobile | image_url: width: 750 }}"
+            srcset="
+              {{ bg_image_mobile | image_url: width: 375 }} 375w,
+              {{ bg_image_mobile | image_url: width: 750 }} 750w
+            "
+            alt="{{ bg_image_mobile.alt | escape }}"
+            loading="lazy"
+            class="vehicle-selector__bg-image vehicle-selector__bg-image--mobile"
+          >
+        {%- endif -%}
+        {%- if show_overlay -%}
+          <div class="vehicle-selector__overlay"></div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <div class="vehicle-selector__content {% if container == '1170' %}container-1170{% elsif container == '1770' %}container-1770{% elsif container == 'fullwidth' %}container-full{% else %}container{% endif %}">
+      <div class="vehicle-selector__text-wrapper">
+        {%- if heading != blank -%}
+          <h2 class="vehicle-selector__heading">{{ heading }}</h2>
+        {%- endif -%}
+
+        {%- if description != blank -%}
+          <div class="vehicle-selector__description rte">
+            {{ description }}
+          </div>
+        {%- endif -%}
+
+        {%- if cta_text != blank -%}
+          <div class="vehicle-selector__cta-wrapper">
+            <div class="vehicle-selector__cta">{{ cta_text }}</div>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+
+  {%- if menu_handle != blank -%}
+    {%- assign vehicle_menu = linklists[menu_handle].links -%}
+    {%- if vehicle_menu.size > 0 -%}
+      <div class="vehicle-selector__brands {% if container == '1170' %}container-1170{% elsif container == '1770' %}container-1770{% elsif container == 'fullwidth' %}container-full{% else %}container{% endif %}">
+        <div class="vehicle-selector__brands-grid">
+          {%- for link in vehicle_menu -%}
+            <a href="{{ link.url }}" class="vehicle-brand__button">
+              <span>{{ link.title }}</span>
+            </a>
+          {%- endfor -%}
+        </div>
+      </div>
+    {%- endif -%}
+  {%- endif -%}
+</div>
+
+<style>
+  #vehicle-selector-{{ section.id }} {
+    padding-top: {{ section.settings.mg_top_desktop }}px;
+    padding-bottom: {{ section.settings.mg_bottom_desktop }}px;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__hero {
+    position: relative;
+    min-height: {{ section.settings.hero_height_desktop }}px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: {{ section.settings.image_position }};
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__bg-image--mobile {
+    display: none;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: {{ overlay_color }};
+    opacity: {{ overlay_opacity | times: 0.01 }};
+    z-index: 2;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__content {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    padding-left: {{ section.settings.content_padding_horizontal }}px;
+    padding-right: {{ section.settings.content_padding_horizontal }}px;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__text-wrapper {
+    text-align: {{ section.settings.text_alignment }};
+    max-width: 100%;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__heading {
+    color: {{ heading_color }};
+    font-size: {{ heading_size }}px;
+    font-weight: {{ section.settings.heading_font_weight }};
+    text-transform: {{ section.settings.heading_text_transform }};
+    line-height: 1.1;
+    margin: 0 0 {{ section.settings.heading_margin_bottom }}px;
+    letter-spacing: {{ section.settings.heading_letter_spacing }}px;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__description {
+    color: {{ description_color }};
+    font-size: {{ description_size }}px;
+    line-height: 1.6;
+    max-width: {{ description_max_width }}%;
+    margin: 0 auto {{ section.settings.description_margin_bottom }}px;
+    font-weight: {{ section.settings.description_font_weight }};
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__cta-wrapper {
+    margin-top: {{ section.settings.cta_margin_top }}px;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__cta {
+    display: inline-block;
+    background-color: {{ cta_bg_color }};
+    color: {{ cta_text_color }};
+    font-size: {{ section.settings.cta_font_size }}px;
+    font-weight: {{ section.settings.cta_font_weight }};
+    text-transform: {{ section.settings.cta_text_transform }};
+    padding: {{ section.settings.cta_padding_vertical }}px {{ section.settings.cta_padding_horizontal }}px;
+    border: {{ section.settings.cta_border_width }}px solid {{ cta_border_color }};
+    letter-spacing: {{ section.settings.cta_letter_spacing }}px;
+    cursor: default;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__brands {
+    margin-top: {{ section.settings.brands_margin_top }}px;
+    padding-left: {{ section.settings.content_padding_horizontal }}px;
+    padding-right: {{ section.settings.content_padding_horizontal }}px;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-selector__brands-grid {
+    display: grid;
+    grid-template-columns: repeat({{ brands_per_row_desktop }}, 1fr);
+    gap: {{ brand_gap }}px;
+    max-width: 100%;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-brand__button {
+    background-color: {{ brand_bg_color }};
+    color: {{ brand_text_color }};
+    text-align: center;
+    padding: {{ brand_button_padding }}px;
+    text-decoration: none;
+    font-size: {{ brand_font_size }}px;
+    font-weight: {{ brand_font_weight }};
+    text-transform: {{ section.settings.brand_text_transform }};
+    border: 1px solid {{ section.settings.brand_border_color }};
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: {{ section.settings.brand_button_height }}px;
+  }
+
+  #vehicle-selector-{{ section.id }} .vehicle-brand__button:hover {
+    background-color: {{ brand_bg_hover }};
+    color: {{ brand_text_hover }};
+    border-color: {{ section.settings.brand_border_hover }};
+  }
+
+  @media (max-width: 1024px) {
+    #vehicle-selector-{{ section.id }} {
+      padding-top: {{ section.settings.mg_top_tablet }}px;
+      padding-bottom: {{ section.settings.mg_bottom_tablet }}px;
+    }
+
+    #vehicle-selector-{{ section.id }} .vehicle-selector__hero {
+      min-height: {{ section.settings.hero_height_tablet }}px;
+    }
+
+    #vehicle-selector-{{ section.id }} .vehicle-selector__heading {
+      font-size: calc({{ heading_size }}px * 0.7);
+    }
+
+    #vehicle-selector-{{ section.id }} .vehicle-selector__description {
+      font-size: calc({{ description_size }}px * 0.9);
+    }
+  }
+
+  @media (max-width: 767px) {
+    #vehicle-selector-{{ section.id }} {
+      padding-top: {{ section.settings.mg_top_mobile }}px;
+      padding-bottom: {{ section.settings.mg_bottom_mobile }}px;
+    }
+
+    #vehicle-selector-{{ section.id }} .vehicle-selector__hero {
+      min-height: {{ section.settings.hero_height_mobile }}px;
+    }
+
+    #vehicle-selector-{{ section.id }} .vehicle-selector__bg-image--desktop {
+      display: {% if bg_image_mobile != blank %}none{% else %}block{% endif %};
+    }
+
+    #vehicle-selector-{{ section.id }} .vehicle-selector__bg-image--mobile {
+      display: {% if bg_image_mobile != blank %}block{% else %}none{% endif %};
+    }
+
+    #vehicle-selector-{{ section.id }} .vehicle-selector__heading {
+      font-size: {{ heading_size_mobile }}px;
+    }
+
+    #vehicle-selector-{{ section.id }} .vehicle-selector__description {
+      font-size: {{ section.settings.description_size_mobile }}px;
+      max-width: 100%;
+    }
+
+    #vehicle-selector-{{ section.id }} .vehicle-selector__brands-grid {
+      grid-template-columns: repeat({{ brands_per_row_mobile }}, 1fr);
+    }
+
+    #vehicle-selector-{{ section.id }} .vehicle-brand__button {
+      font-size: calc({{ brand_font_size }}px * 0.9);
+      padding: calc({{ brand_button_padding }}px * 0.8);
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Ramair Collection Header",
+  "class": "vehicle-selector-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "container",
+      "label": "Container width",
+      "default": "container",
+      "options": [
+        {
+          "value": "container",
+          "label": "Default"
+        },
+        {
+          "value": "1170",
+          "label": "1170px"
+        },
+        {
+          "value": "1770",
+          "label": "1770px"
+        },
+        {
+          "value": "fullwidth",
+          "label": "Full width"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "content_padding_horizontal",
+      "label": "Content horizontal padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Background Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image (Desktop)"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_mobile",
+      "label": "Background image (Mobile)",
+      "info": "Optional. If not set, desktop image will be used."
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image position",
+      "default": "center center",
+      "options": [
+        {
+          "value": "top left",
+          "label": "Top Left"
+        },
+        {
+          "value": "top center",
+          "label": "Top Center"
+        },
+        {
+          "value": "top right",
+          "label": "Top Right"
+        },
+        {
+          "value": "center left",
+          "label": "Center Left"
+        },
+        {
+          "value": "center center",
+          "label": "Center"
+        },
+        {
+          "value": "center right",
+          "label": "Center Right"
+        },
+        {
+          "value": "bottom left",
+          "label": "Bottom Left"
+        },
+        {
+          "value": "bottom center",
+          "label": "Bottom Center"
+        },
+        {
+          "value": "bottom right",
+          "label": "Bottom Right"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "hero_height_desktop",
+      "label": "Hero height (Desktop)",
+      "min": 300,
+      "max": 1000,
+      "step": 50,
+      "unit": "px",
+      "default": 600
+    },
+    {
+      "type": "range",
+      "id": "hero_height_tablet",
+      "label": "Hero height (Tablet)",
+      "min": 300,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "default": 500
+    },
+    {
+      "type": "range",
+      "id": "hero_height_mobile",
+      "label": "Hero height (Mobile)",
+      "min": 300,
+      "max": 700,
+      "step": 50,
+      "unit": "px",
+      "default": 500
+    },
+    {
+      "type": "checkbox",
+      "id": "show_overlay",
+      "label": "Show overlay",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Overlay color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Content Alignment"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "INTAKE KITS"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size (Desktop)",
+      "min": 24,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "default": 96
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Heading size (Mobile)",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "select",
+      "id": "heading_font_weight",
+      "label": "Heading font weight",
+      "default": "900",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi Bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        },
+        {
+          "value": "800",
+          "label": "Extra Bold"
+        },
+        {
+          "value": "900",
+          "label": "Black"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "heading_text_transform",
+      "label": "Heading text transform",
+      "default": "uppercase",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize"
+        },
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        },
+        {
+          "value": "lowercase",
+          "label": "Lowercase"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "heading_letter_spacing",
+      "label": "Heading letter spacing",
+      "min": -2,
+      "max": 10,
+      "step": 0.5,
+      "unit": "px",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "heading_margin_bottom",
+      "label": "Heading bottom margin",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Description"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Ramair's intake and induction kits are engineered to optimise airflow, improve engine efficiency, and unlock the full performance potential of your vehicle. Designed and manufactured in the UK, our kits combine premium materials, advanced filtration technology, and precision engineering to deliver reliable power gains and superior engine protection.</p>"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description size (Desktop)",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "description_size_mobile",
+      "label": "Description size (Mobile)",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "select",
+      "id": "description_font_weight",
+      "label": "Description font weight",
+      "default": "400",
+      "options": [
+        {
+          "value": "300",
+          "label": "Light"
+        },
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi Bold"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "description_max_width",
+      "label": "Description max width",
+      "min": 40,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "description_margin_bottom",
+      "label": "Description bottom margin",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Call-to-Action"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA text",
+      "default": "SELECT YOUR VEHICLE"
+    },
+    {
+      "type": "color",
+      "id": "cta_bg_color",
+      "label": "CTA background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "cta_text_color",
+      "label": "CTA text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "cta_border_color",
+      "label": "CTA border color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "cta_font_size",
+      "label": "CTA font size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "cta_font_weight",
+      "label": "CTA font weight",
+      "default": "700",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi Bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        },
+        {
+          "value": "800",
+          "label": "Extra Bold"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "cta_text_transform",
+      "label": "CTA text transform",
+      "default": "uppercase",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize"
+        },
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "cta_padding_vertical",
+      "label": "CTA vertical padding",
+      "min": 5,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "cta_padding_horizontal",
+      "label": "CTA horizontal padding",
+      "min": 10,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "cta_border_width",
+      "label": "CTA border width",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "cta_letter_spacing",
+      "label": "CTA letter spacing",
+      "min": 0,
+      "max": 5,
+      "step": 0.5,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "cta_margin_top",
+      "label": "CTA top margin",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Vehicle Brands"
+    },
+    {
+      "type": "link_list",
+      "id": "vehicle_menu",
+      "label": "Vehicle brands menu",
+      "info": "Create a menu in Navigation with vehicle brand names and links"
+    },
+    {
+      "type": "range",
+      "id": "brands_margin_top",
+      "label": "Brands section top margin",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "brands_per_row_desktop",
+      "label": "Brands per row (Desktop)",
+      "min": 3,
+      "max": 10,
+      "step": 1,
+      "default": 9
+    },
+    {
+      "type": "range",
+      "id": "brands_per_row_mobile",
+      "label": "Brands per row (Mobile)",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "brand_gap",
+      "label": "Gap between brands",
+      "min": 5,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "color",
+      "id": "brand_bg_color",
+      "label": "Brand button background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "brand_text_color",
+      "label": "Brand button text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "brand_border_color",
+      "label": "Brand button border color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "brand_bg_hover",
+      "label": "Brand button background (hover)",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "brand_text_hover",
+      "label": "Brand button text color (hover)",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "brand_border_hover",
+      "label": "Brand button border (hover)",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "brand_button_padding",
+      "label": "Brand button padding",
+      "min": 10,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "brand_button_height",
+      "label": "Brand button min height",
+      "min": 40,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "brand_font_size",
+      "label": "Brand font size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "brand_font_weight",
+      "label": "Brand font weight",
+      "default": "700",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi Bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        },
+        {
+          "value": "800",
+          "label": "Extra Bold"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "brand_text_transform",
+      "label": "Brand text transform",
+      "default": "uppercase",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize"
+        },
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing"
+    },
+    {
+      "type": "range",
+      "id": "mg_top_desktop",
+      "label": "Top margin (Desktop)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mg_top_tablet",
+      "label": "Top margin (Tablet)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mg_top_mobile",
+      "label": "Top margin (Mobile)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mg_bottom_desktop",
+      "label": "Bottom margin (Desktop)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "mg_bottom_tablet",
+      "label": "Bottom margin (Tablet)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "mg_bottom_mobile",
+      "label": "Bottom margin (Mobile)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ramair Collection Header"
+    }
+  ]
+}
+{% endschema %}

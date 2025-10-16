@@ -1,0 +1,121 @@
+/* Vehicle Selector Hero Component Styles */
+
+.vehicle-selector-section {
+  position: relative;
+  width: 100%;
+}
+
+.vehicle-selector__hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.vehicle-selector__background {
+  position: absolute;
+  inset: 0;
+}
+
+.vehicle-selector__bg-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vehicle-selector__overlay {
+  position: absolute;
+  inset: 0;
+}
+
+.vehicle-selector__content {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.vehicle-selector__text-wrapper {
+  width: 100%;
+}
+
+.vehicle-selector__heading {
+  margin: 0;
+  padding: 0;
+}
+
+.vehicle-selector__description {
+  margin: 0;
+}
+
+.vehicle-selector__description p {
+  margin: 0;
+  padding: 0;
+}
+
+.vehicle-selector__cta-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.vehicle-selector__cta {
+  display: inline-block;
+  cursor: default;
+  transition: all 0.3s ease;
+}
+
+.vehicle-selector__brands {
+  width: 100%;
+}
+
+.vehicle-selector__brands-grid {
+  display: grid;
+  width: 100%;
+}
+
+.vehicle-brand__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.vehicle-brand__button span {
+  display: inline-block;
+}
+
+/* Alignment utilities */
+.vehicle-selector__text-wrapper[style*="text-align: left"] .vehicle-selector__cta-wrapper {
+  justify-content: flex-start;
+}
+
+.vehicle-selector__text-wrapper[style*="text-align: right"] .vehicle-selector__cta-wrapper {
+  justify-content: flex-end;
+}
+
+.vehicle-selector__text-wrapper[style*="text-align: center"] .vehicle-selector__cta-wrapper {
+  justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .vehicle-selector__content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .vehicle-selector__content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .vehicle-selector__text-wrapper {
+    text-align: center !important;
+  }
+
+  .vehicle-selector__cta-wrapper {
+    justify-content: center !important;
+  }
+}
