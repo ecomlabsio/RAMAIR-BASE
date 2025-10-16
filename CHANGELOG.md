@@ -4,11 +4,12 @@ All notable changes to this theme will be documented in this file.
 
 ## 1.3.0 — 2025-10-16
 
-- Add: Vehicle Selector block for main collection section
-  - Clean, menu-driven vehicle brand grid
-  - Integrated as a block in main-collection-product-grid section
-  - Fully responsive with customizable styling options
-  - Pulls vehicle brands from Shopify navigation menus
+- Add: Ramair Vehicle Selector section (sections/ramair-vehicle-selector.liquid)
+  - Standalone section for vehicle brand navigation
+  - Menu-driven grid with customizable alignment (left/center/right)
+  - Fixed button height control for consistent appearance
+  - Simplified settings focused on essential styling
+  - Responsive design with mobile/tablet/desktop layouts
 - Add: Component stylesheet for vehicle selector (assets/component-vehicle-selector.css)
 
 ## 1.2.0 — 2025-09-19

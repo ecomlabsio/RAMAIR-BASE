@@ -1,0 +1,400 @@
+{{ 'component-vehicle-selector.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign container = section.settings.container
+  assign menu_handle = section.settings.vehicle_menu
+  assign menu_alignment = section.settings.menu_alignment
+  assign brands_per_row_desktop = section.settings.brands_per_row_desktop
+  assign brands_per_row_mobile = section.settings.brands_per_row_mobile
+  assign brand_gap = section.settings.brand_gap
+  assign brand_bg_color = section.settings.brand_bg_color
+  assign brand_text_color = section.settings.brand_text_color
+  assign brand_border_color = section.settings.brand_border_color
+  assign brand_bg_hover = section.settings.brand_bg_hover
+  assign brand_text_hover = section.settings.brand_text_hover
+  assign brand_border_hover = section.settings.brand_border_hover
+  assign brand_button_padding = section.settings.brand_button_padding
+  assign brand_button_height = section.settings.brand_button_height
+  assign brand_font_size = section.settings.brand_font_size
+  assign brand_font_weight = section.settings.brand_font_weight
+  assign brand_text_transform = section.settings.brand_text_transform
+-%}
+
+{%- if menu_handle != blank -%}
+  {%- assign vehicle_menu = linklists[menu_handle].links -%}
+  {%- if vehicle_menu.size > 0 -%}
+    <div id="ramair-vehicle-selector-{{ section.id }}" class="ramair-vehicle-selector" data-section-id="{{ section.id }}">
+      <div class="{% if container == '1170' %}container-1170{% elsif container == '1770' %}container-1770{% elsif container == 'fullwidth' %}container-full{% else %}container{% endif %}">
+        <div class="vehicle-selector-wrapper vehicle-selector-wrapper--{{ menu_alignment }}">
+          <div class="vehicle-selector__brands-grid">
+            {%- for link in vehicle_menu -%}
+              <a href="{{ link.url }}" class="vehicle-brand__button">
+                <span>{{ link.title }}</span>
+              </a>
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      #ramair-vehicle-selector-{{ section.id }} {
+        padding-top: {{ section.settings.mg_top_desktop }}px;
+        padding-bottom: {{ section.settings.mg_bottom_desktop }}px;
+      }
+
+      #ramair-vehicle-selector-{{ section.id }} .vehicle-selector-wrapper {
+        width: 100%;
+      }
+
+      #ramair-vehicle-selector-{{ section.id }} .vehicle-selector-wrapper--left {
+        margin-right: auto;
+      }
+
+      #ramair-vehicle-selector-{{ section.id }} .vehicle-selector-wrapper--center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #ramair-vehicle-selector-{{ section.id }} .vehicle-selector-wrapper--right {
+        margin-left: auto;
+      }
+
+      #ramair-vehicle-selector-{{ section.id }} .vehicle-selector__brands-grid {
+        display: grid;
+        grid-template-columns: repeat({{ brands_per_row_desktop }}, 1fr);
+        gap: {{ brand_gap }}px;
+        max-width: 100%;
+      }
+
+      #ramair-vehicle-selector-{{ section.id }} .vehicle-brand__button {
+        background-color: {{ brand_bg_color }};
+        color: {{ brand_text_color }};
+        text-align: center;
+        padding: {{ brand_button_padding }}px;
+        text-decoration: none;
+        font-size: {{ brand_font_size }}px;
+        font-weight: {{ brand_font_weight }};
+        text-transform: {{ brand_text_transform }};
+        border: 1px solid {{ brand_border_color }};
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: {{ brand_button_height }}px;
+      }
+
+      #ramair-vehicle-selector-{{ section.id }} .vehicle-brand__button:hover {
+        background-color: {{ brand_bg_hover }};
+        color: {{ brand_text_hover }};
+        border-color: {{ brand_border_hover }};
+      }
+
+      @media (max-width: 1024px) {
+        #ramair-vehicle-selector-{{ section.id }} {
+          padding-top: {{ section.settings.mg_top_tablet }}px;
+          padding-bottom: {{ section.settings.mg_bottom_tablet }}px;
+        }
+      }
+
+      @media (max-width: 767px) {
+        #ramair-vehicle-selector-{{ section.id }} {
+          padding-top: {{ section.settings.mg_top_mobile }}px;
+          padding-bottom: {{ section.settings.mg_bottom_mobile }}px;
+        }
+
+        #ramair-vehicle-selector-{{ section.id }} .vehicle-selector__brands-grid {
+          grid-template-columns: repeat({{ brands_per_row_mobile }}, 1fr);
+        }
+
+        #ramair-vehicle-selector-{{ section.id }} .vehicle-brand__button {
+          font-size: calc({{ brand_font_size }}px * 0.9);
+          padding: calc({{ brand_button_padding }}px * 0.8);
+        }
+      }
+    </style>
+  {%- endif -%}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Ramair Vehicle Selector",
+  "class": "ramair-vehicle-selector-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "select",
+      "id": "container",
+      "label": "Container width",
+      "default": "container",
+      "options": [
+        {
+          "value": "container",
+          "label": "Default"
+        },
+        {
+          "value": "1170",
+          "label": "1170px"
+        },
+        {
+          "value": "1770",
+          "label": "1770px"
+        },
+        {
+          "value": "fullwidth",
+          "label": "Full width"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "menu_alignment",
+      "label": "Menu alignment",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Vehicle Brands"
+    },
+    {
+      "type": "link_list",
+      "id": "vehicle_menu",
+      "label": "Vehicle brands menu",
+      "info": "Select a menu with vehicle brand names and links"
+    },
+    {
+      "type": "range",
+      "id": "brands_per_row_desktop",
+      "label": "Brands per row (Desktop)",
+      "min": 3,
+      "max": 12,
+      "step": 1,
+      "default": 9
+    },
+    {
+      "type": "range",
+      "id": "brands_per_row_mobile",
+      "label": "Brands per row (Mobile)",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "brand_gap",
+      "label": "Gap between brands",
+      "min": 5,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Brand Button Styling"
+    },
+    {
+      "type": "range",
+      "id": "brand_button_height",
+      "label": "Button height",
+      "info": "Controls the overall height of the brand buttons",
+      "min": 40,
+      "max": 120,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "brand_button_padding",
+      "label": "Button padding",
+      "min": 10,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "color",
+      "id": "brand_bg_color",
+      "label": "Button background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "brand_text_color",
+      "label": "Button text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "brand_border_color",
+      "label": "Button border color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "brand_bg_hover",
+      "label": "Button background (hover)",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "brand_text_hover",
+      "label": "Button text color (hover)",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "brand_border_hover",
+      "label": "Button border (hover)",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "brand_font_size",
+      "label": "Font size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "brand_font_weight",
+      "label": "Font weight",
+      "default": "700",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi Bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        },
+        {
+          "value": "800",
+          "label": "Extra Bold"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "brand_text_transform",
+      "label": "Text transform",
+      "default": "uppercase",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize"
+        },
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Section Spacing"
+    },
+    {
+      "type": "range",
+      "id": "mg_top_desktop",
+      "label": "Top margin (Desktop)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mg_top_tablet",
+      "label": "Top margin (Tablet)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mg_top_mobile",
+      "label": "Top margin (Mobile)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mg_bottom_desktop",
+      "label": "Bottom margin (Desktop)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "mg_bottom_tablet",
+      "label": "Bottom margin (Tablet)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 35
+    },
+    {
+      "type": "range",
+      "id": "mg_bottom_mobile",
+      "label": "Bottom margin (Mobile)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ramair Vehicle Selector"
+    }
+  ]
+}
+{% endschema %}
