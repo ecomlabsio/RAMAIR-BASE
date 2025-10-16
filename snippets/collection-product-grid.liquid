@@ -182,6 +182,90 @@
                             </div>
                         </div>
                     {%- endif -%}
+                    {%- if block.type == 'vehicle_selector' -%}
+                        {{ 'component-vehicle-selector.css' | asset_url | stylesheet_tag }}
+                        {%- liquid
+                            assign menu_handle = block.settings.vehicle_menu
+                            assign brands_per_row_desktop = block.settings.brands_per_row_desktop
+                            assign brands_per_row_mobile = block.settings.brands_per_row_mobile
+                            assign brand_gap = block.settings.brand_gap
+                            assign brand_bg_color = block.settings.brand_bg_color
+                            assign brand_text_color = block.settings.brand_text_color
+                            assign brand_border_color = block.settings.brand_border_color
+                            assign brand_bg_hover = block.settings.brand_bg_hover
+                            assign brand_text_hover = block.settings.brand_text_hover
+                            assign brand_button_padding = block.settings.brand_button_padding
+                            assign brand_button_height = block.settings.brand_button_height
+                            assign brand_font_size = block.settings.brand_font_size
+                            assign brand_font_weight = block.settings.brand_font_weight
+                            assign brand_text_transform = block.settings.brand_text_transform
+                            assign margin_top = block.settings.margin_top
+                            assign margin_bottom = block.settings.margin_bottom
+                        -%}
+
+                        {%- if menu_handle != blank -%}
+                            {%- assign vehicle_menu = linklists[menu_handle].links -%}
+                            {%- if vehicle_menu.size > 0 -%}
+                                <div class="vehicle-selector-block{% if settings.banner_animation == 'effect_fade_up' %} scroll-trigger animate--slide-in{% endif %}"
+                                     id="vehicle-selector-{{ block.id }}"
+                                     {{ block.shopify_attributes }}>
+                                    <div class="vehicle-selector__brands-grid">
+                                        {%- for link in vehicle_menu -%}
+                                            <a href="{{ link.url }}" class="vehicle-brand__button">
+                                                <span>{{ link.title }}</span>
+                                            </a>
+                                        {%- endfor -%}
+                                    </div>
+                                </div>
+
+                                <style>
+                                    #vehicle-selector-{{ block.id }} {
+                                        margin-top: {{ margin_top }}px;
+                                        margin-bottom: {{ margin_bottom }}px;
+                                    }
+
+                                    #vehicle-selector-{{ block.id }} .vehicle-selector__brands-grid {
+                                        display: grid;
+                                        grid-template-columns: repeat({{ brands_per_row_desktop }}, 1fr);
+                                        gap: {{ brand_gap }}px;
+                                    }
+
+                                    #vehicle-selector-{{ block.id }} .vehicle-brand__button {
+                                        background-color: {{ brand_bg_color }};
+                                        color: {{ brand_text_color }};
+                                        text-align: center;
+                                        padding: {{ brand_button_padding }}px;
+                                        text-decoration: none;
+                                        font-size: {{ brand_font_size }}px;
+                                        font-weight: {{ brand_font_weight }};
+                                        text-transform: {{ brand_text_transform }};
+                                        border: 1px solid {{ brand_border_color }};
+                                        transition: all 0.3s ease;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        min-height: {{ brand_button_height }}px;
+                                    }
+
+                                    #vehicle-selector-{{ block.id }} .vehicle-brand__button:hover {
+                                        background-color: {{ brand_bg_hover }};
+                                        color: {{ brand_text_hover }};
+                                    }
+
+                                    @media (max-width: 767px) {
+                                        #vehicle-selector-{{ block.id }} .vehicle-selector__brands-grid {
+                                            grid-template-columns: repeat({{ brands_per_row_mobile }}, 1fr);
+                                        }
+
+                                        #vehicle-selector-{{ block.id }} .vehicle-brand__button {
+                                            font-size: calc({{ brand_font_size }}px * 0.9);
+                                            padding: calc({{ brand_button_padding }}px * 0.8);
+                                        }
+                                    }
+                                </style>
+                            {%- endif -%}
+                        {%- endif -%}
+                    {%- endif -%}
                 {%- endfor -%}
 
                 {%- paginate collection.products by products_per_page -%}

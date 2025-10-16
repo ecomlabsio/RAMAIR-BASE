@@ -4,10 +4,10 @@ All notable changes to this theme will be documented in this file.
 
 ## 1.3.0 — 2025-10-16
 
-- Add: New "Ramair Collection Header" section (sections/vehicle-selector-hero.liquid)
-  - Hero section with customizable background image, heading, description, and CTA
-  - Vehicle brand selector grid with menu integration
-  - Fully responsive with extensive customization options
+- Add: Vehicle Selector block for main collection section
+  - Clean, menu-driven vehicle brand grid
+  - Integrated as a block in main-collection-product-grid section
+  - Fully responsive with customizable styling options
   - Pulls vehicle brands from Shopify navigation menus
 - Add: Component stylesheet for vehicle selector (assets/component-vehicle-selector.css)
 
