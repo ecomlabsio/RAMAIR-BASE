@@ -19,7 +19,7 @@
         "show_breadcrumb": true,
         "breadcrumb_alignment": "left",
         "breadcrumb_color": "#999999",
-        "breadcrumb_bg": "rgba(0,0,0,0)",
+        "breadcrumb_bg": "#000000",
         "breadcrumb_gradient": "",
         "breadcrumb_color_mb": "",
         "breadcrumb_bg_mb": "#f6f6f6",
@@ -32,6 +32,35 @@
         "mg_bottom_desktop": 0,
         "mg_bottom_tablet": 0,
         "mg_bottom_mobile": 0
+      }
+    },
+    "ramair_vehicle_selector_kafqAn": {
+      "type": "ramair-vehicle-selector",
+      "name": "Ramair Vehicle Selector",
+      "settings": {
+        "container": "container",
+        "menu_alignment": "center",
+        "vehicle_menu": "intake-menu",
+        "brands_per_row_desktop": 9,
+        "brands_per_row_mobile": 3,
+        "brand_gap": 15,
+        "brand_button_height": 60,
+        "brand_button_padding": 20,
+        "brand_bg_color": "#000000",
+        "brand_text_color": "#ffffff",
+        "brand_border_color": "#000000",
+        "brand_bg_hover": "#ffffff",
+        "brand_text_hover": "#000000",
+        "brand_border_hover": "#ffffff",
+        "brand_font_size": 16,
+        "brand_font_weight": "700",
+        "brand_text_transform": "uppercase",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 40,
+        "mg_bottom_tablet": 35,
+        "mg_bottom_mobile": 30
       }
     },
     "product-grid": {
@@ -74,7 +103,7 @@
       "settings": {
         "container": "container",
         "padding_full_width": 0,
-        "colors_bg": "rgba(0,0,0,0)",
+        "colors_bg": "#000000",
         "colors_bg_gradient": "",
         "sidebar_collapse": "none",
         "enable_sticky": false,
@@ -182,6 +211,7 @@
   },
   "order": [
     "banner",
+    "ramair_vehicle_selector_kafqAn",
     "product-grid",
     "product-recently-viewed"
   ]
