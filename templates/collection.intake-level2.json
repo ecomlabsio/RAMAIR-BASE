@@ -713,7 +713,6 @@
         },
         "3978fd59-b580-49e1-9893-38d762f48f10": {
           "type": "product_block",
-          "disabled": true,
           "settings": {
             "heading": "Featured Products",
             "product_block_collection": "collection-home-1-2",
