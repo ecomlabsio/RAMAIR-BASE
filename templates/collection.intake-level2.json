@@ -131,12 +131,12 @@
         "style_bg": "none",
         "bg_color": "",
         "bg_color_gradient": "",
-        "mg_top_desktop": 50,
-        "mg_top_tablet": 50,
-        "mg_top_mobile": 50,
-        "mg_bottom_desktop": 50,
-        "mg_bottom_tablet": 50,
-        "mg_bottom_mobile": 50
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
       }
     },
     "banner": {
@@ -219,126 +219,6 @@
         "mg_bottom_desktop": 40,
         "mg_bottom_tablet": 0,
         "mg_bottom_mobile": 0
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-banner-adv",
-      "blocks": {
-        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a": {
-          "type": "category",
-          "settings": {
-            "heading": "Categories",
-            "type": "1_level",
-            "link_list": ""
-          }
-        },
-        "ce351101-2c54-4627-b740-b2c592067b4a": {
-          "type": "filter",
-          "settings": {
-            "heading": "Size",
-            "list_tags": "X,XS,L,M"
-          }
-        },
-        "3978fd59-b580-49e1-9893-38d762f48f10": {
-          "type": "product_block",
-          "settings": {
-            "heading": "Featured Products",
-            "product_block_collection": "collection-home-1-2",
-            "product_block_layout": "slider",
-            "product_block_limit": 8,
-            "product_block_dots": false,
-            "product_block_arrows": true
-          }
-        },
-        "dc4f771a-d1ea-42a7-8792-b895132fa9fe": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "link": ""
-          }
-        },
-        "34930b49-8499-46d3-bf41-2cbb334ca73d": {
-          "type": "image",
-          "settings": {
-            "heading": "",
-            "link": ""
-          }
-        },
-        "2f7f02ac-4072-40ea-844f-59943e256971": {
-          "type": "text",
-          "settings": {
-            "heading": "Custom Block",
-            "text": "<p>Custom CMS block displayed at the left sidebar on the Catalog Page. Put your own content here: text, html, images, media... or whatever you like.</p>\n\n<p>There are many similar sample content placeholders across the store. All editable from admin panel.</p>"
-          }
-        },
-        "fab1b7dd-3875-46c2-9175-0bcb1ff322a9": {
-          "type": "filter",
-          "settings": {
-            "heading": "Color",
-            "list_tags": "Gray,Blue,Black"
-          }
-        }
-      },
-      "block_order": [
-        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a",
-        "ce351101-2c54-4627-b740-b2c592067b4a",
-        "3978fd59-b580-49e1-9893-38d762f48f10",
-        "dc4f771a-d1ea-42a7-8792-b895132fa9fe",
-        "34930b49-8499-46d3-bf41-2cbb334ca73d",
-        "2f7f02ac-4072-40ea-844f-59943e256971",
-        "fab1b7dd-3875-46c2-9175-0bcb1ff322a9"
-      ],
-      "settings": {
-        "colors_bg": "#000000",
-        "colors_bg_gradient": "",
-        "container": "1770",
-        "mg_top_desktop": 0,
-        "mg_top_tablet": 0,
-        "mg_top_mobile": 0,
-        "mg_bottom_desktop": 0,
-        "mg_bottom_tablet": 0,
-        "mg_bottom_mobile": 0,
-        "show_sidebar": true,
-        "sidebar_collapse": "collapse",
-        "enable_sticky": false,
-        "sidebar_layout": "layout_1",
-        "sidebar_collapse_default": "expand",
-        "sidebar_type": "horizontal",
-        "sidebar_position": "left",
-        "sidebar_heading_font": "font_1",
-        "sidebar_heading_font_size": 12,
-        "sidebar_heading_font_weight": "400",
-        "sidebar_heading_text_transform": "capitalize",
-        "show_filter": false,
-        "filter_swatch": "Color",
-        "filter_swatch_type": "color",
-        "filter_swatch_layout": "color",
-        "filter_rectangle": "Size",
-        "filter_display_type": "show-more",
-        "max_item_per_filter": 10,
-        "filter_label_all": "",
-        "filter_hidden_tag_list": "",
-        "show_toolbar": true,
-        "show_sorting": true,
-        "show_item_per_page": true,
-        "show_view_as": true,
-        "products_per_page": "50",
-        "layout": "5",
-        "show_infinite_scrolling": "show_more",
-        "show_banner": false,
-        "show_banner_1": false,
-        "banner_position_1": "4",
-        "link_banner_1": "#",
-        "show_banner_2": true,
-        "banner_position_2": "5",
-        "link_banner_2": "#",
-        "show_banner_3": true,
-        "banner_position_3": "12",
-        "link_banner_3": "#",
-        "product_space_between_vert_desk": 30,
-        "product_space_between_vert_mb": 16,
-        "product_space_between_horiz_desk": 60,
-        "product_space_between_horiz_mb": 30
       }
     },
     "164976027430afd221": {
@@ -553,6 +433,126 @@
         "mg_bottom_desktop": 30,
         "mg_bottom_tablet": 35,
         "mg_bottom_mobile": 30
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-banner-adv",
+      "blocks": {
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a": {
+          "type": "category",
+          "settings": {
+            "heading": "Categories",
+            "type": "1_level",
+            "link_list": ""
+          }
+        },
+        "ce351101-2c54-4627-b740-b2c592067b4a": {
+          "type": "filter",
+          "settings": {
+            "heading": "Size",
+            "list_tags": "X,XS,L,M"
+          }
+        },
+        "3978fd59-b580-49e1-9893-38d762f48f10": {
+          "type": "product_block",
+          "settings": {
+            "heading": "Featured Products",
+            "product_block_collection": "collection-home-1-2",
+            "product_block_layout": "slider",
+            "product_block_limit": 8,
+            "product_block_dots": false,
+            "product_block_arrows": true
+          }
+        },
+        "dc4f771a-d1ea-42a7-8792-b895132fa9fe": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "link": ""
+          }
+        },
+        "34930b49-8499-46d3-bf41-2cbb334ca73d": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "link": ""
+          }
+        },
+        "2f7f02ac-4072-40ea-844f-59943e256971": {
+          "type": "text",
+          "settings": {
+            "heading": "Custom Block",
+            "text": "<p>Custom CMS block displayed at the left sidebar on the Catalog Page. Put your own content here: text, html, images, media... or whatever you like.</p>\n\n<p>There are many similar sample content placeholders across the store. All editable from admin panel.</p>"
+          }
+        },
+        "fab1b7dd-3875-46c2-9175-0bcb1ff322a9": {
+          "type": "filter",
+          "settings": {
+            "heading": "Color",
+            "list_tags": "Gray,Blue,Black"
+          }
+        }
+      },
+      "block_order": [
+        "80b0a11c-fb01-4b89-8a29-1dbb2a1db16a",
+        "ce351101-2c54-4627-b740-b2c592067b4a",
+        "3978fd59-b580-49e1-9893-38d762f48f10",
+        "dc4f771a-d1ea-42a7-8792-b895132fa9fe",
+        "34930b49-8499-46d3-bf41-2cbb334ca73d",
+        "2f7f02ac-4072-40ea-844f-59943e256971",
+        "fab1b7dd-3875-46c2-9175-0bcb1ff322a9"
+      ],
+      "settings": {
+        "colors_bg": "#000000",
+        "colors_bg_gradient": "",
+        "container": "1770",
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0,
+        "show_sidebar": true,
+        "sidebar_collapse": "collapse",
+        "enable_sticky": false,
+        "sidebar_layout": "layout_1",
+        "sidebar_collapse_default": "expand",
+        "sidebar_type": "horizontal",
+        "sidebar_position": "left",
+        "sidebar_heading_font": "font_1",
+        "sidebar_heading_font_size": 12,
+        "sidebar_heading_font_weight": "400",
+        "sidebar_heading_text_transform": "capitalize",
+        "show_filter": false,
+        "filter_swatch": "Color",
+        "filter_swatch_type": "color",
+        "filter_swatch_layout": "color",
+        "filter_rectangle": "Size",
+        "filter_display_type": "show-more",
+        "max_item_per_filter": 10,
+        "filter_label_all": "",
+        "filter_hidden_tag_list": "",
+        "show_toolbar": true,
+        "show_sorting": true,
+        "show_item_per_page": true,
+        "show_view_as": true,
+        "products_per_page": "50",
+        "layout": "5",
+        "show_infinite_scrolling": "show_more",
+        "show_banner": false,
+        "show_banner_1": false,
+        "banner_position_1": "4",
+        "link_banner_1": "#",
+        "show_banner_2": true,
+        "banner_position_2": "5",
+        "link_banner_2": "#",
+        "show_banner_3": true,
+        "banner_position_3": "12",
+        "link_banner_3": "#",
+        "product_space_between_vert_desk": 30,
+        "product_space_between_vert_mb": 16,
+        "product_space_between_horiz_desk": 60,
+        "product_space_between_horiz_mb": 30
       }
     },
     "164846349763438db3": {
@@ -925,8 +925,8 @@
   "order": [
     "image_banner_TnbNRL",
     "banner",
-    "product-grid",
     "164976027430afd221",
+    "product-grid",
     "164846349763438db3",
     "164938646719c3d8d4",
     "product-recently-viewed"
