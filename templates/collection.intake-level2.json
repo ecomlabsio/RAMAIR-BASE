@@ -398,7 +398,7 @@
         "enable_hover_box_shadow": false,
         "enable_hover_effects_top": false,
         "item_padding_top": 0,
-        "item_padding_bottom": 13,
+        "item_padding_bottom": 0,
         "item_padding_left_right": 40,
         "item_radius": 4,
         "grid_gap": 30,
