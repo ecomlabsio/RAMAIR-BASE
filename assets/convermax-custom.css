@@ -1,0 +1,28 @@
+#cm-garage, #cm-mobile-garage {
+    .cm_garage{
+        .garage-icon-container{
+            filter: invert(1);
+            
+        }
+        .garage-label{
+            display: none;
+        }
+        .garage-icon{
+        }
+    }
+}
+#cm-mobile-garage{
+    margin-right: 20px;
+}
+#cm-mobile-search-box .cm_searchBoxDialogButton{
+    filter: invert(1);
+}
+#cm-ymm{
+    background: black;
+    .cm_vehicle-widget_title{
+        color:white;
+    }
+    .cmTemplate_active{
+        color:white;
+    }
+}

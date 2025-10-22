@@ -70,6 +70,7 @@
         "8472dad8-3289-4746-8b7f-e6ebe3175dd5",
         "filter_8rpcVp"
       ],
+      "disabled": true,
       "settings": {
         "container": "default",
         "padding_full_width": 0,
@@ -121,6 +122,34 @@
         "mg_bottom_desktop": 0,
         "mg_bottom_tablet": 0,
         "mg_bottom_mobile": 0
+      }
+    },
+    "1760973002cae8eced": {
+      "type": "apps",
+      "blocks": {
+        "convermax_year_make_model_subcategory_list_39V6jC": {
+          "type": "shopify://apps/convermax-year-make-model/blocks/subcategory-list/874383ce-1b49-4436-9ea6-3697a3a5a3d5",
+          "settings": {
+            "widget_type": "categories",
+            "show_top_level_categories": false,
+            "view_mode": "carousel",
+            "mode": "links",
+            "wrapper_classes": ""
+          }
+        },
+        "convermax_year_make_model_collection_page_KWbbeN": {
+          "type": "shopify://apps/convermax-year-make-model/blocks/collection-page/874383ce-1b49-4436-9ea6-3697a3a5a3d5",
+          "settings": {
+            "wrapper_classes": "container"
+          }
+        }
+      },
+      "block_order": [
+        "convermax_year_make_model_subcategory_list_39V6jC",
+        "convermax_year_make_model_collection_page_KWbbeN"
+      ],
+      "settings": {
+        "include_margins": false
       }
     },
     "product-recently-viewed": {
@@ -181,6 +210,7 @@
   "order": [
     "banner",
     "product-grid",
+    "1760973002cae8eced",
     "product-recently-viewed"
   ]
 }
