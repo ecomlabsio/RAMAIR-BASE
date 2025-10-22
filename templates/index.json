@@ -1102,11 +1102,32 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "1761137525aa51dfd1": {
+      "type": "apps",
+      "blocks": {
+        "convermax_year_make_model_home_ymm_aNkUGB": {
+          "type": "shopify://apps/convermax-year-make-model/blocks/home-ymm/874383ce-1b49-4436-9ea6-3697a3a5a3d5",
+          "settings": {
+            "wrapper_classes": "container",
+            "desktop_min_height": 70,
+            "mobile_min_height": 50,
+            "mobile_max_width": 1024
+          }
+        }
+      },
+      "block_order": [
+        "convermax_year_make_model_home_ymm_aNkUGB"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
     "1759779870651b2cb9",
     "16321237356a896dad",
+    "1761137525aa51dfd1",
     "1760972761b13df521",
     "brand_slider_fUtpH7",
     "featured_product_9rDMBB",
