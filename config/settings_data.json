@@ -907,6 +907,17 @@
         "type": "shopify://apps/store-locator-map/blocks/app-extension/d03d8f57-c980-45ee-96e7-4c1571ca06ef",
         "disabled": false,
         "settings": {}
+      },
+      "5616961400331412076": {
+        "type": "shopify://apps/convermax-year-make-model/blocks/app-settings/874383ce-1b49-4436-9ea6-3697a3a5a3d5",
+        "disabled": false,
+        "settings": {
+          "theme": "shopify-generic",
+          "suffix": "",
+          "default_sort": "relevance",
+          "pagination_type": "infinite_scroll",
+          "config": "{}"
+        }
       }
     }
   }
