@@ -664,6 +664,9 @@
                                                                         data-sizes="auto"
                                                                     >
                                                                 </div>
+                                                                <div class="productView-image-icon">
+                                                                    {% render 'icon-video' %}
+                                                                </div>
                                                                 <div class="productView-video youtube" data-type="youtube" data-video-url="{{ media.external_id }}">
                                                                     <div data-youtube="{{ media.external_id }}"></div>
                                                                 </div>
@@ -677,6 +680,9 @@
                                                                        {% if settings.enable_lazyload %} loading="lazy"{% endif %}
                                                                         data-sizes="auto"
                                                                     >
+                                                                </div>
+                                                                <div class="productView-image-icon">
+                                                                    {% render 'icon-video' %}
                                                                 </div>
                                                                 <div class="productView-video vimeo" data-vimeo data-type="vimeo" data-video-url="{{ media | external_video_tag }}">
                                                                     {{ media | external_video_tag }}
@@ -708,6 +714,9 @@
                                                                    {% if settings.enable_lazyload %} loading="lazy"{% endif %}
                                                                     data-sizes="auto"
                                                                 >
+                                                            </div>
+                                                            <div class="productView-image-icon">
+                                                                {% render 'icon-video' %}
                                                             </div>
                                                             <div class="productView-video mp4" data-mp4 data-type="mp4" data-video-url="{{ media | video_tag: controls: true, image_size: 'master' }}">
                                                                 {{ media | video_tag: controls: true, image_size: 'master' }}
