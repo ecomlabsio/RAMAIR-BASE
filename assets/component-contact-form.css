@@ -57,3 +57,38 @@
     color: #f1152f;
     margin-left: 0;
 }
+
+/* Dark Mode Styles */
+.contact-dark-mode .contact-form .form-label {
+    color: #ffffff;
+}
+
+.contact-dark-mode .contact-form .form-control,
+.contact-dark-mode .contact-form textarea {
+    background-color: #2a2a2a;
+    border-color: #3a3a3a;
+    color: #ffffff;
+}
+
+.contact-dark-mode .contact-form .form-control::placeholder,
+.contact-dark-mode .contact-form textarea::placeholder {
+    color: #888888;
+}
+
+.contact-dark-mode .contact-form .form-control:focus,
+.contact-dark-mode .contact-form textarea:focus {
+    background-color: #2a2a2a;
+    border-color: #69c69c;
+    color: #ffffff;
+}
+
+.contact-dark-mode .contact-form .button {
+    background-color: #69c69c;
+    color: #1a1a1a;
+    border-color: #69c69c;
+}
+
+.contact-dark-mode .contact-form .button:hover {
+    background-color: #8fd9b8;
+    border-color: #8fd9b8;
+}

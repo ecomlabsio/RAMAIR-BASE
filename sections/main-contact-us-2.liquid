@@ -5,6 +5,7 @@
 <noscript>{{ 'component-contact-form.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- liquid
+    assign enable_dark_mode = section.settings.enable_dark_mode
     assign padding_top = section.settings.mg_top_desktop | append: 'px'
     assign padding_bottom = section.settings.mg_bottom_desktop | append: 'px'
     assign padding_top_tablet = section.settings.mg_top_tablet | append: 'px'
@@ -60,7 +61,7 @@
     endif
 -%}
 
-<div data-section-id="{{ section.id }}" data-section-type="contact" id="ContactSection-{{ section.id }}" data-section="{{ section.id }}">
+<div data-section-id="{{ section.id }}" data-section-type="contact" id="ContactSection-{{ section.id }}" data-section="{{ section.id }}"{% if enable_dark_mode %} class="contact-dark-mode"{% endif %}>
     <div class="contact-container {% if container == '1170' %}container-1170{% elsif container == '1770' %}container-1770{% elsif container == 'fullwidth'%}container-full{% else %}container{% endif %}{% if settings.banner_animation == 'effect_fade_up' %} scroll-trigger animate--slide-in{% endif %}">
         {% if bg_image != blank %}
             <div class="image-container{% if settings.banner_animation == 'effect_fade_up' %} scroll-trigger animate--slide-in{% endif %}">
@@ -387,6 +388,13 @@
 	{
 		"name": "t:sections.main_contact.name",
         "settings": [
+            {
+                "type": "checkbox",
+                "id": "enable_dark_mode",
+                "label": "Enable Dark Mode",
+                "info": "Switch the entire Contact Us page to a dark color scheme",
+                "default": false
+            },
             {
                 "type": "select",
                 "id": "container",

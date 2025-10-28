@@ -454,3 +454,78 @@
         width: calc(100% - 550px);
     }
 }
+
+/* Dark Mode Styles */
+.contact-dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.contact-dark-mode .contact-container {
+    background-color: #1a1a1a;
+}
+
+.contact-dark-mode .page-header {
+    color: #ffffff;
+}
+
+.contact-dark-mode .breadcrumb,
+.contact-dark-mode .breadcrumb a {
+    color: #cccccc;
+}
+
+.contact-dark-mode .breadcrumb a:hover {
+    color: #ffffff;
+}
+
+.contact-dark-mode .contact-title {
+    color: #ffffff;
+}
+
+.contact-dark-mode .contact-text {
+    color: #cccccc;
+}
+
+.contact-dark-mode .contact-item {
+    background-color: #1a1a1a;
+}
+
+.contact-dark-mode .contact.contact-2 .contact-item.contact-itemRight {
+    background-color: #2a2a2a;
+}
+
+.contact-dark-mode .contact-info {
+    color: #cccccc;
+}
+
+.contact-dark-mode .contact-address,
+.contact-dark-mode .contact-store {
+    color: #cccccc;
+}
+
+.contact-dark-mode .contact-address a,
+.contact-dark-mode .contact-store a {
+    color: #69c69c;
+}
+
+.contact-dark-mode .contact-address a:hover,
+.contact-dark-mode .contact-store a:hover {
+    color: #8fd9b8;
+}
+
+.contact-dark-mode .contact-text-content {
+    color: #ffffff;
+}
+
+.contact-dark-mode .contact-page-nav {
+    background-color: #2a2a2a;
+}
+
+.contact-dark-mode .contact-page-nav .item a {
+    color: #cccccc;
+}
+
+.contact-dark-mode .contact-page-nav .item.active a,
+.contact-dark-mode .contact-page-nav .item a:hover {
+    color: #ffffff;
+}
