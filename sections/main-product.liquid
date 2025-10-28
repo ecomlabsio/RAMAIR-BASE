@@ -8,25 +8,27 @@
 {{ 'component-grid.css' | asset_url | stylesheet_tag }}
 
 {% assign product_page_layout = settings.product_page_layout %}
+{% assign enable_video_autoplay = section.settings.enable_video_autoplay %}
+{% assign enable_video_sound = section.settings.enable_video_sound %}
 
 {% if product_page_layout == "default" %}
-    {% render 'product-page' %}
+    {% render 'product-page', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "full_width" %}
-    {% render 'product-page-full-width' %}
+    {% render 'product-page-full-width', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "full_width_2" %}
-    {% render 'product-page-full-width-2' %}
+    {% render 'product-page-full-width-2', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "gallery" %}
-    {% render 'product-page-gallery' %}
+    {% render 'product-page-gallery', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "left_thumbs" %}
-    {% render 'product-page-left-thumbs' %}
+    {% render 'product-page-left-thumbs', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "right_thumbs" %}
-    {% render 'product-page-right-thumbs' %}
+    {% render 'product-page-right-thumbs', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "left_right_sidebar" %}
-    {% render 'product-page-left-right-sidebar' %}
+    {% render 'product-page-left-right-sidebar', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "horizontal_tabs_no_sidebar" %}
-    {% render 'product-page-horizontal-tabs-no-sidebar' %}
+    {% render 'product-page-horizontal-tabs-no-sidebar', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "step_by_step" %}
-    {% render 'product-page-step-by-step' %}
+    {% render 'product-page-step-by-step', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% endif %}
 
 {% schema %}
@@ -148,6 +150,20 @@
                     "label": "t:sections.main-product.settings.tab.options__3"
                 }
             ]
+        },
+        {
+            "type": "checkbox",
+            "id": "enable_video_autoplay",
+            "label": "Enable Video Autoplay",
+            "info": "Automatically play videos when they come into view",
+            "default": false
+        },
+        {
+            "type": "checkbox",
+            "id": "enable_video_sound",
+            "label": "Enable Video Sound",
+            "info": "Play videos with sound (if autoplay is enabled). Recommended to keep off for better user experience",
+            "default": false
         },
         {
             "type": "checkbox",

@@ -5396,8 +5396,19 @@
 
                 setTimeout(function(){
                     if ($(event.target.getIframe()).closest('.slick-slide').hasClass('slick-active')) {
+                        const $videoContainer = $(event.target.getIframe()).closest('.productView-img-container').find('.productView-video');
+                        const enableAutoplay = $videoContainer.data('autoplay');
+                        const muteVideo = $videoContainer.data('mute');
+
                         $slick.slick('slickPause');
-                        event.target.playVideo();
+
+                        // Only autoplay if setting is enabled
+                        if (enableAutoplay === true || enableAutoplay === 'true') {
+                            if (muteVideo === true || muteVideo === 'true') {
+                                event.target.mute();
+                            }
+                            event.target.playVideo();
+                        }
                     }
                 }, 200);
             }
@@ -5456,9 +5467,20 @@
                 const player = $slick.find('.slick-slide.slick-active').data('youtube-player');
 
                 if (player) {
+                    const $videoContainer = $slick.find('.slick-slide.slick-active .productView-video');
+                    const enableAutoplay = $videoContainer.data('autoplay');
+                    const muteVideo = $videoContainer.data('mute');
+
                     $slick.slick('slickPause');
                     $slick.addClass('slick-slider--playvideo');
-                    player.playVideo();
+
+                    // Only autoplay if setting is enabled
+                    if (enableAutoplay === true || enableAutoplay === 'true') {
+                        if (muteVideo === true || muteVideo === 'true') {
+                            player.mute();
+                        }
+                        player.playVideo();
+                    }
                 }
             }
         },
