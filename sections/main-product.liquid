@@ -12,23 +12,23 @@
 {% assign enable_video_sound = section.settings.enable_video_sound %}
 
 {% if product_page_layout == "default" %}
-    {% render 'product-page', enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
+    {% render 'product-page', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "full_width" %}
-    {% render 'product-page-full-width', enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
+    {% render 'product-page-full-width', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "full_width_2" %}
-    {% render 'product-page-full-width-2', enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
+    {% render 'product-page-full-width-2', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "gallery" %}
-    {% render 'product-page-gallery', enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
+    {% render 'product-page-gallery', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "left_thumbs" %}
-    {% render 'product-page-left-thumbs', enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
+    {% render 'product-page-left-thumbs', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "right_thumbs" %}
-    {% render 'product-page-right-thumbs', enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
+    {% render 'product-page-right-thumbs', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "left_right_sidebar" %}
-    {% render 'product-page-left-right-sidebar', enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
+    {% render 'product-page-left-right-sidebar', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "horizontal_tabs_no_sidebar" %}
-    {% render 'product-page-horizontal-tabs-no-sidebar', enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
+    {% render 'product-page-horizontal-tabs-no-sidebar', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% elsif product_page_layout == "step_by_step" %}
-    {% render 'product-page-step-by-step', enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
+    {% render 'product-page-step-by-step', product: product, section: section, enable_video_autoplay: enable_video_autoplay, enable_video_sound: enable_video_sound %}
 {% endif %}
 
 {% schema %}
