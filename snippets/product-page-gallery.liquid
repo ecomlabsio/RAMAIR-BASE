@@ -607,7 +607,11 @@
                                                             </div>
                                                             <div class="productView-video mp4" data-mp4 data-type="mp4" data-autoplay="{{ enable_video_autoplay }}" data-mute="{% unless enable_video_sound %}true{% else %}false{% endunless %}">
                                                                 {% if enable_video_autoplay %}
-                                                                    {{ media | video_tag: controls: true, autoplay: true, muted: enable_video_sound == false, image_size: 'master' }}
+                                                                    {% if enable_video_sound %}
+                                                                        {{ media | video_tag: controls: true, autoplay: true, image_size: 'master' }}
+                                                                    {% else %}
+                                                                        {{ media | video_tag: controls: true, autoplay: true, muted: true, image_size: 'master' }}
+                                                                    {% endif %}
                                                                 {% else %}
                                                                     {{ media | video_tag: controls: true, image_size: 'master' }}
                                                                 {% endif %}
