@@ -392,6 +392,42 @@
             "color_des": "#3c3c3c",
             "link": ""
           }
+        },
+        "image_wHRW3j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4047295_eighteen_transportation_truck_semi_wheeler.png",
+            "title": "Truck",
+            "color_text": "#000",
+            "color_text_hover": "#3e8cc4",
+            "description": "",
+            "color_des": "#3c3c3c",
+            "link": ""
+          }
+        },
+        "image_eNH9iE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4047338_all_alloy_allowed_atv_terrain_quad_vehicle.png",
+            "title": "Motorcycle",
+            "color_text": "#000",
+            "color_text_hover": "#3e8cc4",
+            "description": "",
+            "color_des": "#3c3c3c",
+            "link": ""
+          }
+        },
+        "image_Kq9Q4c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4047338_all_alloy_allowed_atv_terrain_quad_vehicle.png",
+            "title": "Motorcycle",
+            "color_text": "#000",
+            "color_text_hover": "#3e8cc4",
+            "description": "",
+            "color_des": "#3c3c3c",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -399,7 +435,10 @@
         "image_9rREYx",
         "image_R9kkXq",
         "image_36YRY9",
-        "image_kiybH6"
+        "image_kiybH6",
+        "image_wHRW3j",
+        "image_eNH9iE",
+        "image_Kq9Q4c"
       ],
       "name": "t:sections.brand.presets.name",
       "settings": {
