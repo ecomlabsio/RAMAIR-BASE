@@ -939,7 +939,7 @@
           "type": "review",
           "settings": {
             "star_rating": 5,
-            "reviewer_name": "GreatBigGenerators.Com",
+            "reviewer_name": "BigGenerators.Com",
             "review_text": "The right people for the job. We had a strange application that needed a very quick fix. I contact the R&D team and within two weeks we had the finished solution up and running."
           }
         }
@@ -957,7 +957,7 @@
         "heading": "Client Testimonials",
         "heading_color": "#232323",
         "content_align": "center",
-        "card_style": "1",
+        "card_style": "2",
         "card_background": "#ffffff",
         "card_background_gradient": "",
         "card_border_color": "#e5e5e5",
