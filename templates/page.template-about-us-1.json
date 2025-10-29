@@ -915,6 +915,64 @@
         "mg_bottom_tablet": 0,
         "mg_bottom_mobile": 0
       }
+    },
+    "ramair_reviews_9pbNi4": {
+      "type": "ramair-reviews",
+      "blocks": {
+        "review_xUW9bM": {
+          "type": "review",
+          "settings": {
+            "star_rating": 5,
+            "reviewer_name": "David.K",
+            "review_text": "Have worked extensively with the team at Ramair and they've consistently exceeded expectations everytime."
+          }
+        },
+        "review_chNQLJ": {
+          "type": "review",
+          "settings": {
+            "star_rating": 5,
+            "reviewer_name": "John Smith",
+            "review_text": "Amazing product! Highly recommend to anyone looking for quality."
+          }
+        },
+        "review_f43mTD": {
+          "type": "review",
+          "settings": {
+            "star_rating": 5,
+            "reviewer_name": "John Smith",
+            "review_text": "Amazing product! Highly recommend to anyone looking for quality."
+          }
+        }
+      },
+      "block_order": [
+        "review_xUW9bM",
+        "review_chNQLJ",
+        "review_f43mTD"
+      ],
+      "name": "Ramair Reviews",
+      "settings": {
+        "container": "fullwidth",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "heading": "Customer Reviews",
+        "heading_color": "#232323",
+        "content_align": "center",
+        "card_style": "1",
+        "card_background": "#ffffff",
+        "card_background_gradient": "",
+        "card_border_color": "#e5e5e5",
+        "card_border_width": 0,
+        "star_color": "#ECC125",
+        "name_color": "#232323",
+        "text_color": "#666666",
+        "scroll_speed": 30,
+        "mg_top_desktop": 50,
+        "mg_top_tablet": 40,
+        "mg_top_mobile": 30,
+        "mg_bottom_desktop": 50,
+        "mg_bottom_tablet": 40,
+        "mg_bottom_mobile": 30
+      }
     }
   },
   "order": [
@@ -923,6 +981,7 @@
     "1647069160821d88be",
     "brand_slider_JhwUcU",
     "164709134604b9bd62",
-    "164707469606355f61"
+    "164707469606355f61",
+    "ramair_reviews_9pbNi4"
   ]
 }
