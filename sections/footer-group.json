@@ -37,7 +37,7 @@
           "settings": {
             "custom_width": "20",
             "heading": "Policies",
-            "menu": "",
+            "menu": "policies",
             "mg_bottom": 10
           }
         },
