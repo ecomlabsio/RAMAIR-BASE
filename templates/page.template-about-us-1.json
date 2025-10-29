@@ -772,7 +772,7 @@
       "settings": {
         "id_section": "",
         "container": "fullwidth",
-        "padding_full_width": 100,
+        "padding_full_width": 0,
         "display_type": "slide",
         "enable_arrows": true,
         "arrows_position": "-13%",
