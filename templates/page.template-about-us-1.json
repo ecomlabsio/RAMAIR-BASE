@@ -372,7 +372,8 @@
         "image_36YRY9": {
           "type": "image",
           "settings": {
-            "title": "",
+            "image": "shopify://shop_images/4047296_excavate_construction_digger_excavators_excavator_excavating_excavation.png",
+            "title": "Industrial",
             "color_text": "#000",
             "color_text_hover": "#3e8cc4",
             "description": "",
@@ -383,7 +384,8 @@
         "image_kiybH6": {
           "type": "image",
           "settings": {
-            "title": "",
+            "image": "shopify://shop_images/4047338_all_alloy_allowed_atv_terrain_quad_vehicle.png",
+            "title": "Motorcycle",
             "color_text": "#000",
             "color_text_hover": "#3e8cc4",
             "description": "",
