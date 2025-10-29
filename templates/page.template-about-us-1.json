@@ -939,8 +939,8 @@
           "type": "review",
           "settings": {
             "star_rating": 5,
-            "reviewer_name": "John Smith",
-            "review_text": "Amazing product! Highly recommend to anyone looking for quality."
+            "reviewer_name": "GreatBigGenerators.Com",
+            "review_text": "The right people for the job. We had a strange application that needed a very quick fix. I contact the R&D team and within two weeks we had the finished solution up and running."
           }
         }
       },
@@ -954,7 +954,7 @@
         "container": "fullwidth",
         "background": "#ffffff",
         "background_gradient": "",
-        "heading": "Customer Reviews",
+        "heading": "Client Testimonials",
         "heading_color": "#232323",
         "content_align": "center",
         "card_style": "1",
