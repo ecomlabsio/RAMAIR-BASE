@@ -360,7 +360,8 @@
         "image_R9kkXq": {
           "type": "image",
           "settings": {
-            "title": "",
+            "image": "shopify://shop_images/4047310_transport_metro_monorail_car_transportation_train_monochrome.png",
+            "title": "Rail",
             "color_text": "#000",
             "color_text_hover": "#3e8cc4",
             "description": "",
