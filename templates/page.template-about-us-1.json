@@ -447,7 +447,7 @@
         "brands_block_style": "style_1",
         "brand_layout": "infinite",
         "scroll_from": "rtl",
-        "brand_scroll_time": "25",
+        "brand_scroll_time": "40",
         "display_brand_border": true,
         "brand_bg": "#f5f5f5",
         "brand_bg_gradient": "",
