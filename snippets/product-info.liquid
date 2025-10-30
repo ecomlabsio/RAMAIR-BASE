@@ -32,8 +32,8 @@
                 {% if current_variant.inventory_management %}
                     {%- assign first_inventory = current_variant.inventory_quantity -%}
 
-                    {%- if first_inventory > 0 -%}
-                        {% if stock_level_display == 'show' %}{{ first_inventory }} {% endif %}
+                    {%- if current_variant.available -%}
+                        {% if stock_level_display == 'show' and first_inventory > 0 %}{{ first_inventory }} {% endif %}
                         {{ 'products.product.in_stock' | t }}
                     {%- else -%}
                         {{ 'products.product.out_of_stock' | t }}
