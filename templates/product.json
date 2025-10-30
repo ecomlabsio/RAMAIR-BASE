@@ -327,12 +327,6 @@
             "feed_id": "",
             "html_area": ""
           }
-        },
-        "convermax_year_make_model_fitment_table_y3E3Cj": {
-          "type": "shopify://apps/convermax-year-make-model/blocks/fitment-table/874383ce-1b49-4436-9ea6-3697a3a5a3d5",
-          "settings": {
-            "wrapper_classes": ""
-          }
         }
       },
       "block_order": [
@@ -360,8 +354,7 @@
         "36addb13-cd73-4713-a15c-7d846c4724e7",
         "custom_information_Tz9dLc",
         "9630b233-8164-4dad-ab64-8830bedf328a",
-        "instafeed_app_block_4XTEdW",
-        "convermax_year_make_model_fitment_table_y3E3Cj"
+        "instafeed_app_block_4XTEdW"
       ],
       "settings": {
         "container": "default",
@@ -448,6 +441,23 @@
         "mg_bottom_desktop": 0,
         "mg_bottom_tablet": 0,
         "mg_bottom_mobile": 0
+      }
+    },
+    "1761836839851746be": {
+      "type": "apps",
+      "blocks": {
+        "convermax_year_make_model_fitment_table_cXwMiQ": {
+          "type": "shopify://apps/convermax-year-make-model/blocks/fitment-table/874383ce-1b49-4436-9ea6-3697a3a5a3d5",
+          "settings": {
+            "wrapper_classes": "container"
+          }
+        }
+      },
+      "block_order": [
+        "convermax_year_make_model_fitment_table_cXwMiQ"
+      ],
+      "settings": {
+        "include_margins": false
       }
     },
     "product-recommendations": {
@@ -559,6 +569,7 @@
   },
   "order": [
     "main",
+    "1761836839851746be",
     "product-recommendations",
     "product-recently-viewed"
   ]
