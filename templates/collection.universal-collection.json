@@ -70,7 +70,6 @@
         "8472dad8-3289-4746-8b7f-e6ebe3175dd5",
         "filter_8rpcVp"
       ],
-      "disabled": true,
       "settings": {
         "container": "default",
         "padding_full_width": 0,
@@ -148,6 +147,7 @@
         "convermax_year_make_model_subcategory_list_39V6jC",
         "convermax_year_make_model_collection_page_KWbbeN"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": false
       }
