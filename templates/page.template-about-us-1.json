@@ -338,7 +338,7 @@
           "settings": {
             "image": "shopify://shop_images/4047335_sport_vehicle_utility_automotive_sports_car.png",
             "title": "Automotive",
-            "color_text": "#000",
+            "color_text": "#000000",
             "color_text_hover": "#3e8cc4",
             "description": "",
             "color_des": "#3c3c3c",
@@ -350,7 +350,7 @@
           "settings": {
             "image": "shopify://shop_images/4047324_yacht_vacation_boat_transportation_cruise_summer_boats.png",
             "title": "Marine",
-            "color_text": "#000",
+            "color_text": "#000000",
             "color_text_hover": "#3e8cc4",
             "description": "",
             "color_des": "#3c3c3c",
@@ -362,7 +362,7 @@
           "settings": {
             "image": "shopify://shop_images/4047310_transport_metro_monorail_car_transportation_train_monochrome.png",
             "title": "Rail",
-            "color_text": "#000",
+            "color_text": "#000000",
             "color_text_hover": "#3e8cc4",
             "description": "",
             "color_des": "#3c3c3c",
@@ -374,7 +374,7 @@
           "settings": {
             "image": "shopify://shop_images/4047296_excavate_construction_digger_excavators_excavator_excavating_excavation.png",
             "title": "Industrial",
-            "color_text": "#000",
+            "color_text": "#000000",
             "color_text_hover": "#3e8cc4",
             "description": "",
             "color_des": "#3c3c3c",
@@ -386,7 +386,7 @@
           "settings": {
             "image": "shopify://shop_images/4047338_all_alloy_allowed_atv_terrain_quad_vehicle.png",
             "title": "Motorcycle",
-            "color_text": "#000",
+            "color_text": "#000000",
             "color_text_hover": "#3e8cc4",
             "description": "",
             "color_des": "#3c3c3c",
@@ -398,7 +398,7 @@
           "settings": {
             "image": "shopify://shop_images/4047295_eighteen_transportation_truck_semi_wheeler.png",
             "title": "Truck",
-            "color_text": "#000",
+            "color_text": "#000000",
             "color_text_hover": "#3e8cc4",
             "description": "",
             "color_des": "#3c3c3c",
@@ -410,7 +410,7 @@
           "settings": {
             "image": "shopify://shop_images/4047305_plane_flight_dotted_air_jet_jetliner_airplane.png",
             "title": "Aviation",
-            "color_text": "#000",
+            "color_text": "#000000",
             "color_text_hover": "#3e8cc4",
             "description": "",
             "color_des": "#3c3c3c",
@@ -422,7 +422,7 @@
           "settings": {
             "image": "shopify://shop_images/4047339_trip_school_transport_bus_model_modern_transportation.png",
             "title": "Bus",
-            "color_text": "#000",
+            "color_text": "#000000",
             "color_text_hover": "#3e8cc4",
             "description": "",
             "color_des": "#3c3c3c",
@@ -482,11 +482,11 @@
         "enable_button_icon": false,
         "button_border_radius": 0,
         "btn_color": "#828282",
-        "btn_border_color": "transparent",
-        "btn_background_color": "transparent",
+        "btn_border_color": "rgba(0,0,0,0)",
+        "btn_background_color": "rgba(0,0,0,0)",
         "btn_color_hover": "#828282",
-        "btn_border_color_hover": "transparent",
-        "btn_background_color_hover": "transparent",
+        "btn_border_color_hover": "rgba(0,0,0,0)",
+        "btn_background_color_hover": "rgba(0,0,0,0)",
         "enable_autoplay": false,
         "brand_speed": "3000",
         "brand_rows": "9",
@@ -513,7 +513,7 @@
         "border_color": "#e2e5e7",
         "border_color_hover": "#2d2d2d",
         "hover_effect": "zoom",
-        "color_border_image_hover": "#000",
+        "color_border_image_hover": "#000000",
         "fontsize_text": 16,
         "fontsize_text_mb": 13,
         "font_weight_title": "600",
@@ -962,7 +962,7 @@
         "card_background_gradient": "",
         "card_border_color": "#e5e5e5",
         "card_border_width": 0,
-        "star_color": "#ECC125",
+        "star_color": "#ecc125",
         "name_color": "#232323",
         "text_color": "#666666",
         "scroll_speed": 30,
@@ -973,6 +973,34 @@
         "mg_bottom_tablet": 40,
         "mg_bottom_mobile": 30
       }
+    },
+    "17618364105ed4867e": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_HipGGq": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_HipGGq"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
@@ -982,6 +1010,7 @@
     "brand_slider_JhwUcU",
     "164709134604b9bd62",
     "164707469606355f61",
-    "ramair_reviews_9pbNi4"
+    "ramair_reviews_9pbNi4",
+    "17618364105ed4867e"
   ]
 }
