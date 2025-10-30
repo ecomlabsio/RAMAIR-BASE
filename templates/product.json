@@ -215,9 +215,9 @@
           "type": "custom",
           "settings": {
             "open_tab_mobile": false,
-            "title": "Custom Tab",
-            "type": "all",
-            "content": "<table>\n    <tbody>\n        <tr>\n            <td class=\"tb-title\">Drostique</td>\n            <td>Nam tempus turpis at metus scelerisque placerat nulla deumantos</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Pharetro Lorem</td>\n            <td>Pellentesque diam dolor elementum etos lobortis des mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Milancelos</td>\n            <td>Donec pretium egestas sapien et mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Pellentesque</td>\n            <td>Sedcus faucibus an sullamcorper mattis drostique des commodo pharetras</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Proin Molestie</td>\n            <td>Pellentesque diam dolor elementum etos lobortis des mollis</td>\n        </tr>\n        <tr>\n            <td class=\"tb-title\">Cosmopolis</td>\n            <td>Donec pretium egestas sapien et mollis</td>\n        </tr>\n    </tbody>\n</table>",
+            "title": "Fitment Data",
+            "type": "metafield",
+            "content": "{% for collection in product.collections %}\n  {% assign verify_hidden = collection.metafields.convermax.hide_verify %}\n  {% if verify_hidden %}\n    {% break %}\n  {% endif %}\n{% endfor %}\n\n{% unless verify_hidden or product.metafields.convermax.hide_verify %}\n  <div id=\"cm-verify-fitment\"></div>\n{% endunless %}",
             "product_custom_source": "dynamic",
             "product_tab_key_metafield": "",
             "enable_btn_show_more": false,
@@ -443,23 +443,6 @@
         "mg_bottom_mobile": 0
       }
     },
-    "1761836839851746be": {
-      "type": "apps",
-      "blocks": {
-        "convermax_year_make_model_fitment_table_cXwMiQ": {
-          "type": "shopify://apps/convermax-year-make-model/blocks/fitment-table/874383ce-1b49-4436-9ea6-3697a3a5a3d5",
-          "settings": {
-            "wrapper_classes": "container"
-          }
-        }
-      },
-      "block_order": [
-        "convermax_year_make_model_fitment_table_cXwMiQ"
-      ],
-      "settings": {
-        "include_margins": false
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -569,7 +552,6 @@
   },
   "order": [
     "main",
-    "1761836839851746be",
     "product-recommendations",
     "product-recently-viewed"
   ]
