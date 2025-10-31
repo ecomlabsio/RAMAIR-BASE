@@ -885,6 +885,30 @@
           "copyright_content": "",
           "copyright_color": "#7e7e7e"
         }
+      },
+      "header-minimal-logo": {
+        "type": "header-minimal-logo",
+        "settings": {
+          "container": "1170",
+          "logo": "shopify://shop_images/ramair_logo_1675861054__38342.webp",
+          "logo_width": 150,
+          "logo_alignment": "center",
+          "padding_top": 20,
+          "padding_bottom": 20
+        }
+      },
+      "footer-minimal-copyright": {
+        "type": "footer-minimal-copyright",
+        "settings": {
+          "container": "1170",
+          "copyright_text": "<p>© 2025 All rights reserved.</p>",
+          "text_alignment": "center",
+          "text_size": 14,
+          "background_color": "#000000",
+          "text_color": "#FFFFFF",
+          "padding_top": 20,
+          "padding_bottom": 20
+        }
       }
     },
     "content_for_index": [],

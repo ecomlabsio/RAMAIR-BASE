@@ -12,8 +12,19 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+        "show_page_title": false,
+        "title_alignment": "left",
+        "title_size": 32,
+        "title_margin_bottom": 30,
+        "content_alignment": "left",
+        "container": "1170",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }
