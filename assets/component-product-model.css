@@ -1,7 +1,9 @@
+/* ShopifyXR sets data-shopify-xr-hidden attribute by default and removes it when AR is available */
 .product__xr-button[data-shopify-xr-hidden] {
     visibility: hidden;
 }
 
+/* Mobile: Only show AR button on active slide to prevent multiple buttons appearing */
 @media screen and (max-width: 550px) {
     slider-component .product__xr-button:not([data-shopify-xr-hidden]) {
         display: none;
@@ -12,6 +14,7 @@
     }
 }
 
+/* Desktop: Hide AR button in media wrapper, ensure hidden state applies */
 @media screen and (min-width: 551px) {
     .product__media-wrapper>.button.product__xr-button {
         display: none;

@@ -16,11 +16,16 @@ class ProductModel extends DeferredMedia {
     }
 
     setupModelViewerUI(errors) {
-        if (errors) return;
+        if (errors) {
+            console.warn('Shopify ModelViewerUI failed to load:', errors);
+            return;
+        }
 
         const modelViewer = this.querySelector('model-viewer');
         if (modelViewer) {
             this.modelViewerUI = new Shopify.ModelViewerUI(modelViewer);
+        } else {
+            console.warn('model-viewer element not found in product-model component');
         }
     }
 }
@@ -39,7 +44,10 @@ window.ProductModel = {
     },
 
     setupShopifyXR(errors) {
-        if (errors) return;
+        if (errors) {
+            console.warn('Shopify XR failed to load:', errors);
+            return;
+        }
 
         if (!window.ShopifyXR) {
             document.addEventListener('shopify_xr_initialized', () =>
@@ -50,8 +58,12 @@ window.ProductModel = {
         }
 
         document.querySelectorAll('[id^="ProductJSON-"]').forEach((modelJSON) => {
-            window.ShopifyXR.addModels(JSON.parse(modelJSON.textContent));
-            modelJSON.remove();
+            try {
+                window.ShopifyXR.addModels(JSON.parse(modelJSON.textContent));
+                modelJSON.remove();
+            } catch (error) {
+                console.error('Failed to add 3D model to ShopifyXR:', error);
+            }
         });
 
         window.ShopifyXR.setupXRElements();
