@@ -1,31 +1,30 @@
 {{ 'component-header-simple.css' | asset_url | stylesheet_tag }}
-<header class="header header-minimal-logo" style="text-align: {{ section.settings.logo_alignment }}; padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px; background: {% if section.settings.background_gradient != blank %}{{ section.settings.background_gradient }}{% else %}{{ section.settings.background_color }}{% endif %}; color: {{ section.settings.text_color }};">
-  <div class="container container-{{ section.settings.container }}">
-    <div class="header__logo" style="display: inline-block; max-width: {{ section.settings.logo_width }}px;">
-      <{% if request.page_type == 'index' %}h1{% else %}div{% endif %} class="header__heading">
-        <a href="{{ routes.root_url }}" class="header__heading-link" style="color: {{ section.settings.text_color }}; display: block;">
-          {%- if section.settings.logo != blank -%}
-            {%- liquid
-              assign logo = section.settings.logo
-              assign logo_width = section.settings.logo_width
-              assign logo_height = logo_width | divided_by: logo.aspect_ratio | round
-              assign logo_alt = logo.alt | default: shop.name | escape
-            -%}
-            <img
-              src="{{ logo | image_url: width: logo_width }}"
-              srcset="{{ logo | image_url: width: logo_width }} 1x, {{ logo | image_url: width: logo_width | times: 2 }} 2x"
-              alt="{{ logo_alt }}"
-              class="header__heading-logo"
-              width="{{ logo_width }}"
-              height="{{ logo_height }}"
-              style="max-width: 100%; height: auto; display: block;"
-              loading="lazy"
-            >
-          {%- else -%}
-            <span class="h2" style="color: {{ section.settings.text_color }};">{{ shop.name }}</span>
-          {%- endif -%}
-        </a>
-      </{% if request.page_type == 'index' %}h1{% else %}div{% endif %}>
+<header class="header header-minimal-logo">
+  <div class="header-simple__item" style="--bg-color: {% if section.settings.background_gradient != blank %}{{ section.settings.background_gradient }}{% else %}{{ section.settings.background_color }}{% endif %}; --p-top: {{ section.settings.padding_top }}px; --p-bottom: {{ section.settings.padding_bottom }}px; text-align: {{ section.settings.logo_alignment }};">
+    <div class="container container-{{ section.settings.container }}">
+      <div class="header__logo clearfix" style="--logo-width: {% if section.settings.logo == blank %}auto; --logo-svg-width: {% endif %}{{ section.settings.logo_width }}px; --color: {{ section.settings.text_color }};">
+        <{% if request.page_type == 'index' %}h1{% else %}div{% endif %} class="header__heading">
+          <a href="{{ routes.root_url }}" class="header__heading-link focus-inset">
+            {%- if section.settings.logo != blank -%}
+              {%- liquid
+                assign logo = section.settings.logo
+                assign logo_width = section.settings.logo_width
+                assign logo_height = logo_width | divided_by: logo.aspect_ratio | round
+                assign logo_alt = logo.alt | default: shop.name | escape
+              -%}
+              {{ logo | image_url: width: 300 | image_tag:
+                class: 'header__heading-logo motion-reduce',
+                widths: '50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300',
+                height: logo_height,
+                width: logo_width,
+                alt: logo_alt
+              }}
+            {%- else -%}
+              <span class="h2" style="color: {{ section.settings.text_color }};">{{ shop.name }}</span>
+            {%- endif -%}
+          </a>
+        </{% if request.page_type == 'index' %}h1{% else %}div{% endif %}>
+      </div>
     </div>
   </div>
 </header>
