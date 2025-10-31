@@ -1,9 +1,9 @@
 {{ 'component-header-simple.css' | asset_url | stylesheet_tag }}
-<header class="header header-minimal-logo" style="text-align: {{ section.settings.logo_alignment }}; padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;">
+<header class="header header-minimal-logo" style="text-align: {{ section.settings.logo_alignment }}; padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px; background: {% if section.settings.background_gradient != blank %}{{ section.settings.background_gradient }}{% else %}{{ section.settings.background_color }}{% endif %}; color: {{ section.settings.text_color }};">
   <div class="container container-{{ section.settings.container }}">
     <div class="header__logo">
       <{% if request.page_type == 'index' %}h1{% else %}div{% endif %} class="header__heading">
-        <a href="{{ routes.root_url }}" class="header__heading-link">
+        <a href="{{ routes.root_url }}" class="header__heading-link" style="color: {{ section.settings.text_color }};">
           {%- if section.settings.logo != blank -%}
             {%- liquid
               assign logo = section.settings.logo
@@ -19,7 +19,7 @@
               alt: logo_alt
             }}
           {%- else -%}
-            <span class="h2">{{ shop.name }}</span>
+            <span class="h2" style="color: {{ section.settings.text_color }};">{{ shop.name }}</span>
           {%- endif -%}
         </a>
       </{% if request.page_type == 'index' %}h1{% else %}div{% endif %}>
@@ -107,6 +107,29 @@
           "label": "Right"
         }
       ]
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient",
+      "info": "If set, this will override the background color"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#000000",
+      "info": "Used for shop name when no logo is uploaded"
     },
     {
       "type": "header",
