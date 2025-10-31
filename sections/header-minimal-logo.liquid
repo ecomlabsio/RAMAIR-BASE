@@ -1,7 +1,7 @@
 {{ 'component-header-simple.css' | asset_url | stylesheet_tag }}
-<header class="header header-minimal-logo">
-  <div class="header-simple__item" style="--bg-color: {% if section.settings.background_gradient != blank %}{{ section.settings.background_gradient }}{% else %}{{ section.settings.background_color }}{% endif %}; --p-top: {{ section.settings.padding_top }}px; --p-bottom: {{ section.settings.padding_bottom }}px; text-align: {{ section.settings.logo_alignment }};">
-    <div class="container container-{{ section.settings.container }}">
+<header class="header header-minimal-logo" style="min-height: {{ section.settings.min_height }}px;">
+  <div class="header-simple__item" style="--bg-color: {% if section.settings.background_gradient != blank %}{{ section.settings.background_gradient }}{% else %}{{ section.settings.background_color }}{% endif %}; --p-top: {{ section.settings.padding_top }}px; --p-bottom: {{ section.settings.padding_bottom }}px; text-align: {{ section.settings.logo_alignment }}; display: flex; align-items: center;">
+    <div class="container container-{{ section.settings.container }}" style="width: 100%;">
       <div class="header__logo clearfix" style="--logo-width: {% if section.settings.logo == blank %}auto; --logo-svg-width: {% endif %}{{ section.settings.logo_width }}px; --color: {{ section.settings.text_color }}; width: {{ section.settings.logo_width }}px; display: inline-block;">
         <{% if request.page_type == 'index' %}h1{% else %}div{% endif %} class="header__heading">
           <a href="{{ routes.root_url }}" class="header__heading-link focus-inset">
@@ -140,6 +140,17 @@
     {
       "type": "header",
       "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "min_height",
+      "min": 0,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Minimum header height",
+      "default": 80,
+      "info": "Sets the minimum height of the header. Logo will be vertically centered."
     },
     {
       "type": "range",
