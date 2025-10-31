@@ -34,13 +34,6 @@
         "mg_bottom_mobile": 0
       }
     },
-    "custom_liquid_zUGeNg": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div id=\"cm-ymm\"></div>"
-      }
-    },
     "ramair_vehicle_selector_kafqAn": {
       "type": "ramair-vehicle-selector",
       "name": "Ramair Vehicle Selector",
@@ -68,6 +61,13 @@
         "mg_bottom_desktop": 40,
         "mg_bottom_tablet": 35,
         "mg_bottom_mobile": 30
+      }
+    },
+    "custom_liquid_zUGeNg": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div id=\"cm-ymm\"></div>"
       }
     },
     "product-grid": {
