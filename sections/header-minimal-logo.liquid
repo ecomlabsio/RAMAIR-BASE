@@ -14,7 +14,8 @@
               -%}
               <img
                 src="{{ logo | image_url: width: 300 }}"
-                srcset="{% for width in (50..300) step 10 %}{{ logo | image_url: width: width }} {{ width }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"
+                srcset="{{ logo | image_url: width: 50 }} 50w, {{ logo | image_url: width: 60 }} 60w, {{ logo | image_url: width: 70 }} 70w, {{ logo | image_url: width: 80 }} 80w, {{ logo | image_url: width: 90 }} 90w, {{ logo | image_url: width: 100 }} 100w, {{ logo | image_url: width: 110 }} 110w, {{ logo | image_url: width: 120 }} 120w, {{ logo | image_url: width: 130 }} 130w, {{ logo | image_url: width: 140 }} 140w, {{ logo | image_url: width: 150 }} 150w, {{ logo | image_url: width: 160 }} 160w, {{ logo | image_url: width: 170 }} 170w, {{ logo | image_url: width: 180 }} 180w, {{ logo | image_url: width: 190 }} 190w, {{ logo | image_url: width: 200 }} 200w, {{ logo | image_url: width: 210 }} 210w, {{ logo | image_url: width: 220 }} 220w, {{ logo | image_url: width: 230 }} 230w, {{ logo | image_url: width: 240 }} 240w, {{ logo | image_url: width: 250 }} 250w, {{ logo | image_url: width: 260 }} 260w, {{ logo | image_url: width: 270 }} 270w, {{ logo | image_url: width: 280 }} 280w, {{ logo | image_url: width: 290 }} 290w, {{ logo | image_url: width: 300 }} 300w"
+                sizes="(min-width: 1025px) {{ logo_width }}px, 100vw"
                 alt="{{ logo_alt }}"
                 class="header__heading-logo motion-reduce"
                 width="{{ logo_width }}"
