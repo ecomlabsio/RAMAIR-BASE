@@ -70,7 +70,7 @@
         "announcement_URyhya"
       ],
       "settings": {
-        "layout": "scroll",
+        "layout": "slider",
         "enable_close": false,
         "color_text": "#ffffff",
         "bg_color_text": "#1c1e1e",
