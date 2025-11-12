@@ -120,23 +120,23 @@
             "text_time_color": "#ffffff"
           }
         },
-        "f070a123-bf0f-4981-9d37-ce9bd31a7803": {
+        "collection_XQEzbr": {
           "type": "collection",
           "settings": {
             "collection": "motorcycle-filters",
             "display_countdown": true,
             "title": "",
-            "title_font_size": 16,
+            "title_font_size": 20,
             "title_font_size_mb": 16,
-            "title_font_weight": "800",
-            "mg_bottom_title": 15,
+            "title_font_weight": "700",
+            "mg_bottom_title": 13,
             "title_color": "#ffffff",
-            "des": "Pods and sock filters for motorcycle applications",
+            "des": "Pods and sock filters for motorcycle applications.",
             "des_font_size": 12,
             "des_font_size_mb": 12,
             "des_font_weight": "400",
             "mg_bottom_des": 15,
-            "text_color": "#000000",
+            "text_color": "#ffffff",
             "countdown": "2022/10/10 0:0:00",
             "item_countdown_width": 64,
             "item_countdown_height": 64,
@@ -146,14 +146,14 @@
             "countdown_background": "",
             "countdown_background_gradient": "",
             "opacity_background": 0.8,
-            "num_font_size": 12,
-            "num_font_size_mb": 12,
-            "num_font_weight": "400",
-            "num_color": "#000000",
+            "num_font_size": 20,
+            "num_font_size_mb": 16,
+            "num_font_weight": "600",
+            "num_color": "#ffffff",
             "text_time_font_size": 12,
             "text_time_font_size_mb": 12,
             "text_time_font_weight": "400",
-            "text_time_color": "#000000"
+            "text_time_color": "#ffffff"
           }
         },
         "88f0d701-4b2c-4f6e-9f19-af4107c5cc44": {
@@ -454,7 +454,7 @@
         "558d2588-e481-4e7f-a059-1cabaa2a9507",
         "collection_7jLxpi",
         "040b56d3-2b31-437e-87e0-9f75db59fdba",
-        "f070a123-bf0f-4981-9d37-ce9bd31a7803",
+        "collection_XQEzbr",
         "88f0d701-4b2c-4f6e-9f19-af4107c5cc44",
         "24cb80b7-942d-489f-841a-fa3c813bc800",
         "cf5e4c28-6aa0-46c3-b6da-ad8bce3aa8fd",
@@ -499,7 +499,7 @@
         "item_per_row": "4",
         "item_per_row_mb": "1",
         "padding_top_collection_list": 15,
-        "padding_bottom_collection_list": 30,
+        "padding_bottom_collection_list": 0,
         "item_grid_gap": 5,
         "collection_pagination_showmore": "show_more",
         "collection_limit": 9,
