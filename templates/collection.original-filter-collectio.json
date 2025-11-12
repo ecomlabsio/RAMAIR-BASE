@@ -71,6 +71,41 @@
         "mg_bottom_mobile": 30
       }
     },
+    "search_block_cdTiJi": {
+      "type": "search-block",
+      "name": "t:sections.search_block.presets.name",
+      "settings": {
+        "container": "fullwidth",
+        "padding_full_width": 0,
+        "text_align": "center",
+        "content_align": "center",
+        "content_max_width": 400,
+        "search_block_title": "Use Vehicle selector above",
+        "color_title": "#232323",
+        "margin_bottom_title": 0,
+        "fontsize_title": 16,
+        "fontsize_title_mb": 22,
+        "title_text_transform": "uppercase",
+        "search_block_des": "",
+        "color_des": "#3c3c3c",
+        "margin_bottom_des": 30,
+        "fontsize_des": 16,
+        "search_input_color": "",
+        "search_input_bg": "",
+        "search_input_gradient": "",
+        "search_input_border": "",
+        "search_block_placeholder": "Search For Something Special...",
+        "search_input_align": "center",
+        "padding_top_input": 13,
+        "padding_bottom_input": 13,
+        "mg_top_desktop": 0,
+        "mg_top_tablet": 0,
+        "mg_top_mobile": 0,
+        "mg_bottom_desktop": 0,
+        "mg_bottom_tablet": 0,
+        "mg_bottom_mobile": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -221,6 +256,7 @@
     "banner",
     "custom_liquid_zUGeNg",
     "ramair_vehicle_selector_kafqAn",
+    "search_block_cdTiJi",
     "product-grid",
     "product-recently-viewed"
   ]
