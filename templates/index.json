@@ -254,7 +254,7 @@
         "dot_width_active": 130,
         "dot_width_mb": 38,
         "dot_width_active_mb": 65,
-        "arrow_active": true,
+        "arrow_active": false,
         "enable_custom_arrow": false,
         "arrow_width": 35,
         "arrow_height": 35,
