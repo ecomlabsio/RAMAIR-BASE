@@ -239,7 +239,7 @@
         "border_radius": 0,
         "autoplay": true,
         "slideshow_speed": "4000",
-        "slideshow_transition": "false",
+        "slideshow_transition": "true",
         "dots": "true",
         "dots_color": "#707979",
         "dots_border_color": "#707979",
