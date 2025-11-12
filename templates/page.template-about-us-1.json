@@ -108,7 +108,7 @@
         "breadcrumb_gradient_mb": "",
         "show_page_title": false,
         "page_title_alignment": "center",
-        "mg_top_desktop": 25,
+        "mg_top_desktop": 0,
         "mg_top_tablet": 0,
         "mg_top_mobile": 0,
         "mg_bottom_desktop": 30,
@@ -251,6 +251,7 @@
         "7ccfcefe-02c8-4e8b-9c16-a206ff50af09",
         "1b4ffb2e-482e-4b14-a9d9-8b345d8bac6b"
       ],
+      "disabled": true,
       "settings": {
         "id_section": "",
         "container": "fullwidth",
