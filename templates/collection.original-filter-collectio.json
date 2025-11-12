@@ -43,6 +43,7 @@
     },
     "ramair_vehicle_selector_kafqAn": {
       "type": "ramair-vehicle-selector",
+      "disabled": true,
       "name": "Ramair Vehicle Selector",
       "settings": {
         "container": "container",
