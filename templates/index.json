@@ -1149,7 +1149,7 @@
             "border_radius": 0,
             "enable_scroll_down": false,
             "enable_custom_image": false,
-            "image_behavior": "zoom-in",
+            "image_behavior": "fixed",
             "sub_title": "",
             "border_sub_title": false,
             "font_size_sub_title": 14,
