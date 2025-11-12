@@ -247,7 +247,7 @@
         "padding_full_width": 0,
         "header_navigation_bg": "#000000",
         "header_navigation_bg_gradient": "",
-        "sticky_header_type": "on_scroll",
+        "sticky_header_type": "always",
         "sticky_header_width": "default"
       }
     }
