@@ -234,7 +234,7 @@
       "settings": {
         "container": "fullwidth",
         "padding_full_width": 0,
-        "slideshow_background": "",
+        "slideshow_background": "#000000",
         "slideshow_background_gradient": "",
         "border_radius": 0,
         "autoplay": true,
