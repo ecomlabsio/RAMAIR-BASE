@@ -109,13 +109,26 @@
 
 <style type="text/css" media="screen">
     {% if enable_dark_mode %}
-    body:has(#ContactSection-{{ section.id }}.contact-dark-mode) .wrapper-body {
+    body:has(#ContactSection-{{ section.id }}.contact-dark-mode) .wrapper-body,
+    body:has(#ContactSection-{{ section.id }}.contact-dark-mode) .body-content-wrapper {
         background-color: #1a1a1a;
     }
     
     #ContactSection-{{ section.id }}.contact-dark-mode {
         margin-top: -1px;
         margin-bottom: -1px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    body:has(#ContactSection-{{ section.id }}.contact-dark-mode) .wrapper-body > .shopify-section:first-child::before,
+    body:has(#ContactSection-{{ section.id }}.contact-dark-mode) .wrapper-body > .shopify-section:last-child::after {
+        content: "";
+        display: block;
+        height: 1px;
+        background-color: #1a1a1a;
+        position: relative;
+        z-index: 2;
     }
     {% endif %}
     

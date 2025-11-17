@@ -461,7 +461,8 @@
     color: #ffffff;
 }
 
-body:has(.contact-dark-mode) .wrapper-body {
+body:has(.contact-dark-mode) .wrapper-body,
+body:has(.contact-dark-mode) .body-content-wrapper {
     background-color: #1a1a1a;
 }
 
