@@ -2385,14 +2385,39 @@ summary::-webkit-details-marker {
     }
 
     @media (max-width: 551px) {
+        .announcement-bar {
+            position: relative;
+        }
+        
         .announcement-bar .container {
+            padding-left: 40px;
             padding-right: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .announcement-bar .container .row {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .announcement-bar__message {
+            width: 100%;
+            text-align: center;
         }
         
         .announcement-bar__message .message, 
         .announcement-bar__message p {
             padding-left: 15px;
             padding-right: 15px;
+            margin: 0 auto;
+        }
+        
+        .announcement-close {
+            right: 15px;
         }
     }
 
