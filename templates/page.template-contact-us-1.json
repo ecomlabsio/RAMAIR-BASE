@@ -42,6 +42,7 @@
       "type": "main-contact-us-1",
       "settings": {
         "enable_dark_mode": true,
+        "dark_mode_accent_color": "#009bdf",
         "container": "1170",
         "padding_full_width": 0,
         "show_breadcrumb": true,
