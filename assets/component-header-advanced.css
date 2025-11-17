@@ -548,7 +548,7 @@
 
 @media (max-width: 551px) {
 	.announcement-bar__message .message {
-		padding: 5px 0px;
+		padding: 5px 15px;
 	}
 
 	.announcement-bar__message .message span img {
