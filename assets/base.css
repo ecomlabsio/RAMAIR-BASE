@@ -2405,10 +2405,20 @@ summary::-webkit-details-marker {
         
         .announcement-bar__message .message, 
         .announcement-bar__message p {
-            padding-left: 15px;
-            padding-right: 15px;
-            justify-content: center;
-            margin: 0 auto;
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            justify-content: center !important;
+            margin: 0 auto !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+        }
+        
+        .announcement-bar__message p[style*="margin"] {
+            margin: 0 auto !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
         }
     }
 
