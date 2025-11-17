@@ -2384,6 +2384,18 @@ summary::-webkit-details-marker {
         margin: 0;
     }
 
+    @media (max-width: 551px) {
+        .announcement-bar .container {
+            padding-right: 40px;
+        }
+        
+        .announcement-bar__message .message, 
+        .announcement-bar__message p {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
     .announcement-bar__message .message a {
         margin-left: 5px;
     }
