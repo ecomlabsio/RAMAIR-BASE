@@ -192,6 +192,17 @@
 <script src="{{ 'halo-faqs.js' | asset_url }}" defer></script>
 
 <style type="text/css" media="screen">
+    {% if enable_dark_mode %}
+    body:has(#FaqsSection-{{ section.id }}.faqs-dark-mode) .wrapper-body {
+        background-color: #1a1a1a;
+    }
+    
+    #FaqsSection-{{ section.id }}.faqs-dark-mode {
+        margin-top: -1px;
+        margin-bottom: -1px;
+    }
+    {% endif %}
+    
     #FaqsSection-{{ section.id }}{
         padding-top: {{ padding_top }};
         padding-bottom: {{ padding_bottom }};
