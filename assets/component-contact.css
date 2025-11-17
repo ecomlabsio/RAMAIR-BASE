@@ -461,6 +461,10 @@
     color: #ffffff;
 }
 
+body:has(.contact-dark-mode) .wrapper-body {
+    background-color: #1a1a1a;
+}
+
 .contact-dark-mode .contact-container {
     background-color: #1a1a1a;
 }

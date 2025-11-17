@@ -479,6 +479,10 @@ faqs-item{
     color: #ffffff;
 }
 
+body:has(.faqs-dark-mode) .wrapper-body {
+    background-color: #1a1a1a;
+}
+
 .faqs-dark-mode .faq-container {
     background-color: #1a1a1a;
 }
