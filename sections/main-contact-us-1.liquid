@@ -38,6 +38,15 @@
     endif
 -%}
 
+{% if enable_dark_mode %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.body.classList.add('has-dark-mode-section');
+    document.querySelector('.wrapper-body')?.style.setProperty('background-color', '#1a1a1a');
+    document.querySelector('.body-content-wrapper')?.style.setProperty('background-color', '#1a1a1a');
+});
+</script>
+{% endif %}
 <div data-section-id="{{ section.id }}" data-section-type="contact" id="ContactSection-{{ section.id }}" data-section="{{ section.id }}"{% if enable_dark_mode %} class="contact-dark-mode"{% endif %}>
     <div class="contact-container {% if container == '1170' %}container-1170{% elsif container == '1770' %}container-1770{% elsif container == 'fullwidth'%}container-full{% else %}container{% endif %}">
         {%- if show_breadcrumb -%}
