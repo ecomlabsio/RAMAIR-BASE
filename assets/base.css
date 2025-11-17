@@ -2392,28 +2392,30 @@ summary::-webkit-details-marker {
         .announcement-bar .container {
             padding-left: 40px;
             padding-right: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
         
         .announcement-bar .container .row {
-            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
+            width: 100%;
         }
         
         .announcement-bar__message {
             width: 100%;
             text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .announcement-bar__message .message, 
         .announcement-bar__message p {
             padding-left: 15px;
             padding-right: 15px;
-            margin: 0 auto;
+            margin: 0;
+            width: 100%;
+            max-width: 100%;
         }
         
         .announcement-close {
