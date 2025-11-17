@@ -2393,9 +2393,13 @@ summary::-webkit-details-marker {
         
         .announcement-bar .container .row {
             text-align: center;
+            display: block;
         }
         
         .announcement-bar__message {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
             text-align: center;
         }
         
@@ -2404,6 +2408,7 @@ summary::-webkit-details-marker {
             padding-left: 15px;
             padding-right: 15px;
             justify-content: center;
+            margin: 0 auto;
         }
     }
 
