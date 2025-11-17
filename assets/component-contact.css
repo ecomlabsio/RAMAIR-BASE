@@ -462,7 +462,19 @@
 }
 
 body:has(.contact-dark-mode) .wrapper-body,
-body:has(.contact-dark-mode) .body-content-wrapper {
+body:has(.contact-dark-mode) .body-content-wrapper,
+body.has-dark-mode-section .wrapper-body,
+body.has-dark-mode-section .body-content-wrapper {
+    background-color: #1a1a1a;
+}
+
+body:has(.contact-dark-mode) #header-group + *,
+body.has-dark-mode-section #header-group + * {
+    background-color: #1a1a1a;
+}
+
+body:has(.contact-dark-mode) .wrapper-body + .wrapper-footer,
+body.has-dark-mode-section .wrapper-body + .wrapper-footer {
     background-color: #1a1a1a;
 }
 
