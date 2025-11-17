@@ -2,12 +2,16 @@
 
 All notable changes to this theme will be documented in this file.
 
-## 1.3.1 — 2025-01-XX
+## 1.3.1 — 2025-11-17
 
 - Fix: Dark mode white bar issue on FAQ and Contact pages
   - Added background color to section wrappers when dark mode is enabled
   - Fixed white bars appearing beneath header and before footer on dark mode pages
+  - Added wrapper-body and body-content-wrapper dark backgrounds
+  - Added JavaScript fallback for browsers without :has() selector support
+  - Added comprehensive CSS coverage for gaps between header/main and main/footer
   - Applied to sections/main-faqs-page.liquid, sections/main-contact-us-1.liquid, and sections/main-contact-us-2.liquid
+  - Updated assets/component-faqs.css and assets/component-contact.css with dark mode wrapper styles
 
 ## 1.3.0 — 2025-10-16
 
