@@ -78,17 +78,18 @@
 .contact-dark-mode .contact-form .form-control:focus,
 .contact-dark-mode .contact-form textarea:focus {
     background-color: #2a2a2a;
-    border-color: #69c69c;
+    border-color: var(--dark-mode-accent-color, #69c69c);
     color: #ffffff;
 }
 
 .contact-dark-mode .contact-form .button {
-    background-color: #69c69c;
+    background-color: var(--dark-mode-accent-color, #69c69c);
     color: #1a1a1a;
-    border-color: #69c69c;
+    border-color: var(--dark-mode-accent-color, #69c69c);
 }
 
 .contact-dark-mode .contact-form .button:hover {
-    background-color: #8fd9b8;
-    border-color: #8fd9b8;
+    background-color: var(--dark-mode-accent-color, #69c69c);
+    border-color: var(--dark-mode-accent-color, #69c69c);
+    filter: brightness(1.2);
 }
