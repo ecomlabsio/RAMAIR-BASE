@@ -231,6 +231,10 @@ faqs-item{
     background-color: #69c69c;
 }
 
+.faqs-dark-mode .faqs .faqs-title::after {
+    background-color: var(--dark-mode-accent-color, #69c69c);
+}
+
 .faqs .faqs-item .card-header .title {
     padding: 15px 80px 15px 15px;
     background-color: #fafafa;
@@ -544,7 +548,7 @@ body.has-dark-mode-section .wrapper-body + .wrapper-footer {
 }
 
 .faqs-dark-mode .faqs-filterDropdown-menu li:hover .text {
-    color: #69c69c;
+    color: var(--dark-mode-accent-color, #69c69c);
 }
 
 .faqs-dark-mode .faqs-item {
@@ -574,7 +578,7 @@ body.has-dark-mode-section .wrapper-body + .wrapper-footer {
 }
 
 .faqs-dark-mode .faqs-item .card-body a {
-    color: #69c69c;
+    color: var(--dark-mode-accent-color, #69c69c);
 }
 
 .faqs-dark-mode .faqs-item .card-body a:hover {

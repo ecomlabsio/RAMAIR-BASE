@@ -522,7 +522,7 @@ body.has-dark-mode-section .wrapper-body + .wrapper-footer {
 
 .contact-dark-mode .contact-address a,
 .contact-dark-mode .contact-store a {
-    color: #69c69c;
+    color: var(--dark-mode-accent-color, #69c69c);
 }
 
 .contact-dark-mode .contact-address a:hover,

@@ -3,6 +3,7 @@
 
 {%- liquid
     assign enable_dark_mode = section.settings.enable_dark_mode
+    assign dark_mode_accent_color = section.settings.dark_mode_accent_color | default: '#69c69c'
     assign padding_top = section.settings.mg_top_desktop | append: 'px'
     assign padding_bottom = section.settings.mg_bottom_desktop | append: 'px'
     assign padding_top_tablet = section.settings.mg_top_tablet | append: 'px'
@@ -202,6 +203,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <style type="text/css" media="screen">
     {% if enable_dark_mode %}
+    #FaqsSection-{{ section.id }}.faqs-dark-mode {
+        --dark-mode-accent-color: {{ dark_mode_accent_color }};
+    }
+    
     body:has(#FaqsSection-{{ section.id }}.faqs-dark-mode) .wrapper-body,
     body:has(#FaqsSection-{{ section.id }}.faqs-dark-mode) .body-content-wrapper {
         background-color: #1a1a1a;
@@ -287,6 +292,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 "label": "Enable Dark Mode",
                 "info": "Switch the entire FAQ page to a dark color scheme",
                 "default": false
+            },
+            {
+                "type": "color",
+                "id": "dark_mode_accent_color",
+                "label": "Dark Mode Accent Color",
+                "info": "Color for links and interactive elements in dark mode",
+                "default": "#69c69c"
             },
             {
                 "type": "select",
