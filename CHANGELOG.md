@@ -2,6 +2,13 @@
 
 All notable changes to this theme will be documented in this file.
 
+## 1.3.1 — 2025-01-XX
+
+- Fix: Dark mode white bar issue on FAQ and Contact pages
+  - Added background color to section wrappers when dark mode is enabled
+  - Fixed white bars appearing beneath header and before footer on dark mode pages
+  - Applied to sections/main-faqs-page.liquid, sections/main-contact-us-1.liquid, and sections/main-contact-us-2.liquid
+
 ## 1.3.0 — 2025-10-16
 
 - Add: Ramair Vehicle Selector section (sections/ramair-vehicle-selector.liquid)

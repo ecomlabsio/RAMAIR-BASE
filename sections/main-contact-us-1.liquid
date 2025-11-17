@@ -111,6 +111,9 @@
     #ContactSection-{{ section.id }}{
         padding-top: {{ padding_top }};
         padding-bottom: {{ padding_bottom }};
+        {% if enable_dark_mode %}
+        background-color: #1a1a1a;
+        {% endif %}
     }
 
     #ContactSection-{{ section.id }} .contact.contact-1 .contact-address + .contact-store {

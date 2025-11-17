@@ -195,6 +195,9 @@
     #FaqsSection-{{ section.id }}{
         padding-top: {{ padding_top }};
         padding-bottom: {{ padding_bottom }};
+        {% if enable_dark_mode %}
+        background-color: #1a1a1a;
+        {% endif %}
     }
 
     @media (max-width: 1024px) {
