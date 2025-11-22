@@ -280,35 +280,8 @@
                     Currency.convertAll(shopCurrency, $("#currencies .active").attr('data-currency'));
                 });
 
-                document.addEventListener('DOMContentLoaded', initBlocked, false);
-
-                function initBlocked() {
-                    adsBlocked((blocked) => {
-                        if (blocked) {
-                            alert('Please turn off the uBlock addon on the browser for this site to display your currency!');
-                        } else {
-                            console.log('Ads are not blocked!');
-                        }
-                    })
-                }
-
-                function adsBlocked(callback) {
-                    var testURL = 'https://ssl.geoplugin.net/javascript.gp?k=9247556ec91c71e9'
-                    var myInit = {
-                        method: 'HEAD',
-                        mode: 'no-cors'
-                    };
-
-                    var myRequest = new Request(testURL, myInit);
-
-                    fetch(myRequest).then((response) => {
-                        return response;
-                    }).then((response) => {
-                        callback(false)
-                    }).catch(() => {
-                        callback(true)
-                    });
-                }
+                // Removed intrusive ad-blocker detection that was causing false positives on mobile
+                // Currency functionality will work normally, defaulting to shop currency if geoplugin fails
             </script>
         {%- endif -%}
     {%- else -%}
@@ -379,36 +352,8 @@
                     }
                 });
 
-                document.addEventListener('DOMContentLoaded', initBlocked, false);
-
-                function initBlocked() {
-                    adsBlocked((blocked) => {
-                        if (blocked) {
-                            alert('Please turn off the uBlock addon on the browser for this site to display your currency!');
-                        } else {
-                            console.log('Ads are not blocked!');
-                        }
-                    })
-                }
-
-                function adsBlocked(callback) {
-                    var testURL = 'https://ssl.geoplugin.net/javascript.gp?k=9247556ec91c71e9'
-
-                    var myInit = {
-                        method: 'HEAD',
-                        mode: 'no-cors'
-                    };
-
-                    var myRequest = new Request(testURL, myInit);
-
-                    fetch(myRequest).then((response) => {
-                        return response;
-                    }).then((response) => {
-                        callback(false)
-                    }).catch(() => {
-                        callback(true)
-                    });
-                }
+                // Removed intrusive ad-blocker detection that was causing false positives on mobile
+                // Currency functionality will work normally, defaulting to shop currency if geoplugin fails
             </script>
         {%- endif -%}
     {%- endif -%}
