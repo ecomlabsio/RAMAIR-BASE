@@ -1,0 +1,116 @@
+{%- comment -%}
+  Shopify Markets Location Flag Display
+  Shows the current country flag based on user's detected location
+  Uses Shopify Markets localization.country API
+{%- endcomment -%}
+
+{%- if localization.country -%}
+<div class="markets-location-flag" data-country-code="{{ localization.country.iso_code | downcase }}">
+  <span class="location-flag-icon" aria-label="{{ localization.country.name }}" title="{{ localization.country.name }}">
+    {%- comment -%} Convert ISO country code to flag emoji using Unicode regional indicators {%- endcomment -%}
+    {%- assign country_code = localization.country.iso_code | upcase -%}
+    {%- assign char1 = country_code | slice: 0, 1 -%}
+    {%- assign char2 = country_code | slice: 1, 1 -%}
+    
+    {%- comment -%} Convert letters to Unicode regional indicator symbols (A=U+1F1E6, etc.) {%- endcomment -%}
+    {%- assign flag_emoji = '' -%}
+    {%- case char1 -%}
+      {%- when 'A' -%}{%- assign flag_emoji = '🇦' -%}
+      {%- when 'B' -%}{%- assign flag_emoji = '🇧' -%}
+      {%- when 'C' -%}{%- assign flag_emoji = '🇨' -%}
+      {%- when 'D' -%}{%- assign flag_emoji = '🇩' -%}
+      {%- when 'E' -%}{%- assign flag_emoji = '🇪' -%}
+      {%- when 'F' -%}{%- assign flag_emoji = '🇫' -%}
+      {%- when 'G' -%}{%- assign flag_emoji = '🇬' -%}
+      {%- when 'H' -%}{%- assign flag_emoji = '🇭' -%}
+      {%- when 'I' -%}{%- assign flag_emoji = '🇮' -%}
+      {%- when 'J' -%}{%- assign flag_emoji = '🇯' -%}
+      {%- when 'K' -%}{%- assign flag_emoji = '🇰' -%}
+      {%- when 'L' -%}{%- assign flag_emoji = '🇱' -%}
+      {%- when 'M' -%}{%- assign flag_emoji = '🇲' -%}
+      {%- when 'N' -%}{%- assign flag_emoji = '🇳' -%}
+      {%- when 'O' -%}{%- assign flag_emoji = '🇴' -%}
+      {%- when 'P' -%}{%- assign flag_emoji = '🇵' -%}
+      {%- when 'Q' -%}{%- assign flag_emoji = '🇶' -%}
+      {%- when 'R' -%}{%- assign flag_emoji = '🇷' -%}
+      {%- when 'S' -%}{%- assign flag_emoji = '🇸' -%}
+      {%- when 'T' -%}{%- assign flag_emoji = '🇹' -%}
+      {%- when 'U' -%}{%- assign flag_emoji = '🇺' -%}
+      {%- when 'V' -%}{%- assign flag_emoji = '🇻' -%}
+      {%- when 'W' -%}{%- assign flag_emoji = '🇼' -%}
+      {%- when 'X' -%}{%- assign flag_emoji = '🇽' -%}
+      {%- when 'Y' -%}{%- assign flag_emoji = '🇾' -%}
+      {%- when 'Z' -%}{%- assign flag_emoji = '🇿' -%}
+    {%- endcase -%}
+    
+    {%- assign flag_part1 = flag_emoji -%}
+    {%- assign flag_emoji = '' -%}
+    {%- case char2 -%}
+      {%- when 'A' -%}{%- assign flag_emoji = '🇦' -%}
+      {%- when 'B' -%}{%- assign flag_emoji = '🇧' -%}
+      {%- when 'C' -%}{%- assign flag_emoji = '🇨' -%}
+      {%- when 'D' -%}{%- assign flag_emoji = '🇩' -%}
+      {%- when 'E' -%}{%- assign flag_emoji = '🇪' -%}
+      {%- when 'F' -%}{%- assign flag_emoji = '🇫' -%}
+      {%- when 'G' -%}{%- assign flag_emoji = '🇬' -%}
+      {%- when 'H' -%}{%- assign flag_emoji = '🇭' -%}
+      {%- when 'I' -%}{%- assign flag_emoji = '🇮' -%}
+      {%- when 'J' -%}{%- assign flag_emoji = '🇯' -%}
+      {%- when 'K' -%}{%- assign flag_emoji = '🇰' -%}
+      {%- when 'L' -%}{%- assign flag_emoji = '🇱' -%}
+      {%- when 'M' -%}{%- assign flag_emoji = '🇲' -%}
+      {%- when 'N' -%}{%- assign flag_emoji = '🇳' -%}
+      {%- when 'O' -%}{%- assign flag_emoji = '🇴' -%}
+      {%- when 'P' -%}{%- assign flag_emoji = '🇵' -%}
+      {%- when 'Q' -%}{%- assign flag_emoji = '🇶' -%}
+      {%- when 'R' -%}{%- assign flag_emoji = '🇷' -%}
+      {%- when 'S' -%}{%- assign flag_emoji = '🇸' -%}
+      {%- when 'T' -%}{%- assign flag_emoji = '🇹' -%}
+      {%- when 'U' -%}{%- assign flag_emoji = '🇺' -%}
+      {%- when 'V' -%}{%- assign flag_emoji = '🇻' -%}
+      {%- when 'W' -%}{%- assign flag_emoji = '🇼' -%}
+      {%- when 'X' -%}{%- assign flag_emoji = '🇽' -%}
+      {%- when 'Y' -%}{%- assign flag_emoji = '🇾' -%}
+      {%- when 'Z' -%}{%- assign flag_emoji = '🇿' -%}
+    {%- endcase -%}
+    
+    <span class="flag-emoji">{{ flag_part1 }}{{ flag_emoji }}</span>
+    {%- if show_country_name -%}
+      <span class="country-name">{{ localization.country.name }}</span>
+    {%- endif -%}
+  </span>
+</div>
+
+<style>
+  .markets-location-flag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: default;
+  }
+  
+  .markets-location-flag .flag-emoji {
+    font-size: 20px;
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .markets-location-flag .country-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: inherit;
+  }
+  
+  @media (max-width: 768px) {
+    .markets-location-flag .country-name {
+      display: none;
+    }
+    
+    .markets-location-flag .flag-emoji {
+      font-size: 18px;
+    }
+  }
+</style>
+{%- endif -%}
+

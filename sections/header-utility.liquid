@@ -161,6 +161,12 @@
                                             </div>
                                         </div>
                                     {%- endif -%}
+                                    {%- comment -%} Location Flag Display {%- endcomment -%}
+                                    {%- if use_markets and localization.country -%}
+                                        <div class="header__locationFlag">
+                                            {% render 'markets-top-location-flag' %}
+                                        </div>
+                                    {%- endif -%}
                                 {% elsif settings.enable_currencies and settings.use_shopify_markets == false %}
                                 {{ "jquery.currencies.min.js" | asset_url | script_tag }}
                                 {%- endif -%}

@@ -350,6 +350,12 @@
                             {%- endif -%}
                         {%- endif -%}
                     {%- endif -%}
+                    {%- comment -%} Location Flag Display {%- endcomment -%}
+                    {%- if use_markets and localization.country -%}
+                        <div class="header__locationFlag d-inline-block ml-20">
+                            {% render 'markets-top-location-flag' %}
+                        </div>
+                    {%- endif -%}
                 </div>
             </div>
             {%- if section.settings.header_style == 'style_2' -%}

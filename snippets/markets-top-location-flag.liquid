@@ -1,0 +1,12 @@
+{%- comment -%}
+  Shopify Markets Location Flag - Top Level Wrapper
+  Compatible with existing header structure
+  Displays country flag based on user's detected location
+{%- endcomment -%}
+
+{%- if settings.use_shopify_markets and localization.country -%}
+<div class="halo-top-location markets-top-location">
+  {% render 'markets-location-flag', show_country_name: show_country_name %}
+</div>
+{%- endif -%}
+
