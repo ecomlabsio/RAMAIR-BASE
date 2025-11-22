@@ -185,7 +185,7 @@
                             </div>
                         </div>
                     {%- endif -%}
-                    {%- comment -%} Location Flag Display {%- endcomment -%}
+                    {%- comment -%} Location Flag Display - Shows country flag based on user's detected location via Shopify Markets {%- endcomment -%}
                     {%- if use_markets and localization.country -%}
                         <div class="header__locationFlag d-inline-block{% if block.settings.show_language_currency_sticky %}{% if block.settings.show_language_currency %}{% else %} hide-main-menu{% endif %}{% else %}{% if block.settings.show_language_currency %} show-main-menu{% endif %}{% endif %}">
                             {% render 'markets-top-location-flag' %}
