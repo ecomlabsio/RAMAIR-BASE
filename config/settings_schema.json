@@ -4297,6 +4297,18 @@
         "content": "t:settings_schema.multiple_layouts.settings.general.list_iso_rtl_note"
       },
       {
+        "type": "header",
+        "content": "Shopify Markets Language Configuration"
+      },
+      {
+        "type": "paragraph",
+        "content": "When Shopify Markets is enabled (in Currency settings), language switching uses Shopify Markets automatically. The settings below are only used when Shopify Markets is disabled."
+      },
+      {
+        "type": "header",
+        "content": "Legacy Language Settings (Only used when Shopify Markets is disabled)"
+      },
+      {
         "type": "checkbox",
         "id": "enable_multilang_shopify",
         "label": "t:settings_schema.multiple_language.settings.enable_multilang_shopify",
@@ -4371,6 +4383,25 @@
   {
     "name": "t:settings_schema.multiple_currencie.name",
     "settings": [
+      {
+        "type": "header",
+        "content": "Shopify Markets Configuration"
+      },
+      {
+        "type": "checkbox",
+        "id": "use_shopify_markets",
+        "label": "Use Shopify Markets (Recommended for Shopify Plus)",
+        "info": "Enable this to use Shopify's native Markets system for currency and language management. This replaces the theme's hard-coded currency/language system. Requires Shopify Markets to be configured in your store settings.",
+        "default": false
+      },
+      {
+        "type": "paragraph",
+        "content": "When Shopify Markets is enabled, currency and language switching will use Shopify's native Markets API. Make sure you have configured Markets in Settings → Markets before enabling this option."
+      },
+      {
+        "type": "header",
+        "content": "Legacy Currency Settings (Only used when Shopify Markets is disabled)"
+      },
       {
         "type": "checkbox",
         "id": "enable_currencies",

@@ -1,0 +1,31 @@
+{%- comment -%}
+  Combined Shopify Markets Currency & Language Selector
+  Provides a unified selector for both currency and language switching
+  Uses Shopify's native Markets API
+{%- endcomment -%}
+
+{%- liquid
+  assign show_currency = false
+  assign show_language = false
+  
+  if shop.enabled_currencies.size > 1 or localization.available_countries.size > 1
+    assign show_currency = true
+  endif
+  
+  if localization.available_languages.size > 1
+    assign show_language = true
+  endif
+-%}
+
+{%- if show_currency or show_language -%}
+<div class="markets-selector">
+  {%- if show_language -%}
+    {% render 'markets-language' %}
+  {%- endif -%}
+  
+  {%- if show_currency -%}
+    {% render 'markets-currency', show-symbol: show-symbol %}
+  {%- endif -%}
+</div>
+{%- endif -%}
+

@@ -291,22 +291,53 @@
                         </div>
                     {%- endif -%}
 
-                    {%- if settings.enable_multilang_shopify or settings.enable_currencies -%}
+                    {%- liquid
+                        assign use_markets = settings.use_shopify_markets
+                        assign show_language = false
+                        assign show_currency = false
+                        
+                        if use_markets
+                            if localization.available_languages.size > 1
+                                assign show_language = true
+                            endif
+                            if shop.enabled_currencies.size > 1 or localization.available_countries.size > 1
+                                assign show_currency = true
+                            endif
+                        else
+                            if settings.enable_multilang_shopify
+                                assign show_language = true
+                            endif
+                            if settings.enable_currencies
+                                assign show_currency = true
+                            endif
+                        endif
+                    -%}
+                    {%- if show_language or show_currency -%}
                         {%- if section.settings.show_language_currency -%}
                             <div class="header__languageCurrency header-language_currency d-inline-block p-relative ml-20">
                                 <button type="button" class="icon-languageCurrency header__icon b-zero bg-none p-zero" aria-label="Language Currency" data-lang-currency>{% render 'icon-globe' %}</button>
-                                <div class="top-language-currency p-absolute top-0 right-0 ml-0 zi-3 p-zero opacity-0 ft-0{% if settings.enable_multilang_shopify and settings.enable_currencies %} top-language-currency--all{% endif %}">
-                                    {%- if settings.enable_multilang_shopify -%}
-                                        {% render 'halo-top-language' %}
-                                    {%- endif -%}
-
-                                    {%- if settings.enable_currencies -%}
-                                        {% render 'halo-top-currency' %}
+                                <div class="top-language-currency p-absolute top-0 right-0 ml-0 zi-3 p-zero opacity-0 ft-0{% if show_language and show_currency %} top-language-currency--all{% endif %}">
+                                    {%- if use_markets -%}
+                                        {%- comment -%} Use Shopify Markets {%- endcomment -%}
+                                        {%- if show_language -%}
+                                            {% render 'markets-top-language' %}
+                                        {%- endif -%}
+                                        {%- if show_currency -%}
+                                            {% render 'markets-top-currency' %}
+                                        {%- endif -%}
+                                    {%- else -%}
+                                        {%- comment -%} Use legacy system {%- endcomment -%}
+                                        {%- if show_language -%}
+                                            {% render 'halo-top-language' %}
+                                        {%- endif -%}
+                                        {%- if show_currency -%}
+                                            {% render 'halo-top-currency' %}
+                                        {%- endif -%}
                                     {%- endif -%}
                                 </div>
                             </div>
                         {%- else -%}
-                            {% unless settings.currency_type == 'auto_currencies' and settings.enable_currencies %}
+                            {%- unless use_markets or (settings.currency_type == 'auto_currencies' and settings.enable_currencies) -%}
                                 {% render 'halo-currency-js' %}
                             {% endunless %}
                         {%- endif -%}

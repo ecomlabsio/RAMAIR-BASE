@@ -1,0 +1,97 @@
+{%- comment -%}
+  Shopify Markets Currency Selector
+  Uses Shopify's native Markets API for currency switching
+  Replaces the old hard-coded currency system
+{%- endcomment -%}
+
+{%- if localization.available_countries.size > 1 or shop.enabled_currencies.size > 1 -%}
+<div class="halo-currency markets-currency">
+  <link rel="stylesheet" href="{{ 'currency.css' | asset_url }}" media="all" onload="this.media='all'">
+  <noscript>{{ 'currency.css' | asset_url | stylesheet_tag }}</noscript>
+  
+  {%- form 'localization', id: 'HeaderCurrencyForm', class: 'localization-form' -%}
+    <div class="currency-block">
+      <div class="btn-group currency-dropdown shopify-markets-currency">
+        <p class="title">{{ 'localization.currency_label' | t | default: 'Currency' }}</p>
+        <div class="dropdown-menu currency-menu custom-scrollbar d-flex flex-align-center flex-wrap" id="currencies">
+          {%- if shop.enabled_currencies.size > 1 -%}
+            {%- comment -%} Use Shopify's enabled currencies {%- endcomment -%}
+            {%- for currency in shop.enabled_currencies -%}
+              <a 
+                class="dropdown-item{% if currency.iso_code == cart.currency.iso_code %} active{% endif %}" 
+                href="#" 
+                data-currency="{{ currency.iso_code }}" 
+                role="button"
+                aria-label="{{ currency.iso_code }}"
+              >
+                {% assign currency_iso = currency.iso_code %}
+                {% render 'icon_currency', currency_iso: currency_iso %}
+                <span class="text" role="text" aria-label="currency">
+                  {%- if show-symbol -%}{{ currency.symbol }} {%- endif -%}{{ currency.iso_code }}
+                </span>
+              </a>
+            {%- endfor -%}
+          {%- else -%}
+            {%- comment -%} Fallback: Use market currencies {%- endcomment -%}
+            {%- for country in localization.available_countries -%}
+              {%- if country.currency.iso_code -%}
+                <a 
+                  class="dropdown-item{% if country.currency.iso_code == cart.currency.iso_code %} active{% endif %}" 
+                  href="#" 
+                  data-currency="{{ country.currency.iso_code }}" 
+                  role="button"
+                  aria-label="{{ country.currency.iso_code }}"
+                >
+                  {% assign currency_iso = country.currency.iso_code %}
+                  {% render 'icon_currency', currency_iso: currency_iso %}
+                  <span class="text" role="text" aria-label="currency">
+                    {%- if show-symbol -%}{{ country.currency.symbol }} {%- endif -%}{{ country.currency.iso_code }}
+                  </span>
+                </a>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+    
+    {%- comment -%} Hidden form for currency switching {%- endcomment -%}
+    <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
+    <input type="hidden" name="currency_code" value="{{ cart.currency.iso_code }}" id="currency-code-input">
+  {%- endform -%}
+</div>
+
+<script>
+  (function() {
+    const currencyLinks = document.querySelectorAll('.markets-currency .dropdown-item[data-currency]');
+    const currencyForm = document.getElementById('HeaderCurrencyForm');
+    const currencyInput = document.getElementById('currency-code-input');
+    const currentCurrency = '{{ cart.currency.iso_code }}';
+    
+    currencyLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const currencyCode = this.getAttribute('data-currency');
+        
+        if (currencyCode === currentCurrency) {
+          return false;
+        }
+        
+        // Update active state
+        currencyLinks.forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+        
+        // Update form and submit
+        if (currencyInput) {
+          currencyInput.value = currencyCode;
+        }
+        
+        if (currencyForm) {
+          currencyForm.submit();
+        }
+      });
+    });
+  })();
+</script>
+{%- endif -%}
+

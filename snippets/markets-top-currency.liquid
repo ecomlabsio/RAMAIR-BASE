@@ -1,0 +1,24 @@
+{%- comment -%}
+  Shopify Markets Currency Selector - Top Level Wrapper
+  Compatible with existing header structure
+  Replaces halo-top-currency when Markets is enabled
+{%- endcomment -%}
+
+<div class="halo-top-currency markets-top-currency">
+  <div class="btn-group currency-dropdown shopify-markets-currency">
+    <label class="dropdown-toggle dropdown-label{% unless settings.currency_type == 'multiple_currencies' %} show-icon{% endunless %}" data-currency-label>
+      {% assign currency_iso = cart.currency.iso_code %}
+      {% render 'icon_currency', currency_iso: currency_iso %}
+      <span class="text">
+        {%- if show-symbol -%}{{ cart.currency.symbol }} {%- endif -%}{{ cart.currency.iso_code }}
+      </span>
+      <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5" fill="none">
+        <path d="M10 0L5 5L-5.00652e-07 0H10Z" fill="white"/>
+      </svg>
+    </label>
+  </div>
+  <div class="dropdown-currency">
+    {% render 'markets-currency', show-symbol: show-symbol %}
+  </div>
+</div>
+
