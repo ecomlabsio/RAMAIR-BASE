@@ -37,7 +37,7 @@
     "custom_liquid_zUGeNg": {
       "type": "custom-liquid",
       "custom_css": [
-        ".container,.page-width,.section-wrapper {background-color: #000000;}"
+        "section:has(#cm-ymm) {background-color: #000000; padding-left: 0; padding-right: 0;}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
