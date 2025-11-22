@@ -37,11 +37,11 @@
     "custom_liquid_zUGeNg": {
       "type": "custom-liquid",
       "custom_css": [
-        "section:has(#cm-ymm) {background-color: #000000; padding-left: 0; padding-right: 0;}"
+        "#cm-ymm {background-color: #000000;}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div id=\"cm-ymm\" class=\"container\"></div>"
+        "custom_liquid": "<div class=\"container\"><div id=\"cm-ymm\"></div></div>"
       }
     },
     "ramair_vehicle_selector_kafqAn": {
