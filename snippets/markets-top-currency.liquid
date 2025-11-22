@@ -7,8 +7,7 @@
 <div class="halo-top-currency markets-top-currency">
   <div class="btn-group currency-dropdown shopify-markets-currency">
     <label class="dropdown-toggle dropdown-label{% unless settings.currency_type == 'multiple_currencies' %} show-icon{% endunless %}" data-currency-label>
-      {% assign currency_iso = cart.currency.iso_code %}
-      {% render 'icon_currency', currency_iso: currency_iso %}
+      {%- comment -%} Hide currency flag icon when Markets is enabled - location flag will show instead {%- endcomment -%}
       <span class="text">
         {%- if show-symbol -%}{{ cart.currency.symbol }} {%- endif -%}{{ cart.currency.iso_code }}
       </span>

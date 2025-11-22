@@ -133,30 +133,38 @@
   .markets-location-flag {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 4px;
     cursor: default;
+    margin-left: 8px;
   }
   
   .markets-location-flag .flag-emoji {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1;
     display: inline-block;
     vertical-align: middle;
   }
   
   .markets-location-flag .country-name {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
     color: inherit;
+    display: none;
+  }
+  
+  .header__locationFlag {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
   }
   
   @media (max-width: 768px) {
-    .markets-location-flag .country-name {
-      display: none;
+    .markets-location-flag .flag-emoji {
+      font-size: 14px;
     }
     
-    .markets-location-flag .flag-emoji {
-      font-size: 18px;
+    .markets-location-flag {
+      margin-left: 6px;
     }
   }
 </style>
