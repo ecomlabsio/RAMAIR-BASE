@@ -1,14 +1,57 @@
 {%- comment -%}
   Shopify Markets Location Flag Display
   Shows the current country flag based on user's detected location
-  Uses Shopify Markets localization.country API
+  Uses Shopify Markets API - detects country from market or currency
 {%- endcomment -%}
 
-{%- if localization.country -%}
-<div class="markets-location-flag" data-country-code="{{ localization.country.iso_code | downcase }}">
-  <span class="location-flag-icon" aria-label="{{ localization.country.name }}" title="{{ localization.country.name }}">
+{%- liquid
+  assign detected_country_code = ''
+  assign detected_country_name = ''
+  
+  comment Detect country from Markets
+  if localization.country
+    assign detected_country_code = localization.country.iso_code | upcase
+    assign detected_country_name = localization.country.name
+  elsif localization.available_countries.size > 0
+    comment Use first available country from market
+    assign detected_country_code = localization.available_countries.first.iso_code | upcase
+    assign detected_country_name = localization.available_countries.first.name
+  elsif cart.currency.iso_code
+    comment Infer country from currency as fallback
+    case cart.currency.iso_code
+      when 'GBP'
+        assign detected_country_code = 'GB'
+        assign detected_country_name = 'United Kingdom'
+      when 'USD'
+        assign detected_country_code = 'US'
+        assign detected_country_name = 'United States'
+      when 'EUR'
+        assign detected_country_code = 'EU'
+        assign detected_country_name = 'European Union'
+      when 'CAD'
+        assign detected_country_code = 'CA'
+        assign detected_country_name = 'Canada'
+      when 'AUD'
+        assign detected_country_code = 'AU'
+        assign detected_country_name = 'Australia'
+      when 'JPY'
+        assign detected_country_code = 'JP'
+        assign detected_country_name = 'Japan'
+      when 'CHF'
+        assign detected_country_code = 'CH'
+        assign detected_country_name = 'Switzerland'
+      else
+        assign detected_country_code = cart.currency.iso_code
+        assign detected_country_name = cart.currency.iso_code
+    endcase
+  endif
+-%}
+
+{%- if detected_country_code != '' -%}
+<div class="markets-location-flag" data-country-code="{{ detected_country_code | downcase }}">
+  <span class="location-flag-icon" aria-label="{{ detected_country_name }}" title="{{ detected_country_name }}">
     {%- comment -%} Direct mapping of country codes to flag emojis for reliability {%- endcomment -%}
-    {%- assign country_code = localization.country.iso_code | upcase -%}
+    {%- assign country_code = detected_country_code -%}
     {%- assign flag_emoji = '' -%}
     
     {%- case country_code -%}

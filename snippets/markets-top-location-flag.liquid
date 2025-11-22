@@ -4,7 +4,16 @@
   Displays country flag based on user's detected location
 {%- endcomment -%}
 
-{%- if settings.use_shopify_markets and localization.country -%}
+{%- liquid
+  assign show_location_flag = false
+  if settings.use_shopify_markets
+    if localization.country or localization.available_countries.size > 0 or cart.currency.iso_code
+      assign show_location_flag = true
+    endif
+  endif
+-%}
+
+{%- if show_location_flag -%}
 <div class="halo-top-location markets-top-location">
   {% render 'markets-location-flag', show_country_name: show_country_name %}
 </div>
