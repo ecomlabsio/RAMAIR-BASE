@@ -25,7 +25,15 @@
 	{% section 'halo-navigation-mobile-3' %}
 {%- endif -%}
 
-{%- unless settings.enable_currencies -%}
+{%- liquid
+  assign should_load_currency_js = false
+  if settings.use_shopify_markets == false
+    if settings.enable_currencies == false
+      assign should_load_currency_js = true
+    endif
+  endif
+-%}
+{%- if should_load_currency_js -%}
     <script src='//cdn.shopify.com/s/javascripts/currencies.js' defer="defer"></script>
     {%- if settings.currency_format_enable -%}
         <script src="{{ 'jquery.currencies-format.min.js' | asset_url }}" defer="defer"></script>
@@ -33,4 +41,4 @@
         <script src="{{ 'jquery.currencies.min.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     <script type="text/javascript">let shopCurrency="{{ shop.currency }}"</script>
-{%- endunless -%}
+{%- endif -%}

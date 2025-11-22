@@ -56,7 +56,11 @@
     </div>
     
     {%- comment -%} Hidden form for currency switching {%- endcomment -%}
+    {%- if localization.country -%}
     <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
+    {%- elsif localization.available_countries.size > 0 -%}
+    <input type="hidden" name="country_code" value="{{ localization.available_countries.first.iso_code }}">
+    {%- endif -%}
     <input type="hidden" name="currency_code" value="{{ cart.currency.iso_code }}" id="currency-code-input">
   {%- endform -%}
 </div>

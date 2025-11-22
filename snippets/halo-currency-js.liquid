@@ -78,9 +78,12 @@
                 // Can be 'money_format' or 'money_with_currency_format'
                 Currency.format = 'money_format';
                 var shopCurrency = '{{ shop.currency }}';
+                {%- comment -%} Don't redirect if Shopify Markets is enabled - Markets handles currency {%- endcomment -%}
+                {%- if settings.use_shopify_markets == false -%}
                 if (shopCurrency != '{{cart.currency.iso_code}}') {
                     window.location = window.location.href + '?currency=' + shopCurrency;
                 }
+                {%- endif -%}
                 /* Sometimes merchants change their shop currency, let's tell our JavaScript file */
                 Currency.moneyFormats[shopCurrency].money_with_currency_format = {{ shop.money_with_currency_format | strip_html | json }};
                 Currency.moneyFormats[shopCurrency].money_format = {{ shop.money_format | strip_html | json }};
@@ -171,9 +174,12 @@
                 // Can be 'money_format' or 'money_with_currency_format'
                     Currency.format = 'money_format';
                 var shopCurrency = '{{ shop.currency }}';
+                {%- comment -%} Don't redirect if Shopify Markets is enabled - Markets handles currency {%- endcomment -%}
+                {%- if settings.use_shopify_markets == false -%}
                 if (shopCurrency != '{{cart.currency.iso_code}}') {
                     window.location = window.location.href + '?currency=' + shopCurrency;
                 }
+                {%- endif -%}
 
                 /* Sometimes merchants change their shop currency, let's tell our JavaScript file */
                 Currency.moneyFormats[shopCurrency].money_with_currency_format = {{ shop.money_with_currency_format | strip_html | json }};
@@ -301,9 +307,12 @@
                 Currency.format = 'money_format';
                 var shopCurrency = '{{ shop.currency }}';
 
+                {%- comment -%} Don't redirect if Shopify Markets is enabled - Markets handles currency {%- endcomment -%}
+                {%- if settings.use_shopify_markets == false -%}
                 if (shopCurrency != '{{cart.currency.iso_code}}') {
                     window.location = window.location.href + '?currency=' + shopCurrency;
                 }
+                {%- endif -%}
 
                 /* Sometimes merchants change their shop currency, let's tell our JavaScript file */
                 Currency.moneyFormats[shopCurrency].money_with_currency_format = {{ shop.money_with_currency_format | strip_html | json }};
