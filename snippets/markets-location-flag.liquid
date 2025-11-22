@@ -7,74 +7,122 @@
 {%- if localization.country -%}
 <div class="markets-location-flag" data-country-code="{{ localization.country.iso_code | downcase }}">
   <span class="location-flag-icon" aria-label="{{ localization.country.name }}" title="{{ localization.country.name }}">
-    {%- comment -%} Convert ISO country code to flag emoji using Unicode regional indicators {%- endcomment -%}
+    {%- comment -%} Direct mapping of country codes to flag emojis for reliability {%- endcomment -%}
     {%- assign country_code = localization.country.iso_code | upcase -%}
-    {%- assign char1 = country_code | slice: 0, 1 -%}
-    {%- assign char2 = country_code | slice: 1, 1 -%}
-    
-    {%- comment -%} Convert letters to Unicode regional indicator symbols (A=U+1F1E6, etc.) {%- endcomment -%}
     {%- assign flag_emoji = '' -%}
-    {%- case char1 -%}
-      {%- when 'A' -%}{%- assign flag_emoji = '🇦' -%}
-      {%- when 'B' -%}{%- assign flag_emoji = '🇧' -%}
-      {%- when 'C' -%}{%- assign flag_emoji = '🇨' -%}
-      {%- when 'D' -%}{%- assign flag_emoji = '🇩' -%}
-      {%- when 'E' -%}{%- assign flag_emoji = '🇪' -%}
-      {%- when 'F' -%}{%- assign flag_emoji = '🇫' -%}
-      {%- when 'G' -%}{%- assign flag_emoji = '🇬' -%}
-      {%- when 'H' -%}{%- assign flag_emoji = '🇭' -%}
-      {%- when 'I' -%}{%- assign flag_emoji = '🇮' -%}
-      {%- when 'J' -%}{%- assign flag_emoji = '🇯' -%}
-      {%- when 'K' -%}{%- assign flag_emoji = '🇰' -%}
-      {%- when 'L' -%}{%- assign flag_emoji = '🇱' -%}
-      {%- when 'M' -%}{%- assign flag_emoji = '🇲' -%}
-      {%- when 'N' -%}{%- assign flag_emoji = '🇳' -%}
-      {%- when 'O' -%}{%- assign flag_emoji = '🇴' -%}
-      {%- when 'P' -%}{%- assign flag_emoji = '🇵' -%}
-      {%- when 'Q' -%}{%- assign flag_emoji = '🇶' -%}
-      {%- when 'R' -%}{%- assign flag_emoji = '🇷' -%}
-      {%- when 'S' -%}{%- assign flag_emoji = '🇸' -%}
-      {%- when 'T' -%}{%- assign flag_emoji = '🇹' -%}
-      {%- when 'U' -%}{%- assign flag_emoji = '🇺' -%}
-      {%- when 'V' -%}{%- assign flag_emoji = '🇻' -%}
-      {%- when 'W' -%}{%- assign flag_emoji = '🇼' -%}
-      {%- when 'X' -%}{%- assign flag_emoji = '🇽' -%}
-      {%- when 'Y' -%}{%- assign flag_emoji = '🇾' -%}
-      {%- when 'Z' -%}{%- assign flag_emoji = '🇿' -%}
+    
+    {%- case country_code -%}
+      {%- when 'US' -%}{%- assign flag_emoji = '🇺🇸' -%}
+      {%- when 'GB' -%}{%- assign flag_emoji = '🇬🇧' -%}
+      {%- when 'UK' -%}{%- assign flag_emoji = '🇬🇧' -%}
+      {%- when 'CA' -%}{%- assign flag_emoji = '🇨🇦' -%}
+      {%- when 'AU' -%}{%- assign flag_emoji = '🇦🇺' -%}
+      {%- when 'DE' -%}{%- assign flag_emoji = '🇩🇪' -%}
+      {%- when 'FR' -%}{%- assign flag_emoji = '🇫🇷' -%}
+      {%- when 'IT' -%}{%- assign flag_emoji = '🇮🇹' -%}
+      {%- when 'ES' -%}{%- assign flag_emoji = '🇪🇸' -%}
+      {%- when 'NL' -%}{%- assign flag_emoji = '🇳🇱' -%}
+      {%- when 'BE' -%}{%- assign flag_emoji = '🇧🇪' -%}
+      {%- when 'CH' -%}{%- assign flag_emoji = '🇨🇭' -%}
+      {%- when 'AT' -%}{%- assign flag_emoji = '🇦🇹' -%}
+      {%- when 'SE' -%}{%- assign flag_emoji = '🇸🇪' -%}
+      {%- when 'NO' -%}{%- assign flag_emoji = '🇳🇴' -%}
+      {%- when 'DK' -%}{%- assign flag_emoji = '🇩🇰' -%}
+      {%- when 'FI' -%}{%- assign flag_emoji = '🇫🇮' -%}
+      {%- when 'PL' -%}{%- assign flag_emoji = '🇵🇱' -%}
+      {%- when 'IE' -%}{%- assign flag_emoji = '🇮🇪' -%}
+      {%- when 'PT' -%}{%- assign flag_emoji = '🇵🇹' -%}
+      {%- when 'GR' -%}{%- assign flag_emoji = '🇬🇷' -%}
+      {%- when 'CZ' -%}{%- assign flag_emoji = '🇨🇿' -%}
+      {%- when 'HU' -%}{%- assign flag_emoji = '🇭🇺' -%}
+      {%- when 'RO' -%}{%- assign flag_emoji = '🇷🇴' -%}
+      {%- when 'JP' -%}{%- assign flag_emoji = '🇯🇵' -%}
+      {%- when 'CN' -%}{%- assign flag_emoji = '🇨🇳' -%}
+      {%- when 'KR' -%}{%- assign flag_emoji = '🇰🇷' -%}
+      {%- when 'IN' -%}{%- assign flag_emoji = '🇮🇳' -%}
+      {%- when 'BR' -%}{%- assign flag_emoji = '🇧🇷' -%}
+      {%- when 'MX' -%}{%- assign flag_emoji = '🇲🇽' -%}
+      {%- when 'AR' -%}{%- assign flag_emoji = '🇦🇷' -%}
+      {%- when 'ZA' -%}{%- assign flag_emoji = '🇿🇦' -%}
+      {%- when 'NZ' -%}{%- assign flag_emoji = '🇳🇿' -%}
+      {%- when 'SG' -%}{%- assign flag_emoji = '🇸🇬' -%}
+      {%- when 'MY' -%}{%- assign flag_emoji = '🇲🇾' -%}
+      {%- when 'TH' -%}{%- assign flag_emoji = '🇹🇭' -%}
+      {%- when 'PH' -%}{%- assign flag_emoji = '🇵🇭' -%}
+      {%- when 'ID' -%}{%- assign flag_emoji = '🇮🇩' -%}
+      {%- when 'VN' -%}{%- assign flag_emoji = '🇻🇳' -%}
+      {%- when 'TR' -%}{%- assign flag_emoji = '🇹🇷' -%}
+      {%- when 'SA' -%}{%- assign flag_emoji = '🇸🇦' -%}
+      {%- when 'AE' -%}{%- assign flag_emoji = '🇦🇪' -%}
+      {%- when 'IL' -%}{%- assign flag_emoji = '🇮🇱' -%}
+      {%- when 'RU' -%}{%- assign flag_emoji = '🇷🇺' -%}
+      {%- when 'UA' -%}{%- assign flag_emoji = '🇺🇦' -%}
+      {%- else -%}
+        {%- comment -%} Fallback: Try to construct flag from country code letters {%- endcomment -%}
+        {%- assign char1 = country_code | slice: 0, 1 -%}
+        {%- assign char2 = country_code | slice: 1, 1 -%}
+        {%- assign flag_part1 = '' -%}
+        {%- assign flag_part2 = '' -%}
+        {%- case char1 -%}
+          {%- when 'A' -%}{%- assign flag_part1 = '🇦' -%}
+          {%- when 'B' -%}{%- assign flag_part1 = '🇧' -%}
+          {%- when 'C' -%}{%- assign flag_part1 = '🇨' -%}
+          {%- when 'D' -%}{%- assign flag_part1 = '🇩' -%}
+          {%- when 'E' -%}{%- assign flag_part1 = '🇪' -%}
+          {%- when 'F' -%}{%- assign flag_part1 = '🇫' -%}
+          {%- when 'G' -%}{%- assign flag_part1 = '🇬' -%}
+          {%- when 'H' -%}{%- assign flag_part1 = '🇭' -%}
+          {%- when 'I' -%}{%- assign flag_part1 = '🇮' -%}
+          {%- when 'J' -%}{%- assign flag_part1 = '🇯' -%}
+          {%- when 'K' -%}{%- assign flag_part1 = '🇰' -%}
+          {%- when 'L' -%}{%- assign flag_part1 = '🇱' -%}
+          {%- when 'M' -%}{%- assign flag_part1 = '🇲' -%}
+          {%- when 'N' -%}{%- assign flag_part1 = '🇳' -%}
+          {%- when 'O' -%}{%- assign flag_part1 = '🇴' -%}
+          {%- when 'P' -%}{%- assign flag_part1 = '🇵' -%}
+          {%- when 'Q' -%}{%- assign flag_part1 = '🇶' -%}
+          {%- when 'R' -%}{%- assign flag_part1 = '🇷' -%}
+          {%- when 'S' -%}{%- assign flag_part1 = '🇸' -%}
+          {%- when 'T' -%}{%- assign flag_part1 = '🇹' -%}
+          {%- when 'U' -%}{%- assign flag_part1 = '🇺' -%}
+          {%- when 'V' -%}{%- assign flag_part1 = '🇻' -%}
+          {%- when 'W' -%}{%- assign flag_part1 = '🇼' -%}
+          {%- when 'X' -%}{%- assign flag_part1 = '🇽' -%}
+          {%- when 'Y' -%}{%- assign flag_part1 = '🇾' -%}
+          {%- when 'Z' -%}{%- assign flag_part1 = '🇿' -%}
+        {%- endcase -%}
+        {%- case char2 -%}
+          {%- when 'A' -%}{%- assign flag_part2 = '🇦' -%}
+          {%- when 'B' -%}{%- assign flag_part2 = '🇧' -%}
+          {%- when 'C' -%}{%- assign flag_part2 = '🇨' -%}
+          {%- when 'D' -%}{%- assign flag_part2 = '🇩' -%}
+          {%- when 'E' -%}{%- assign flag_part2 = '🇪' -%}
+          {%- when 'F' -%}{%- assign flag_part2 = '🇫' -%}
+          {%- when 'G' -%}{%- assign flag_part2 = '🇬' -%}
+          {%- when 'H' -%}{%- assign flag_part2 = '🇭' -%}
+          {%- when 'I' -%}{%- assign flag_part2 = '🇮' -%}
+          {%- when 'J' -%}{%- assign flag_part2 = '🇯' -%}
+          {%- when 'K' -%}{%- assign flag_part2 = '🇰' -%}
+          {%- when 'L' -%}{%- assign flag_part2 = '🇱' -%}
+          {%- when 'M' -%}{%- assign flag_part2 = '🇲' -%}
+          {%- when 'N' -%}{%- assign flag_part2 = '🇳' -%}
+          {%- when 'O' -%}{%- assign flag_part2 = '🇴' -%}
+          {%- when 'P' -%}{%- assign flag_part2 = '🇵' -%}
+          {%- when 'Q' -%}{%- assign flag_part2 = '🇶' -%}
+          {%- when 'R' -%}{%- assign flag_part2 = '🇷' -%}
+          {%- when 'S' -%}{%- assign flag_part2 = '🇸' -%}
+          {%- when 'T' -%}{%- assign flag_part2 = '🇹' -%}
+          {%- when 'U' -%}{%- assign flag_part2 = '🇺' -%}
+          {%- when 'V' -%}{%- assign flag_part2 = '🇻' -%}
+          {%- when 'W' -%}{%- assign flag_part2 = '🇼' -%}
+          {%- when 'X' -%}{%- assign flag_part2 = '🇽' -%}
+          {%- when 'Y' -%}{%- assign flag_part2 = '🇾' -%}
+          {%- when 'Z' -%}{%- assign flag_part2 = '🇿' -%}
+        {%- endcase -%}
+        {%- assign flag_emoji = flag_part1 | append: flag_part2 -%}
     {%- endcase -%}
     
-    {%- assign flag_part1 = flag_emoji -%}
-    {%- assign flag_emoji = '' -%}
-    {%- case char2 -%}
-      {%- when 'A' -%}{%- assign flag_emoji = '🇦' -%}
-      {%- when 'B' -%}{%- assign flag_emoji = '🇧' -%}
-      {%- when 'C' -%}{%- assign flag_emoji = '🇨' -%}
-      {%- when 'D' -%}{%- assign flag_emoji = '🇩' -%}
-      {%- when 'E' -%}{%- assign flag_emoji = '🇪' -%}
-      {%- when 'F' -%}{%- assign flag_emoji = '🇫' -%}
-      {%- when 'G' -%}{%- assign flag_emoji = '🇬' -%}
-      {%- when 'H' -%}{%- assign flag_emoji = '🇭' -%}
-      {%- when 'I' -%}{%- assign flag_emoji = '🇮' -%}
-      {%- when 'J' -%}{%- assign flag_emoji = '🇯' -%}
-      {%- when 'K' -%}{%- assign flag_emoji = '🇰' -%}
-      {%- when 'L' -%}{%- assign flag_emoji = '🇱' -%}
-      {%- when 'M' -%}{%- assign flag_emoji = '🇲' -%}
-      {%- when 'N' -%}{%- assign flag_emoji = '🇳' -%}
-      {%- when 'O' -%}{%- assign flag_emoji = '🇴' -%}
-      {%- when 'P' -%}{%- assign flag_emoji = '🇵' -%}
-      {%- when 'Q' -%}{%- assign flag_emoji = '🇶' -%}
-      {%- when 'R' -%}{%- assign flag_emoji = '🇷' -%}
-      {%- when 'S' -%}{%- assign flag_emoji = '🇸' -%}
-      {%- when 'T' -%}{%- assign flag_emoji = '🇹' -%}
-      {%- when 'U' -%}{%- assign flag_emoji = '🇺' -%}
-      {%- when 'V' -%}{%- assign flag_emoji = '🇻' -%}
-      {%- when 'W' -%}{%- assign flag_emoji = '🇼' -%}
-      {%- when 'X' -%}{%- assign flag_emoji = '🇽' -%}
-      {%- when 'Y' -%}{%- assign flag_emoji = '🇾' -%}
-      {%- when 'Z' -%}{%- assign flag_emoji = '🇿' -%}
-    {%- endcase -%}
-    
-    <span class="flag-emoji">{{ flag_part1 }}{{ flag_emoji }}</span>
+    <span class="flag-emoji">{{ flag_emoji }}</span>
     {%- if show_country_name -%}
       <span class="country-name">{{ localization.country.name }}</span>
     {%- endif -%}
