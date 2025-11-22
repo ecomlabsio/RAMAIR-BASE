@@ -38,7 +38,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div id=\"cm-ymm\"></div>"
+        "custom_liquid": "<div id=\"cm-ymm\" class=\"container\"></div>"
       }
     },
     "ramair_vehicle_selector_kafqAn": {
