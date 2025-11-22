@@ -337,9 +337,17 @@
                                 </div>
                             </div>
                         {%- else -%}
-                            {%- unless use_markets or (settings.currency_type == 'auto_currencies' and settings.enable_currencies) -%}
+                            {%- liquid
+                                assign should_load_currency_js = false
+                                if use_markets == false
+                                    if settings.currency_type != 'auto_currencies' or settings.enable_currencies == false
+                                        assign should_load_currency_js = true
+                                    endif
+                                endif
+                            -%}
+                            {%- if should_load_currency_js -%}
                                 {% render 'halo-currency-js' %}
-                            {% endunless %}
+                            {%- endif -%}
                         {%- endif -%}
                     {%- endif -%}
                 </div>
