@@ -62,7 +62,7 @@
         "brand_font_size": 16,
         "brand_font_weight": "700",
         "brand_text_transform": "uppercase",
-        "mg_top_desktop": 0,
+        "mg_top_desktop": 20,
         "mg_top_tablet": 0,
         "mg_top_mobile": 0,
         "mg_bottom_desktop": 40,
