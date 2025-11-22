@@ -37,12 +37,12 @@
     "custom_liquid_zUGeNg": {
       "type": "custom-liquid",
       "custom_css": [
-        ".section-with-vehicle-selector {background-color: #000000;}",
-        ".section-with-vehicle-selector .container {background-color: transparent;}"
+        ".cm-ymm-wrapper {background-color: #000000; width: 100%;}",
+        ".cm-ymm-wrapper .container {background-color: transparent;}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"container\"><div id=\"cm-ymm\"></div></div>"
+        "custom_liquid": "<div class=\"cm-ymm-wrapper\">\n  <div class=\"container\">\n    <div id=\"cm-ymm\"></div>\n  </div>\n</div>"
       }
     },
     "ramair_vehicle_selector_kafqAn": {
