@@ -141,17 +141,57 @@
                     {%- endif -%}
                 {%- endif -%}
                 {%- if block.settings.show_language_currency or block.settings.show_language_currency_sticky -%}
-                    {% if settings.enable_multilang_shopify or settings.enable_currencies %}
+                    {%- liquid
+                        assign use_markets = settings.use_shopify_markets
+                        assign show_language = false
+                        assign show_currency = false
+                        
+                        if use_markets
+                            if localization.available_languages.size > 1
+                                assign show_language = true
+                            endif
+                            if shop.enabled_currencies.size > 1 or localization.available_countries.size > 1
+                                assign show_currency = true
+                            endif
+                        else
+                            if settings.enable_multilang_shopify
+                                assign show_language = true
+                            endif
+                            if settings.enable_currencies
+                                assign show_currency = true
+                            endif
+                        endif
+                    -%}
+                    {%- if show_language or show_currency -%}
                         <div class="header-language_currency language_currency_style_1 d-inline-block{% if block.settings.show_language_currency_sticky %}{% if block.settings.show_language_currency %}{% else %} hide-main-menu{% endif %}{% else %}{% if block.settings.show_language_currency %} show-main-menu{% endif %}{% endif %}">
-                            <div class="top-language-currency ft-0 sticky_effect{% if settings.enable_currencies %} enable-currency{% endif %}">
-                                {% if settings.enable_multilang_shopify %}{% render 'halo-top-language' %}{% endif %}
-                                {% if settings.enable_currencies %}
-                                {% render 'halo-top-currency' %}
-                                {% endif %}
+                            <div class="top-language-currency ft-0 sticky_effect{% if show_currency %} enable-currency{% endif %}">
+                                {%- if use_markets -%}
+                                    {%- comment -%} Use Shopify Markets {%- endcomment -%}
+                                    {%- if show_language -%}
+                                        {% render 'markets-top-language' %}
+                                    {%- endif -%}
+                                    {%- if show_currency -%}
+                                        {% render 'markets-top-currency' %}
+                                    {%- endif -%}
+                                {%- else -%}
+                                    {%- comment -%} Use legacy system {%- endcomment -%}
+                                    {%- if show_language -%}
+                                        {% render 'halo-top-language' %}
+                                    {%- endif -%}
+                                    {%- if show_currency -%}
+                                        {% render 'halo-top-currency' %}
+                                    {%- endif -%}
+                                {%- endif -%}
                             </div>
                         </div>
-                    {% endif %}
-                {% elsif settings.enable_currencies %}
+                    {%- endif -%}
+                    {%- comment -%} Location Flag Display {%- endcomment -%}
+                    {%- if use_markets and localization.country -%}
+                        <div class="header__locationFlag d-inline-block{% if block.settings.show_language_currency_sticky %}{% if block.settings.show_language_currency %}{% else %} hide-main-menu{% endif %}{% else %}{% if block.settings.show_language_currency %} show-main-menu{% endif %}{% endif %}">
+                            {% render 'markets-top-location-flag' %}
+                        </div>
+                    {%- endif -%}
+                {% elsif settings.enable_currencies and settings.use_shopify_markets == false %}
                 {{ "jquery.currencies.min.js" | asset_url | script_tag }}
                 {%- endif -%}
                 {%- if block.settings.show_cart or block.settings.show_cart_sticky -%}
@@ -1664,4 +1704,5 @@ if (sticky != undefined || sticky != null) {
         "groups": ["header"]
     }
 }
+{% endschema %}
 {% endschema %}
