@@ -9,18 +9,32 @@
   <link rel="stylesheet" href="{{ 'currency.css' | asset_url }}" media="all" onload="this.media='all'">
   <noscript>{{ 'currency.css' | asset_url | stylesheet_tag }}</noscript>
   
+  {%- comment -%} Shopify Markets Native Form - Markets handles ALL currency/market switching {%- endcomment -%}
   {%- form 'localization', id: 'HeaderCurrencyForm', class: 'localization-form' -%}
     <div class="currency-block">
       <div class="btn-group currency-dropdown shopify-markets-currency">
         <p class="title">{{ 'localization.currency_label' | t | default: 'Currency' }}</p>
         <div class="dropdown-menu currency-menu custom-scrollbar d-flex flex-align-center flex-wrap" id="currencies">
           {%- if shop.enabled_currencies.size > 1 -%}
-            {%- comment -%} Use Shopify's enabled currencies {%- endcomment -%}
+            {%- comment -%} Markets controls which currencies are available - theme just displays them {%- endcomment -%}
             {%- for currency in shop.enabled_currencies -%}
+              {%- liquid
+                assign currency_country_code = ''
+                for country in localization.available_countries
+                  if country.currency.iso_code == currency.iso_code
+                    assign currency_country_code = country.iso_code
+                    break
+                  endif
+                endfor
+                if currency_country_code == '' and localization.available_countries.size > 0
+                  assign currency_country_code = localization.available_countries.first.iso_code
+                endif
+              -%}
               <a 
                 class="dropdown-item{% if currency.iso_code == cart.currency.iso_code %} active{% endif %}" 
                 href="#" 
                 data-currency="{{ currency.iso_code }}" 
+                data-country-code="{{ currency_country_code }}"
                 role="button"
                 aria-label="{{ currency.iso_code }}"
               >
@@ -32,13 +46,14 @@
               </a>
             {%- endfor -%}
           {%- else -%}
-            {%- comment -%} Fallback: Use market currencies {%- endcomment -%}
+            {%- comment -%} Markets controls which markets are available - theme just displays them {%- endcomment -%}
             {%- for country in localization.available_countries -%}
               {%- if country.currency.iso_code -%}
                 <a 
                   class="dropdown-item{% if country.currency.iso_code == cart.currency.iso_code %} active{% endif %}" 
                   href="#" 
                   data-currency="{{ country.currency.iso_code }}" 
+                  data-country-code="{{ country.iso_code }}"
                   role="button"
                   aria-label="{{ country.currency.iso_code }}"
                 >
@@ -55,41 +70,44 @@
       </div>
     </div>
     
-    {%- comment -%} Hidden form for currency switching {%- endcomment -%}
-    {%- if localization.country -%}
-    <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
-    {%- elsif localization.available_countries.size > 0 -%}
-    <input type="hidden" name="country_code" value="{{ localization.available_countries.first.iso_code }}">
-    {%- endif -%}
-    <input type="hidden" name="currency_code" value="{{ cart.currency.iso_code }}" id="currency-code-input">
+    {%- comment -%} Markets handles switching - theme just passes current values, Markets updates them {%- endcomment -%}
+    <input type="hidden" name="country_code" value="{%- if localization.country -%}{{ localization.country.iso_code }}{%- elsif localization.available_countries.size > 0 -%}{{ localization.available_countries.first.iso_code }}{%- endif -%}" id="markets-country-code-input">
+    <input type="hidden" name="currency_code" value="{{ cart.currency.iso_code }}" id="markets-currency-code-input">
   {%- endform -%}
 </div>
 
 <script>
   (function() {
+    {%- comment -%} Theme only updates form values - Markets handles ALL switching server-side {%- endcomment -%}
     const currencyLinks = document.querySelectorAll('.markets-currency .dropdown-item[data-currency]');
     const currencyForm = document.getElementById('HeaderCurrencyForm');
-    const currencyInput = document.getElementById('currency-code-input');
+    const currencyInput = document.getElementById('markets-currency-code-input');
+    const countryInput = document.getElementById('markets-country-code-input');
     const currentCurrency = '{{ cart.currency.iso_code }}';
     
     currencyLinks.forEach(link => {
       link.addEventListener('click', function(e) {
         e.preventDefault();
         const currencyCode = this.getAttribute('data-currency');
+        const countryCode = this.getAttribute('data-country-code');
         
         if (currencyCode === currentCurrency) {
           return false;
         }
         
-        // Update active state
+        // Update visual state only
         currencyLinks.forEach(l => l.classList.remove('active'));
         this.classList.add('active');
         
-        // Update form and submit
+        // Update form values - Markets handles the rest server-side
         if (currencyInput) {
           currencyInput.value = currencyCode;
         }
+        if (countryInput && countryCode) {
+          countryInput.value = countryCode;
+        }
         
+        // Submit form - Markets handles market/currency switching
         if (currencyForm) {
           currencyForm.submit();
         }
