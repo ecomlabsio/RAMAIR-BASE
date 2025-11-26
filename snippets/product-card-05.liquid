@@ -187,6 +187,14 @@
                
                 <h3 class="card__heading"><a class="card-title link-underline{% if settings.product_title_line_text != 'full' %} card-title-ellipsis{% endif %}{% if variant_selected != blank %} card-title-change{% endif %}" href="{{ product_card_product.url }}" data-product-title="{{ product_card_product.title | escape }}" data-product-url="{{ product_card_product.url }}">{{ product_card_product.title | escape }}{% if variant_selected != blank %} <span data-change-title> {% if settings.style_text_color_varriant == '01' %}-{% endif %} {{ variant_selected }}</span>{% endif %}</a></h3>
 
+                {%- assign first_variant_sku = product_card_product.selected_or_first_available_variant.sku -%}
+                {%- if first_variant_sku != blank -%}
+                    <div class="card-sku">
+                        <span class="card-sku__label">{{ 'products.product.text.sku' | t }}</span>
+                        <span class="card-sku__value">{{ first_variant_sku }}</span>
+                    </div>
+                {%- endif -%}
+
                 {%- if show_price -%}
                     <div class="card-price">{% render 'price', product: product_card_product, price_class: '' %}</div>
                 {%- endif -%}

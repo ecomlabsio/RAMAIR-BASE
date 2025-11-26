@@ -210,6 +210,14 @@
                     </span>
                 </a>
 
+                {%- assign first_variant_sku = product_card_product.selected_or_first_available_variant.sku -%}
+                {%- if first_variant_sku != blank -%}
+                    <div class="card-sku">
+                        <span class="card-sku__label">{{ 'products.product.text.sku' | t }}</span>
+                        <span class="card-sku__value">{{ first_variant_sku }}</span>
+                    </div>
+                {%- endif -%}
+
                 {% render 'product-card-summary',
                     product: product_card_product,
                     class: 'card-list__hidden'
