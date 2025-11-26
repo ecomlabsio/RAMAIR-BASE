@@ -122,6 +122,25 @@
     letter-spacing: inherit;
 }
 
+.card-sku {
+    font-family: var(--product-vendor-font);
+    font-size: var(--product-vendor-font-size);
+    font-weight: var(--product-vendor-font-weight);
+    color: var(--product-vendor-color);
+    line-height: var(--product-vendor-line-height);
+    letter-spacing: var(--product-vendor-letter-spacing);
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.card-sku__label {
+    margin-right: 5px;
+}
+
+.card-sku__value {
+    font-weight: var(--font-weight-normal);
+}
+
 .card__heading {
     font-size: var(--product-title-font-size);
     margin: 0;

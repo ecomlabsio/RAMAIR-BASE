@@ -290,7 +290,7 @@
     "product_action_bg_hover": "#232323",
     "new_badge_color": "#232323",
     "sale_badge_color": "#ffffff",
-    "sale_badge_bg": "#e95144",
+    "sale_badge_bg": "#000000",
     "sold_out_badge_color": "#ffffff",
     "sold_out_badge_bg": "#c1c1c1",
     "custom_badge_color": "#ffffff",
