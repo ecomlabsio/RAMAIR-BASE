@@ -621,6 +621,7 @@
         "164846349604bce16f-1",
         "164846349604bce16f-2"
       ],
+      "disabled": true,
       "settings": {
         "container": "1770",
         "padding_full_width": 0,
