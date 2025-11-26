@@ -222,13 +222,6 @@
         "mg_bottom_mobile": 0
       }
     },
-    "custom_liquid_7xgaNW": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"cm-ymm-wrapper\">\n  <div class=\"container\">\n    <div id=\"cm-ymm\"></div>\n  </div>\n</div>"
-      }
-    },
     "164976027430afd221": {
       "type": "custom-service-block",
       "blocks": {
@@ -441,6 +434,17 @@
         "mg_bottom_desktop": 30,
         "mg_bottom_tablet": 35,
         "mg_bottom_mobile": 30
+      }
+    },
+    "custom_liquid_7xgaNW": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".cm-ymm-wrapper {background-color: #000000; width: 100%;}",
+        ".cm-ymm-wrapper .container {background-color: transparent;}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"cm-ymm-wrapper\">\n  <div class=\"container\">\n    <div id=\"cm-ymm\"></div>\n  </div>\n</div>"
       }
     },
     "164846349763438db3": {
@@ -939,8 +943,8 @@
   "order": [
     "image_banner_TnbNRL",
     "banner",
-    "custom_liquid_7xgaNW",
     "164976027430afd221",
+    "custom_liquid_7xgaNW",
     "164846349763438db3",
     "product-grid",
     "164938646719c3d8d4",
