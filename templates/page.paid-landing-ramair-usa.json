@@ -151,10 +151,17 @@
         "mg_bottom_tablet": 0,
         "mg_bottom_mobile": 0
       }
+    },
+    "176425111018d33595": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_XfTnY4"
+    "image_banner_XfTnY4",
+    "176425111018d33595"
   ]
 }
