@@ -354,8 +354,8 @@
       },
       "view_full_details": "View full details",
       "step_by_step": {
-          "next": "Next step",
-          "previous": "Previous step"
+        "next": "Next step",
+        "previous": "Previous step"
       }
     },
     "modal": {
@@ -368,6 +368,12 @@
     }
   },
   "templates": {
+    "404": {
+      "title": "Oops! Page not found",
+      "subtext": "404",
+      "description": "Sorry! The page you're looking for clocked out!",
+      "button": "Return to store"
+    },
     "search": {
       "no_results": "No results found for “{{ terms }}”. Check the spelling or use a different word or phrase.",
       "search_result_title_2": "There are {{ count }} Page(s) and article(s) for '{{ terms }}'",
@@ -405,12 +411,6 @@
         "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
         "error_heading": "Please adjust the following:"
       }
-    },
-    "404": {
-      "title": "Oops! Page not found",
-      "subtext": "404",
-      "description": "Sorry! The page you're looking for clocked out!",
-      "button": "Return to store"
     }
   },
   "faqs": {
@@ -889,10 +889,55 @@
       "send_on_label": "Send on (optional)"
     }
   },
-  "popup":{
-    "promotion":{
+  "popup": {
+    "promotion": {
       "copy": "Copy",
       "success_message_copy": "Copied"
+    }
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
     }
   }
 }
