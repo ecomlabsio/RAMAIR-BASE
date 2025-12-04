@@ -24,7 +24,7 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "gradient_direction": "to top",
-            "image_slide": "shopify://shop_images/WEB_HEADER_HOME_-_BF.jpg",
+            "image_slide": "shopify://shop_images/WEB_HEADER_HOME.jpg",
             "alignment": "left",
             "enable_custom_position": false,
             "custom_horizontal": "40",
