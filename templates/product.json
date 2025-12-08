@@ -154,7 +154,7 @@
         "683f2b15-db3b-4f63-8d0f-e688cc678581": {
           "type": "customer_viewing",
           "settings": {
-            "customer_viewing_number": "283, 100, 59, 11, 14, 185, 193, 165, 50, 38, 99, 112, 46, 10, 125, 200, 250, 18",
+            "customer_viewing_number": "12, 4, 9, 5, 11, 10, 6, 3, 14",
             "customer_viewing_time": 5,
             "spacing_top": 0,
             "spacing_bottom": 22
@@ -163,7 +163,7 @@
         "19de9abb-17c8-4d67-941d-b32706ed06fd": {
           "type": "pickup_availability",
           "settings": {
-            "show_pickup_availability": true,
+            "show_pickup_availability": false,
             "spacing_top": 0,
             "spacing_bottom": 27
           }
