@@ -64,7 +64,7 @@
           "settings": {
             "show_vendor": false,
             "show_sku": true,
-            "show_barcode": false,
+            "show_barcode": true,
             "show_availability": true,
             "show_product_type": true,
             "stock_level_display": "none",
