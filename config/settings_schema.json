@@ -4016,8 +4016,8 @@
       {
         "type": "text",
         "id": "sale_badge_text",
-        "label": "Sale Badge Text",
-        "info": "Custom text to display on sale badges (only used when 'Sale badge display mode' is set to 'Text' or 'Text + Discount'). Leave empty to use default translation.",
+        "label": "Sale Badge Text (Sale Items Only)",
+        "info": "Custom text displayed ONLY on products that are on sale. This badge only appears when a product has a compare_at_price greater than its current price. Only used when 'Sale badge display mode' is set to 'Text' or 'Text + Discount'. Leave empty to use default translation.",
         "default": "BF SALE 2025"
       },
       {
