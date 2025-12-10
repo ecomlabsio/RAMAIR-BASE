@@ -4017,9 +4017,8 @@
         "type": "text",
         "id": "sale_badge_text",
         "label": "Sale Badge Text",
-        "info": "Custom text to display on sale badges. Leave empty to use default translation.",
-        "default": "",
-        "visible_if": "{{ settings.sale_badge_type == 'text' or settings.sale_badge_type == 'text_discount' }}"
+        "info": "Custom text to display on sale badges (only used when 'Sale badge display mode' is set to 'Text' or 'Text + Discount'). Leave empty to use default translation.",
+        "default": ""
       },
       {
         "type": "checkbox",
