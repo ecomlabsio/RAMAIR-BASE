@@ -4014,6 +4014,13 @@
         ]
       },
       {
+        "type": "text",
+        "id": "sale_badge_text",
+        "label": "Sale Badge Text",
+        "info": "Custom text to display on sale badges. Leave empty to use default translation.",
+        "default": ""
+      },
+      {
         "type": "checkbox",
         "id": "show_sold_out_badge",
         "label": "t:settings_schema.product_card.settings.product_badge.label__13",

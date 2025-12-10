@@ -4,6 +4,10 @@
     if settings.show_sale_badge
         assign sale_badge = false
         assign sale_badge_type = settings.sale_badge_type
+        assign sale_badge_text = settings.sale_badge_text
+        if sale_badge_text == blank
+            assign sale_badge_text = 'products.product.on_sale' | t
+        endif
         if badge_detail
             assign current_variant = product.selected_or_first_available_variant
             if current_variant.compare_at_price > current_variant.price
@@ -69,7 +73,7 @@
 -%}
 {%- if sale_badge or sold_out_badge or custom_badge or bundle_badge or new_badge -%}
     <div class="{{ class }}{% if sale_badge_type == 'discount' or sale_badge_type == 'text_discount' %} has-badge-js{% endif %} badge-{{ position }} halo-productBadges halo-productBadges--{{ position }} date-{{ date_minus }} date1-{{ date_difference }}{% unless sale_badge %} sale_badge_disable{% endunless %}"
-        {% if sale_badge_type == 'text_discount' or sale_badge_type == 'text' %}data-text-sale-badge="{{ 'products.product.on_sale' | t }}"{% endif %}
+        {% if sale_badge_type == 'text_discount' or sale_badge_type == 'text' %}data-text-sale-badge="{{ sale_badge_text }}"{% endif %}
         {% if sale_badge_type == 'discount' %}data-text-sale-badge="- "{% endif %}
         data-new-badge-number="{{ new_badge_limit }}"
     >
@@ -110,7 +114,7 @@
                         -{{ compare | append: '%'}}
                     {%- endif -%}
                 {%- elsif sale_badge_type == 'text_discount' -%}
-                    {{ 'products.product.on_sale' | t }}
+                    {{ sale_badge_text }}
                     {%- if badge_detail -%}
                         {{ current_variant.compare_at_price | minus: current_variant.price | times: 100.0 | divided_by: current_variant.compare_at_price | round }}%
                     {%- else -%}
@@ -130,7 +134,7 @@
                         {{ compare | append: '%'}}
                     {%- endif -%}
                 {%- else -%}
-                    {{ 'products.product.on_sale' | t }}
+                    {{ sale_badge_text }}
                 {%- endif -%}
             </span>
         {%- endif -%}
