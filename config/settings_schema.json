@@ -4018,7 +4018,8 @@
         "id": "sale_badge_text",
         "label": "Sale Badge Text",
         "info": "Custom text to display on sale badges. Leave empty to use default translation.",
-        "default": ""
+        "default": "",
+        "visible_if": "{{ settings.sale_badge_type == 'text' or settings.sale_badge_type == 'text_discount' }}"
       },
       {
         "type": "checkbox",
