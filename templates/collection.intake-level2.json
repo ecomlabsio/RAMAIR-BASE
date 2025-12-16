@@ -830,61 +830,6 @@
         "product_space_between_horiz_mb": 30
       }
     },
-    "164938646719c3d8d4": {
-      "type": "rich-text",
-      "blocks": {
-        "5d524300-536a-46fe-8a5b-d82755095233": {
-          "type": "content",
-          "settings": {
-            "content_top": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis risus leo, elementum in malesuada an darius ut augue. Cras sit amet lectus et justo feugiat euismod sed non erat. Nulla non felis id metus bibendum iaculis quis sit amet eros. Nam suscipit mollis tellus vel malesuada. Duis danos an molestie, sem in sollicitudin sodales mi justo sagittis est id consequat ipsum ligula a milance de mante...",
-            "content_bottom": "",
-            "alignment_content": "center",
-            "content_size": 12,
-            "margin_top_content": 20,
-            "content_color": "#3c3c3c",
-            "content_width": "900px",
-            "button_text_more": "Read More",
-            "button_text_less": "Read Less",
-            "button_text_font_size": 14,
-            "button_text_font_weight": "500",
-            "margin_top_button_text": 30,
-            "button_text_color": "#ffffff",
-            "button_text_border_color": "#000000",
-            "button_text_bg_color": "#000000",
-            "button_text_bg_color_gradient": "",
-            "button_text_color_hover": "#000000",
-            "button_text_border_color_hover": "#000000",
-            "button_text_bg_color_hover": "#ffffff",
-            "button_text_bg_color_hover_gradient": "",
-            "button_text_more_width": 270,
-            "pd_top_button_text": 12,
-            "pd_bottom_button_text": 12
-          }
-        }
-      },
-      "block_order": [
-        "5d524300-536a-46fe-8a5b-d82755095233"
-      ],
-      "settings": {
-        "container": "1770",
-        "padding_full_width": 0,
-        "enable_border_top": false,
-        "enable_border_bottom": false,
-        "color_border_bottom": "#e8e8e8",
-        "enable_minus_mg_top": false,
-        "minus_spacing_top": -100,
-        "rich_text_bg": "#ffffff",
-        "rich_text_bg_gradient": "",
-        "enable_column": false,
-        "content_align": "center",
-        "mg_top_desktop": 25,
-        "mg_top_tablet": 50,
-        "mg_top_mobile": 50,
-        "mg_bottom_desktop": 15,
-        "mg_bottom_tablet": 15,
-        "mg_bottom_mobile": 15
-      }
-    },
     "product-recently-viewed": {
       "type": "product-recently-viewed",
       "disabled": true,
@@ -948,7 +893,6 @@
     "custom_liquid_7xgaNW",
     "164846349763438db3",
     "product-grid",
-    "164938646719c3d8d4",
     "product-recently-viewed"
   ]
 }
