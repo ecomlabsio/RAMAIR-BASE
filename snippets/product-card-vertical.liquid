@@ -18,5 +18,5 @@
         </div>
     {%- endif -%}
     <h3 class="card__heading"><a class="card-title link-underline{% if settings.product_title_line_text != 'full' %} card-title-ellipsis{% endif %}" href="{{ product_card_product.url }}" data-product-title="{{ product_card_product.title | escape }}" data-product-url="{{ product_card_product.url }}">{{ product_card_product.title | escape }}</a></h3>
-    <div class="card-price">{% render 'price', product: product_card_product, price_class: '' %}</div>
+    <div class="card-price">{% render 'price', product: product_card_product, use_variant: true, price_class: '' %}</div>
 </div>

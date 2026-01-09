@@ -196,7 +196,7 @@
                 {%- endif -%}
 
                 {%- if show_price -%}
-                    <div class="card-price">{% render 'price', product: product_card_product, price_class: '' %}</div>
+                    <div class="card-price">{% render 'price', product: product_card_product, use_variant: true, price_class: '' %}</div>
                 {%- endif -%}
 
                 {%- if product_card_product.metafields.custom.positive_vibes_almost_sold_out or product_card_product.metafields.custom.positive_vibes_recently_people_gave_review or product_card_product.metafields.custom.positive_vibes_top_best_seller -%}
@@ -224,7 +224,7 @@
                     {%- endif -%}
                 </div>
                 {% render 'product-card-summary', product: product_card_product, class: 'card-list__hidden' %}
-                <div class="card-price card-list__hidden">{% render 'price', product: product_card_product, price_class: '' %}</div>
+                <div class="card-price card-list__hidden">{% render 'price', product: product_card_product, use_variant: true, price_class: '' %}</div>
                 <div class="card-list__hidden">
                     {%- if isColor -%}
                         {%- unless settings.show_swatch -%}
