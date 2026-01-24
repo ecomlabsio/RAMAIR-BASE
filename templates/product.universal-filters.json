@@ -473,7 +473,7 @@
         "product_block_title_align": "center",
         "product_block_limit": 10,
         "grid_gap": 30,
-        "product_block_per_row": "4",
+        "product_block_per_row": "5",
         "product_block_swipe_on_mobile": true,
         "product_block_dots": false,
         "product_block_dots_mb": true,
