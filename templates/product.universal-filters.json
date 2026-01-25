@@ -64,9 +64,9 @@
           "settings": {
             "show_vendor": false,
             "show_sku": true,
-            "show_barcode": true,
+            "show_barcode": false,
             "show_availability": true,
-            "show_product_type": true,
+            "show_product_type": false,
             "stock_level_display": "none",
             "enable_border_top": false,
             "enable_border_bottom": false,
@@ -179,7 +179,7 @@
         "bd066b80-c8e3-4f3e-8280-b27fbf6e9423": {
           "type": "description",
           "settings": {
-            "open_tab_mobile": true,
+            "open_tab_mobile": false,
             "title": "Description",
             "enable_btn_show_more": false,
             "maximum_des_to_show": 300
@@ -213,6 +213,7 @@
         },
         "b9d6eb19-10f4-41f8-bfdc-ea10e8b3182a": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "open_tab_mobile": false,
             "title": "Fitment Data",
@@ -298,8 +299,8 @@
         "9630b233-8164-4dad-ab64-8830bedf328a": {
           "type": "complementary_products",
           "settings": {
-            "complementary_product_title": "Pairs well with",
-            "complementary_product_layout": "2",
+            "complementary_product_title": "Fits well with",
+            "complementary_product_layout": "1",
             "complementary_product_limit_1": 2,
             "complementary_product_limit_2": 3,
             "complementary_product_arrows": false,
@@ -312,6 +313,7 @@
         },
         "instafeed_app_block_4XTEdW": {
           "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_color": "",
