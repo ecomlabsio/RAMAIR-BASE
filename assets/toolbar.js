@@ -626,8 +626,8 @@ class Toolbar extends HTMLElement {
     }
 
     connectedCallback(){
-        this.onScrollHandler = this.onScroll.bind(this);
-        window.addEventListener('scroll', this.onScrollHandler, false);
+        this.onScrollHandler = throttle(this.onScroll.bind(this), 100);
+        window.addEventListener('scroll', this.onScrollHandler, { passive: true });
     }
 
     disconnectedCallback() {
@@ -636,7 +636,9 @@ class Toolbar extends HTMLElement {
 
     onScroll() {
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const offsetScroll = $('#CollectionProductGrid .productListing').offset().top + 100;
+        const el = document.querySelector('#CollectionProductGrid .productListing');
+        if (!el) return;
+        const offsetScroll = el.getBoundingClientRect().top + window.pageYOffset + 100;
 
         var windowWidth = window.innerWidth;
 
