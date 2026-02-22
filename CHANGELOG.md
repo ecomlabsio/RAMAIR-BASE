@@ -2,6 +2,16 @@
 
 All notable changes to this theme will be documented in this file.
 
+## 1.4.1 — 2026-02-22
+
+### Bug Fix: Product Card Defensive Data Handling
+
+- **Fix (HIGH):** Corrected `product.media` → `product_card_product.media` in `data-json-product` attribute across 10 card snippets — media data was null on all collection/homepage pages, breaking JS features (quick-view, swatch swap)
+- **Fix:** Added `media.size > 0` guard before `media[0].media_type` access in 9 card snippets
+- **Fix:** Added zero-division guard to `featured_media_aspect_ratio` in all card snippets (01-08, vertical, custom, loading) — prevents section render failure on corrupted media
+- **Fix:** Guarded `images[0].src` access in `product-card-sidebar.liquid`
+- **Fix:** Guarded all 4 `divided_by: aspect_ratio` calls in `image-product-card.liquid` with `| default: 1` and zero-check
+
 ## 1.4.0 — 2026-02-22
 
 ### Performance: Scroll Handler Optimization
