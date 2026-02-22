@@ -1,5 +1,8 @@
 {%- liquid
     assign featured_media_aspect_ratio = product_card_product.featured_media.aspect_ratio
+    if featured_media_aspect_ratio == nil or featured_media_aspect_ratio == 0
+        assign featured_media_aspect_ratio = 1
+    endif
     assign product_swatch_option = settings.swatch | downcase
     assign isColor = false
     assign variant_img = ''
