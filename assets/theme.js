@@ -1982,48 +1982,30 @@
                 })
             }
 
-            $.fn.isInViewport = function () {
-                let elementTop = $(this).offset().top,
-                    elementBottom = elementTop + $(this).outerHeight(),
+            var videoCards = document.querySelectorAll('.product-item .card.has-first-video');
+            if (videoCards.length > 0) {
+                var observer = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        var card = entry.target;
+                        var video = card.querySelector('video');
+                        var firstImg = card.querySelector('img:first-child');
 
-                    viewportTop = $(window).scrollTop(),
-                    viewportBottom = viewportTop + $(window).height();
+                        if (entry.isIntersecting) {
+                            if (firstImg) firstImg.style.opacity = '0';
+                            if (video) {
+                                video.style.opacity = '1';
+                                video.play();
+                            }
+                        } else {
+                            if (video) video.pause();
+                        }
+                    });
+                }, { threshold: 0.25 });
 
-                return elementBottom > viewportTop && elementTop < viewportBottom;
-            };
-
-            $(".product-item .card.has-first-video").each(function () {
-                let chil = $(this).find('video');
-                let firstImg = $(this).find("img:first-child");
-                let _chil = $(this).find('video').get(0);
-
-                const playVideoCard = () => {
-                    if (firstImg.length > 0) firstImg.css("opacity", "0");
-
-                    if (chil.length > 0) {
-                        chil.css("opacity", "1")
-                        _chil.play()
-                    };
-                }
-
-                const pauseVideoCard = () => {
-                    if (chil.length > 0) _chil.pause();
-                }
-
-                if ($(this).isInViewport()) {
-                    playVideoCard()
-                } else {
-                    pauseVideoCard()
-                }
-
-                window.addEventListener('scroll', () => {
-                    if ($(this).isInViewport()) {
-                        playVideoCard()
-                    } else {
-                        pauseVideoCard()
-                    }
+                videoCards.forEach(function (card) {
+                    observer.observe(card);
                 });
-            });
+            }
         },
 
         initGlobalCheckbox: function() {
