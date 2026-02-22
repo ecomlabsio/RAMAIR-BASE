@@ -250,7 +250,8 @@ class BackToTopButton extends HTMLElement {
 
         })
 
-        window.addEventListener('scroll', this.onScroll.bind(this));
+        this._throttledScroll = throttle(this.onScroll.bind(this), 200);
+        window.addEventListener('scroll', this._throttledScroll, { passive: true });
     }
 
     onScroll() {
@@ -261,8 +262,14 @@ class BackToTopButton extends HTMLElement {
         this.show();
     }
 
+    disconnectedCallback() {
+        if (this._throttledScroll) {
+            window.removeEventListener('scroll', this._throttledScroll);
+        }
+    }
+
     hide() {
-        this.dataset.scrollToTop = false;   
+        this.dataset.scrollToTop = false;
     }
 
     show() {
