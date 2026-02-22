@@ -90,7 +90,7 @@
     assign show_price = settings.show_price
 -%}
 <div class="product-item{% if settings.disable_product_card_border %} disable_product_card_border{% endif %}{% if settings.enable_infor_on_image %} enable_infor_on_image{% endif %}{% if settings.enable_custom_layout_card %} enable_custom_layout_card{% endif %}{% if settings.disable_product_card_border and settings.enable_custom_layout_card %} enable_custom_content{% endif %}" data-product-id="{{ product_card_product.id }}" data-json-product='{"id": {{product_card_product.id}},"handle": "{{product_card_product.handle}}","media": {{product_card_product.media | json | escape}},"variants": {{ product_card_product.variants | json | escape }}}'>
-    <div class="card{% if product_card_product.media[0].media_type == 'video' %} has-first-video{% endif %}">
+    <div class="card{% if product_card_product.media.size > 0 and product_card_product.media[0].media_type == 'video' %} has-first-video{% endif %}">
         <div class="card-product{% if product_card_product.featured_media == nil %} card--text-only card--soft{% endif %}">
             <div class="card-product__wrapper">
                 {%- if settings.show_badge -%}

@@ -95,7 +95,7 @@
     assign show_price = settings.show_price
 -%}
 <div class="product-item{% if sold_out %} sold-out{% endif %}{% if sold_out and settings.show_notify_form %} has-notify{% endif %}" data-product-id="{{ product_card_product.id }}" data-json-product='{"id": {{product_card_product.id}},"handle": "{{product_card_product.handle}}","media": {{product_card_product.media | json | escape}},"variants": {{ product_card_product.variants | json | escape}}}'>
-    <div class="card{% if product_card_product.media[0].media_type == 'video' %} has-first-video{% endif %}">
+    <div class="card{% if product_card_product.media.size > 0 and product_card_product.media[0].media_type == 'video' %} has-first-video{% endif %}">
         <div class="card-product{% if product_card_product.featured_media == nil %} card--text-only card--soft{% endif %}">
             <div class="card-product__wrapper">
                 {%- if settings.show_badge -%}
