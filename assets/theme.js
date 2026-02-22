@@ -224,27 +224,29 @@
         },
 
         loaderScript: function() {
-            var load = function(){
-                var script = $('[data-loader-script]');
+            var scripts = document.querySelectorAll('[data-loader-script]');
+            if (scripts.length === 0) return;
 
-                if (script.length > 0) {
-                    script.each((index, element) => {
-                        var $this = $(element),
-                            link = $this.data('loader-script'),
-                            top = element.getBoundingClientRect().top;
-
-                        if (!$this.hasClass('is-load')){
-                            if (top < window.innerHeight + 100) {
-                                halo.buildScript(link);
-                                $('[data-loader-script="' + link + '"]').addClass('is-load');
-                            }
+            var observer = new IntersectionObserver(function (entries, obs) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        var link = entry.target.getAttribute('data-loader-script');
+                        if (link && !entry.target.classList.contains('is-load')) {
+                            halo.buildScript(link);
+                            document.querySelectorAll('[data-loader-script="' + link + '"]').forEach(function (el) {
+                                el.classList.add('is-load');
+                            });
                         }
-                    })
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, { rootMargin: '100px' });
+
+            scripts.forEach(function (el) {
+                if (!el.classList.contains('is-load')) {
+                    observer.observe(el);
                 }
-            }
-            
-            load();
-            window.addEventListener('scroll', load);
+            });
         },
 
         buildScript: function(name) {
