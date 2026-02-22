@@ -6953,10 +6953,10 @@
 
               if (window.pageYOffset + sectionEndHeight >= document.documentElement.scrollHeight - footerHeight - 100) loadRotateArrow('prev');
             
-              $(window).scroll(function() {
+              window.addEventListener('scroll', throttle(function() {
                   if (window.pageYOffset + sectionEndHeight >= document.documentElement.scrollHeight - footerHeight - 100) loadRotateArrow('prev');
                   else if (window.pageYOffset <= sectionFirstHeight/2) loadRotateArrow('next');
-              });
+              }, 200), { passive: true });
             
               $doc.on('click', '.arrow-icon-scroll', (event) => {
                   let checkScroll = true;
