@@ -15,13 +15,17 @@ class SliderComponent extends HTMLElement {
         const resizeObserver = new ResizeObserver(entries => this.initPages());
         resizeObserver.observe(this.slider);
 
-        this.slider.addEventListener('scroll', this.update.bind(this));
-        this.prevButton.addEventListener('click', this.onButtonClick.bind(this));
-        this.nextButton.addEventListener('click', this.onButtonClick.bind(this));
+        this._boundUpdate = this.update.bind(this);
+        this._boundButtonClick = this.onButtonClick.bind(this);
+        this._boundDotClick = this.onDotClick.bind(this);
+
+        this.slider.addEventListener('scroll', this._boundUpdate, { passive: true });
+        this.prevButton.addEventListener('click', this._boundButtonClick);
+        this.nextButton.addEventListener('click', this._boundButtonClick);
         this.dotButton.forEach((button) => {
-            button.addEventListener('click', this.onDotClick.bind(this));
+            button.addEventListener('click', this._boundDotClick);
         });
-    }   
+    }
 
     initPages() {
         if (this.sliderItems.length === 0) return;
@@ -75,27 +79,28 @@ class ProductSliderComponent extends SliderComponent {
         const resizeObserver = new ResizeObserver(entries => this.initPages());
         resizeObserver.observe(this.slider);
 
+        this._boundUpdate = this.update.bind(this);
+        this._boundButtonClick = this.onButtonClick.bind(this);
+        this._boundDotClick = this.onDotClick.bind(this);
+
+        this.slider.addEventListener('scroll', this._boundUpdate, { passive: true });
+        this.prevButton?.addEventListener('click', this._boundButtonClick);
+        this.nextButton?.addEventListener('click', this._boundButtonClick);
+        this.dotButton.forEach((button) => {
+            button.addEventListener('click', this._boundDotClick);
+        });
+
         const observerSubtree = new MutationObserver(() => {
             this.slider = this.querySelector('.slider');
-            this.sliderItems = this.querySelectorAll('.slider__slide').length ? this.querySelectorAll('.slider__slide') : this.querySelectorAll('.slider div.product');
-            this.slider.addEventListener('scroll', this.update.bind(this));
-            this.prevButton?.addEventListener('click', this.onButtonClick.bind(this));
-            this.nextButton?.addEventListener('click', this.onButtonClick.bind(this));
-            this.dotButton.forEach((button) => {
-                button.addEventListener('click', this.onDotClick.bind(this));
-            });
+            this.sliderItems = this.querySelectorAll('.slider__slide').length
+                ? this.querySelectorAll('.slider__slide')
+                : this.querySelectorAll('.slider div.product');
+            this.initPages();
         });
-        
+
         observerSubtree.observe(this.slider, {
             subtree: true,
             childList: true,
-        });
-
-        this.slider.addEventListener('scroll', this.update.bind(this));
-        this.prevButton?.addEventListener('click', this.onButtonClick.bind(this));
-        this.nextButton?.addEventListener('click', this.onButtonClick.bind(this));
-        this.dotButton.forEach((button) => {
-            button.addEventListener('click', this.onDotClick.bind(this));
         });
     }
 }
@@ -111,28 +116,28 @@ class BannerSliderComponent extends SliderComponent {
         const resizeObserver = new ResizeObserver(entries => this.initPages());
         resizeObserver.observe(this.slider);
 
+        this._boundUpdate = this.update.bind(this);
+        this._boundButtonClick = this.onButtonClick.bind(this);
+        this._boundDotClick = this.onDotClick.bind(this);
+
+        this.slider.addEventListener('scroll', this._boundUpdate, { passive: true });
+        this.prevButton?.addEventListener('click', this._boundButtonClick);
+        this.nextButton?.addEventListener('click', this._boundButtonClick);
+        this.dotButton.forEach((button) => {
+            button.addEventListener('click', this._boundDotClick);
+        });
+
         const observerSubtree = new MutationObserver(() => {
             this.slider = this.querySelector('.slider');
             this.sliderItems = this.querySelectorAll('.slider__slide');
-            this.slider.addEventListener('scroll', this.update.bind(this));
-            this.prevButton?.addEventListener('click', this.onButtonClick.bind(this));
-            this.nextButton?.addEventListener('click', this.onButtonClick.bind(this));
-            this.dotButton.forEach((button) => {
-                button.addEventListener('click', this.onDotClick.bind(this));
-            });
+            this.initPages();
         });
-        
+
         observerSubtree.observe(this.slider, {
             subtree: true,
             childList: true,
         });
-        
-        this.slider.addEventListener('scroll', this.update.bind(this));
-        this.prevButton?.addEventListener('click', this.onButtonClick.bind(this));
-        this.nextButton?.addEventListener('click', this.onButtonClick.bind(this));
-        this.dotButton.forEach((button) => {
-            button.addEventListener('click', this.onDotClick.bind(this));
-        });
+
         this.initButtonDisable();
     }
     
