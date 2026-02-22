@@ -18,11 +18,13 @@ class StickyAddToCart extends HTMLElement {
             
         this.openStickyButton = document.getElementById('show-sticky-product');
         this.closeModal = this.closeStickyModal.bind(this);
+        this._cachedOffset = null;
+        this._offsetTimer = null;
     }
 
     connectedCallback() {
-        this.onScrollHandler = this.onScroll.bind(this);
-        window.addEventListener('scroll', this.onScrollHandler, false);
+        this.onScrollHandler = throttle(this.onScroll.bind(this), 100);
+        window.addEventListener('scroll', this.onScrollHandler, { passive: true });
 
         this.openStickyButton?.addEventListener('click', this.openStickyModal.bind(this));
         document.addEventListener('click', (e) => {
@@ -51,7 +53,12 @@ class StickyAddToCart extends HTMLElement {
         let offsetScroll;
 
         if (this.stickyBounds != null) {
-            offsetScroll = $(this.stickyBounds).offset().top + $(this.stickyBounds).outerHeight(true) + 100;
+            if (this._cachedOffset === null) {
+                this._cachedOffset = $(this.stickyBounds).offset().top + $(this.stickyBounds).outerHeight(true) + 100;
+                clearTimeout(this._offsetTimer);
+                this._offsetTimer = setTimeout(() => { this._cachedOffset = null; }, 1000);
+            }
+            offsetScroll = this._cachedOffset;
         } else {
             offsetScroll = 0;
         }
