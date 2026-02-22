@@ -2,6 +2,26 @@
 
 All notable changes to this theme will be documented in this file.
 
+## 1.4.0 — 2026-02-22
+
+### Performance: Scroll Handler Optimization
+
+- **Fix:** `throttle()` utility called without delay argument was a no-op — added default 100ms delay (`global.js`)
+- **Perf:** Replaced 2 unthrottled scroll handlers in `autoplay-video.js` with IntersectionObserver
+  - Eliminated `$('body, html').trigger('click')` firing on every scroll tick
+  - Videos now pause when scrolled out of view
+  - Fixed `postMessage` wildcard `'*'` origins → targeted YouTube/Vimeo origins (security improvement)
+- **Perf:** Replaced N per-card window scroll listeners with single IntersectionObserver for product card video autoplay (`theme.js`)
+- **Perf:** Replaced permanent `loaderScript` scroll handler with self-cleaning IntersectionObserver (`theme.js`)
+- **Perf:** Throttled sticky add-to-cart scroll handler at 100ms, cached jQuery offset with 1s TTL + resize invalidation (`sticky-add-to-cart.js`)
+- **Perf:** Throttled mobile toolbar scroll handler at 100ms, replaced jQuery `.offset()` with native `getBoundingClientRect`, added null guard (`toolbar.js`)
+- **Perf:** Throttled back-to-top scroll handler at 200ms, stored reference for cleanup, added `disconnectedCallback` (`halo-recently-viewed.js`)
+- **Perf:** Throttled arrow-icon-scroll handler at 200ms, replaced jQuery `$(window).scroll()` with native listener (`theme.js`)
+- **Perf:** Fixed slider listener accumulation — MutationObserver callbacks no longer re-register event listeners on every DOM mutation (`slider.js`)
+- **Perf:** Added `{ passive: true }` to all scroll event listeners across the theme
+
+**Summary:** 5 window scroll listeners eliminated (→ IntersectionObserver), 5 throttled + passive, 1 memory leak fixed, 1 security fix.
+
 ## 1.3.1 — 2025-11-17
 
 - Fix: Dark mode white bar issue on FAQ and Contact pages
