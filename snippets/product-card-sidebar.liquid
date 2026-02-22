@@ -28,7 +28,7 @@
                 {%- if product_card_product.featured_media -%}
                     {%- if variant_img != blank -%}
                         {% assign image = variant_img %}
-                    {%- else -%}
+                    {%- elsif product_card_product.images.size > 0 -%}
                         {% assign image = product_card_product.images[0].src %}
                     {%- endif -%}
                     <img srcset="{{ image | img_url: '150x' }}" src="{{ image | img_url: '150x' }}" sizes="150px" alt="{{ image.alt | escape }}"{% if settings.enable_lazyload %} loading="lazy"{% endif %} class="motion-reduce">
