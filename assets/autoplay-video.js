@@ -22,6 +22,16 @@
                 }
             };
 
+            var pauseSection = function (element) {
+                var player = element.querySelector('.js-youtube');
+                if (player) {
+                    postMessageToPlayer(player, {
+                        "event": "command",
+                        "func": "pauseVideo"
+                    }, YOUTUBE_ORIGIN);
+                }
+            };
+
             window.addEventListener('load', function () {
                 slickSlideshow.forEach(playSection);
             });
@@ -30,6 +40,8 @@
                 entries.forEach(function (entry) {
                     if (entry.isIntersecting) {
                         playSection(entry.target);
+                    } else {
+                        pauseSection(entry.target);
                     }
                 });
             }, { threshold: 0.25 });

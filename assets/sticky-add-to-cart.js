@@ -25,6 +25,8 @@ class StickyAddToCart extends HTMLElement {
     connectedCallback() {
         this.onScrollHandler = throttle(this.onScroll.bind(this), 100);
         window.addEventListener('scroll', this.onScrollHandler, { passive: true });
+        this._resizeHandler = () => { this._cachedOffset = null; };
+        window.addEventListener('resize', this._resizeHandler);
 
         this.openStickyButton?.addEventListener('click', this.openStickyModal.bind(this));
         document.addEventListener('click', (e) => {
@@ -46,6 +48,7 @@ class StickyAddToCart extends HTMLElement {
 
     disconnectedCallback() {
         window.removeEventListener('scroll', this.onScrollHandler);
+        window.removeEventListener('resize', this._resizeHandler);
     }
 
     onScroll() {
