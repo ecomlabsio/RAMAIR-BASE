@@ -1,114 +1,111 @@
 (function ($) {
+    const YOUTUBE_ORIGIN = 'https://www.youtube.com';
+    const VIMEO_ORIGIN = 'https://player.vimeo.com';
+
+    function postMessageToPlayer(player, command, origin) {
+        if (player == null || command == null) return;
+        player.contentWindow.postMessage(JSON.stringify(command), origin || '*');
+    }
+
     var halo = {
         sectionVideo: function () {
-            var slickSlideshow = $('.video-section');
-            if (slickSlideshow.length) {
-                const loadVideo = () => slickSlideshow.each((index, element) => {
-                    var $block = $(element);
-                    const postVideo = function postMessageToPlayer(player, command) {
-                        if (player == null || command == null) return;
-                        player.contentWindow.postMessage(JSON.stringify(command), "*");
-                    }
-                    var player = $block.find('.js-youtube').get(0);
-                    postVideo(player, {
+            var slickSlideshow = document.querySelectorAll('.video-section');
+            if (slickSlideshow.length === 0) return;
+
+            var playSection = function (element) {
+                var player = element.querySelector('.js-youtube');
+                if (player) {
+                    postMessageToPlayer(player, {
                         "event": "command",
                         "func": "playVideo"
-                    });
-                    
-              });
-
-              window.addEventListener('load', () => {
-                    loadVideo();
-                    window.addEventListener('scroll', loadVideo);
-              });
+                    }, YOUTUBE_ORIGIN);
+                }
             };
+
+            window.addEventListener('load', function () {
+                slickSlideshow.forEach(playSection);
+            });
+
+            var observer = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        playSection(entry.target);
+                    }
+                });
+            }, { threshold: 0.25 });
+
+            slickSlideshow.forEach(function (el) {
+                observer.observe(el);
+            });
         },
 
         autoplayOnScroll: function () {
-            const widgetSection = $('.cust-prod-widget');
-            if (widgetSection.length > 0) {
-                const poster = widgetSection.find(".cust-prod-widget__item--video-poster")
-                $.fn.isInViewport = function() {
-                    let elementTop = $(this).offset().top,
-                        elementBottom = elementTop + $(this).outerHeight(),
-                  
-                        viewportTop = $(window).scrollTop(),
-                        viewportBottom = viewportTop + $(window).height();
-                  
-                    return elementBottom > viewportTop && elementTop < viewportBottom;
-                };
+            var widgetSections = document.querySelectorAll('.cust-prod-widget');
+            if (widgetSections.length === 0) return;
 
-                const postVideo = function postMessageToPlayer(player, command) {
-                    if (player == null || command == null) return;
-                    player.contentWindow.postMessage(JSON.stringify(command), "*");
+            function playWidget(element) {
+                var poster = element.querySelector('.cust-prod-widget__item--video-poster');
+                var playerYt = element.querySelector('.js-youtube');
+                var playerVimeo = element.querySelector('.js-vimeo');
+                var playerMp4 = element.querySelector('.js-video');
+
+                if (poster && (element.querySelector('video') || element.querySelector('iframe'))) {
+                    poster.classList.add('is-hide');
                 }
 
-                const loadVideo = () => widgetSection.each((index, element) => {
-                    const $block = $(element),
-                        playerYt = $block.find('.js-youtube').get(0),
-                        playerVimeo = $block.find('.js-vimeo').get(0),
-                        playerMp4 = $block.find(".js-video").get(0);
-
-                    if (playerYt){
-                        postVideo(playerYt, {
-                            "event": "command",
-                            "func": "playVideo"
-                        });
-                    }
-
-                    if (playerVimeo){
-                        postVideo(playerVimeo, {
-                            method: "play" 
-                        });
-                    }
-
-                    if (playerMp4) {
-                        playerMp4.play()
-                    }
-                });
-                
-                const pauseVideo = () => widgetSection.each((index, element) => {
-                    const $block = $(element),
-                        playerYt = $block.find('.js-youtube').get(0),
-                        playerVimeo = $block.find('.js-vimeo').get(0),
-                        playerMp4 = $block.find(".js-video").get(0);
-
-                    if (playerYt){
-                        postVideo(playerYt, {
-                            "event": "command",
-                            "func": "pauseVideo"
-                        });
-                    }
-
-                    if (playerVimeo){
-                        postVideo(playerVimeo, {
-                            method: "pause" 
-                        });
-                    }
-
-                    if (playerMp4) {
-                        playerMp4.pause()
-                    }
-                });
-
-                window.addEventListener('scroll', () => {
-                    const videoSection = widgetSection;
-
-                    videoSection.each(function(){
-                        $('body, html').trigger('click');
-                        if ($(this).isInViewport()) {
-                            if ($(this).find('video').length > 0 || $(this).find('iframe').length > 0){
-                                poster.addClass("is-hide")
-                            }
-                            loadVideo();
-                        } else {
-                            pauseVideo()
-                        }
-                    });
-              });
+                if (playerYt) {
+                    postMessageToPlayer(playerYt, {
+                        "event": "command",
+                        "func": "playVideo"
+                    }, YOUTUBE_ORIGIN);
+                }
+                if (playerVimeo) {
+                    postMessageToPlayer(playerVimeo, {
+                        method: "play"
+                    }, VIMEO_ORIGIN);
+                }
+                if (playerMp4) {
+                    playerMp4.play();
+                }
             }
+
+            function pauseWidget(element) {
+                var playerYt = element.querySelector('.js-youtube');
+                var playerVimeo = element.querySelector('.js-vimeo');
+                var playerMp4 = element.querySelector('.js-video');
+
+                if (playerYt) {
+                    postMessageToPlayer(playerYt, {
+                        "event": "command",
+                        "func": "pauseVideo"
+                    }, YOUTUBE_ORIGIN);
+                }
+                if (playerVimeo) {
+                    postMessageToPlayer(playerVimeo, {
+                        method: "pause"
+                    }, VIMEO_ORIGIN);
+                }
+                if (playerMp4) {
+                    playerMp4.pause();
+                }
+            }
+
+            var observer = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        playWidget(entry.target);
+                    } else {
+                        pauseWidget(entry.target);
+                    }
+                });
+            }, { threshold: 0.25 });
+
+            widgetSections.forEach(function (el) {
+                observer.observe(el);
+            });
         }
-    }
+    };
+
     halo.sectionVideo();
     halo.autoplayOnScroll();
 })(jQuery);
