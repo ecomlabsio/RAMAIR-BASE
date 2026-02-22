@@ -94,7 +94,7 @@ const serializeForm = form => {
     return JSON.stringify(obj);
 };
 
-function throttle(fn, delay) {
+function throttle(fn, delay = 100) {
   let lastCall = 0;
   return function (...args) {
     const now = new Date().getTime();
