@@ -18,7 +18,12 @@
                         // POST commands to YouTube or Vimeo API
                         function postMessageToPlayer(player, command) {
                             if (player == null || command == null) return;
-                            player.contentWindow.postMessage(JSON.stringify(command), "*");
+                            var origin = '*';
+                            if (player.src) {
+                                if (player.src.indexOf('youtube.com') !== -1) origin = 'https://www.youtube.com';
+                                else if (player.src.indexOf('vimeo.com') !== -1) origin = 'https://player.vimeo.com';
+                            }
+                            player.contentWindow.postMessage(JSON.stringify(command), origin);
                         }
 
                         // When the slide is changing
@@ -255,7 +260,12 @@
 
                             function postMessageToPlayer(player, command) {
                                 if (player == null || command == null) return;
-                                player.contentWindow.postMessage(JSON.stringify(command), "*");
+                                var origin = '*';
+                                if (player.src) {
+                                    if (player.src.indexOf('youtube.com') !== -1) origin = 'https://www.youtube.com';
+                                    else if (player.src.indexOf('vimeo.com') !== -1) origin = 'https://player.vimeo.com';
+                                }
+                                player.contentWindow.postMessage(JSON.stringify(command), origin);
                             }
 
                             var player;

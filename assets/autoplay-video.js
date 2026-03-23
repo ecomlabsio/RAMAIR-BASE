@@ -4,7 +4,7 @@
 
     function postMessageToPlayer(player, command, origin) {
         if (player == null || command == null) return;
-        player.contentWindow.postMessage(JSON.stringify(command), origin || '*');
+        player.contentWindow.postMessage(JSON.stringify(command), origin);
     }
 
     var halo = {

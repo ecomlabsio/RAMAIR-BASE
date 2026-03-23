@@ -5010,7 +5010,7 @@
                         };
 
                         if (player != undefined) {
-                            player.contentWindow.postMessage(JSON.stringify(command), '*');
+                            player.contentWindow.postMessage(JSON.stringify(command), 'https://player.vimeo.com');
                         }
                     });
 
@@ -5028,7 +5028,7 @@
                         };
 
                         if (player != undefined) {
-                            player.contentWindow.postMessage(JSON.stringify(command), '*');
+                            player.contentWindow.postMessage(JSON.stringify(command), 'https://player.vimeo.com');
                         }
                     });
                 }
