@@ -57,11 +57,11 @@ function trapFocus(container, elementToFocus = container) {
 
 function pauseAllMedia() {
     document.querySelectorAll('.js-youtube').forEach((video) => {
-        video.contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+        video.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', 'https://www.youtube.com');
     });
 
     document.querySelectorAll('.js-vimeo').forEach((video) => {
-        video.contentWindow.postMessage('{"method":"pause"}', '*');
+        video.contentWindow.postMessage('{"method":"pause"}', 'https://player.vimeo.com');
     });
 
     document.querySelectorAll('video').forEach((video) => video.pause());
@@ -374,7 +374,14 @@ Shopify.onItemAdded = function(line_item) {
 }
 
 Shopify.onError = function(XMLHttpRequest, textStatus, message) {
-    var data = eval('(' + XMLHttpRequest.responseText + ')');
+    var data;
+    try {
+        data = JSON.parse(XMLHttpRequest.responseText);
+    } catch (e) {
+        console.error('Failed to parse error response:', e);
+        showWarning('Error : ' + message, warningTime);
+        return;
+    }
     if (!!data.message) {
         !!data.description ? showWarning(data.description) : showWarning(data.message + ': ' + message, warningTime);
     } else {
