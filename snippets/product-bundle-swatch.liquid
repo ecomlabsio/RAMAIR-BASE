@@ -48,7 +48,7 @@
                                     
                                         if variant_color contains '#' or variant_color contains 'rgb' or variant_color contains 'hsl'
                                             assign color_codes = true
-                                            assign background_color = variant_color
+                                            assign background_color = variant_color | strip_html | remove: ';' | remove: '{' | remove: '}' | remove: '<' | remove: '>' | remove: '"' | remove: "'" | strip
                                         else
                                             assign background_image = variant_color | append: '.png' | file_url
                                         endif
@@ -68,7 +68,7 @@
                                         assign has_metaobject = true
                                         assign has_image = true
                                     elsif metaobject_color != blank
-                                        assign background_color = metaobject_color
+                                        assign background_color = metaobject_color | strip_html | remove: ';' | remove: '{' | remove: '}' | remove: '<' | remove: '>' | remove: '"' | remove: "'" | strip
                                         assign enable_variant_image = true
                                         assign has_metaobject = true
                                     elsif variant.image
