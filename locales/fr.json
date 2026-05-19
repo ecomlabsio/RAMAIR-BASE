@@ -85,7 +85,10 @@
       "search_result_title": "Résultats du produit",
       "search_no_result": "Rechercher",
       "search_more": "Rechercher plus",
-      "view_all": "Afficher tous les résultats ({{ count }})"
+      "view_all": "Afficher tous les résultats ({{ count }})",
+      "no_results": "Aucun résultat trouvé",
+      "view_results": "Voir les résultats",
+      "heading_results": "Résultats de recherche"
     },
     "cart": {
       "cart": "Panier",
