@@ -85,7 +85,10 @@
       "search_result_title": "Resultados del producto",
       "search_no_result": "Buscar",
       "search_more": "Buscar más",
-      "view_all": "Ver todos los resultados ({{ count }})"
+      "view_all": "Ver todos los resultados ({{ count }})",
+      "no_results": "No se encontraron resultados",
+      "view_results": "Ver resultados",
+      "heading_results": "Resultados de búsqueda"
     },
     "cart": {
       "cart": "Carro",
