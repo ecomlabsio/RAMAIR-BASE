@@ -134,7 +134,7 @@
             "show_top_level_categories": false,
             "view_mode": "carousel",
             "mode": "links",
-            "wrapper_classes": ""
+            "wrapper_classes": "container"
           }
         },
         "convermax_year_make_model_collection_page_KWbbeN": {
